@@ -13,8 +13,11 @@ $excludeFile = Join-Path $scriptDir "sync-exclude.txt"
 robocopy $wikiDir $contentDir /E /PURGE /XF (Get-Content $excludeFile -ErrorAction SilentlyContinue) | Out-Null
 Write-Host "Sync complete." -ForegroundColor Green
 
-Write-Host "Building Quartz site..." -ForegroundColor Cyan
+Write-Host "Updating dependencies..." -ForegroundColor Cyan
 Set-Location $scriptDir
+npm install
+
+Write-Host "Building Quartz site..." -ForegroundColor Cyan
 npx quartz build
 
 Write-Host ""
