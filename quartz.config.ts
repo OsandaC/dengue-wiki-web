@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "umami",
     },
     locale: "en-US",
-    baseUrl: "den-wiki.pages.dev",
+    baseUrl: "dengue-wiki-web.pages.dev",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
