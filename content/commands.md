@@ -40,33 +40,12 @@ npx quartz build
 
 ### Preview Locally
 
-Serves the site on port 8888 with live-rebuild on file changes:
+Serves the site locally with live-rebuild on file changes:
 ```powershell
-npx quartz build --serve --port 8888
+npx quartz build --serve
 ```
 
-Then open: http://localhost:8888
-
----
-
-### Expose to Public via Cloudflare Tunnel
-
-Requires `cloudflared` installed. Run **while the local server is running**:
-```powershell
-cloudflared tunnel --url http://localhost:8888
-```
-
-Cloudflare will print a temporary public URL (e.g. `https://abc-xyz.trycloudflare.com`).
-
-**Typical workflow for sharing:**
-```powershell
-# Terminal 1 — start local server
-cd "C:/Users/user/Documents/Claude/Literature Review Dengue/webforshare"
-npx quartz build --serve --port 8888
-
-# Terminal 2 — open tunnel
-cloudflared tunnel --url http://localhost:8888
-```
+Then open: http://localhost:1313
 
 ---
 

@@ -2,6 +2,24 @@
 
 ---
 
+## [2026-04-14] lint | health check
+
+**Errors fixed:**
+- `wiki/index.md` — section header `Sources (19)` corrected to `Sources (20)`; `Geography (5)` corrected to `Geography (6)`; `Autoimmunity in Dengue | 15` corrected to `16`; `Secondary Dengue Infection | 5` corrected to `6`; `IgM-IgG Serology ELISA | 2` corrected to `3`
+- `wiki/concepts/Antibody-Dependent Enhancement.md` — frontmatter `sources: 6` corrected to `sources: 7`; `updated:` corrected to 2026-04-14 (Bos2025 was added to content during ingest but frontmatter was not updated)
+- `wiki/concepts/Autoimmunity in Dengue.md` — Seet2007 moved from Related Pages to Sources (data is directly cited in body text; sources 15→16); frontmatter updated
+- `wiki/concepts/Secondary Dengue Infection.md` — Bos2025 section added (primary vs. secondary kinetics comparison; compressed/attenuated secondary responses); sources 5→6
+- `wiki/methods/IgM-IgG Serology ELISA.md` — Bos2025 added as source for isotype-specific ELISA measurements; sources 2→3
+
+**Flagged (not fixed):**
+- ELISA Inhibition Method page: Bos2025 source page attributes this method to Bos2025, but the wiki page describes a specific Vazquez 2003 yellow-fever-adapted protocol; cannot verify from wiki whether Bos2025 used identical method — see raw PDF to confirm
+- `Reading Plan - ANA and Dengue Dynamics` only linked from index.md — sparse connectivity but acceptable for meta document
+- `raw/Jhonson2022.pdf` — filename typo (should be Johnson); link resolves correctly; raw/ is immutable
+
+**Watch items updated in state.md:** stale thin-page alerts for DENV-1/DENV-3/E Protein corrected; new flags added for ELISA attribution, reading plan orphan, raw filename.
+
+---
+
 ## [2026-04-14] ingest | Bos 2025 - Longitudinal Antibody Dynamics After Dengue (PREPRINT)
 
 **Created:**

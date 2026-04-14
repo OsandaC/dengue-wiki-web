@@ -30,6 +30,16 @@ Papers waiting to be ingested (add new entries at the top):
 
 Structural and workflow decisions with rationale. Append-only.
 
+### [2026-04-14] Lint run completed; Bos2025 ingest had 5 metadata/connectivity gaps
+**Decision:** Lint identified and fixed 5 issues from the Bos2025 ingest: (1) index section header counts wrong (Sources 19→20, Geography 5→6); (2) ADE page frontmatter not updated (sources 6→7, updated date stale); (3) Seet2007 misclassified under Related Pages in Autoimmunity in Dengue rather than Sources; (4) Secondary Dengue Infection not updated with Bos2025 kinetics data; (5) IgM-IgG Serology ELISA page missing Bos2025 as source. Three issues flagged but not fixed: ELISA Inhibition Method attribution uncertain (needs PDF verification), Reading Plan orphan, Jhonson2022 filename typo (immutable raw/).
+**Why:** Pattern: during Bos2025 ingest, the log correctly recorded what should happen (ADE 6→7, etc.) but some frontmatter edits and secondary-concept-page updates were not executed.
+**How to apply:** After any ingest, cross-check the log's "Updated" list against every page listed in the source's "Concepts Addressed" and "Entities Mentioned" — both content AND frontmatter (sources count, updated date) must be consistent.
+
+### [2026-04-14] "update web" requires clearing public/ when new geography folders are added
+**Decision:** When a new geography page is added (or any new subdirectory), the Quartz build may fail with `ENOTEMPTY: directory not empty, rmdir public/geography`. Fix: `rm -rf public/` before running sync-and-build.ps1. The script itself does not clear the public directory; the Quartz incremental clean can fail on new subdirectories.
+**Rationale:** Discovered during Bos2025 ingest when Nicaragua.md created the first new geography in a session with an existing public/ directory.
+**How to apply:** If `update web` fails with an ENOTEMPTY error, run `rm -rf webforshare/public/` and retry.
+
 ### [2026-04-14] Bos2025 preprint ingested with explicit preprint warnings
 **Decision:** Ingested Bos2025 (medRxiv preprint, doi: 10.1101/2025.08.11.25333449) with prominent PREPRINT warnings in the source page, all updated concept/entity pages, and the Notable Findings entry. Citation counts are 0/0 as expected for an unreviewed preprint.
 **Rationale:** The paper contains the most detailed longitudinal antibody kinetics data in the wiki and fills important gaps (XR E-IgG trajectories, NS1-IgG waning kinetics, Nicaragua geography). However, preprint findings require explicit caveating because they have not undergone peer review. Mechanistic claims derived from these kinetics (especially ADE risk reframing) are treated as hypotheses, not established findings.
@@ -75,7 +85,7 @@ Structural and workflow decisions with rationale. Append-only.
 
 Issues, thin areas, or things to revisit. Remove items as they're resolved.
 
-- **Thin entity pages:** DENV-1, DENV-3, E Protein, Aedes albopictus, CYD-TDV, Wolbachia — all have only 1 source each
+- **Thin entity pages:** Aedes albopictus (1 source), CYD-TDV (1 source), Wolbachia (1 source) — DENV-1 (2), DENV-3 (3), E Protein (3) are no longer thin (updated post-Seet2007/Bos2025 ingests)
 - **Thin method pages:** Several methods (Single-Cell RNA Sequencing, V(D)J Sequencing, qRT-PCR, ELISA Inhibition Method) have only 1 source
 - **Geography gaps:** Only 4 countries covered (Cuba, Thailand, Taiwan, India). No Southeast Asia regional page, no Americas/Latin America page
 - **Missing concept page:** Herd immunity — mentioned in CLAUDE.md domain context but no dedicated page yet; no sources directly address it. Cross-Reactive Antibodies and Cytokine Storm pages created 2026-04-13
@@ -90,4 +100,7 @@ Issues, thin areas, or things to revisit. Remove items as they're resolved.
 - **Rising XR E-IgG mechanism gap (new):** Bos2025 shows XR EDI/II IgG rises 6–18M post-primary, challenging the classical waning ADE model. Whether these rising antibodies are functionally non-neutralising (ADE-capable) vs. cross-neutralising is unknown. A functional ADE assay study stratifying by EDI/II vs EDIII antibody titres would directly test this.
 - **NS1-IgG waning → autoantibody decline (new):** If NS1-IgG wanes with t½≈2.1 years (Bos2025), the NS1-mimicry component of dengue ANA should decline on a similar curve. No study in this wiki has measured anti-platelet / anti-endothelial autoantibody titres longitudinally (acute to 18M+) to test this prediction.
 - **Nicaragua geography thin (new):** Only 1 source (Bos2025 preprint). Would benefit from a peer-reviewed Nicaraguan cohort study.
-- **Geography and non-ANA content remain thin:** Only 4 countries; no Southeast Asia or Americas regional pages; vaccine and vector biology still largely derived from Guzman2016. Broadening into these areas would balance the wiki's coverage.
+- **Geography and non-ANA content remain thin:** Only 6 countries (Cuba, Thailand, Taiwan, India, Singapore, Nicaragua); no Southeast Asia or Americas regional pages; vaccine and vector biology still largely derived from Guzman2016. Broadening into these areas would balance the wiki's coverage.
+- **ELISA Inhibition Method — verify Bos2025 attribution:** Bos2025 source page lists ELISA Inhibition Method under "Methods Used." The wiki's ELISA Inhibition Method page describes a specific Garcia2009/Vazquez 2003 yellow-fever-adapted competitive assay. Whether Bos2025 used the identical protocol or a different inhibition ELISA for cross-reactivity determination could not be verified from the wiki alone — verify against raw PDF if method accuracy matters.
+- **Reading Plan orphan:** `Reading Plan - ANA and Dengue Dynamics` is only linked from index.md. No content page links back to it. Minor connectivity issue; acceptable for a meta/reference document.
+- **Raw filename typo:** `raw/Jhonson2022.pdf` should be `Johnson2022.pdf`. The source page link matches the typo, so Obsidian resolves it correctly. Raw/ is immutable per CLAUDE.md — no fix possible, but note the inconsistency.

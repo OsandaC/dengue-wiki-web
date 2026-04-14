@@ -4,7 +4,7 @@
 
 ---
 
-## Sources (19)
+## Sources (20)
 
 | Page | Year | Journal | Citations (SS / CR) | Key Topics |
 |------|------|---------|---------------------|------------|
@@ -81,7 +81,7 @@
 | Page | Sources |
 |------|---------|
 | [[Post-Dengue Syndrome]] | 4 |
-| [[Autoimmunity in Dengue]] | 15 |
+| [[Autoimmunity in Dengue]] | 16 |
 | [[Antibody-Dependent Enhancement]] | 7 |
 | [[Asymptomatic Dengue Infection]] | 4 |
 | [[Antinuclear Antibodies]] | 8 |
@@ -96,7 +96,7 @@
 | [[Dengue Vaccine Candidates]] | 3 |
 | [[Original Antigenic Sin]] | 1 |
 | [[Dengue Neurological Complications]] | 2 |
-| [[Secondary Dengue Infection]] | 5 |
+| [[Secondary Dengue Infection]] | 6 |
 | [[Cross-Reactive Antibodies]] | 6 |
 | [[Cytokine Storm]] | 4 |
 
@@ -115,13 +115,13 @@
 | [[qRT-PCR]] | 1 |
 | [[RT-PCR]] | 2 |
 | [[NS1 Antigen Detection]] | 3 |
-| [[IgM-IgG Serology ELISA]] | 2 |
+| [[IgM-IgG Serology ELISA]] | 3 |
 | [[Line Immunoassay ANA]] | 1 |
 | [[Surface Plasmon Resonance]] | 1 |
 
 ---
 
-## Geography (5)
+## Geography (6)
 
 | Page | Sources |
 |------|---------|

@@ -20,3 +20,10 @@ npx quartz build
 Write-Host ""
 Write-Host "Done! The built site is in: webforshare\public\" -ForegroundColor Green
 Write-Host "To preview locally, run: npx quartz build --serve" -ForegroundColor Yellow
+
+Write-Host ""
+Write-Host "Pushing to GitHub (triggers Cloudflare redeploy)..." -ForegroundColor Cyan
+git add -A
+git commit -m "wiki update $(Get-Date -Format 'yyyy-MM-dd HH:mm')"
+git push
+Write-Host "Push complete. Cloudflare will redeploy in ~1 minute." -ForegroundColor Green

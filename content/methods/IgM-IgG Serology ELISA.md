@@ -2,8 +2,8 @@
 type: method
 tags: [serology, IgM, IgG, ELISA, diagnostics, convalescent-phase, secondary-infection, Zika, cross-reactivity]
 created: 2026-04-12
-updated: 2026-04-13
-sources: 2
+updated: 2026-04-14
+sources: 3
 ---
 
 # IgM/IgG Serology ELISA
@@ -61,3 +61,4 @@ Enzyme-linked immunosorbent assay (ELISA) detection of dengue-specific IgM and I
 ## Sources
 - [[Guzman2016 - Dengue Infection]]
 - [[Seet2007 - Post-Infectious Fatigue Syndrome in Dengue]] (double-sandwich capture ELISA, Innis et al. 1989 protocol; 40 IgM units threshold for single-serum acute dengue diagnosis; repeat serology at 2-week follow-up for initially IgM-negative patients)
+- [[Bos2025 - Longitudinal Antibody Dynamics After Dengue]] (isotype-specific ELISA for all 84 antibody features — IgA, IgG1–4, IgM, across E protein and NS1 antigens; longitudinal kinetics at <1M, 3M, 6M, 18M post-primary and post-secondary; PREPRINT)

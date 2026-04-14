@@ -2,8 +2,8 @@
 type: concept
 tags: [ADE, immunopathogenesis, FcR, secondary-infection, severe-dengue, IGHG1, plasmablast, scRNA-seq, IgG-affinity, FcgRIIIA, SPR]
 created: 2026-04-11
-updated: 2026-04-13
-sources: 6
+updated: 2026-04-14
+sources: 7
 ---
 
 # Antibody-Dependent Enhancement

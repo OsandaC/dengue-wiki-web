@@ -2,8 +2,8 @@
 type: concept
 tags: [secondary-infection, ADE, DHF, DSS, heterotypic, cross-reactive-antibodies, disease-severity]
 created: 2026-04-12
-updated: 2026-04-12
-sources: 5
+updated: 2026-04-14
+sources: 6
 ---
 
 # Secondary Dengue Infection
@@ -31,6 +31,17 @@ Secondary dengue infection refers to infection with a DENV serotype different fr
 ### Asymptomatic secondary infection
 - Not all secondary infections are symptomatic: in the 2006 Cuban DENV-4 epidemic, among individuals with prior DENV-1 exposure (secondary dengue), the overt:subclinical ratio was approximately 1:1 (see [[Garcia2010 - Asymptomatic Dengue FcγRIIa Polymorphism]])
 - FcγRIIa-RR131 genotype was significantly associated with asymptomatic outcome in secondary infection, suggesting host genetics modulate whether ADE leads to clinical disease (see [[FcγRIIa Receptor]])
+
+### Antibody kinetics: primary vs secondary divergence (Bos2025)
+
+[[Bos2025 - Longitudinal Antibody Dynamics After Dengue]] (PREPRINT) provides the most detailed comparison of antibody trajectories across primary and secondary infection currently in this wiki, in a Nicaraguan pediatric cohort (n=79, DENV-1/DENV-3, followed to 18M):
+
+> **PREPRINT — not peer reviewed.**
+
+- **Secondary infection kinetics are more compressed and attenuated at 18M** relative to primary — consistent with rapid memory recall and faster contraction in a primed host, rather than the sustained expansion seen after primary exposure
+- **Cross-reactive E-IgG (XR E-IgG) rises 6–18M post-primary** (t½ = −2.13y), suggesting active accumulation of the cross-reactive pool in the inter-infection window — the pool most likely to mediate ADE upon secondary challenge (see [[Cross-Reactive Antibodies]])
+- **NS1-IgG wanes post-primary** (t½ ≈ 2.1y), following the classical type-specific decay model; secondary kinetics show similar waning pattern
+- The divergence between primary (rising XR E-IgG, waning NS1-IgG) and secondary (attenuated 18M responses overall) suggests that the immunological state entering a potential tertiary infection is qualitatively different from the state entering secondary infection, in ways the classical ADE model does not fully capture
 
 ### Diagnostic classification
 - Primary vs secondary infection classification relies on serology (IgG:IgM ratio, paired sera), PRNT, and HI assay (see [[IgM-IgG Serology ELISA]], [[PRNT]])
@@ -60,3 +71,4 @@ Secondary dengue infection refers to infection with a DENV serotype different fr
 - [[Sungnak2025 - Distinct Immune Responses Asymptomatic Symptomatic Dengue]] (primary/secondary classification, DENV-2 absence limitation)
 - [[Lin2006 - Autoimmune Pathogenesis in Dengue Virus Infection]] (autoantibodies in secondary dengue, molecular mimicry context)
 - [[Wan2012 - Autoimmunity in Dengue Pathogenesis]] (DHF/DSS in secondary infection; autoantibody kinetics; intrinsic ADE in secondary infection context)
+- [[Bos2025 - Longitudinal Antibody Dynamics After Dengue]] (primary vs. secondary kinetics comparison; secondary responses compressed and attenuated at 18M; XR E-IgG rising post-primary; NS1-IgG waning; PREPRINT)

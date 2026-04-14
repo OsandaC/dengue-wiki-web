@@ -2,8 +2,8 @@
 type: concept
 tags: [autoimmunity, immune-complex, ANA, CRP, cytokines, molecular-mimicry, NS1, post-dengue, infection-triggered-autoimmunity, thrombocytopenia, endothelial-cells, ADEM, encephalomyelitis, epidemiology, MCTD, myositis, LIA, India, sex-bias, host-factors, adrenocortical-insufficiency, TLR, Taiwan, NHIRD]
 created: 2026-04-11
-updated: 2026-04-13
-sources: 15
+updated: 2026-04-14
+sources: 16
 ---
 
 # Autoimmunity in Dengue
@@ -122,8 +122,6 @@ The comparison between Li2018 and Shih2023 reveals two findings robust enough to
 - [[India]]
 - [[Singapore]]
 - [[Line Immunoassay ANA]]
-- [[Seet2007 - Post-Infectious Fatigue Syndrome in Dengue]] (indirect: sex-bias and severity-independence replicated for fatigue outcome)
-
 ## Sources
 - [[Garcia2009 - Long-term Clinical Symptoms Post-Dengue]]
 - [[Tan1997 - ANA Range in Healthy Individuals]] (healthy-population ANA baseline)
@@ -140,3 +138,4 @@ The comparison between Li2018 and Shih2023 reveals two findings robust enough to
 - [[Shih2023 - Autoimmune Disease Risk After Dengue]] (lab-confirmed NHIRD cohort; only ADEM survives Bonferroni correction [aHR 2.72]; refutes Li2018 broad claim; 51.4% ICD-coding misclassification identified)
 - [[Chatterjee2024 - ANA Detection in Dengue Kolkata]] (acute dengue ANA: 54.8% IIFA positive [HEp-2] vs. 10.3% controls; 18.5% LIA confirmed vs. 7.1% controls; MCTD and myositis significantly elevated; India hospital-based cohort)
 - [[Wan2012 - Autoimmunity in Dengue Pathogenesis]] (capstone NCKU review; autoantibody kinetics — acute peak, convalescent decline, months persistence; LYRIC/RGD/capsid mimicry targets; intrinsic ADE–autoimmunity link; dengue→SLE case reports)
+- [[Seet2007 - Post-Infectious Fatigue Syndrome in Dengue]] (sex-bias convergence: OR 9.687 for female sex in post-dengue fatigue; severity-independence replicated in Singapore cohort; supports female-biased post-dengue immune dysregulation across independent settings)
