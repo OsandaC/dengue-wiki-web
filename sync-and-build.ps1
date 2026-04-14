@@ -1,0 +1,22 @@
+# sync-and-build.ps1
+# Copies the wiki markdown files into Quartz's content folder, then builds the site.
+# Run from the webforshare/ directory.
+
+$scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
+$wikiDir   = Join-Path $scriptDir "..\dengue-wiki\wiki"
+$contentDir = Join-Path $scriptDir "content"
+
+Write-Host "Syncing wiki -> content..." -ForegroundColor Cyan
+# Mirror the wiki directory into content/
+# Using robocopy for reliable handling of paths with spaces
+$excludeFile = Join-Path $scriptDir "sync-exclude.txt"
+robocopy $wikiDir $contentDir /E /PURGE /XF (Get-Content $excludeFile -ErrorAction SilentlyContinue) | Out-Null
+Write-Host "Sync complete." -ForegroundColor Green
+
+Write-Host "Building Quartz site..." -ForegroundColor Cyan
+Set-Location $scriptDir
+npx quartz build
+
+Write-Host ""
+Write-Host "Done! The built site is in: webforshare\public\" -ForegroundColor Green
+Write-Host "To preview locally, run: npx quartz build --serve" -ForegroundColor Yellow
