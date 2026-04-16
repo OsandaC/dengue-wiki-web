@@ -1,9 +1,9 @@
 ---
 type: concept
-tags: [secondary-infection, ADE, DHF, DSS, heterotypic, cross-reactive-antibodies, disease-severity]
+tags: [secondary-infection, ADE, DHF, DSS, heterotypic, cross-reactive-antibodies, disease-severity, thrombocytopenia, PAIgG, immune-complex]
 created: 2026-04-12
-updated: 2026-04-14
-sources: 6
+updated: 2026-04-16
+sources: 9
 ---
 
 # Secondary Dengue Infection
@@ -43,11 +43,27 @@ Secondary dengue infection refers to infection with a DENV serotype different fr
 - **NS1-IgG wanes post-primary** (t½ ≈ 2.1y), following the classical type-specific decay model; secondary kinetics show similar waning pattern
 - The divergence between primary (rising XR E-IgG, waning NS1-IgG) and secondary (attenuated 18M responses overall) suggests that the immunological state entering a potential tertiary infection is qualitatively different from the state entering secondary infection, in ways the classical ADE model does not fully capture
 
+### Thrombocytopenia mechanism in secondary infection — PAIgG
+
+[[Oishi2003 - PAIgG and Thrombocytopenia in Secondary Dengue]] provides the most direct mechanistic evidence for how secondary dengue causes thrombocytopenia, in a Philippine cohort of 53 secondary-infection patients (Manila, 2001):
+
+- **Platelet-associated IgG (PAIgG) is the proximate driver**: a significant inverse correlation exists between PAIgG levels and platelet count (r = −0.570, P < 0.0001); absent in healthy volunteers.
+- **Anti-dengue virus IgG — not anti-platelet autoantibody — is responsible**: anti-platelet IgG autoantibody was present in plasma in only 1/53 patients (1.9%). In contrast, IgG eluted from platelets of all 8 tested patients was confirmed to contain anti-dengue virus IgG by indirect ELISA.
+- **Mechanism**: immune complexes of dengue antigen + anti-dengue IgG bind to platelets via **direct dengue-platelet interaction** — FcγRII is explicitly NOT required for this step (citing Wang 1995). PAIgG formation subsequently triggers platelet clearance by macrophages and/or complement-mediated platelet lysis.
+- **Longitudinal confirmation**: in 12 tracked patients, platelet counts recovered (43 → 307 × 10³/μl, P = 0.0022) while PAIgG fell (1.49 → 0.31 ng/10⁷ platelets, P = 0.0037) together from acute to convalescent phase (4 days).
+- **PAIgG level does not correlate with HI titre** (r = −0.130, P = 0.361), implying circulating antibody concentration alone is insufficient — viral antigen availability on platelets appears rate-limiting.
+- **26.2% of thrombocytopenic patients** had normal PAIgG, confirming bone marrow suppression and DIC operate in parallel.
+
+**Contrast with primary infection** (see [[Lin2001 - IgM Anti-Platelet Autoantibody in Dengue Patients]]): primary DENV-3 infection drives thrombocytopenia via IgM anti-platelet *autoantibodies* (NS1 molecular mimicry), not via immune complexes. Oishi2003 and Lin2001 together establish an infection-order-dependent bifurcation of the thrombocytopenia mechanism.
+
 ### Diagnostic classification
-- Primary vs secondary infection classification relies on serology (IgG:IgM ratio, paired sera), PRNT, and HI assay (see [[IgM-IgG Serology ELISA]], [[PRNT]])
+- Primary vs secondary infection classification relies on serology (IgG:IgM ratio, paired sera), PRNT, and HI assay (see [[IgM-IgG Serology ELISA]], [[PRNT]], [[Hemagglutination Inhibition Test]])
+- HI titer ≥1:2,560 in a single plasma sample classifies secondary infection (WHO 1997 criterion; used in [[Oishi2003 - PAIgG and Thrombocytopenia in Secondary Dengue]])
 - In the Sungnak2025 cohort, PRNT combined with HI assay was used for primary/secondary classification
 
 ## Contradictions & Debates
+- **PAIgG vs. autoantibody thrombocytopenia**: Oishi2003 shows near-absent anti-platelet IgG autoantibody in secondary infection, while Lin2001 documents IgM anti-platelet autoantibody in primary infection. The two mechanisms are not mutually exclusive — secondary infection patients may harbour residual IgM autoantibody pathway alongside the dominant PAIgG pathway, but no study has directly measured both simultaneously across infection order.
+- **FcγRIIa genotype and platelets**: Oishi2003/Wang 1995 state FcγRII is not required for dengue-platelet binding (and therefore for PAIgG formation). Yet Garcia2010 shows HH genotype dramatically increases DHF risk. FcγRIIa's role in severity must therefore operate through a mechanism other than direct platelet binding — most likely ADE-mediated viral uptake in monocytes/macrophages (see [[FcγRIIa Receptor]]).
 - The relationship between secondary infection and severe disease is probabilistic, not deterministic — host genetics, infecting serotype sequence, inter-infection interval, and viral genotype all modulate outcome
 - Whether ADE is the primary mechanism or whether T-cell original antigenic sin and cytokine-mediated pathology contribute independently remains debated (see [[Original Antigenic Sin]], [[T Cell Responses in Dengue]])
 - CYD-TDV (Dengvaxia) vaccination of seronegatives created an ADE-like state mimicking secondary infection upon natural exposure — raising the question of whether vaccine-induced and naturally-acquired enhancing antibodies behave identically (see [[CYD-TDV]])
@@ -58,12 +74,14 @@ Secondary dengue infection refers to infection with a DENV serotype different fr
 - [[Cytokine Storm]]
 - [[Dengue Pathophysiology]]
 - [[IgM-IgG Serology ELISA]]
+- [[Hemagglutination Inhibition Test]]
 - [[Viraemia]]
 - [[FcγRIIa Receptor]]
 - [[Original Antigenic Sin]]
 - [[Asymptomatic Dengue Infection]]
 - [[DENV-2]]
 - [[CYD-TDV]]
+- [[Philippines]]
 
 ## Sources
 - [[Guzman2016 - Dengue Infection]] (inter-infection interval, ADE, 3rd/4th infection mildness, complement pathways)
@@ -72,3 +90,6 @@ Secondary dengue infection refers to infection with a DENV serotype different fr
 - [[Lin2006 - Autoimmune Pathogenesis in Dengue Virus Infection]] (autoantibodies in secondary dengue, molecular mimicry context)
 - [[Wan2012 - Autoimmunity in Dengue Pathogenesis]] (DHF/DSS in secondary infection; autoantibody kinetics; intrinsic ADE in secondary infection context)
 - [[Bos2025 - Longitudinal Antibody Dynamics After Dengue]] (primary vs. secondary kinetics comparison; secondary responses compressed and attenuated at 18M; XR E-IgG rising post-primary; NS1-IgG waning; PREPRINT)
+- [[Oishi2003 - PAIgG and Thrombocytopenia in Secondary Dengue]] (PAIgG mechanism; anti-dengue IgG immune complexes on platelets; FcγRII not required; longitudinal acute-to-convalescent platelet recovery; absence of anti-platelet autoAbs in secondary infection)
+- [[Lin2001 - IgM Anti-Platelet Autoantibody in Dengue Patients]] (primary-infection contrast: anti-platelet IgM autoantibody mechanism arises independently of primary/secondary status; HI-confirmed majority primary in Taiwan 1998–99 DENV-3 cohort; challenges assumption that DHF/DSS requires secondary infection)
+- [[Palacios2016 - Autoimmunity in Dengue Literature Review]] (Lai 2012 MAS+nephrotic syndrome case: confirmed reinfection by IgG+IgM seropositivity; literature context for secondary-infection autoimmune complications)

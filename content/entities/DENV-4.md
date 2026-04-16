@@ -1,9 +1,9 @@
 ---
 type: entity
-tags: [serotype, DENV-4, Cuba, epidemic]
+tags: [serotype, DENV-4, Cuba, epidemic, autoantibody-cross-serotype]
 created: 2026-04-11
-updated: 2026-04-11
-sources: 3
+updated: 2026-04-16
+sources: 5
 ---
 
 # DENV-4
@@ -36,3 +36,5 @@ None yet recorded.
 - [[Garcia2009 - Long-term Clinical Symptoms Post-Dengue]]
 - [[Garcia2010 - Asymptomatic Dengue FcγRIIa Polymorphism]]
 - [[Guzman2016 - Dengue Infection]] (serial serotype introduction; DENV-4 Havana 2006 containment; Cuban epidemic pattern)
+- [[Oishi2003 - PAIgG and Thrombocytopenia in Secondary Dengue]] (DENV-4 antigen used in HI titer panel; secondary-infection PAIgG mechanism context)
+- [[Palacios2016 - Autoimmunity in Dengue Literature Review]] (Wan2012 cross-serotype autoantibody data: similar autoantibody levels in DENV-2/3/4)

@@ -16,9 +16,7 @@ updated: 2026-04-12
 
 **Full citation:** Johnson D, Jiang W. Infectious diseases, autoantibodies, and autoimmunity. J Autoimmun. 2023 May;137:102962. doi:10.1016/j.jaut.2022.102962
 
-**Raw file:** `[[raw/Jhonson2022.pdf]]`
-
-*(Note: raw filename is "Jhonson2022.pdf" — misspelling in the deposited file; author's name is Johnson.)*
+**Raw file:** `[[raw/Johnson2022.pdf]]`
 
 ## Summary
 This narrative review surveys the mechanisms by which infectious diseases — viral, bacterial, fungal, and parasitic — can trigger autoantibody production and autoimmune disease. The authors synthesise evidence across three core mechanisms (molecular mimicry, bystander activation, and epitope spreading) and discuss host risk factors that modulate susceptibility to infection-triggered autoimmunity. The review covers a wide range of pathogens and associated autoimmune diseases, with particular attention to viruses (EBV, influenza, SARS-CoV-2, HBV, HIV) and bacteria (Campylobacter jejuni, Staphylococcus aureus, Mycobacterium tuberculosis).

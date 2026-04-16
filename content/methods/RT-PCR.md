@@ -2,8 +2,8 @@
 type: method
 tags: [RT-PCR, diagnostics, acute-phase, RNA-detection, serotyping, reference-lab, quantitative]
 created: 2026-04-12
-updated: 2026-04-13
-sources: 2
+updated: 2026-04-16
+sources: 3
 ---
 
 # RT-PCR
@@ -59,3 +59,4 @@ Reverse transcription polymerase chain reaction (RT-PCR) is the reference standa
 ## Sources
 - [[Guzman2016 - Dengue Infection]]
 - [[Seet2007 - Post-Infectious Fatigue Syndrome in Dengue]] (reverse transcriptase-nested PCR, Lanciotti et al. 1992 protocol; used in subset [27/127 patients] for DENV serotyping in Singapore 2005 outbreak)
+- [[Lin2001 - IgM Anti-Platelet Autoantibody in Dengue Patients]] (RT-PCR used to confirm DENV-3 in select patients [Patients 2 and 7] from the 1998–99 southern Taiwan outbreak; Taiwan CDC outbreak typing)

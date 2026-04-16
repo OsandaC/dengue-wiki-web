@@ -2,8 +2,8 @@
 type: concept
 tags: [pathophysiology, vascular-permeability, thrombocytopenia, coagulopathy, complement, liver, NS1, TLR4, plasma-leakage, DHF, DSS]
 created: 2026-04-12
-updated: 2026-04-12
-sources: 2
+updated: 2026-04-16
+sources: 5
 ---
 
 # Dengue Pathophysiology
@@ -75,3 +75,6 @@ Dengue haemorrhagic fever (DHF) and dengue shock syndrome (DSS) are defined by t
 ## Sources
 - [[Guzman2016 - Dengue Infection]]
 - [[Lin2006 - Autoimmune Pathogenesis in Dengue Virus Infection]] (anti-NS1 hepatitis-like effects in mouse models)
+- [[Lin2001 - IgM Anti-Platelet Autoantibody in Dengue Patients]] (primary-infection platelet pathology: anti-platelet IgM, complement-mediated lysis severity-correlated, aggregation inhibition not; NS1-platelet cross-reactivity as mechanistic origin)
+- [[Morel2014 - Autoimmune Response in Children With Dengue]] (MAS/HLH as severe dengue immunopathology; hyperferritinemia, triglyceridemia, organomegaly; macrophage hyperactivation as distinct pathophysiological axis from autoantibody-mediated mechanisms)
+- [[Oishi2003 - PAIgG and Thrombocytopenia in Secondary Dengue]] (secondary-infection thrombocytopenia mechanism: PAIgG–platelet count inverse correlation r=−0.570; immune complex macrophage/complement platelet clearance; FcγRII-independent dengue-platelet binding)

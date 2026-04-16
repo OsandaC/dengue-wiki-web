@@ -2,13 +2,64 @@
 type: analysis
 tags: [notable-findings, flags, cross-cutting, observations]
 created: 2026-04-12
-updated: 2026-04-14
-sources: 12
+updated: 2026-04-15
+sources: 16
 ---
 
 # Notable Findings
 
 A running log of observations that are striking, unexpected, or carry implications beyond the paper they came from. Each entry is a flag — something worth returning to, following up on, or building an analysis around. Entries are added during ingest whenever something catches the eye.
+
+---
+
+## [2026-04-15] Thrombocytopenia mechanism bifurcates by infection order: autoantibody in primary, immune complex in secondary — with FcγRII bypassed in both
+
+**Sources:** [[Lin2001 - IgM Anti-Platelet Autoantibody in Dengue Patients]], [[Oishi2003 - PAIgG and Thrombocytopenia in Secondary Dengue]]
+
+**Finding:** Taken together, Lin2001 and Oishi2003 reveal that dengue thrombocytopenia has two mechanistically distinct modes depending on infection history. In primary DENV infection, thrombocytopenia is driven by **IgM anti-platelet autoantibodies** generated through NS1 molecular mimicry; complement-mediated platelet lysis is severity-correlated. In secondary DENV infection, anti-platelet autoantibodies are essentially absent (1/53 patients); instead, **anti-dengue virus IgG immune complexes** deposit on platelets via direct dengue-platelet binding — and FcγRII is explicitly not required for this binding step.
+
+**Why notable:** The clean infection-order dependency is not described in any single paper — it only emerges from holding Lin2001 and Oishi2003 against each other. Prior to Lin2001's ingest, the wiki described dengue thrombocytopenia primarily as an autoimmune phenomenon (NS1 mimicry). Oishi2003 shows that the *secondary* infection mechanism is not autoimmune at all: it is immune complex-mediated, not self-directed, and bypasses FcγRII at the platelet surface. This has three downstream implications: (1) NS1-targeted interventions to prevent thrombocytopenia would primarily help primary infection, not secondary; (2) the FcγRIIa genotype's enormous effect on DHF risk (Garcia2010, OR 10.56 for HH) must operate via a mechanism *other* than platelet destruction — most likely ADE viral uptake in monocytes/macrophages; (3) platelet-targeted therapies in severe secondary dengue should target immune complex clearance, not autoantibody production.
+
+**Follow-up questions:**
+- Are both mechanisms (IgM autoAb + immune complex) active simultaneously in secondary infection, with the immune complex pathway simply dominant — or does the secondary anamnestic IgG response suppress IgM autoantibody production entirely?
+- Does FcγRIIa genotype modulate downstream macrophage clearance of PAIgG-coated platelets in secondary infection (even if FcγRII is not involved in the initial dengue-platelet docking step)?
+- Can platelet eluate studies in primary DENV infection directly test whether anti-dengue virus IgG is absent (as would be expected if Lin2001's IgM autoAb pathway is the dominant route)?
+
+**Related pages:** [[NS1 Protein]], [[Secondary Dengue Infection]], [[FcγRIIa Receptor]], [[Autoimmunity in Dengue]], [[Dengue Pathophysiology]]
+
+---
+
+## [2026-04-15] IgM anti-platelet lysis tracks severity; aggregation inhibition does not — and both occur in primary infection
+
+**Source:** [[Lin2001 - IgM Anti-Platelet Autoantibody in Dengue Patients]]
+
+**Finding:** In a DENV-3 Taiwan outbreak cohort (n=9, mostly primary infection), dengue patient sera have two functionally distinct effects on platelets with opposite severity correlations: (1) complement-mediated platelet **lysis** — present, and significantly *higher* in DHF/DSS than DF at both acute and convalescent stages; (2) ADP-induced platelet aggregation **inhibition** — present, but NOT higher in DHF/DSS than DF, and paradoxically higher in convalescence than acute. The paper also establishes that IgM anti-platelet production is present in the majority-primary-infection context of this outbreak, making the mechanism independent of prior dengue exposure.
+
+**Why notable:** The existing wiki attributes "anti-platelet autoAbs cause thrombocytopenia in severe dengue" as a single mechanism. Lin2001 shows this is at least two mechanisms — lysis and aggregation inhibition — with the lysis component being the functionally relevant severity correlate. The wiki's current narrative, derived from later Lin2006/Lin2011 synthesis papers, had blurred this distinction. More importantly, the primary-infection context directly qualifies the ADE-dependent secondary infection narrative: a sufficient anti-platelet IgM response in primary infection is mechanistically capable of driving DHF/DSS severity through complement-mediated platelet lysis, entirely independently of cross-reactive IgG from prior exposure. This provides the cleanest known ADE-independent mechanism for primary-infection DHF/DSS in the wiki — a gap that the ADE literature never fully closes. The aggregation inhibition finding also raises a puzzling mechanistic question: why does aggregation inhibition *increase* from acute to convalescence while IgM binding *decreases*? These are not the same antibody effect, and their kinetic divergence implies a second, non-IgM mechanism for aggregation interference that builds over time.
+
+**Follow-up questions:**
+- What drives the convalescent increase in aggregation inhibition if IgM levels are falling? Is a different antibody class (IgG?) mediating aggregation inhibition at the PDI level?
+- Can the prevalence of primary-infection DHF/DSS in hyperendemic settings be predicted by anti-platelet IgM titres in the first dengue episode?
+- Does complement activation status (C3/C4 levels, complement pathway polymorphisms) predict whether anti-platelet IgM causes clinically significant platelet lysis — and thereby explains why some primary infections progress to DHF?
+
+**Related pages:** [[NS1 Molecular Mimicry in Dengue]], [[NS1 Protein]], [[Secondary Dengue Infection]], [[Antibody-Dependent Enhancement]], [[Dengue Pathophysiology]], [[DENV-3]], [[Taiwan]]
+
+---
+
+## [2026-04-15] Dengue-triggered MAS is ANA-negative — severe immune pathology without conventional autoantibodies
+
+**Sources:** [[Morel2014 - Autoimmune Response in Children With Dengue]], [[Palacios2016 - Autoimmunity in Dengue Literature Review]]
+
+**Finding:** Three paediatric dengue cases in Paraguay (Morel2014) show ANA and anti-dsDNA negative in all three, including the two most severe cases that fulfilled Macrophage Activation Syndrome (MAS/secondary HLH) criteria and required methylprednisolone (hyperferritinemia up to 3828 mg/dl, cytopenias, hepatosplenomegaly). The milder, self-limiting case (Case 1) showed IgM anticardiolipin positivity and hypocomplementemia — more conventional autoimmune markers — yet was less severe. This apparent inversion is biologically coherent: MAS is macrophage/T cell–driven, not autoantibody-mediated.
+
+**Why notable:** The entire wiki autoimmunity thread (Chatterjee2024's 54.8% IIFA, Garcia2009's 2-year ANA persistence, Lin2006/Lin2011 NS1 mimicry, Wan2012's autoantibody kinetics) frames dengue autoimmunity through antinuclear and anti-platelet/endothelial antibody production. Morel2014 introduces a second, mechanistically distinct dengue immune complication that the existing framework cannot accommodate: macrophage hyperactivation producing severe clinical disease (MAS) with *no* detectable conventional autoantibodies. The NS1 molecular mimicry model generates anti-platelet/endothelial autoantibodies; the NS1-TLR4/ADE-macrophage model generates cytokine storm and macrophage hyperactivation. Both are NS1-dependent but downstream of entirely different effector arms. The practical clinical implication is sharp: **a negative ANA in dengue does not rule out severe autoimmune complication** — it only rules out one mechanism. Palacios2016 adds a supporting adult MAS+nephrotic syndrome case (Lai 2012) and, contrasting with Morel, a case of dengue-triggered SLE with *positive* ANA and anti-dsDNA (Talib 2013) — confirming that ANA-positive and ANA-negative dengue autoimmune presentations coexist. The field has no study systematically comparing autoantibody profiles between ANA-positive dengue autoimmunity and ANA-negative dengue-MAS.
+
+**Follow-up questions:**
+- Do Morel2014's MAS cases have elevated anti-endothelial cell Abs by flow cytometry (Wan2012 method) despite negative standard ANA — or is the anti-endothelial response also suppressed in macrophage-dominant disease?
+- Do dengue-MAS patients carry heterozygous HLH predisposition variants (PRF1, UNC13D, STX11) that lower the macrophage activation threshold — or is MAS stochastic given sufficient dengue-induced macrophage load?
+- Can hyperferritinemia ≥500 mg/dl serve as a practical dengue-MAS flag in endemic settings to trigger corticosteroid consideration before further workup?
+
+**Related pages:** [[Macrophage Activation Syndrome in Dengue]], [[Autoimmunity in Dengue]], [[NS1 Molecular Mimicry in Dengue]], [[Cytokine Storm]], [[NS1 Protein]]
 
 ---
 

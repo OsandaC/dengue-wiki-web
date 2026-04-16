@@ -2,8 +2,8 @@
 type: concept
 tags: [ADE, immunopathogenesis, FcR, secondary-infection, severe-dengue, IGHG1, plasmablast, scRNA-seq, IgG-affinity, FcgRIIIA, SPR]
 created: 2026-04-11
-updated: 2026-04-14
-sources: 7
+updated: 2026-04-16
+sources: 8
 ---
 
 # Antibody-Dependent Enhancement
@@ -96,3 +96,4 @@ For ADE specifically: the predominant anti-dengue antibody isotype mediating ADE
 - [[Wan2012 - Autoimmunity in Dengue Pathogenesis]] (intrinsic ADE: IFN-I suppression, IL-10/Th2 skewing, autoimmunity link)
 - [[Bruhns2009 - FcγR Specificity and Affinity for IgG Subclasses]] (SPR affinity hierarchy; FcγRIIA H131/R131 IgG2 asymmetry; FcγRIIIA-V158 monomeric IgG3 binding; FcγRIIB inhibitory weakness)
 - [[Bos2025 - Longitudinal Antibody Dynamics After Dengue]] (rising XR E-IgG EDI/II 6–18M post-primary; IgG3 persistence at 18M; challenge to classical waning model; PREPRINT)
+- [[Oishi2003 - PAIgG and Thrombocytopenia in Secondary Dengue]] (secondary-infection ADE context: anti-dengue IgG immune complexes on platelets; Philippines cohort; FcγRII-independent dengue-platelet binding bypasses canonical ADE uptake step at platelet surface — ADE relevance remains in monocyte/macrophage compartment)

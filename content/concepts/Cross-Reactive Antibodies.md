@@ -2,8 +2,8 @@
 type: concept
 tags: [cross-reactivity, ADE, neutralisation, IgG, IgA, IgM, IgG3, IgG4, serotype, E-protein, NS1, EDI-II, EDIII, flavivirus, diagnostics, vaccine, longitudinal, antibody-kinetics]
 created: 2026-04-13
-updated: 2026-04-14
-sources: 6
+updated: 2026-04-16
+sources: 7
 ---
 
 # Cross-Reactive Antibodies
@@ -76,6 +76,7 @@ Flavivirus cross-reactive antibodies create significant diagnostic challenges:
 - [[PRNT]]
 - [[IgM-IgG Serology ELISA]]
 - [[Dengue Vaccine Candidates]]
+- [[Nicaragua]]
 
 ## Sources
 - [[Guzman2016 - Dengue Infection]] (cross-protection kinetics; ADE conditional virulence; maternal Ab; broadly neutralising Abs; CYD-TDV; Zika cross-reactivity)
@@ -84,3 +85,4 @@ Flavivirus cross-reactive antibodies create significant diagnostic challenges:
 - [[Lin2006 - Autoimmune Pathogenesis in Dengue Virus Infection]] (anti-NS1 cross-reactivity with platelets and endothelium)
 - [[Lin2011 - Molecular Mimicry Virus Host Dengue Pathogenesis]] (anti-NS1 molecular targets; C-terminal domain mapping; E protein coagulation homology)
 - [[Bos2025 - Longitudinal Antibody Dynamics After Dengue]] (XR E-IgG rising 6–18M post-primary; NS1-IgG waning t½≈2.1y; EDI/II vs EDIII domain specificity; IgA/IgM/IgG3/IgG4 kinetics; PREPRINT)
+- [[Palacios2016 - Autoimmunity in Dengue Literature Review]] (Wan2012 cross-serotype autoantibody data cited: anti-endothelial-cell Ab titres similar across DENV-2/3/4 — no serotype-specific autoimmune signature among these three; acute peak, months persistence; severity correlation DHF/DSS > DF)

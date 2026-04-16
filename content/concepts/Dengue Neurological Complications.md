@@ -1,9 +1,9 @@
 ---
 type: concept
-tags: [neurological, ADEM, encephalomyelitis, encephalitis, Guillain-Barre, GBS, CNS, neuropathogenesis, DENV-2, DENV-3, post-infectious, molecular-mimicry]
+tags: [neurological, ADEM, encephalomyelitis, encephalitis, Guillain-Barre, GBS, CNS, neuropathogenesis, DENV-2, DENV-3, post-infectious, molecular-mimicry, retinal-vasculitis, immune-complex, ophthalmological]
 created: 2026-04-12
-updated: 2026-04-12
-sources: 2
+updated: 2026-04-15
+sources: 3
 ---
 
 # Dengue Neurological Complications
@@ -40,6 +40,11 @@ From [[Guzman2016 - Dengue Infection]]:
 - **Dengue-related maculopathy**: visual disturbance (blurring, scotoma) during or after dengue; associated with retinal haemorrhage and foveal oedema; may persist.
 - **Dengue encephalopathy**: altered consciousness from systemic causes; more common than encephalitis; does not require viral CNS invasion.
 
+### Retinal Vasculitis
+[[Palacios2016 - Autoimmunity in Dengue Literature Review]] cites Chang et al. (2007, Singapore) documenting retinal vasculitis as a dengue complication in young women: dengue virus infection provoked antibody production and immune complex deposition, leading to retinal vasculitis. The mechanism is immune complex–mediated, not direct viral invasion — distinguishing it from dengue-related maculopathy, which involves direct haemorrhagic/oedematous changes. Retinal vasculitis is therefore categorised alongside the autoimmunity-mediated complications (pathway 3) rather than direct viral encephalitis (pathway 2), and the case series also implicates [[Singapore]] as a setting where this complication has been reported.
+
+*Note: The original Chang 2007 paper is not in this wiki; the connection is documented via Palacios2016's citation.*
+
 ### Serotype-Specific CNS Tropism
 [[DENV-2]] and [[DENV-3]] are specifically implicated in direct CNS invasion leading to encephalitis (see [[Shih2023 - Autoimmune Disease Risk After Dengue]], [[Guzman2016 - Dengue Infection]]). The mechanism likely involves differences in neurotropism encoded in NS proteins — consistent with the pattern that NS protein variation underlies differences in dengue tissue tropism and epidemic potential across serotypes.
 
@@ -56,7 +61,9 @@ From [[Guzman2016 - Dengue Infection]]:
 - [[DENV-3]]
 - [[NS1 Protein]]
 - [[Taiwan]]
+- [[Singapore]]
 
 ## Sources
 - [[Shih2023 - Autoimmune Disease Risk After Dengue]]
 - [[Guzman2016 - Dengue Infection]]
+- [[Palacios2016 - Autoimmunity in Dengue Literature Review]] (retinal vasculitis via immune complex deposition; Chang et al. 2007, Singapore)

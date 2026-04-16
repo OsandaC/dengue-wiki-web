@@ -2,6 +2,189 @@
 
 ---
 
+## [2026-04-16] lint | Deep propagation sweep
+
+**Scope:** Forward-propagation audit for the last five ingests (Bos2025, Lin2001, Oishi2003, Morel2014, Palacios2016). For each source page, enumerated every wikilink under Entities Mentioned / Concepts Addressed / Methods Used and confirmed the target page included that source in its Sources section AND had its frontmatter `sources` count incremented. Also: orphan check (Nicaragua), erroneous link audit (Morel2014 → DENV-1), and contradiction audit (FcγRIIa paradox, ANA-negative MAS).
+
+**Clean:**
+- 0 silent overwrites of existing contradictions; FcγRIIa Receptor and Macrophage Activation Syndrome in Dengue both preserve their respective contradiction sections with full sourcing
+- All Bos2025/Lin2001/Oishi2003/Morel2014/Palacios2016 cross-source synthesis text remains intact in target pages
+
+**Fixed (18 pages updated):**
+
+*Concepts (7):*
+1. `concepts/Antibody-Dependent Enhancement.md` — sources 7→8 (added Oishi2003 immune complex / FcγRII-bypass platelet binding)
+2. `concepts/Autoimmunity in Dengue.md` — sources 20→21 (added Bos2025 NS1-IgG kinetic context)
+3. `concepts/Cross-Reactive Antibodies.md` — sources 6→7 (added Palacios2016 Wan2012 cross-serotype data); Nicaragua added to Related Pages
+4. `concepts/Cytokine Storm.md` — sources 6→7 (added Oishi2003 complement activation context)
+5. `concepts/Dengue Pathophysiology.md` — sources 2→5 (added Lin2001 primary platelet pathology, Morel2014 MAS axis, Oishi2003 secondary thrombocytopenia mechanism)
+6. `concepts/Dengue Vaccine Candidates.md` — sources 3→4 (added Lin2001 NS1-vaccine pathogenic-epitope discussion)
+7. `concepts/Secondary Dengue Infection.md` — sources 7→9 (added Lin2001 primary-infection contrast, Palacios2016 Lai 2012 reinfection)
+
+*Entities (5):*
+8. `entities/NS1 Protein.md` — sources 7→9 (added Morel2014 NS1+ in 2/3 MAS cases, Palacios2016 NS1 across cited cases)
+9. `entities/DENV-1.md` — sources 2→4 (added Bos2025 cohort serotype, Oishi2003 HI antigen panel); Nicaragua added to Related Pages
+10. `entities/DENV-2.md` — sources 3→5 (added Oishi2003, Palacios2016)
+11. `entities/DENV-3.md` — sources 4→7 (added Bos2025, Oishi2003, Palacios2016); Nicaragua added to Related Pages
+12. `entities/DENV-4.md` — sources 3→5 (added Oishi2003, Palacios2016)
+13. `entities/Aedes albopictus.md` — sources 1→2 (added Oishi2003 — C6/36 cell line for dengue antigen prep, methodological role only)
+
+*Methods (3):*
+14. `methods/IgM-IgG Serology ELISA.md` — sources 3→7 (added Lin2001 anti-NS1 IgG ELISA, Oishi2003 IgM-capture ELISA, Morel2014 IgG/IgM/anticardiolipin, Palacios2016 cited methodology)
+15. `methods/NS1 Antigen Detection.md` — sources 3→6 (added Bos2025 NS1 antigen panel, Morel2014 cases 2/3 NS1+, Palacios2016 cited cases)
+16. `methods/RT-PCR.md` — sources 2→3 (added Lin2001 DENV-3 confirmation patients 2/7)
+
+*Geography (1):*
+17. `geography/Singapore.md` — sources 1→2 (added Palacios2016 Chang 2007 retinal vasculitis case; new "Dengue-Associated Retinal Vasculitis" subsection)
+
+*Source page correction (1):*
+18. `sources/Morel2014 - Autoimmune Response in Children With Dengue.md` — removed erroneous `[[DENV-1]]` entity link (paper does not specify serotype; explicit clarifying note added)
+
+**Index synced:** `wiki/index.md` per-page source counts updated for all 17 content pages above; header date 2026-04-15→2026-04-16.
+
+**Not fixed (known from prior Watch Items):**
+- Thin entity pages: CYD-TDV (1), Wolbachia (1)
+- Geography pages with single sources: Thailand, India, Nicaragua, Paraguay, Philippines
+- Method pages with single sources: ELISA Inhibition Method, Single-Cell RNA Sequencing, V(D)J Sequencing, qRT-PCR, Line Immunoassay ANA, Surface Plasmon Resonance, Hemagglutination Inhibition Test
+- Missing concept: Herd Immunity
+- ELISA Inhibition Method protocol attribution for Bos2025
+- Reading Plan orphan
+- Raw filename typo `Jhonson2022.pdf` (immutable raw/)
+- All open mechanism gaps documented in Watch Items
+
+**Process improvement documented:** state.md gains a new decision entry codifying the forward-propagation check as an explicit lint step. Memory `feedback_ingest_secondary_sources.md` already recorded the secondary-source propagation rule; the new gap was that single-page metadata audits did not verify the inverse (source → linked-target propagation), which this lint added.
+
+---
+
+## [2026-04-15] ops | Raw filename typo fixed
+
+**Fixed:** `raw/Jhonson2022.pdf` renamed to `raw/Johnson2022.pdf` by curator.
+**Updated:** `wiki/sources/Johnson2022 - Infectious Diseases Autoantibodies and Autoimmunity.md` — Raw file link corrected from `[[raw/Jhonson2022.pdf]]` to `[[raw/Johnson2022.pdf]]`; correction note removed.
+**Watch Item:** Resolved in state.md.
+
+---
+
+## [2026-04-15] lint | Health check
+
+**Scope:** Full wiki audit (85 files; 84 content pages). Systematic checks: orphan pages, stale wikilinks, thin pages, frontmatter consistency, missing connections.
+
+**Clean:**
+- 0 orphan pages — all 84 content pages have ≥1 inbound link
+- 0 genuine stale wikilinks in content pages — two apparent stale links (`[[IgM/IgG Serology ELISA]]`, `[[Lin2006]]`) found in log.md are inside backtick code spans (historical documentation); not resolved as Obsidian links
+- Raw file links in source pages (e.g., `[[raw/lin2001.pdf]]`) resolve correctly to existing PDFs; not stale
+- Index total page count 84 confirmed correct (all pages excluding index.md itself)
+- All recently updated frontmatter source counts verified against page content: NS1 Protein ×7 ✓, FcγRIIa ×5 ✓, Autoimmunity in Dengue ×20 ✓, Secondary Dengue Infection ×7 ✓, NS1 Molecular Mimicry ×7 ✓, Cytokine Storm ×6 ✓, Cross-Reactive Antibodies ×6 ✓, MAS in Dengue ×2 ✓
+
+**Fixed (3):**
+1. `wiki/concepts/Dengue Neurological Complications.md` — Palacios2016 retinal vasculitis case (Chang et al. 2007, Singapore; immune complex deposition) added as new "Retinal Vasculitis" subsection under Other Neurological Manifestations; Palacios2016 added to Sources; `[[Singapore]]` added to Related Pages; frontmatter `sources: 2→3`, `updated: 2026-04-12→2026-04-15`; tags updated
+2. `wiki/index.md` — Dengue Neurological Complications count `2→3`
+3. `wiki/log.md` — documentation typo corrected: Oishi2003 ingest entry said "NS1 Protein 5→7" (should be 6→7; Lin2001 did the 5→6 step, Oishi2003 did the 6→7 step)
+
+**Not fixed (known from prior Watch Items):**
+- Thin pages: Aedes albopictus (1), CYD-TDV (1), Wolbachia (1), plus geography pages with single sources (Nicaragua, Thailand, India, Singapore, Paraguay, Philippines)
+- Method pages with single sources: ELISA Inhibition Method, Single-Cell RNA Sequencing, V(D)J Sequencing, qRT-PCR, Line Immunoassay ANA, Surface Plasmon Resonance, Hemagglutination Inhibition Test
+- Missing concept: Herd Immunity — no wiki sources address it directly
+- ELISA Inhibition Method attribution (Bos2025 vs. Vazquez 2003 protocol) — cannot verify from wiki alone
+- Reading Plan orphan — acceptable for meta document
+- Raw filename typo `Jhonson2022.pdf` — immutable raw/
+- All existing mechanism gaps and missing geography pages (see Watch Items in state.md)
+
+---
+
+## [2026-04-15] ingest | Oishi2003 - PAIgG and Thrombocytopenia in Secondary Dengue
+
+**Source:** Oishi K et al. (2003). Correlation between increased platelet-associated IgG and thrombocytopenia in secondary dengue virus infections. *J Med Virol* 71:259–264. DOI: 10.1002/jmv.10478
+**Citations:** Semantic Scholar 62; CrossRef 41 (retrieved 2026-04-15)
+
+**Created (3 pages):**
+- `wiki/sources/Oishi2003 - PAIgG and Thrombocytopenia in Secondary Dengue.md`
+- `wiki/geography/Philippines.md` (new — San Lazaro Hospital / St. Luke's Medical Center, Manila)
+- `wiki/methods/Hemagglutination Inhibition Test.md` (new — HI titer ≥1:2,560 = secondary infection classification)
+
+**Updated (6 pages):**
+- `wiki/concepts/Secondary Dengue Infection.md` — new PAIgG thrombocytopenia section; new contradiction (FcγRII not required vs. Garcia2010 HH-DHF risk); HI test added to Related Pages and Diagnostic Classification; Philippines added; sources 6→7
+- `wiki/entities/NS1 Protein.md` — new contradiction entry: infection-order-dependent bifurcation (IgM autoAb in primary vs. IgG IC in secondary); Oishi2003 added to Sources; frontmatter sources 6→7, tags updated
+- `wiki/entities/FcγRIIa Receptor.md` — new contradiction: FcγRII not required for dengue-platelet binding (Oishi2003/Wang 1995), paradox with Garcia2010 HH-DHF OR 10.56 documented; Oishi2003 added to Sources; frontmatter sources 4→5, tags updated
+- `wiki/concepts/Autoimmunity in Dengue.md` — Oishi2003 added to Sources; frontmatter sources 19→20, tags updated
+- `wiki/analyses/Notable Findings.md` — new entry: thrombocytopenia mechanism bifurcates by infection order (autoantibody in primary vs. immune complex in secondary; FcγRII bypassed); sources 15→16
+- `wiki/index.md` — Sources 23→24; Total pages 80→84; FcγRIIa 4→5; NS1 Protein 6→7; Autoimmunity in Dengue 19→20; Secondary Dengue Infection 6→7; Methods 12→13; Geography 7→8; citation footnote updated; Oishi2003 added to ranked table
+
+**Key cross-wiki synthesis documented:** Lin2001 + Oishi2003 together establish that dengue thrombocytopenia bifurcates by infection order — primary drives IgM anti-platelet autoantibodies (NS1 mimicry, complement lysis, severity-correlated); secondary drives anti-dengue IgG immune complexes on platelets via FcγRII-independent direct dengue-platelet binding. This bifurcation is only visible by reading the two papers against each other; neither paper makes the cross-infection comparison explicit. Notable Finding appended.
+
+---
+
+## [2026-04-15] ingest | Lin2001 - IgM Anti-Platelet Autoantibody in Dengue Patients
+
+**Created:**
+- `wiki/sources/Lin2001 - IgM Anti-Platelet Autoantibody in Dengue Patients.md`
+
+**Updated:**
+- `wiki/entities/NS1 Protein.md` — attribution corrected (IgM anti-platelet finding originates in Lin2001, not Lin2006); new section distinguishing platelet lysis (severity-correlated) vs. aggregation inhibition (not severity-correlated); primary-infection context added; sources 5→6
+- `wiki/concepts/NS1 Molecular Mimicry in Dengue.md` — attribution corrected; platelet effects table added (lysis vs. aggregation with severity correlation column); new section on primary-infection IgM production; sources 6→7; frontmatter updated
+- `wiki/concepts/Autoimmunity in Dengue.md` — Lin2001 added to sources list; sources 18→19
+- `wiki/entities/DENV-3.md` — new section on Taiwan 1998–1999 DENV-3 outbreak; sources 3→4
+- `wiki/entities/DENV-2.md` — DENV-2 anti-platelet IgM cross-serotype finding added; sources 2→3
+- `wiki/geography/Taiwan.md` — new section on 1998–1999 DENV-3 outbreak; Lin2001 added to sources; sources 3→4
+- `wiki/analyses/Notable Findings.md` — new entry: lysis vs. aggregation divergence and primary-infection DHF/DSS; sources 14→15
+- `wiki/index.md` — Sources 22→23; total pages 79→80; entity and concept counts updated
+
+**Citation counts:** SS 195, CR 95. DOI 10.1002/1096-9071(20000201)63:2<143::aid-jmv1009>3.0.co;2-l
+
+**Key attribution correction:** The IgM anti-platelet finding and the DHF/DSS > DF severity correlation were previously attributed exclusively to Lin2006. Lin2001 is the actual origin of both findings. Lin2006 confirmed and extended the mechanism (NS1 absorption, endothelial effects, molecular target identification). Wiki updated to credit both with Lin2001 as the original.
+
+**Key new finding documented:** Platelet aggregation inhibition does NOT correlate with disease severity (DHF/DSS ≈ DF) — only complement-mediated platelet lysis does. This distinction was absent from the wiki before this ingest.
+
+---
+
+## [2026-04-15] ingest | Morel2014 - Autoimmune Response in Children With Dengue
+
+**Created:**
+- `wiki/sources/Morel2014 - Autoimmune Response in Children With Dengue.md`
+- `wiki/geography/Paraguay.md` (new geography)
+- `wiki/concepts/Macrophage Activation Syndrome in Dengue.md` (new concept)
+
+**Updated:**
+- `wiki/concepts/Autoimmunity in Dengue.md` — new MAS section; new contradiction (ANA-negative MAS vs. autoantibody-severity correlation); sources 16→18; related pages updated; tags updated
+- `wiki/concepts/NS1 Molecular Mimicry in Dengue.md` — new contradiction entry; sources 4→6
+- `wiki/concepts/Cytokine Storm.md` — MAS as extreme cytokine storm variant; related pages + sources updated (4→6)
+- `wiki/analyses/Notable Findings.md` — new entry: ANA-negative dengue MAS; sources 12→14
+- `wiki/index.md` — Sources 20→22; total pages 75→79; Concepts 19→20; Geography 6→7; Morel2014 and Palacios2016 added; citation footnote updated
+
+**Citation counts:** Morel2014: SS null (not indexed at English-edition DOI), CR 0. DOI 10.1016/j.reumae.2014.03.008.
+
+**Key contradiction handled:** ANA/anti-dsDNA negative in all 3 Morel cases (including 2 MAS) vs. Wan2012's autoantibody-severity correlation. Resolution documented: different assay types (standard serology vs. flow cytometric anti-endothelial Abs) and different mechanisms (MAS = macrophage/T cell-driven, not autoantibody-driven). Noted in Autoimmunity in Dengue Contradictions section and NS1 Molecular Mimicry Contradictions section.
+
+---
+
+## [2026-04-15] ingest | Palacios2016 - Autoimmunity in Dengue Literature Review
+
+**Created:**
+- `wiki/sources/Palacios2016 - Autoimmunity in Dengue Literature Review.md`
+
+**Updated:**
+- `wiki/index.md` (see Morel2014 entry above — joint update)
+
+**Note:** Palacios2016 is a 2-page letter to the editor responding to Morel2014. No original data. Adds literature context: MAS+nephrotic syndrome (Lai 2012), dengue-triggered SLE with positive ANA and anti-dsDNA (Talib 2013), retinal vasculitis (Chang 2007). Confirms autoantibody-severity correlation from Wan2012. Separately ingested because it contains substantive additions (case examples, cross-serotype autoantibody comparison) beyond what Morel2014 covers, but flagged clearly as a letter/secondary source throughout.
+
+**Citation counts:** SS 1, CR 0. DOI 10.1016/j.reumae.2015.05.015.
+
+---
+
+## [2026-04-15] ops | Cloudflare Pages deployment + workflow updates
+
+**Deployed:**
+- Site is now live at https://dengue-wiki-web.pages.dev (Cloudflare Pages, auto-deploy on push)
+- GitHub repo: https://github.com/OsandaC/dengue-wiki-web (branch: v4)
+- Merged 2 Dependabot PRs (CI deps + 21 production deps)
+- Fixed `package-lock.json` out-of-sync issue (caused by rebase conflict resolution keeping pre-Dependabot lock file); regenerated from scratch and pushed
+
+**Updated:**
+- `webforshare/quartz.config.ts` — baseUrl set to `dengue-wiki-web.pages.dev`
+- `webforshare/sync-and-build.ps1` — now includes `git add -A`, timestamped commit, and `git push` after build; `update web` is now a single end-to-end deploy command
+- `wiki/commands.md` — removed port numbers from preview commands; removed Cloudflare Tunnel section (superseded by live site)
+
+---
+
 ## [2026-04-14] lint | health check
 
 **Errors fixed:**

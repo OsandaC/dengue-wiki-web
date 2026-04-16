@@ -1,9 +1,9 @@
 ---
 type: entity
-tags: [serotype, DENV-3, Cuba, displacement, epidemic-dynamics, CNS-invasion, neuropathogenesis, Singapore]
+tags: [serotype, DENV-3, Cuba, displacement, epidemic-dynamics, CNS-invasion, neuropathogenesis, Singapore, Taiwan, Nicaragua, anti-platelet, IgM, primary-infection, antibody-kinetics, autoantibody-cross-serotype]
 created: 2026-04-12
-updated: 2026-04-13
-sources: 3
+updated: 2026-04-16
+sources: 7
 ---
 
 # DENV-3
@@ -25,6 +25,9 @@ Like [[DENV-2]], DENV-3 is specifically implicated in **direct CNS invasion** ca
 - DEN-3 was a minor co-circulating serotype in Singapore during the October–November 2005 outbreak: 6 of 27 virologically typed patients (22%) had DEN-3, alongside the dominant DEN-1 (74%) and a single DEN-4 case (see [[Seet2007 - Post-Infectious Fatigue Syndrome in Dengue]]).
 - This co-circulation of DEN-1 and DEN-3 in Singapore in 2005 is consistent with the multi-serotype endemic pattern typical of Southeast Asian dengue settings, distinct from the serial introduction pattern seen in Cuba (where DENV-3 was introduced as the third serotype in 2001 after DENV-1 [1977] and DENV-2 [1981]).
 
+### Taiwan 1998–1999 Outbreak — Anti-Platelet IgM Data
+[[Lin2001 - IgM Anti-Platelet Autoantibody in Dengue Patients]] studied a DENV-3 outbreak in southern Taiwan (November 1998–January 1999) confirmed and reported by the Taiwan CDC. Nine patients (5 DF, 4 DHF/DSS) provided serum at three timepoints (acute, convalescent, 8–9 months). Key finding: anti-platelet IgM was present in both DF and DHF/DSS patients and persisted for 8–9 months; DHF/DSS patients had higher anti-platelet IgM levels than DF in the acute phase. Crucially, most patients in this outbreak had **primary DENV-3 infection** (confirmed by haemagglutination inhibition assay), establishing that anti-platelet IgM generation does not require prior dengue exposure (see [[NS1 Molecular Mimicry in Dengue]]).
+
 ## Contradictions & Debates
 None yet recorded.
 
@@ -35,6 +38,7 @@ None yet recorded.
 - [[NS1 Protein]]
 - [[Cuba]]
 - [[Singapore]]
+- [[Nicaragua]]
 - [[Antibody-Dependent Enhancement]]
 - [[Dengue Neurological Complications]]
 
@@ -42,3 +46,7 @@ None yet recorded.
 - [[Guzman2016 - Dengue Infection]]
 - [[Shih2023 - Autoimmune Disease Risk After Dengue]] (CNS invasion neuropathogenesis pathway)
 - [[Seet2007 - Post-Infectious Fatigue Syndrome in Dengue]] (Singapore 2005: DEN-3 minor co-circulating serotype, 6/27 serotyped patients)
+- [[Lin2001 - IgM Anti-Platelet Autoantibody in Dengue Patients]] (Taiwan 1998–1999 DENV-3 outbreak; anti-platelet IgM generation; primary-infection context; DHF/DSS > DF severity correlation)
+- [[Bos2025 - Longitudinal Antibody Dynamics After Dengue]] (Nicaragua pediatric cohort; DENV-3 a circulating serotype; longitudinal antibody kinetics primary/secondary; PREPRINT)
+- [[Oishi2003 - PAIgG and Thrombocytopenia in Secondary Dengue]] (DENV-3 antigen used in HI titer panel; secondary-infection PAIgG mechanism context)
+- [[Palacios2016 - Autoimmunity in Dengue Literature Review]] (Wan2012 cross-serotype autoantibody data: similar autoantibody levels in DENV-2/3/4)

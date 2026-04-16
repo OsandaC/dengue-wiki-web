@@ -1,9 +1,9 @@
 ---
 type: geography
-tags: [Singapore, Southeast-Asia, epidemiology, DEN-1, outbreak, vector-control, post-dengue-syndrome]
+tags: [Singapore, Southeast-Asia, epidemiology, DEN-1, outbreak, vector-control, post-dengue-syndrome, retinal-vasculitis, autoimmunity]
 created: 2026-04-13
-updated: 2026-04-13
-sources: 1
+updated: 2026-04-16
+sources: 2
 ---
 
 # Singapore
@@ -37,6 +37,10 @@ Singapore is a city-state in Southeast Asia with year-round dengue transmission 
 - [[Aedes aegypti]]
 - [[Wolbachia]]
 
+### Dengue-Associated Retinal Vasculitis
+- [[Palacios2016 - Autoimmunity in Dengue Literature Review]] cites Chang et al. (2007) reporting **retinal vasculitis** in young women in Singapore following dengue virus infection. The proposed mechanism is immune-complex deposition consequent to antibody production triggered by dengue infection — adding an ophthalmological dimension to the dengue-autoimmunity spectrum (see [[Autoimmunity in Dengue]]).
+
 ## Sources
 
 - [[Seet2007 - Post-Infectious Fatigue Syndrome in Dengue]]
+- [[Palacios2016 - Autoimmunity in Dengue Literature Review]] (cites Chang et al. 2007 Singapore retinal vasculitis case — immune-complex-mediated ophthalmological complication of dengue)

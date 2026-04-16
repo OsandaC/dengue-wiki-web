@@ -1,9 +1,9 @@
 ---
 type: concept
-tags: [autoimmunity, immune-complex, ANA, CRP, cytokines, molecular-mimicry, NS1, post-dengue, infection-triggered-autoimmunity, thrombocytopenia, endothelial-cells, ADEM, encephalomyelitis, epidemiology, MCTD, myositis, LIA, India, sex-bias, host-factors, adrenocortical-insufficiency, TLR, Taiwan, NHIRD]
+tags: [autoimmunity, immune-complex, ANA, CRP, cytokines, molecular-mimicry, NS1, post-dengue, infection-triggered-autoimmunity, thrombocytopenia, endothelial-cells, ADEM, encephalomyelitis, epidemiology, MCTD, myositis, LIA, India, sex-bias, host-factors, adrenocortical-insufficiency, TLR, Taiwan, NHIRD, MAS, macrophage-activation-syndrome, HLH, Paraguay, SLE, lupus-nephritis, ANA-negative, PAIgG, secondary-infection, Philippines]
 created: 2026-04-11
-updated: 2026-04-14
-sources: 16
+updated: 2026-04-16
+sources: 21
 ---
 
 # Autoimmunity in Dengue
@@ -92,6 +92,16 @@ The comparison between Li2018 and Shih2023 reveals two findings robust enough to
 
 **Key implication for this wiki's core research thread:** The Garcia2009 and Lin group findings (elevated autoimmune markers, NS1 molecular mimicry) reflect genuine acute-phase biological phenomena — but they do not translate into lasting autoimmune disease at the population level. The dengue-driven autoimmunity is predominantly transient. The one exception — ADEM — is consistent: it is an acute demyelinating response, not a chronic autoimmune disease.
 
+### Macrophage Activation Syndrome — ANA-Negative Severe Dengue Autoimmunity
+
+[[Morel2014 - Autoimmune Response in Children With Dengue]] (Paraguay; 3 pediatric cases) introduces a clinically important negative finding for the autoimmunity thread: **ANA and anti-dsDNA were negative in all three cases, including the two most severe.** The most severe presentations (Cases 2 and 3) fulfilled criteria for secondary Macrophage Activation Syndrome (MAS) / HLH, requiring methylprednisolone, yet had no detectable conventional antinuclear autoantibodies. See [[Macrophage Activation Syndrome in Dengue]] for full case details and the HLH-2004 diagnostic criteria.
+
+This is the only wiki source with direct ANA measurement in dengue-associated MAS, and its negative result carries mechanistic weight: MAS/HLH is driven by macrophage and CD8+ T cell hyperactivation rather than by autoantibody-mediated B cell pathology. NS1-TLR4 signalling on macrophages (see [[NS1 Protein]]) and ADE-mediated FcγR entry amplifying macrophage activation are plausible triggers. The mechanism is categorically different from NS1 molecular mimicry → ANA → endothelial/platelet damage.
+
+The within-series comparison in Morel2014 is also notable: Case 1 (the mildest, self-limiting case) showed the most conventional autoimmune markers (IgM anticardiolipin positive, hypocomplementemia, proteinuria) while being the least severe clinically. Cases 2 and 3 (the most severe, requiring corticosteroids) had no conventional autoantibodies. This inversion does not necessarily contradict the Wan2012 autoantibody-severity correlation (which measured flow cytometric anti-endothelial antibodies, a different assay), but it highlights that **the autoimmune marker panel routinely tested (ANA, anti-dsDNA, lupus anticoagulant) cannot distinguish dengue-MAS from other causes of MAS**.
+
+[[Palacios2016 - Autoimmunity in Dengue Literature Review]] (a letter to the editor responding to Morel2014) adds another MAS case — an adult woman with concurrent nephrotic syndrome (Lai et al. 2012, France), confirming that dengue-MAS is not solely paediatric. Palacios2016 also documents additional dengue-autoimmune clinical forms: SLE+lupus nephritis (Talib 2013, ANA homogeneous + anti-dsDNA positive — the one case with positive ANA in contrast to Morel2014) and retinal vasculitis (Chang 2007, Singapore, via immune complex deposition).
+
 ### Indirect Evidence: Sex and Severity as Cross-Outcome Modifiers
 
 [[Seet2007 - Post-Infectious Fatigue Syndrome in Dengue]] does not measure autoimmune markers and is not directly about autoimmunity — but it provides two findings that are relevant here as indirect evidence of a shared host-immunological axis across post-dengue outcomes:
@@ -107,11 +117,14 @@ The comparison between Li2018 and Shih2023 reveals two findings robust enough to
 - The Berlin2007 viral-infection ANA rate (21.7%) closely matches Garcia2009 (23.1%), raising the question of whether dengue-associated ANA is qualitatively distinct from generic viral-infection-triggered ANA, or a manifestation of the same phenomenon measured at an unusually late (2-year) time point.
 - Johnson2022 documents that bystander polyclonal activation during severe viral infection (COVID-19) does NOT significantly elevate ANA above ICU-level controls, suggesting that cytokine storm alone is insufficient to explain ANA elevation — making dengue-specific mechanisms (molecular mimicry, FcγRIIa-driven IC persistence) the more plausible explanations for the Garcia2009 finding.
 - **Discrepant specific autoimmune signals**: Shih2023 (Taiwan, n=63,814 lab-confirmed, population-based) found only ADEM significantly elevated after dengue. Chatterjee2024 (India, n=135, hospital-based) found MCTD and myositis significantly elevated. These findings are not necessarily contradictory — different study designs, settings, populations, and outcome definitions — but they cannot be reconciled into a single picture yet. Shih2023 may have lacked statistical power for rare rheumatological outcomes (MCTD and myositis cases would be very few in any cohort). Alternatively, the Chatterjee2024 signal may reflect setting-specific factors (endemic dengue, hospital enrichment of severe/unusual cases).
+- **ANA-negative MAS (Morel2014) vs. autoantibody-severity correlation (Wan2012):** Wan2012 (cited in Palacios2016) reports that anti-endothelial cell autoantibody levels — measured by flow cytometry — are higher in DHF/DSS than in DF. This implies autoantibody production tracks with dengue severity. Yet Morel2014's MAS cases, the most severe autoimmune presentations in this wiki, show negative standard ANA and anti-dsDNA. The resolution: these measure *different antibody populations*. Wan2012's "autoantibodies" are anti-endothelial cell Abs by flow cytometry; Morel2014 tested standard antinuclear panel. Additionally, MAS/HLH is macrophage/T cell-driven, not autoantibody-driven. The two observations target categorically different immune effector mechanisms. The practical implication: **negative ANA does not rule out severe dengue immune complications** — it only excludes one mechanism.
+
 - **Unresolved tension**: Garcia2009 found elevated ANA, IC, and CRP at 2 years post-dengue (23.1% ANA positivity), yet Shih2023 finds no elevated incidence of clinical autoimmune diseases over a mean 4.57-year follow-up. These findings appear contradictory but may be reconciled: (1) ANA positivity is not equivalent to autoimmune disease — most ANA-positive individuals, especially at low titres, never develop clinical disease; (2) the Garcia2009 autoimmune markers were measured in a highly selected symptomatic subset with multiple prior infections, while Shih2023 covers all dengue patients including mild/asymptomatic; (3) elevated IC and CRP may reflect post-infectious inflammation rather than true autoimmunity. The Garcia2009 autoimmune marker elevations may represent a biologically real phenomenon that nonetheless falls below the threshold for clinical disease in the vast majority of patients.
 
 ## Related Pages
 - [[Post-Dengue Syndrome]]
 - [[Dengue Neurological Complications]]
+- [[Macrophage Activation Syndrome in Dengue]]
 - [[FcγRIIa Receptor]]
 - [[Antibody-Dependent Enhancement]]
 - [[Antinuclear Antibodies]]
@@ -121,7 +134,9 @@ The comparison between Li2018 and Shih2023 reveals two findings robust enough to
 - [[Taiwan]]
 - [[India]]
 - [[Singapore]]
+- [[Paraguay]]
 - [[Line Immunoassay ANA]]
+
 ## Sources
 - [[Garcia2009 - Long-term Clinical Symptoms Post-Dengue]]
 - [[Tan1997 - ANA Range in Healthy Individuals]] (healthy-population ANA baseline)
@@ -139,3 +154,8 @@ The comparison between Li2018 and Shih2023 reveals two findings robust enough to
 - [[Chatterjee2024 - ANA Detection in Dengue Kolkata]] (acute dengue ANA: 54.8% IIFA positive [HEp-2] vs. 10.3% controls; 18.5% LIA confirmed vs. 7.1% controls; MCTD and myositis significantly elevated; India hospital-based cohort)
 - [[Wan2012 - Autoimmunity in Dengue Pathogenesis]] (capstone NCKU review; autoantibody kinetics — acute peak, convalescent decline, months persistence; LYRIC/RGD/capsid mimicry targets; intrinsic ADE–autoimmunity link; dengue→SLE case reports)
 - [[Seet2007 - Post-Infectious Fatigue Syndrome in Dengue]] (sex-bias convergence: OR 9.687 for female sex in post-dengue fatigue; severity-independence replicated in Singapore cohort; supports female-biased post-dengue immune dysregulation across independent settings)
+- [[Morel2014 - Autoimmune Response in Children With Dengue]] (3 pediatric cases Paraguay; ANA/anti-dsDNA negative in ALL cases including 2 severe MAS; IgM anticardiolipin positive only in mild Case 1; MAS responded to methylprednisolone; establishes ANA-negative macrophage-driven dengue autoimmunity as a distinct phenotype)
+- [[Palacios2016 - Autoimmunity in Dengue Literature Review]] (letter to editor responding to Morel2014; adds MAS+nephrotic syndrome [Lai 2012], SLE+lupus nephritis with ANA+ [Talib 2013], retinal vasculitis [Chang 2007]; cites Wan2012 autoantibody-severity correlation and Garcia2009 2-year persistence; calls for larger endemic-population studies)
+- [[Lin2001 - IgM Anti-Platelet Autoantibody in Dengue Patients]] (foundational NCKU paper; original demonstration of IgM anti-platelet autoantibodies; lysis severity-correlated, aggregation inhibition not; primary-infection context; dengue-specific; Taiwan DENV-3 outbreak)
+- [[Oishi2003 - PAIgG and Thrombocytopenia in Secondary Dengue]] (secondary infection; anti-dengue IgG immune complexes on platelets rather than anti-platelet autoAbs; FcγRII-independent dengue-platelet binding; mechanistic contrast with primary-infection IgM autoAb pathway; Philippines cohort)
+- [[Bos2025 - Longitudinal Antibody Dynamics After Dengue]] (indirect — NS1-IgG waning t½≈2.1y provides kinetic context for decline of NS1-mimicry component of autoantibody repertoire; bridges Chatterjee2024 acute ANA spike toward Garcia2009 2-year ANA; PREPRINT)

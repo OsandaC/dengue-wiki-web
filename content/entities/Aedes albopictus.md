@@ -1,9 +1,9 @@
 ---
 type: entity
-tags: [vector, Aedes-albopictus, secondary-vector, Europe, USA, invasion]
+tags: [vector, Aedes-albopictus, secondary-vector, Europe, USA, invasion, C6-36-cell-line]
 created: 2026-04-12
-updated: 2026-04-12
-sources: 1
+updated: 2026-04-16
+sources: 2
 ---
 
 # Aedes albopictus
@@ -27,3 +27,4 @@ sources: 1
 
 ## Sources
 - [[Guzman2016 - Dengue Infection]]
+- [[Oishi2003 - PAIgG and Thrombocytopenia in Secondary Dengue]] (*Ae. albopictus* C6/36 cell line used to propagate purified dengue virus for indirect ELISA antigen — methodological role only, not vector epidemiology)

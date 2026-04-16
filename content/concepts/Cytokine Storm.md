@@ -1,9 +1,9 @@
 ---
 type: concept
-tags: [cytokines, immunopathogenesis, IL-10, TNF-alpha, IFN-alpha, vascular-permeability, plasma-leakage, DHF, DSS, TLR4, NS1, bystander-activation]
+tags: [cytokines, immunopathogenesis, IL-10, TNF-alpha, IFN-alpha, vascular-permeability, plasma-leakage, DHF, DSS, TLR4, NS1, bystander-activation, MAS, macrophage-activation-syndrome, HLH, hyperferritinemia]
 created: 2026-04-13
-updated: 2026-04-13
-sources: 4
+updated: 2026-04-16
+sources: 7
 ---
 
 # Cytokine Storm
@@ -57,6 +57,16 @@ The cytokine cascade follows a characteristic time course:
 - Vascular permeability peaks at **defervescence**, not during peak viraemia — suggesting threshold-dependent cytokine-mediated effects rather than direct viral cytopathology (see [[Dengue Pathophysiology]])
 - Resolution is typically rapid (24-36 hours in non-fatal cases), consistent with a reversible soluble-mediator mechanism rather than structural endothelial damage
 
+### Macrophage Activation Syndrome — Extreme End of the Cytokine Spectrum
+
+[[Morel2014 - Autoimmune Response in Children With Dengue]] documents dengue-triggered Macrophage Activation Syndrome (MAS/secondary HLH) in two Paraguayan paediatric patients. MAS represents the most extreme form of dengue-associated cytokine dysregulation and is characterised by macrophage/CD8+ T cell hyperactivation rather than by autoantibody production. Key cytokine correlates in MAS include IL-18, IFN-gamma, and IL-6 (not directly measured in Morel2014, but established in HLH pathophysiology literature).
+
+The dengue-specific triggers of macrophage hyperactivation in these cases likely include NS1-TLR4 activation (sNS1 acting as a macrophage-activating signal), ADE-mediated FcγR entry amplifying intracellular viral replication in macrophages, and possibly direct DENV infection of macrophages. The result is a positive feedback loop: macrophage activation → cytokine release → further macrophage recruitment → spiralling hyperferritinemia (Case 3: 3828 mg/dl) and cytopenias.
+
+Critically, these MAS cases were **ANA and anti-dsDNA negative** — confirming that macrophage-driven cytokine storm in dengue does not require or produce nuclear autoantibodies. This distinguishes the MAS mechanism from the NS1 molecular mimicry → anti-platelet/anti-endothelial antibody pathway (see [[NS1 Molecular Mimicry in Dengue]]).
+
+[[Palacios2016 - Autoimmunity in Dengue Literature Review]] adds a MAS case with nephrotic syndrome (Lai et al. 2012), extending the dengue-MAS spectrum to adults and documenting renal involvement. See [[Macrophage Activation Syndrome in Dengue]] for the full clinical characterisation.
+
 ## Contradictions & Debates
 - **Cause vs. consequence:** Elevated cytokines in severe dengue may be driving pathology or may be markers of a more vigorous but ultimately appropriate immune response to higher intracellular viral loads (from ADE). Sungnak2025 matched viremia across severity groups, partially addressing this — but intracellular viral burden in tissue-resident macrophages is not captured by plasma viremia measurement.
 - **IFN-alpha paradox:** IFN-alpha is essential for antiviral defence, yet elevated in severe disease. Whether the problem is too much IFN-alpha, the wrong timing, or an ADE-amplified IFN response to endosomally delivered viral RNA remains unresolved (see [[Type I Interferon Response in Dengue]]).
@@ -68,6 +78,7 @@ The cytokine cascade follows a characteristic time course:
 - [[Antibody-Dependent Enhancement]]
 - [[NS1 Protein]]
 - [[NS1 Molecular Mimicry in Dengue]]
+- [[Macrophage Activation Syndrome in Dengue]]
 - [[Type I Interferon Response in Dengue]]
 - [[T Cell Responses in Dengue]]
 - [[Original Antigenic Sin]]
@@ -79,3 +90,6 @@ The cytokine cascade follows a characteristic time course:
 - [[Wan2012 - Autoimmunity in Dengue Pathogenesis]] (intrinsic ADE cytokine amplification; IL-10/platelet correlation; TNF-alpha endothelial activation; MIF/MMP-9/MCP-1; OAS cytokine production)
 - [[Guzman2016 - Dengue Infection]] (NS1-TLR4 cytokine trigger; IFN-beta bone marrow suppression; IL-10/TNF haplotype genetics; vascular permeability onset at defervescence)
 - [[Johnson2022 - Infectious Diseases Autoantibodies and Autoimmunity]] (bystander activation via cytokines; IFN-alpha/pDC/polyclonal B cell pathway; COVID-19 ANA comparator)
+- [[Morel2014 - Autoimmune Response in Children With Dengue]] (dengue-triggered MAS as extreme cytokine storm; ANA-negative; responded to methylprednisolone; hyperferritinemia 3828 mg/dl in most severe case)
+- [[Palacios2016 - Autoimmunity in Dengue Literature Review]] (additional MAS + nephrotic syndrome case; literature context for dengue-MAS as cytokine-driven complication)
+- [[Oishi2003 - PAIgG and Thrombocytopenia in Secondary Dengue]] (complement activation invoked in secondary-infection platelet clearance; immune-complex-driven macrophage engagement)

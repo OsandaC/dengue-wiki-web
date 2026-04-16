@@ -2,8 +2,8 @@
 type: concept
 tags: [vaccines, CYD-TDV, DENVax, TAK-003, TV003, tetravalent, live-attenuated, subunit, ADE, seronegative, phase-III, correlates-of-protection]
 created: 2026-04-12
-updated: 2026-04-12
-sources: 3
+updated: 2026-04-16
+sources: 4
 ---
 
 # Dengue Vaccine Candidates
@@ -85,3 +85,4 @@ Dengue vaccine development is complicated by the need to simultaneously protect 
 - [[Guzman2016 - Dengue Infection]] (vaccine landscape as of 2016)
 - [[Sungnak2025 - Distinct Immune Responses Asymptomatic Symptomatic Dengue]] (vaccine implications from protective immune correlates)
 - [[Wan2012 - Autoimmunity in Dengue Pathogenesis]] (NS1 vaccine paradox: complement-mediated protection vs. autoimmune cross-reactivity)
+- [[Lin2001 - IgM Anti-Platelet Autoantibody in Dengue Patients]] (foundational anti-platelet IgM finding; discussion section explicitly notes need to avoid pathogenic cross-reactive epitopes in NS1-based vaccine design)

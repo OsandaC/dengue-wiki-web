@@ -1,9 +1,9 @@
 ---
 type: entity
-tags: [serotype, DENV-1, epidemiology, secondary-infection, ADE, Singapore]
+tags: [serotype, DENV-1, epidemiology, secondary-infection, ADE, Singapore, Nicaragua, antibody-kinetics]
 created: 2026-04-12
-updated: 2026-04-13
-sources: 2
+updated: 2026-04-16
+sources: 4
 ---
 
 # DENV-1
@@ -33,8 +33,11 @@ DENV-1 is one of the four dengue virus serotypes. It was the first to be introdu
 - [[Asymptomatic Dengue Infection]]
 - [[Cuba]]
 - [[Singapore]]
+- [[Nicaragua]]
 - [[E Protein]]
 
 ## Sources
 - [[Guzman2016 - Dengue Infection]]
 - [[Seet2007 - Post-Infectious Fatigue Syndrome in Dengue]] (Singapore 2005: DEN-1 dominant, 20/27 serotyped patients)
+- [[Bos2025 - Longitudinal Antibody Dynamics After Dengue]] (Nicaragua pediatric cohort; DENV-1 a circulating serotype; longitudinal antibody kinetics primary/secondary; PREPRINT)
+- [[Oishi2003 - PAIgG and Thrombocytopenia in Secondary Dengue]] (HI antigen panel classification using all four DENV serotypes; secondary-infection thrombocytopenia mechanism context)

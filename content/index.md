@@ -1,10 +1,10 @@
 # Dengue Wiki — Master Index
 
-*Last updated: 2026-04-14 | Sources: 20 | Total pages: 75*
+*Last updated: 2026-04-16 | Sources: 24 | Total pages: 84*
 
 ---
 
-## Sources (20)
+## Sources (24)
 
 | Page | Year | Journal | Citations (SS / CR) | Key Topics |
 |------|------|---------|---------------------|------------|
@@ -28,8 +28,12 @@
 | [[Chatterjee2024 - ANA Detection in Dengue Kolkata]] | 2024 | Virulence | 2 / 2 | ANA in acute dengue; HEp-2 IIFA 54.8% vs. 10.3% controls; LIA 18.5%; ~66% IIFA-positives non-specific; MCTD and myositis significantly elevated; Kolkata India hospital-based; n=135 |
 | [[Seet2007 - Post-Infectious Fatigue Syndrome in Dengue]] | 2007 | J Clin Virology | 140 / 126 | Post-dengue fatigue; 24.4% at 2 months; severity-independence; OR 9.687 female sex; Singapore DEN-1 outbreak; n=127 |
 | [[Bos2025 - Longitudinal Antibody Dynamics After Dengue]] | 2025 | medRxiv (PREPRINT) | 0 / 0 | XR E-IgG rising 6–18M post-primary (t½=−2.13y); NS1-IgG waning (t½≈2.1y); EDI/II vs EDIII domain specificity; IgA/IgM/IgG3/IgG4 kinetics at 18M; Nicaragua HIMJR pediatric cohort; n=79 |
+| [[Lin2001 - IgM Anti-Platelet Autoantibody in Dengue Patients]] | 2001 | J Med Virol | 195 / 95 | Foundational IgM anti-platelet autoantibody study; DENV-3 Taiwan 1998–99; lysis severity-correlated, aggregation inhibition not; primary-infection context; dengue-specific vs. JEV/HCV/EV71 |
+| [[Morel2014 - Autoimmune Response in Children With Dengue]] | 2014 | Reumatol Clin | null / 0 | MAS/secondary HLH in 3 pediatric dengue cases; ANA/anti-dsDNA negative in all cases; anticardiolipin IgM positive in mild Case 1 only; MAS responded to methylprednisolone; Paraguay endemic setting |
+| [[Palacios2016 - Autoimmunity in Dengue Literature Review]] | 2016 | Reumatol Clin | 1 / 0 | Letter to editor; responds to Morel2014; adds MAS+nephrotic syndrome, SLE+ANA+/anti-dsDNA+ (Talib 2013), retinal vasculitis; cites Wan2012 autoantibody-severity correlation; calls for larger endemic studies |
+| [[Oishi2003 - PAIgG and Thrombocytopenia in Secondary Dengue]] | 2003 | J Med Virol | 62 / 41 | PAIgG–thrombocytopenia inverse correlation in secondary dengue; anti-dengue IgG (not anti-platelet autoAb) in platelet eluates; FcγRII not required for dengue-platelet binding; Philippines; n=53 |
 
-*Citations: SS = Semantic Scholar, CR = CrossRef. Retrieved 2026-04-12 (existing) / 2026-04-13 (Seet2007, Li2018, Bruhns2009) / 2026-04-14 (Bos2025). Recent papers and preprints will have low counts regardless of quality.*
+*Citations: SS = Semantic Scholar, CR = CrossRef. Retrieved 2026-04-12 (existing) / 2026-04-13 (Seet2007, Li2018, Bruhns2009) / 2026-04-14 (Bos2025) / 2026-04-15 (Morel2014, Palacios2016, Lin2001, Oishi2003). Morel2014 SS not indexed at English-edition DOI (null). Recent papers and preprints will have low counts regardless of quality.*
 
 ### By citation count (SS)
 
@@ -54,7 +58,11 @@
 | 17 | [[Shih2023 - Autoimmune Disease Risk After Dengue]] | 2023 |
 | 2 | [[Chatterjee2024 - ANA Detection in Dengue Kolkata]] | 2024 |
 | 1 | [[Sungnak2025 - Distinct Immune Responses Asymptomatic Symptomatic Dengue]] | 2025 |
+| 1 | [[Palacios2016 - Autoimmunity in Dengue Literature Review]] | 2016 |
 | 0 | [[Bos2025 - Longitudinal Antibody Dynamics After Dengue]] | 2025 |
+| 195 | [[Lin2001 - IgM Anti-Platelet Autoantibody in Dengue Patients]] | 2001 |
+| 62 | [[Oishi2003 - PAIgG and Thrombocytopenia in Secondary Dengue]] | 2003 |
+| null | [[Morel2014 - Autoimmune Response in Children With Dengue]] | 2014 |
 
 ---
 
@@ -62,47 +70,48 @@
 
 | Page | Type | Sources |
 |------|------|---------|
-| [[DENV-1]] | Serotype | 2 |
-| [[DENV-2]] | Serotype | 2 |
-| [[DENV-3]] | Serotype | 3 |
-| [[DENV-4]] | Serotype | 3 |
-| [[FcγRIIa Receptor]] | Receptor / genetic locus | 4 |
+| [[DENV-1]] | Serotype | 4 |
+| [[DENV-2]] | Serotype | 5 |
+| [[DENV-3]] | Serotype | 7 |
+| [[DENV-4]] | Serotype | 5 |
+| [[FcγRIIa Receptor]] | Receptor / genetic locus | 5 |
 | [[Aedes aegypti]] | Vector | 5 |
-| [[Aedes albopictus]] | Vector | 1 |
-| [[NS1 Protein]] | Viral protein | 5 |
+| [[Aedes albopictus]] | Vector | 2 |
+| [[NS1 Protein]] | Viral protein | 9 |
 | [[E Protein]] | Viral protein | 3 |
 | [[CYD-TDV]] | Vaccine | 1 |
 | [[Wolbachia]] | Endosymbiont / vector control | 1 |
 
 ---
 
-## Concepts (19)
+## Concepts (20)
 
 | Page | Sources |
 |------|---------|
 | [[Post-Dengue Syndrome]] | 4 |
-| [[Autoimmunity in Dengue]] | 16 |
-| [[Antibody-Dependent Enhancement]] | 7 |
+| [[Autoimmunity in Dengue]] | 21 |
+| [[Antibody-Dependent Enhancement]] | 8 |
 | [[Asymptomatic Dengue Infection]] | 4 |
 | [[Antinuclear Antibodies]] | 8 |
 | [[Infection-Triggered Autoimmunity]] | 6 |
-| [[NS1 Molecular Mimicry in Dengue]] | 4 |
+| [[NS1 Molecular Mimicry in Dengue]] | 7 |
 | [[T Cell Responses in Dengue]] | 2 |
 | [[NK Cell Responses in Dengue]] | 1 |
 | [[Type I Interferon Response in Dengue]] | 2 |
 | [[Viraemia]] | 2 |
-| [[Dengue Pathophysiology]] | 2 |
+| [[Dengue Pathophysiology]] | 5 |
 | [[Dengue Clinical Classification]] | 1 |
-| [[Dengue Vaccine Candidates]] | 3 |
+| [[Dengue Vaccine Candidates]] | 4 |
 | [[Original Antigenic Sin]] | 1 |
-| [[Dengue Neurological Complications]] | 2 |
-| [[Secondary Dengue Infection]] | 6 |
-| [[Cross-Reactive Antibodies]] | 6 |
-| [[Cytokine Storm]] | 4 |
+| [[Dengue Neurological Complications]] | 3 |
+| [[Secondary Dengue Infection]] | 9 |
+| [[Cross-Reactive Antibodies]] | 7 |
+| [[Cytokine Storm]] | 7 |
+| [[Macrophage Activation Syndrome in Dengue]] | 2 |
 
 ---
 
-## Methods (12)
+## Methods (13)
 
 | Page | Sources |
 |------|---------|
@@ -113,24 +122,27 @@
 | [[Single-Cell RNA Sequencing]] | 1 |
 | [[V(D)J Sequencing]] | 1 |
 | [[qRT-PCR]] | 1 |
-| [[RT-PCR]] | 2 |
-| [[NS1 Antigen Detection]] | 3 |
-| [[IgM-IgG Serology ELISA]] | 3 |
+| [[RT-PCR]] | 3 |
+| [[NS1 Antigen Detection]] | 6 |
+| [[IgM-IgG Serology ELISA]] | 7 |
 | [[Line Immunoassay ANA]] | 1 |
 | [[Surface Plasmon Resonance]] | 1 |
+| [[Hemagglutination Inhibition Test]] | 1 |
 
 ---
 
-## Geography (6)
+## Geography (8)
 
 | Page | Sources |
 |------|---------|
 | [[Cuba]] | 3 |
 | [[Thailand]] | 1 |
-| [[Taiwan]] | 3 |
+| [[Taiwan]] | 4 |
 | [[India]] | 1 |
-| [[Singapore]] | 1 |
+| [[Singapore]] | 2 |
 | [[Nicaragua]] | 1 |
+| [[Paraguay]] | 1 |
+| [[Philippines]] | 1 |
 
 ---
 

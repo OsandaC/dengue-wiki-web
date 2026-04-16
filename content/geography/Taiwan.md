@@ -1,9 +1,9 @@
 ---
 type: geography
-tags: [Taiwan, dengue-epidemiology, NHIRD, southern-Taiwan, outbreak-2015, laboratory-confirmation, population-cohort, autoimmunity, adrenocortical-insufficiency, ADEM, ICD-coded]
+tags: [Taiwan, dengue-epidemiology, NHIRD, southern-Taiwan, outbreak-2015, laboratory-confirmation, population-cohort, autoimmunity, adrenocortical-insufficiency, ADEM, ICD-coded, DENV-3, anti-platelet, IgM, primary-infection]
 created: 2026-04-12
-updated: 2026-04-13
-sources: 3
+updated: 2026-04-15
+sources: 4
 ---
 
 # Taiwan
@@ -13,8 +13,11 @@ Taiwan is a non-endemic but periodically hyperendemic dengue setting. Dengue out
 
 ## Key Points from Literature
 
+### 1998–1999 DENV-3 Outbreak (Southern Taiwan)
+[[Lin2001 - IgM Anti-Platelet Autoantibody in Dengue Patients]] studied a DENV-3 outbreak in southern Taiwan (November 1998–January 1999), confirmed and reported by the Taiwan CDC. Clinical profile: 5 DF patients (ages 7–17, mostly male) and 4 DHF/DSS patients (ages 13–57). Most patients had **primary infection** (confirmed by haemagglutination inhibition assay). The outbreak provided the patient sera for the foundational study of dengue anti-platelet IgM autoantibody generation. Note: DHF/DSS occurred predominantly in primary infections in this cohort, supporting an ADE-independent thrombocytopenia mechanism via IgM anti-platelet lysis.
+
 ### Epidemic History and Scale
-- Major outbreaks in Taiwan: 1981, 1987–88, 2001–02, and 2007; DENV-2 predominated in 2002; primary DENV-1 or DENV-3 in 2004–2007 (see [[Wan2012 - Autoimmunity in Dengue Pathogenesis]])
+- Major outbreaks in Taiwan: 1981, 1987–88, 1998–99 (DENV-3, southern Taiwan), 2001–02, and 2007; DENV-2 predominated in 2002; primary DENV-1 or DENV-3 in 2004–2007 (see [[Wan2012 - Autoimmunity in Dengue Pathogenesis]])
 - Between 2002 and 2015, 63,814 laboratory-confirmed dengue cases were recorded in the NDDCC (Notifiable Disease Dataset of Confirmed Cases), concentrated in southern Taiwan (see [[Shih2023 - Autoimmune Disease Risk After Dengue]]).
 - The 2014–2015 dengue epidemics were the most severe in Taiwan's history, causing over 58,000 confirmed cases. These epidemics greatly expanded the available case count for epidemiological study.
 - Dengue has not been endemic in Taiwan; overall incidence and seroprevalence remain low outside epidemic periods, meaning misclassification of controls as cases is a smaller concern than in hyperendemic countries.
@@ -57,6 +60,7 @@ The Li2018 and Shih2023 studies together demonstrate that Taiwan's NHIRD, combin
 - [[Aedes aegypti]]
 
 ## Sources
+- [[Lin2001 - IgM Anti-Platelet Autoantibody in Dengue Patients]] (DENV-3 outbreak southern Taiwan Nov 1998–Jan 1999; foundational anti-platelet IgM study; mostly primary infection; DHF/DSS occurred in primary infection cohort)
 - [[Li2018 - Increased Risk of Autoimmune Diseases in Dengue]] (ICD-coded NHIRD cohort 2000–2010; aHR 1.88 overall; adrenocortical insufficiency most frequent outcome; ADEM aHR 3.80; GBS non-significant; subsequently critiqued by Shih2023)
 - [[Shih2023 - Autoimmune Disease Risk After Dengue]] (lab-confirmed NHIRD cohort; only ADEM elevated after Bonferroni correction; 51.4% pre-2015 ICD misclassification identified; most rigorous Taiwan dengue-autoimmunity study)
 - [[Wan2012 - Autoimmunity in Dengue Pathogenesis]] (epidemic history; age distribution; seasonal pattern)

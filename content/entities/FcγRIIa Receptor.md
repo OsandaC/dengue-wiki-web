@@ -1,9 +1,9 @@
 ---
 type: entity
-tags: [Fc-receptor, FcgRIIa, genetics, polymorphism, immune-complex, leukocyte, IgG-affinity, SPR, IgG2, inhibitory-receptor, FcgRIIB]
+tags: [Fc-receptor, FcgRIIa, genetics, polymorphism, immune-complex, leukocyte, IgG-affinity, SPR, IgG2, inhibitory-receptor, FcgRIIB, thrombocytopenia, PAIgG]
 created: 2026-04-11
-updated: 2026-04-13
-sources: 4
+updated: 2026-04-15
+sources: 5
 ---
 
 # FcγRIIa Receptor
@@ -50,6 +50,7 @@ Guzman2016 (Table 2) lists FCGR2A alongside multiple other host genetic loci ass
 The FCGR2A H131 allele (HH genotype) is listed under susceptibility DF/DHF; the R131 allele (RR genotype) is listed under resistance/better outcome — consistent with the Garcia2010 Cuban data.
 
 ## Contradictions & Debates
+- **FcγRII not required for dengue-platelet binding in secondary infection:** [[Oishi2003 - PAIgG and Thrombocytopenia in Secondary Dengue]] (citing Wang et al. 1995) demonstrates that dengue-2 virus binds platelets in the presence of virus-specific antibody, and that a monoclonal antibody blocking FcγRII does NOT inhibit this binding. The PAIgG mechanism of thrombocytopenia in secondary infection is therefore FcγRII-independent at the platelet docking step. This creates an apparent paradox: Garcia2010 shows FcγRIIa-HH genotype dramatically increases DHF/DSS risk (OR 10.56), yet the platelet destruction mechanism does not go through FcγRII. The resolution is likely that FcγRIIa's clinical importance operates via a different pathway — ADE-mediated viral uptake into monocytes/macrophages — rather than at the platelet surface. FcγRIIa may still influence downstream macrophage clearance of PAIgG-coated platelets (which *does* involve FcγR on macrophages), but this has not been directly tested.
 - **Mechanism revision required:** The prior standard explanation — HH genotype has *lower* IgG1/IgG3 affinity → poor IC clearance → IC accumulation → inflammation — is not supported by [[Bruhns2009 - FcγR Specificity and Affinity for IgG Subclasses]]. Bruhns shows H131 (HH allele) binds IgG1 slightly *more* efficiently than R131 (52 vs 35 ×10⁵ M⁻¹). The Overview of this page has been corrected accordingly. What makes HH worse in dengue remains mechanistically unclear. Three live hypotheses: (1) more efficient IgG1 binding in H131 → *over-activation* of inflammatory signalling via FcγRIIA-ITAM; (2) the key variable is IgG2 (where H131 has 4.5× advantage), not IgG1 — but anti-dengue IgG2 abundance in secondary infection is not well characterised; (3) the FcγRIIB inhibitory deficit (too weak to provide independent negative feedback) affects all individuals equally and is not the mechanism behind HH-specific risk.
 - **Garcia2009/2010 proposed mechanism:** The Garcia papers propose that HH impairs IC clearance via failed phagolysosome fusion. This mechanism should be understood as a functional cell biology hypothesis that predates and is not consistent with the Bruhns affinity data. The appropriate revision is not yet available in the dengue literature.
 
@@ -67,3 +68,4 @@ The FCGR2A H131 allele (HH genotype) is listed under susceptibility DF/DHF; the 
 - [[Garcia2010 - Asymptomatic Dengue FcγRIIa Polymorphism]]
 - [[Guzman2016 - Dengue Infection]] (Table 2 host genetics; FCGR2A H131/R131 confirmed; broader genetic context)
 - [[Bruhns2009 - FcγR Specificity and Affinity for IgG Subclasses]] (authoritative SPR affinity data; H131 4.5× higher IgG2 affinity than R131; IgG1/IgG3 affinities nearly equal; FcγRIIB ~43× weaker than FcγRIIA for IgG1)
+- [[Oishi2003 - PAIgG and Thrombocytopenia in Secondary Dengue]] (FcγRII not required for dengue-platelet binding; Wang 1995 cited; paradox with Garcia2010 HH-DHF risk)

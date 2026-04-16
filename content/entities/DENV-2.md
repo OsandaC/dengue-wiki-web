@@ -1,9 +1,9 @@
 ---
 type: entity
-tags: [serotype, DENV-2, Asian-genotype, virulence, ADE, secondary-infection, Cuba, CNS-invasion, neuropathogenesis]
+tags: [serotype, DENV-2, Asian-genotype, virulence, ADE, secondary-infection, Cuba, CNS-invasion, neuropathogenesis, anti-platelet, IgM, autoantibody-cross-serotype]
 created: 2026-04-12
-updated: 2026-04-12
-sources: 2
+updated: 2026-04-16
+sources: 5
 ---
 
 # DENV-2
@@ -22,6 +22,9 @@ DENV-2 is one of the four dengue virus serotypes and is historically associated 
 ### CNS Tropism and Neuropathogenesis
 DENV-2, along with DENV-3, is specifically implicated in **direct CNS invasion** causing encephalitis (rather than mere encephalopathy from systemic effects). This CNS tropism is one of three pathways to neurological disease in dengue — the others being metabolic/systemic encephalopathy and autoimmunity-mediated complications such as ADEM (see [[Dengue Neurological Complications]]). The molecular basis likely resides in NS protein variation, as genetic changes affecting NS proteins are associated with altered tissue tropism and epidemic potential across serotypes (see [[Shih2023 - Autoimmune Disease Risk After Dengue]], [[Guzman2016 - Dengue Infection]]).
 
+### Anti-Platelet IgM in DENV-2 Infection
+[[Lin2001 - IgM Anti-Platelet Autoantibody in Dengue Patients]] tested a single DENV-2 dengue fever patient (acute serum, August 1996) and found anti-platelet IgM levels comparable to DENV-3 DF acute patients (26.0±4.2% reactive platelets; MFI 132.5±18.5 vs. normal: 5.2±1.6%, MFI 46.2±7.2). This confirms that the anti-platelet IgM phenomenon is not DENV-3-specific, consistent with all four dengue serotypes sharing the NS1-P1 (aa 1–15) B-cell epitope (Huang et al. 1999, cited in Lin2001).
+
 ## Contradictions & Debates
 - Asian genotype DENV-2 is described as more virulent than American DENV-2 — but the comparative assessment of genotype virulence is complicated by confounding factors: host immunity, mosquito vector competence, and epidemiological context (density of susceptible individuals). A direct genotypic virulence effect independent of these factors has not been cleanly demonstrated in humans.
 
@@ -39,3 +42,6 @@ DENV-2, along with DENV-3, is specifically implicated in **direct CNS invasion**
 ## Sources
 - [[Guzman2016 - Dengue Infection]]
 - [[Shih2023 - Autoimmune Disease Risk After Dengue]] (CNS invasion neuropathogenesis pathway)
+- [[Lin2001 - IgM Anti-Platelet Autoantibody in Dengue Patients]] (DENV-2 patient confirmed anti-platelet IgM; comparable to DENV-3 levels — cross-serotype generalisation)
+- [[Oishi2003 - PAIgG and Thrombocytopenia in Secondary Dengue]] (DENV-2 antigen used in HI titer panel; secondary-infection PAIgG mechanism context)
+- [[Palacios2016 - Autoimmunity in Dengue Literature Review]] (Wan2012 cross-serotype autoantibody data: similar autoantibody levels in DENV-2/3/4)
