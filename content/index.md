@@ -183,7 +183,7 @@
 
 | Page | Topics |
 |------|--------|
-| [[ANA and Dengue - A Literature Review]] | Comprehensive synthesis: healthy-population baselines, acute ANA (54.8% IIFA), mechanisms (molecular mimicry, bystander activation, epitope spreading), post-dengue persistence, clinical outcome constraints, host modifiers, open questions |
+| [[ANA and Dengue - A Literature Review]] | Comprehensive synthesis: healthy-population baselines, acute ANA (54.8% IIFA), polyreactive IgM as mechanism for non-specific fraction (§4.5), Gawali2021 6-month trajectory point (§6.2), mechanisms, post-dengue persistence, clinical outcome constraints (Rajadhyaksha2012 Class IV LN + Velazqueza2017 SLE case series in §8), host modifiers, 14 open questions |
 | [[Wiki State and Gap Analysis 2026-04-13]] | Current wiki state (16 sources, 64 pages); gap map vs. 2026-04-12; ANA thread status; ingest priorities |
 | [[Wiki State and Gap Analysis 2026-04-12]] | Earlier gap analysis (9 sources, 27 pages); superseded |
 | [[Reading Plan - ANA and Dengue Dynamics]] | Sequential reading order for all 15 papers, layered to build toward ANA-dengue discussion |
