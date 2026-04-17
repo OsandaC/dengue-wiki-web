@@ -1,9 +1,9 @@
 ---
 type: concept
-tags: [ANA, antinuclear-antibody, autoimmunity, IIF, HEp-2, prevalence, SLE, healthy-population, viral-infection, acute-dengue, LIA, India]
+tags: [ANA, antinuclear-antibody, autoimmunity, IIF, HEp-2, prevalence, SLE, healthy-population, viral-infection, acute-dengue, LIA, India, polyreactive-antibodies, post-dengue, 6-month-follow-up]
 created: 2026-04-12
-updated: 2026-04-12
-sources: 8
+updated: 2026-04-17
+sources: 11
 ---
 
 # Antinuclear Antibodies
@@ -75,9 +75,24 @@ These infection-triggered ANA may be transient: a study cited by Berlin2007 foun
 - **Critical gap:** Only ~34% of IIFA-positive dengue patients confirmed by LIA. The remaining ~66% were IIFA-positive but LIA-negative — indicating non-specific or low-titer nuclear reactivities not corresponding to established autoimmune disease specificities.
 - Study: Kolkata, India; 135 dengue-confirmed + 126 dengue-negative controls; Feb 2021–Feb 2024; IgM ELISA-confirmed (94%) and RT-PCR (6%).
 
-The contrast between the IIFA rate (54.8%) and the LIA rate (18.5%) is mechanistically important: it means dengue massively upregulates general antinuclear reactivity — likely through bystander activation and/or molecular mimicry — but the vast majority of these antibodies do not correspond to the specific autoantibody targets of established systemic autoimmune diseases. This is consistent with Shih2023's population-level finding that dengue does not broadly elevate clinical autoimmune disease incidence.
+The contrast between the IIFA rate (54.8%) and the LIA rate (18.5%) is mechanistically important: it means dengue massively upregulates general antinuclear reactivity, but the vast majority of these antibodies do not correspond to the specific autoantibody targets of established systemic autoimmune diseases. This is consistent with Shih2023's population-level finding that dengue does not broadly elevate clinical autoimmune disease incidence.
+
+### Dengue-Associated SLE: High-Titer ANA with Antinucleosome Specificity
+
+[[Velazqueza2017 - SLE vs Dengue Case Series]] documents ANA 1:1280 in both pediatric patients (ages 3 and 6) from dengue-endemic Guadalajara, Mexico, diagnosed with SLE concurrent with or following dengue infection. Unlike the population-level ANA data above (characterising non-specific or modestly elevated reactivities without overt autoimmune disease), these are clinically diagnostic ANA titres in the context of frank SLE:
+- Anti-dsDNA positive (1:10 and 31 IU/ml) and antinucleosome antibodies (52 and 258 IU/ml) co-present
+- ANA patterns: homogeneous + cytoplasmic (Case 1) and fine speckled (Case 2)
+- Both cases fulfilled ≥4 ACR 1997 SLE criteria
+
+These cases document the severe end of the dengue-ANA spectrum: dengue-associated ANA can reach clinically SLE-diagnostic levels with disease-specific autoantibody co-positivity. The contrast with the non-specific IIFA-positive, LIA-negative majority in Chatterjee2024 (the ~66% non-specific fraction) is instructive: both extremes of the dengue ANA spectrum are now documented in this wiki. (n=2 case series — not generalizable to population-level risk.)
+
+**A polyreactive interpretation of the non-specific IIFA fraction:** The [[Zhou2007 - Polyreactive Antibodies Natural Antibody Function]] framework offers a specific mechanism for the ~66% IIFA-positive, LIA-negative dengue patients: these may represent amplification or unmasking of normal **polyreactive IgM** — germline-encoded, low-affinity antibodies that bind structurally unrelated self-antigens (including nuclear antigens) as a constitutive feature of the immune repertoire (see [[Polyreactive Antibodies]]). Polyreactive IgM is always present at low levels in circulation, masked by bound endogenous proteins. Dengue's acute cytokine environment could expand polyclonal IgM production above baseline, generating a transient broad IIFA signal without invoking antigen-driven autoimmune induction. This interpretation is supported by the IgM dominance of the dengue autoantibody signal in Vo2020 (80 IgM vs. 6 IgG autoantibodies elevated) — consistent with polyreactive IgM amplification rather than affinity-matured class-switched autoimmunity.
+
+This polyreactive interpretation applies to the *non-specific* fraction only. The smaller LIA-positive fraction (18.5%) represents specific, disease-associated autoantibodies that require a different explanation (molecular mimicry, epitope spreading) — see [[NS1 Molecular Mimicry in Dengue]].
 
 ### ANA in Post-Dengue Context
+[[Gawali2021 - ANA Prevalence in Seroconverted Dengue Patients]] provides a 6-month time point between Chatterjee2024 (acute) and Garcia2009 (2 years): 22/120 dengue IgG-positive patients (18.33%) were ANA-positive by EUROIMMUN IIFT on HEp-2 cells (1:100 dilution only; no titre data; Gwalior, Central India; n=163 followed up). Dominant pattern was AC-1 (nuclear homogeneous, 81.81%), followed by AC-11 (smooth nuclear envelope, 13.63%) and AC-4 (fine speckled, 4.5%). No control group was tested — the closest comparable baseline is Li2019 (Chinese health-checkup at >1:100: 14.01%), against which 18.33% appears only modestly elevated. **The absence of a contemporaneous dengue-negative control group is the binding limitation** — this figure cannot be confidently attributed to dengue exposure above the regional background ANA rate.
+
 [[Garcia2009 - Long-term Clinical Symptoms Post-Dengue]] found 23.1% ANA positivity in symptomatic Cuban adults 2 years after DENV-4 infection. This is higher than any contemporary healthy-population reference:
 - vs. 5.0% at 1:160 (Tan1997) — 4.6× higher
 - vs. 13.8% at 1:80 (Satoh2012, US population 1999–2004) — 1.7× higher
@@ -88,12 +103,13 @@ The comparison is imperfect: Garcia2009 used **rat liver tissue** as the IIF sub
 ### Comparing ANA Rates Across Dengue Contexts
 A coherent timeline of ANA measurement in dengue now exists in this wiki:
 
-| Study | Timing | Substrate/Method | Platform | Rate |
-|---|---|---|---|---|
-| [[Chatterjee2024 - ANA Detection in Dengue Kolkata]] | Acute (fever clinic) | HEp-2 IIFA | Gold standard | 54.8% |
-| [[Chatterjee2024 - ANA Detection in Dengue Kolkata]] | Acute | LIA (18 specificities) | Confirmatory | 18.5% |
-| [[Berlin2007 - Autoantibodies in Nonautoimmune Individuals during Infections]] | Acute (non-dengue viral) | ELISA (8 antigens) | Narrower panel | 21.7% |
-| [[Garcia2009 - Long-term Clinical Symptoms Post-Dengue]] | 2 years post-dengue | Rat liver IIF | Less sensitive | 23.1% |
+| Study | Timing | Substrate/Method | Platform | Rate | Control group? |
+|---|---|---|---|---|---|
+| [[Chatterjee2024 - ANA Detection in Dengue Kolkata]] | Acute (fever clinic) | HEp-2 IIFA | Gold standard | 54.8% | Yes (10.3%) |
+| [[Chatterjee2024 - ANA Detection in Dengue Kolkata]] | Acute | LIA (18 specificities) | Confirmatory | 18.5% | Yes (7.1%) |
+| [[Berlin2007 - Autoantibodies in Nonautoimmune Individuals during Infections]] | Acute (non-dengue viral) | ELISA (8 antigens) | Narrower panel | 21.7% | Yes (3.8%) |
+| [[Gawali2021 - ANA Prevalence in Seroconverted Dengue Patients]] | 6 months post-dengue | HEp-2 IIFA | Gold standard | 18.33% | **No** |
+| [[Garcia2009 - Long-term Clinical Symptoms Post-Dengue]] | 2 years post-dengue | Rat liver IIF | Less sensitive | 23.1% | No |
 
 The 54.8% acute dengue IIFA rate (Chatterjee2024) is not directly comparable to Garcia2009's 23.1% at 2 years (rat liver substrate underestimates HEp-2 by an unknown factor; different time points). If the acute HEp-2 rate (~55%) eventually declines to ~23% at 2 years (rat liver equivalent), the persistence rate would still be substantial. But if the rat liver 23% corresponds to a HEp-2 equivalent of ~40–50%, then persistence may be even greater — the substrate gap makes this calculation impossible.
 
@@ -108,6 +124,7 @@ The 54.8% acute dengue IIFA rate (Chatterjee2024) is not directly comparable to 
 - [[Indirect Immunofluorescence ANA Test]]
 - [[Line Immunoassay ANA]]
 - [[Infection-Triggered Autoimmunity]]
+- [[Polyreactive Antibodies]]
 - [[Aringer2019 - 2019 EULAR ACR SLE Classification Criteria]]
 - [[India]]
 
@@ -120,3 +137,6 @@ The 54.8% acute dengue IIFA rate (Chatterjee2024) is not directly comparable to 
 - [[Garcia2009 - Long-term Clinical Symptoms Post-Dengue]] (post-dengue ANA at 2 years, rat liver IIF)
 - [[Berlin2007 - Autoantibodies in Nonautoimmune Individuals during Infections]] (ANA during acute non-dengue viral infections, ELISA)
 - [[Chatterjee2024 - ANA Detection in Dengue Kolkata]] (ANA in acute dengue, HEp-2 IIFA 54.8%; LIA 18.5%; MCTD/myositis associations)
+- [[Zhou2007 - Polyreactive Antibodies Natural Antibody Function]] (polyreactive IgM as interpretive framework for non-specific IIFA fraction; properties of polyreactive antibodies distinguishing them from pathogenic autoantibodies)
+- [[Gawali2021 - ANA Prevalence in Seroconverted Dengue Patients]] (ANA at 6-month follow-up in dengue IgG+ patients; 18.33% IIFA-positive on HEp-2; AC-1 dominant; no control group; Gwalior, India; n=120)
+- [[Velazqueza2017 - SLE vs Dengue Case Series]] (ANA 1:1280 in both pediatric dengue cases; homogeneous+cytoplasmic and fine-speckled patterns; antinucleosome 52 and 258 IU/ml; anti-dsDNA co-positive; SLE criteria met; Guadalajara Mexico; n=2 case series)

@@ -3,7 +3,7 @@ type: concept
 tags: [clinical-classification, WHO-2009, warning-signs, DHF, DSS, dengue-fever, severity, diagnosis, triage]
 created: 2026-04-12
 updated: 2026-04-17
-sources: 3
+sources: 5
 ---
 
 # Dengue Clinical Classification
@@ -59,3 +59,5 @@ Three categories:
 - [[Guzman2016 - Dengue Infection]]
 - [[Saito2004 - PAIgG and PAIgM in Secondary Dengue]] (applied 1997 WHO DHF criteria: platelet nadir <100,000/μl + haemorrhagic manifestations + haematocrit increase ≥20% or pleural effusion/ascites; DF defined by haematocrit increase <20% with no pleural effusion; cases graded DHF I–II [no shock]; exemplifies 1997 system in active research use)
 - [[Vo2020 - Autoantibody Profiling in Dengue]] (WHO 1997 classification used: 13 DF vs. 8 DHF hospitalised patients; Cambodia 2012–2013 cohort; all DHF cases secondary infection)
+- [[Pang2017 - DHF Pathogenesis Review]] (1997 WHO DHF/DSS classification used throughout; plasma leakage, thrombocytopenia, coagulopathy as cardinal DHF features; review, China)
+- [[Rajadhyaksha2012 - Dengue Evolving into SLE and Lupus Nephritis]] (1997 WHO DHF cardinal features cited in background discussion: increased vascular permeability, marked thrombocytopenia <100,000/mm³, fever 2–7 days, haemorrhagic tendency; Mumbai India; n=1 case report)

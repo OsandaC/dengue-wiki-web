@@ -1,9 +1,9 @@
 ---
 type: concept
-tags: [autoimmunity, molecular-mimicry, bystander-activation, epitope-spreading, viral-infection, ANA, autoantibodies, post-infectious, NS1, dengue-specific, ADEM, epidemiology]
+tags: [autoimmunity, molecular-mimicry, bystander-activation, epitope-spreading, viral-infection, ANA, autoantibodies, post-infectious, NS1, dengue-specific, ADEM, epidemiology, polyreactive-antibodies, 6-month-follow-up]
 created: 2026-04-12
-updated: 2026-04-12
-sources: 6
+updated: 2026-04-17
+sources: 10
 ---
 
 # Infection-Triggered Autoimmunity
@@ -14,6 +14,20 @@ Infectious agents — viruses, bacteria, fungi, and parasites — can induce aut
 This concept is directly relevant to interpreting autoimmune markers — including ANA positivity — detected in patients recovering from dengue (see [[Autoimmunity in Dengue]]).
 
 ## Key Points from Literature
+
+### A Fourth Interpretive Layer: Polyreactive Antibodies
+
+A mechanistically distinct category often overlooked in the three-mechanism framework is the **normal polyreactive IgM** present constitutively in all individuals (see [[Zhou2007 - Polyreactive Antibodies Natural Antibody Function]] and [[Polyreactive Antibodies]]). These are germline-encoded, low-affinity IgM antibodies that bind structurally unrelated self and non-self antigens — a normal feature of the immune repertoire present from birth.
+
+During acute viral infection, the inflammatory environment (polyclonal B cell stimulation, cytokine amplification, antigen release from damaged tissue) may expand or unmask the polyreactive IgM pool beyond its resting baseline. This would produce a transient, IgM-dominated, broadly self-reactive signal that is:
+- Non-specific by LIA (because LIA tests for defined disease autoantibodies, not polyreactive binding)
+- HEp-2 IIFA-positive (because polyreactive IgM binds nuclear antigens indiscriminately, like any structurally diverse self-antigen)
+- Transient (half-life ~8h; rapidly cleared)
+- Not indicative of antigen-driven autoimmune induction
+
+This framework directly interprets the ~66% IIFA-positive, LIA-negative fraction in acute dengue ([[Chatterjee2024 - ANA Detection in Dengue Kolkata]]) and the 80 elevated IgM autoantibodies in [[Vo2020 - Autoantibody Profiling in Dengue]]. It is complementary to, not replacing, the molecular mimicry/bystander activation/epitope spreading framework — which accounts for the smaller, antigen-specifically induced autoantibody fraction that carries pathological consequences (anti-platelet IgM in Lin2001; anti-endothelial in Lin2006).
+
+**Practical implication:** When evaluating infection-associated ANA, the critical question is not simply whether autoantibodies are present — the normal polyreactive IgM guarantees some level of broad self-reactivity in any inflammatory state — but whether the autoantibodies are IgM vs. IgG, germline vs. affinity-matured, and whether they confirm on disease-specific assays (LIA > IIFA). Positive IIFA + negative LIA is the expected signature of polyreactive IgM noise, not disease.
 
 ### Three Core Mechanisms
 
@@ -51,7 +65,12 @@ Method: ELISA (ANA 8 Pro, Euroimmun; 8 nuclear antigens; 1:100 dilution). The 3.
 ### Transience vs. Persistence
 A central question is whether infection-triggered autoantibodies are transient or persistent:
 - **Evidence for transience**: One study (cited in Berlin2007) found ANA in 20.5% during acute viral hepatitis, dropping to 6.4% in convalescence — a rapid resolution with pathogen clearance
+- **Intermediate time point (6 months)**: [[Gawali2021 - ANA Prevalence in Seroconverted Dengue Patients]] reports 18.33% ANA positivity at 6 months post-dengue in IgG+ patients (HEp-2 IIFA, 1:100; Gwalior, India; n=120). No control group limits interpretation, but the figure is consistent with a partial decline from the acute peak (54.8%, Chatterjee2024) toward the 2-year level (23.1%, Garcia2009 — on less sensitive rat liver substrate). If the trajectory is real, dengue-associated ANA persists well into the sub-acute period rather than resolving within weeks.
 - **Evidence for persistence**: [[Garcia2009 - Long-term Clinical Symptoms Post-Dengue]] found 23.1% ANA positivity at 2 years post-dengue — if genuine, this is not transient; it may reflect a different mechanism (epitope spreading, or genetically mediated impaired clearance)
+- **Dengue-triggered SLE case reports (multiple):** Two case sources document dengue-associated SLE diagnosis with the ANA-positive autoantibody signature:
+  - [[Velazqueza2017 - SLE vs Dengue Case Series]] (n=2 pediatric; Guadalajara Mexico; ANA 1:1280 + antinucleosome + anti-dsDNA in both; Case 2 SLE diagnosed 2 months after dengue; chronological ambiguity acknowledged; lowest evidence level)
+  - [[Rajadhyaksha2012 - Dengue Evolving into SLE and Lupus Nephritis]] (n=1 adult 22F; Mumbai India; primary DENV-1 [IgM+/IgG-]; ANA 1:320 + anti-dsDNA 1:80 + anti-cardiolipin IgM+IgG+ + biopsy-confirmed Class IV LN; 4-week dengue→SLE interval; no pre-dengue autoantibody baseline; causal direction unresolved)
+  - Together, these cases add to the Talib 2013 case (cited via [[Palacios2016 - Autoimmunity in Dengue Literature Review]]) as independent observations of dengue-associated SLE/lupus nephritis across different settings (Mexico, India, Singapore). The consistent features — high-titer ANA, anti-dsDNA, hypocomplementemia, short post-dengue interval — are suggestive of dengue unmasking pre-existing subclinical SLE in genetically susceptible individuals rather than de novo autoimmunity, given the Shih2023 population-level null finding for SLE incidence after dengue.
 - The FcγRIIa-HH genotype (impaired IC clearance) may predispose certain individuals to persistent rather than transient infection-triggered autoimmunity (see [[FcγRIIa Receptor]])
 
 ### Host Risk Factors
@@ -98,6 +117,7 @@ Dengue provides one of the best-characterised examples of acute-phase molecular 
 - [[NS1 Molecular Mimicry in Dengue]]
 - [[NS1 Protein]]
 - [[Antinuclear Antibodies]]
+- [[Polyreactive Antibodies]]
 - [[FcγRIIa Receptor]]
 - [[Antibody-Dependent Enhancement]]
 - [[Post-Dengue Syndrome]]
@@ -109,3 +129,7 @@ Dengue provides one of the best-characterised examples of acute-phase molecular 
 - [[Lin2006 - Autoimmune Pathogenesis in Dengue Virus Infection]] (dengue NS1 molecular mimicry; experimental evidence)
 - [[Lin2011 - Molecular Mimicry Virus Host Dengue Pathogenesis]] (molecular targets; C-terminal NS1 domain; flavivirus coagulation homology; broader virus-autoimmunity catalogue)
 - [[Shih2023 - Autoimmune Disease Risk After Dengue]] (population-level constraint: only ADEM elevated after dengue; supports transient autoimmunity interpretation; large misclassification problem in prior literature)
+- [[Zhou2007 - Polyreactive Antibodies Natural Antibody Function]] (polyreactive IgM as a fourth interpretive layer; properties of polyreactive antibodies; PAB cells; distinction from pathogenic autoantibodies)
+- [[Gawali2021 - ANA Prevalence in Seroconverted Dengue Patients]] (6-month ANA in dengue IgG+ patients; 18.33% HEp-2 IIFA-positive; no control group; intermediate time point between acute peak and 2-year persistence)
+- [[Velazqueza2017 - SLE vs Dengue Case Series]] (n=2 pediatric SLE cases in dengue context; Case 2 SLE diagnosed 2 months after dengue — suggestive de novo triggering timeline; ANA 1:1280 + antinucleosome + anti-dsDNA; FC receptor polymorphism proposed as autoimmunity mechanism; Guadalajara Mexico)
+- [[Rajadhyaksha2012 - Dengue Evolving into SLE and Lupus Nephritis]] (n=1 adult; primary DENV-1; ANA 1:320 + anti-dsDNA + anti-cardiolipin + Class IV LN; 4-week post-dengue interval; Mumbai India; proposed mechanism: viral IC deposition in kidney; causal direction ambiguous without pre-dengue baseline)

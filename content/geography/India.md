@@ -1,9 +1,9 @@
 ---
 type: geography
-tags: [India, Kolkata, Manipal, Karnataka, dengue-epidemiology, endemic, Southeast-Asia, Indian-subcontinent, ANA, pathogenesis-review]
+tags: [India, Kolkata, Manipal, Karnataka, Gwalior, Madhya-Pradesh, dengue-epidemiology, endemic, Southeast-Asia, Indian-subcontinent, ANA, pathogenesis-review, seroconversion]
 created: 2026-04-12
-updated: 2026-04-17
-sources: 2
+updated: 2026-04-17 (Rajadhyaksha2012 ingest)
+sources: 4
 ---
 
 # India
@@ -23,6 +23,24 @@ India and the broader Indian subcontinent are among the highest-burden regions f
 - LIA confirmation rate was 18.5% in dengue-positive patients, indicating most IIFA-positive dengue ANAs are non-specific.
 - MCTD and autoimmune myositis were the two autoimmune disease categories significantly associated with dengue in multivariate analysis (see [[Autoimmunity in Dengue]]).
 
+### Gwalior, Madhya Pradesh — ANA Seroconversion Study (Gawali2021)
+[[Gawali2021 - ANA Prevalence in Seroconverted Dengue Patients]] was conducted at Gajra Raja Medical College (GRMC), Gwalior, Madhya Pradesh — a government medical college serving Central India. This is the third distinct Indian research setting in this wiki (alongside Kolkata/NICED and Manipal/Kasturba Medical College).
+
+- Study period: January 2019 – June 2020; 2,249 clinically suspected dengue patients screened, 765 (34%) seropositive
+- 163 patients followed up at 6 months; 120 (74%) had developed IgG; 22/120 (18.33%) were ANA-positive by HEp-2 IIFA at 1:100 dilution
+- Dominant ANA pattern: AC-1 (nuclear homogeneous, 81.81%) — associated with dsDNA, histone, and nucleosome targets
+- **Key limitation:** No control group tested for ANA in this setting; background ANA rate for Central India is unknown. The 18.33% rate is only modestly above the closest available baseline (Li2019 Chinese health-checkup at >1:100: 14.01%), limiting how much can be attributed to dengue exposure specifically.
+- IgG seroconversion was significantly associated with older age (mean 26.67 vs. 19.86 years, p = 0.004); ANA positivity showed no significant age or sex association.
+
+### Mumbai, Maharashtra — Dengue-Triggered SLE Case (Rajadhyaksha2012)
+
+[[Rajadhyaksha2012 - Dengue Evolving into SLE and Lupus Nephritis]] originates from **KEM Hospital and Seth GS Medical College, Mumbai, Maharashtra** — the fourth distinct Indian research setting in this wiki (alongside Kolkata/NICED, Gwalior/GRMC, and Manipal/KMC). This is a case report (n=1) rather than a cohort study; it provides no epidemiological data about dengue incidence or ANA prevalence in the Mumbai population.
+
+- Setting: tertiary academic hospital in Mumbai, the financial capital of Maharashtra state; published in *Lupus* (2012)
+- A 22-year-old woman with no prior autoimmune history developed primary DENV-1 infection (IgM+/IgG- ELISA; RT-PCR confirmed genotype 1) and was diagnosed with SLE and Class IV lupus nephritis 4 weeks later
+- The study adds Mumbai to the map of Indian dengue research settings and contributes to the autoimmunity thread; it does not report dengue serotype distribution, incidence, or population-level immunity data for Maharashtra
+- Maharashtra is a dengue-endemic state; Mumbai's dense urban environment and monsoon flooding create conditions for sustained Aedes aegypti transmission. No serotype surveillance data from this setting is present in this wiki.
+
 ### Manipal, Karnataka — Pathogenesis Research Setting (Bhatt2020)
 [[Bhatt2020 - Dengue Pathogenesis Review]] originates from **Kasturba Medical College, Manipal Academy of Higher Education, Manipal, Karnataka** — a different Indian research centre from Kolkata's NICED. This is a narrative review article drawing on international literature; it does not report an original Indian patient cohort, but its authorship from a major Indian medical institution reflects the depth of dengue research infrastructure in Karnataka, a dengue-endemic state in southern India. The Southeast Asian epidemiological context — including the dominance of the virulent Asian genotype of DENV-2 in this region — shapes the paper's framing of dengue pathogenesis. Karnataka is relevant to dengue epidemiology as part of India's tropical dengue-endemic belt.
 
@@ -34,10 +52,14 @@ Findings from endemic India may not directly generalise to epidemic settings in 
 
 ## Related Pages
 - [[Chatterjee2024 - ANA Detection in Dengue Kolkata]]
+- [[Gawali2021 - ANA Prevalence in Seroconverted Dengue Patients]]
 - [[Autoimmunity in Dengue]]
 - [[Antinuclear Antibodies]]
+- [[Indirect Immunofluorescence ANA Test]]
 - [[Aedes aegypti]]
 
 ## Sources
 - [[Chatterjee2024 - ANA Detection in Dengue Kolkata]]
 - [[Bhatt2020 - Dengue Pathogenesis Review]] (Kasturba Medical College, Manipal, Karnataka; pathogenesis review; no original patient cohort reported; Southeast Asian epidemiological framing including Asian genotype DENV-2)
+- [[Gawali2021 - ANA Prevalence in Seroconverted Dengue Patients]] (Gajra Raja Medical College, Gwalior, Madhya Pradesh; prospective ANA follow-up at 6 months in dengue IgG+ patients; n=120; 18.33% ANA-positive; AC-1 dominant; no control group)
+- [[Rajadhyaksha2012 - Dengue Evolving into SLE and Lupus Nephritis]] (KEM Hospital and Seth GS Medical College, Mumbai, Maharashtra; single case report; primary DENV-1 → Class IV lupus nephritis; ANA 1:320 + anti-dsDNA + anti-cardiolipin; n=1)

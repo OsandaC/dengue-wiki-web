@@ -3,7 +3,7 @@ type: entity
 tags: [prM, pre-membrane-protein, structural-protein, virion-maturation, ADE, furin-cleavage, immature-virion, cross-reactive, vaccine-design, molecular-mimicry, HSP60]
 created: 2026-04-17
 updated: 2026-04-17
-sources: 2
+sources: 3
 ---
 
 # prM Protein
@@ -65,3 +65,4 @@ Anti-prM antibodies cross-react with **HSP60** on BHK-21 and A549 cell surfaces 
 
 - [[Dejnirattisai2010 - Anti-prM Antibodies Enhance Dengue ADE]] (dominant structural antibody; full cross-reactivity across 4 serotypes; poor neutralisation; 10^5-fold monocyte/DC ADE; vaccine design implications; dengue-specific vs. JEV)
 - [[Bhatt2020 - Dengue Pathogenesis Review]] (anti-prM HSP60 cross-reactivity noted in molecular mimicry context; review confirming prM-mediated ADE mechanism; India review)
+- [[Pang2017 - DHF Pathogenesis Review]] (anti-prM ADE confirmed; anti-prM attracted attention since Dejnirattisai2010; anti-prM MAbs exhibit ADE in cell culture and animal models cited; review, China)

@@ -3,7 +3,7 @@ type: concept
 tags: [interferon, IFN-alpha, innate-immunity, immunopathogenesis, TLR, RIG-I, sfRNA, TRIM25, XRN1, Dicer, siRNA, immune-evasion]
 created: 2026-04-12
 updated: 2026-04-17
-sources: 3
+sources: 4
 ---
 
 # Type I Interferon Response in Dengue
@@ -70,3 +70,4 @@ The asymptomatic dengue group in Sungnak2025 did not show IFN-α enrichment desp
 - [[Sungnak2025 - Distinct Immune Responses Asymptomatic Symptomatic Dengue]]
 - [[Guzman2016 - Dengue Infection]] (IFN-β and bone marrow suppression in early febrile phase; LCMV analogy)
 - [[Bhatt2020 - Dengue Pathogenesis Review]] (sfRNA1 biogenesis from XRN1 stalling; TRIM25 sequestration → RIG-I K172 ubiquitination block → IFN-β suppression; Dicer inhibition → siRNA pathway suppression; three sfRNA species; review of Manokaran 2015 mechanism; India review)
+- [[Pang2017 - DHF Pathogenesis Review]] (sfRNA → type I IFN suppression confirmed; sfRNA → host mRNA stability alteration via XRN1 inhibition cited; review, China)

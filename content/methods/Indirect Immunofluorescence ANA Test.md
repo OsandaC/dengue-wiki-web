@@ -1,9 +1,9 @@
 ---
 type: method
-tags: [IIF, indirect-immunofluorescence, ANA, HEp-2, autoantibody-testing, diagnostic-method, dengue, acute-infection]
+tags: [IIF, indirect-immunofluorescence, ANA, HEp-2, autoantibody-testing, diagnostic-method, dengue, acute-infection, post-dengue, 6-month-follow-up, India]
 created: 2026-04-12
-updated: 2026-04-12
-sources: 6
+updated: 2026-04-17
+sources: 9
 ---
 
 # Indirect Immunofluorescence ANA Test
@@ -39,10 +39,12 @@ IIF on HEp-2 cells generates characteristic staining patterns linked to specific
 - **Nucleolar patterns:** 6.1% of ANA+ individuals (Satoh2012); strongly associated with systemic sclerosis
 - **Dense fine speckled (DFS):** Associated with anti-DFS70 antibodies; possibly more common in healthy individuals than in autoimmune disease patients
 
-### HEp-2 IIFA in Acute Dengue
+### HEp-2 IIFA in Acute and Post-Acute Dengue
 [[Chatterjee2024 - ANA Detection in Dengue Kolkata]] is the first study in this wiki to apply HEp-2 IIFA directly to acute dengue patients, yielding a 54.8% ANA-positive rate in dengue-confirmed patients vs. 10.3% in dengue-negative controls. The study used the Immunoconcepts HEp-2000® ANA Test System (transfected with mitotic cells for enhanced Ro antigen detection). Semi-quantitative fluorescence scoring (1+–4+) was used per CDC guidelines.
 
 The high rate (54.8%) is consistent with the expected sensitivity advantage of HEp-2 over the rat liver substrate used by [[Garcia2009 - Long-term Clinical Symptoms Post-Dengue]] (23.1% at 2 years). However, a direct comparison is confounded by the different time points (acute vs. 2 years post-dengue). The critical interpretive finding is that only ~34% of IIFA-positive dengue patients confirmed by LIA — meaning HEp-2 IIFA over-reads in dengue due to non-specific or low-titer reactivity not captured by disease-specific confirmatory assays.
+
+[[Gawali2021 - ANA Prevalence in Seroconverted Dengue Patients]] applies HEp-2 IIFA at a single 1:100 dilution to dengue IgG-seroconverted patients at 6-month follow-up (Gwalior, India; n=120; EUROIMMUN IIFT kit). Rate: 18.33% positive. Dominant pattern: AC-1 (nuclear homogeneous, 81.81%). No control group; no titre data. This is the only dengue study in this wiki using HEp-2 IIFA at 6 months, filling the gap between Chatterjee2024 (acute) and Garcia2009 (2 years on less sensitive rat liver).
 
 ## Contradictions & Debates
 - **Substrate incompatibility with Garcia2009:** [[Garcia2009 - Long-term Clinical Symptoms Post-Dengue]] performed ANA testing on **rat liver tissue**, not HEp-2 cells. Rat/mouse liver tissue is an older, less sensitive substrate that was standard prior to the 1980s adoption of HEp-2. Its lower antigen density and absence of nuclear mitotic figures means it detects fewer ANA specificities and at lower sensitivity than HEp-2. All healthy-population ANA reference studies in this wiki (Tan1997, Satoh2012, Li2019, Dinse2022) use HEp-2 cells. The 23.1% ANA rate in Garcia2009 is therefore an underestimate relative to what would be found if HEp-2 cells had been used — the true rate might be higher still, making comparisons with HEp-2-based references conservative.
@@ -62,3 +64,6 @@ The high rate (54.8%) is consistent with the expected sensitivity advantage of H
 - [[Aringer2019 - 2019 EULAR ACR SLE Classification Criteria]]
 - [[Dinse2022 - Increasing ANA Prevalence in United States]]
 - [[Chatterjee2024 - ANA Detection in Dengue Kolkata]] (HEp-2 IIFA in acute dengue: 54.8% positive; ~34% IIFA→LIA confirmation rate)
+- [[Gawali2021 - ANA Prevalence in Seroconverted Dengue Patients]] (HEp-2 IIFA at 6-month follow-up; 18.33% positive in dengue IgG+ patients; single dilution 1:100; AC-1 dominant; no control group; India)
+- [[Velazqueza2017 - SLE vs Dengue Case Series]] (IIFA ANA 1:1280 in both pediatric dengue cases; homogeneous+cytoplasmic [Case 1] and fine speckled [Case 2] patterns; SLE criteria met; Guadalajara Mexico; n=2)
+- [[Rajadhyaksha2012 - Dengue Evolving into SLE and Lupus Nephritis]] (ANA 1:320 homogeneous 4+ by immunofluorescence; arising 4 weeks after primary DENV-1; with anti-dsDNA 1:80 4+, hypocomplementemia, and biopsy-confirmed Class IV lupus nephritis; Mumbai India; n=1 case report)

@@ -2,13 +2,30 @@
 type: analysis
 tags: [notable-findings, flags, cross-cutting, observations]
 created: 2026-04-12
-updated: 2026-04-17
-sources: 18
+updated: 2026-04-17 (Rajadhyaksha2012 ingest)
+sources: 20
 ---
 
 # Notable Findings
 
 A running log of observations that are striking, unexpected, or carry implications beyond the paper they came from. Each entry is a flag — something worth returning to, following up on, or building an analysis around. Entries are added during ingest whenever something catches the eye.
+
+---
+
+## [2026-04-17] The two-thirds non-specific dengue ANA fraction has a name: polyreactive IgM
+
+**Source:** [[Zhou2007 - Polyreactive Antibodies Natural Antibody Function]] interpreted against [[Chatterjee2024 - ANA Detection in Dengue Kolkata]] and [[Vo2020 - Autoantibody Profiling in Dengue]]
+
+**Finding:** Germline-encoded polyreactive IgM — normal antibodies present constitutively in all individuals that bind structurally unrelated self and non-self antigens with low affinity — has a half-life of ~8 hours and constitutes 15–20% of adult peripheral blood B cell output at rest. In acute viral infection, amplification of this pool would produce a transient, IgM-dominated, broadly self-reactive signal detectable by HEp-2 IIFA but negative on disease-specific LIA panels. The properties match exactly the fingerprint of the "non-specific" dengue ANA fraction: IgM dominant (Vo2020: 80 elevated IgM vs. 6 IgG), fails LIA confirmation (~66% of IIFA-positives in Chatterjee2024), and expected to be transient.
+
+**Why notable:** The wiki's existing Notable Finding ([2026-04-12]) flags the ~66% LIA-negative IIFA fraction as "non-specific" and asks what mechanism produces it. Zhou2007 provides the mechanism — it has a name, a molecular basis, and known properties. This reframes the dengue ANA story in a materially important way: the massive acute IIFA spike (54.8%) is not predominantly a sign of *induced* autoimmunity at all. Much of it may be the normal polyreactive IgM background, temporarily amplified by dengue's inflammatory milieu. The implication is that the clinically and mechanistically meaningful dengue autoantibody signal — the genuinely induced, antigen-specific fraction — is considerably smaller than the raw IIFA prevalence suggests, and is better approximated by LIA positivity (18.5%) than IIFA. This does not dismiss the dengue autoimmunity literature (the anti-platelet/anti-endothelial findings from Lin2001/Lin2006 are antigen-specifically driven and pathologically real), but it explains why most IIFA-positive dengue patients never develop clinical autoimmune disease: they never had antigen-induced autoimmunity — they had an acute polyreactive IgM transient.
+
+**Follow-up questions:**
+- Can the IIFA-positive, LIA-negative dengue ANA fraction be confirmed as polyreactive IgM by BCR V-region sequencing — are the relevant B cells using germline sequences without somatic hypermutation?
+- Does the IIFA rate and LIA rate diverge differently between mild dengue (DF) and severe dengue (DHF) — if the polyreactive IgM fraction is severity-independent, only the LIA-positive fraction should track severity?
+- Is the Berlin2007 finding (21.7% ANA in acute viral infections) similarly composed largely of polyreactive IgM background noise rather than virus-specific induction?
+
+**Related pages:** [[Polyreactive Antibodies]], [[Antinuclear Antibodies]], [[Autoimmunity in Dengue]], [[Infection-Triggered Autoimmunity]]
 
 ---
 
@@ -328,6 +345,25 @@ A running log of observations that are striking, unexpected, or carry implicatio
 **Why notable:** This connects two mechanisms previously treated as parallel — ADE and autoimmunity — into a potential causal chain. If intrinsic ADE drives Th2/antibody-dominant responses while suppressing Th1/IFN-mediated viral clearance, then ADE doesn't just increase viral load; it actively tilts the immune response toward the antibody-producing phenotype that generates cross-reactive autoantibodies via NS1 molecular mimicry. This would explain why severe dengue (DHF/DSS, where ADE is most active) shows the highest anti-platelet and anti-endothelial autoantibody levels (Lin2006). It also raises the question of whether the IL-10-driven IGHG1+ plasmablast expansion documented in DHF by Sungnak2025 is partly a consequence of intrinsic ADE.
 
 **Related pages:** [[Antibody-Dependent Enhancement]], [[NS1 Molecular Mimicry in Dengue]], [[Autoimmunity in Dengue]], [[Type I Interferon Response in Dengue]]
+
+---
+
+## [2026-04-17] Dengue→SLE+lupus nephritis carries a persistent antiphospholipid signal not previously documented in primary dengue
+
+**Source:** [[Rajadhyaksha2012 - Dengue Evolving into SLE and Lupus Nephritis]]
+
+**Finding:** In a 22-year-old woman with no prior autoimmune history, primary DENV-1 infection (IgM+/IgG-, RT-PCR confirmed) was followed 4 weeks later by ANA 1:320, anti-dsDNA 1:80, severe hypocomplementemia (C3 22 mg/dL), and biopsy-confirmed Class IV diffuse proliferative glomerulonephritis. Anti-cardiolipin antibodies were elevated in both IgM (44 MPLU/mL) and IgG (12 GPLU/mL) subclasses and remained elevated at 4-month follow-up (IgM 46, IgG 18).
+
+**Why notable:** The wiki already contains dengue-SLE case reports ([[Velazqueza2017 - SLE vs Dengue Case Series]]; Talib 2013 cited via [[Palacios2016 - Autoimmunity in Dengue Literature Review]]). What Rajadhyaksha2012 adds that none of the others provide: (1) **biopsy-confirmed Class IV lupus nephritis** — the most objective histological confirmation of dengue-associated lupus in the wiki as a primary source; (2) **combined IgM + IgG anti-cardiolipin elevation persisting to 4 months** — a durable antiphospholipid response. Prior dengue-antiphospholipid signals in this wiki ([[Morel2014 - Autoimmune Response in Children With Dengue]] Case 1) were transient IgM-only. Persistent combined isotype aCL raises the question of whether dengue can initiate lasting antiphospholipid syndrome in susceptible individuals — a thrombotic risk not tracked in any wiki source. The anti-cardiolipin persistence is also inconsistent with a purely dengue-induced transient response and supports SLE-driven antiphospholipid antibody production. (3) The **primary infection context** (IgM+/IgG-, DENV-1) aligns with [[Vo2020 - Autoantibody Profiling in Dengue]]'s finding that primary DENV-1 infection generates broader IgG autoantibody repertoires than secondary — potentially relevant to why severe autoimmune manifestations can arise after first infection in genetically susceptible individuals.
+
+**Caveat:** n=1 case report; no pre-dengue autoantibody baseline (causal direction unresolved); not generalizable.
+
+**Follow-up questions:**
+- Does dengue specifically induce persistent combined IgM+IgG antiphospholipid antibodies in patients who go on to develop SLE — or are the aCL antibodies already present at dengue onset (as pre-existing subclinical APS)?
+- What immune deposits (viral antigen ICs vs. anti-nuclear ICs) were present in the renal biopsy immunofluorescence? The biopsy findings beyond grade classification are not reported.
+- Given the primary DENV-1 primary infection context and Vo2020's primary>secondary IgG autoantibody inversion, is first dengue infection a higher autoimmunity-triggering event than reinfection in susceptible hosts?
+
+**Related pages:** [[Autoimmunity in Dengue]], [[Infection-Triggered Autoimmunity]], [[Dengue Pathophysiology]], [[DENV-1]], [[India]]
 
 ---
 

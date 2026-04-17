@@ -3,7 +3,7 @@ type: concept
 tags: [original-antigenic-sin, cross-reactive-T-cells, secondary-infection, immunopathology, T-cell-memory, immunodominance, low-avidity, cytolytic-loss, TNF-alpha, IL-6]
 created: 2026-04-12
 updated: 2026-04-17
-sources: 2
+sources: 3
 ---
 
 # Original Antigenic Sin
@@ -42,3 +42,4 @@ This mechanism is consistent with — and may partly explain — the CD8 TEM exh
 ## Sources
 - [[Guzman2016 - Dengue Infection]]
 - [[Bhatt2020 - Dengue Pathogenesis Review]] (OAS mechanism: low-avidity CD8+ T cells preferentially expanded; heterologous epitope recognition with reduced affinity; cytolytic loss combined with TNF-α/IL-6 excess; delayed viral clearance → DHF/DSS positive feedback loop; review article, India)
+- [[Pang2017 - DHF Pathogenesis Review]] (OAS mechanism confirmed: cross-reactive low-affinity memory T cells expand preferentially in secondary infection; inefficient killing of new serotype; IFN-γ/IL-2/TNF-α cytokine excess → DHF; review, China)

@@ -3,7 +3,7 @@ type: concept
 tags: [ADE, immunopathogenesis, FcR, secondary-infection, severe-dengue, IGHG1, plasmablast, scRNA-seq, IgG-affinity, FcgRIIIA, SPR, anti-prM, prM-cleavage, monocyte, vaccine-design, ADE-window, enhancement-titer, Katzelnick]
 created: 2026-04-11
 updated: 2026-04-17
-sources: 11
+sources: 12
 ---
 
 # Antibody-Dependent Enhancement
@@ -135,3 +135,4 @@ For ADE specifically: the predominant anti-dengue antibody isotype mediating ADE
 - [[Vo2020 - Autoantibody Profiling in Dengue]] (ADE cited as proposed pathogenesis mechanism in background; bystander activation invoked to explain broad IgM autoantibody elevation; Cambodia pediatric cohort)
 - [[Dejnirattisai2010 - Anti-prM Antibodies Enhance Dengue ADE]] (anti-prM dominant structural antibody ~60%; full cross-reactivity DENV-1–4; poor neutralisation ceiling from incomplete prM cleavage; 10^5-fold monocyte/DC ADE; FcγR-dependent; vaccine design implications; dengue-specific vs. JEV; Thailand n=7 donors, 3020 B cell lines)
 - [[Bhatt2020 - Dengue Pathogenesis Review]] (Katzelnick 2017 quantitative ADE window: titer 1:21–1:80 peak enhancement, n=6684 Nicaraguan children; ADE mechanism reviewed in context of OAS; Th1→Th2 shift via intrinsic ADE; India review)
+- [[Pang2017 - DHF Pathogenesis Review]] (ADE mechanism overview: FcγR-mediated uptake, intracellular IFN suppression, IL-10 enhancement; secondary infection DHF risk 118–208/1000 vs. 11–12/1000 primary; anti-prM highlighted post-Dejnirattisai2010; review, China)

@@ -3,7 +3,7 @@ type: entity
 tags: [Fc-receptor, FcgRIIa, genetics, polymorphism, immune-complex, leukocyte, IgG-affinity, SPR, IgG2, inhibitory-receptor, FcgRIIB, thrombocytopenia, PAIgG, PAIgM, FcR-bypass]
 created: 2026-04-11
 updated: 2026-04-17
-sources: 6
+sources: 7
 ---
 
 # FcγRIIa Receptor
@@ -71,3 +71,4 @@ The FCGR2A H131 allele (HH genotype) is listed under susceptibility DF/DHF; the 
 - [[Bruhns2009 - FcγR Specificity and Affinity for IgG Subclasses]] (authoritative SPR affinity data; H131 4.5× higher IgG2 affinity than R131; IgG1/IgG3 affinities nearly equal; FcγRIIB ~43× weaker than FcγRIIA for IgG1)
 - [[Oishi2003 - PAIgG and Thrombocytopenia in Secondary Dengue]] (FcγRII not required for dengue-platelet binding; Wang 1995 cited; paradox with Garcia2010 HH-DHF risk)
 - [[Saito2004 - PAIgG and PAIgM in Secondary Dengue]] (PAIgM completely FcγR-independent via IgM pentamer structure; PAIgM DHF predictor unrelated to FcγRIIa genotype; deepens the FcγRIIa paradox)
+- [[Velazqueza2017 - SLE vs Dengue Case Series]] (FC receptor polymorphism proposed as contributor to inadequate immune complex clearance → autoimmune disease in dengue context; 2 pediatric SLE cases; Guadalajara Mexico; n=2 case series)

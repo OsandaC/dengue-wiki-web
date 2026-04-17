@@ -2,8 +2,8 @@
 type: concept
 tags: [MAS, macrophage-activation-syndrome, HLH, hemophagocytic-lymphohistiocytosis, cytokines, hyperferritinemia, cytopenias, corticosteroids, dengue-complications, pediatric, ANA-negative]
 created: 2026-04-15
-updated: 2026-04-15
-sources: 2
+updated: 2026-04-17
+sources: 3
 ---
 
 # Macrophage Activation Syndrome in Dengue
@@ -85,6 +85,14 @@ Dengue-triggered MAS, by contrast:
 
 These two pathways are not mutually exclusive — both can occur in the same patient — but they likely reflect different host immune configurations. Whether dengue patients who develop MAS have distinct host genetic factors (e.g., HLH predisposition variants in PRF1, UNC13D, STX11) is unknown but biologically plausible.
 
+### The Full Dengue-Autoimmune Spectrum: ANA-Positive SLE at the Opposite Pole
+
+[[Velazqueza2017 - SLE vs Dengue Case Series]] completes the dengue-autoimmune spectrum at the opposite end from Morel2014. Two pediatric patients from Guadalajara, Mexico who presented with dengue were diagnosed with SLE (ACR 1997 criteria), both with ANA 1:1280, anti-dsDNA, and antinucleosome antibodies — the complete SLE serological signature. This is the maximum ANA-positive phenotype, contrasting directly with Morel2014's ANA/anti-dsDNA-negative MAS cases.
+
+The co-existence of ANA-negative macrophage-hyperactivation MAS (Morel2014) and ANA-positive B-cell autoantibody-driven SLE (Velazqueza2017) within pediatric dengue-endemic populations confirms that dengue can access entirely different immune effector pathways depending on host factors. The two syndromes are not merely different severities of the same process — they differ in the fundamental immune effector mechanism (macrophage/CD8+ T cell hyperactivation vs. autoantibody-mediated tissue damage) and in their serological signature (ANA-negative vs. ANA 1:1280).
+
+**Practical implication extended:** Not only does negative ANA not rule out severe dengue immune complications (per the MAS lesson), but positive ANA at high titre in dengue does not necessarily indicate MAS — it may indicate concurrent SLE, requiring a different diagnostic workup and management pathway.
+
 ### Treatment
 
 Both MAS cases in Morel2014 responded well to methylprednisolone boluses. The Morel authors note that secondary MAS associated with autoimmune diseases or viral infections carries a significant mortality rate if untreated. The HLH treatment protocol (glucocorticoids, cyclosporine, etoposide, or anti-thymocyte globulin) was referenced for more refractory cases.
@@ -113,3 +121,4 @@ The key practical implication: dengue-triggered MAS may be clinically confused w
 
 - [[Morel2014 - Autoimmune Response in Children With Dengue]] (3 pediatric cases; 2 MAS cases ANA-negative; responded to methylprednisolone; HLH-2004 criteria without hemophagocytosis)
 - [[Palacios2016 - Autoimmunity in Dengue Literature Review]] (additional MAS + nephrotic syndrome case from Lai et al. 2012; literature context for dengue-MAS spectrum)
+- [[Velazqueza2017 - SLE vs Dengue Case Series]] (2 pediatric cases with ANA 1:1280 + antinucleosome + anti-dsDNA in dengue context — ANA-positive SLE phenotype, the opposite end of the spectrum from Morel2014's ANA-negative MAS; Guadalajara Mexico; n=2 case series)

@@ -3,7 +3,7 @@ type: entity
 tags: [vaccine, CYD-TDV, Dengvaxia, Sanofi-Pasteur, ADE, seronegative, phase-III, live-attenuated, ChimeriVax, tetravalent]
 created: 2026-04-12
 updated: 2026-04-12
-sources: 1
+sources: 2
 ---
 
 # CYD-TDV
@@ -50,3 +50,4 @@ CYD-TDV (trade name: Dengvaxia; developer: Sanofi Pasteur) is the first licensed
 
 ## Sources
 - [[Guzman2016 - Dengue Infection]]
+- [[Pang2017 - DHF Pathogenesis Review]] (CYD-TDV licensed in several dengue-endemic countries cited; no ADE evidence in phase 3 trial cited from Sabchareon 2012; review, China)

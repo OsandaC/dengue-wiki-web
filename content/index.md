@@ -1,10 +1,10 @@
 # Dengue Wiki — Master Index
 
-*Last updated: 2026-04-17 | Sources: 28 | Total pages: 93*
+*Last updated: 2026-04-17 | Sources: 33 | Total pages: 99*
 
 ---
 
-## Sources (28)
+## Sources (32)
 
 | Page | Year | Journal | Citations (SS / CR) | Key Topics |
 |------|------|---------|---------------------|------------|
@@ -36,8 +36,13 @@
 | [[Vo2020 - Autoantibody Profiling in Dengue]] | 2020 | Pathogens | 10 / 12 | 123-antigen protein microarray; 80 IgM + 6 IgG autoantibodies elevated vs. HD; primary > secondary IgG autoantibody inversion; no ASD vs. DF/DHF difference in total load; 19 IgG autoantibodies (complement, coagulation, nuclear antigens) positively correlated with platelet count in DHF; Cambodia pediatric cohort; n=40 |
 | [[Dejnirattisai2010 - Anti-prM Antibodies Enhance Dengue ADE]] | 2010 | Science | 891 / 820 | Anti-prM dominant structural antibody (~60%); full cross-reactivity DENV-1–4; neutralisation ceiling 10–60% from incomplete prM cleavage; 10^5-fold monocyte/DC ADE; FcγR-dependent; all current vaccines use native prM; dengue-specific vs. JEV; Thailand n=7 donors, 3020 B cell lines; erratum July 2010 |
 | [[Bhatt2020 - Dengue Pathogenesis Review]] | 2021 | Curr Microbiol | 300 / 294 | Narrative review: sfRNA→TRIM25→RIG-I IFN suppression; sfRNA→Dicer siRNA inhibition; Katzelnick 2017 ADE window 1:21–1:80 (n=6684 Nicaragua); OAS low-avidity CD8+ cytolytic loss; NS1 replication complex cofactor; glycocalyx: heparanase + cathepsin L; MIF-autophagy viral amplification; Th1→Th2 + Treg IL-10; DENV-1 higher NS1/primary viremia; Asian DENV-2 NS3 salivary gland replication; India Manipal |
+| [[Zhou2007 - Polyreactive Antibodies Natural Antibody Function]] | 2007 | J Autoimmun | 194 / 176 | Polyreactive antibodies: germline IgM binding multiple unrelated self/non-self antigens; half-life ~8h; PAB cells 15–20% adult peripheral blood; antibacterial function; distinction from pathogenic autoantibodies; interpretive framework for non-specific dengue ANA |
+| [[Gawali2021 - ANA Prevalence in Seroconverted Dengue Patients]] | 2021 | Int J Appl Res | null / null | ANA in dengue IgG-seroconverted patients at 6 months; 18.33% HEp-2 IIFA positive; AC-1 dominant (81.81%); no control group; Gwalior Madhya Pradesh India; n=120 |
+| [[Velazqueza2017 - SLE vs Dengue Case Series]] | 2017 | Rev Colomb Reumatol | 1 / 1 | SLE + dengue in 2 pediatric patients; ANA 1:1280 + antinucleosome + anti-dsDNA in both; Case 2 SLE diagnosed 2 months post-dengue; Guadalajara Jalisco Mexico; molecular mimicry, FcR polymorphism; n=2 case series |
+| [[Pang2017 - DHF Pathogenesis Review]] | 2017 | Virologica Sinica | 74 / 67 | Narrative review; DHF pathogenesis: NS1-complement-C5b-C9-NLRP3; anti-NS1 GPI-signalling→viral replication; IL-10→T cell apoptosis→impaired clearance; sfRNA IFN suppression; ADE anti-E/prM; OAS T cells; Tsinghua University China |
+| [[Rajadhyaksha2012 - Dengue Evolving into SLE and Lupus Nephritis]] | 2012 | Lupus | 54 / 35 | Primary DENV-1 → SLE + Class IV lupus nephritis in 4 weeks; ANA 1:320 + anti-dsDNA + anti-cardiolipin IgM+IgG+; biopsy-confirmed; Mumbai India; n=1 case report |
 
-*Citations: SS = Semantic Scholar, CR = CrossRef. Retrieved 2026-04-12 (existing) / 2026-04-13 (Seet2007, Li2018, Bruhns2009) / 2026-04-14 (Bos2025) / 2026-04-15 (Morel2014, Palacios2016, Lin2001, Oishi2003) / 2026-04-17 (Dejnirattisai2010, Bhatt2020). Morel2014 SS not indexed at English-edition DOI (null). Recent papers and preprints will have low counts regardless of quality.*
+*Citations: SS = Semantic Scholar, CR = CrossRef. Retrieved 2026-04-12 (existing) / 2026-04-13 (Seet2007, Li2018, Bruhns2009) / 2026-04-14 (Bos2025) / 2026-04-15 (Morel2014, Palacios2016, Lin2001, Oishi2003) / 2026-04-17 (Dejnirattisai2010, Bhatt2020, Velazqueza2017). Morel2014 SS not indexed at English-edition DOI (null). Recent papers and preprints will have low counts regardless of quality.*
 
 ### By citation count (SS)
 
@@ -66,11 +71,16 @@
 | 1 | [[Palacios2016 - Autoimmunity in Dengue Literature Review]] | 2016 |
 | 0 | [[Bos2025 - Longitudinal Antibody Dynamics After Dengue]] | 2025 |
 | 300 | [[Bhatt2020 - Dengue Pathogenesis Review]] | 2021 |
+| 194 | [[Zhou2007 - Polyreactive Antibodies Natural Antibody Function]] | 2007 |
 | 195 | [[Lin2001 - IgM Anti-Platelet Autoantibody in Dengue Patients]] | 2001 |
 | 138 | [[Saito2004 - PAIgG and PAIgM in Secondary Dengue]] | 2004 |
 | 62 | [[Oishi2003 - PAIgG and Thrombocytopenia in Secondary Dengue]] | 2003 |
 | null | [[Morel2014 - Autoimmune Response in Children With Dengue]] | 2014 |
 | 10 | [[Vo2020 - Autoantibody Profiling in Dengue]] | 2020 |
+| null | [[Gawali2021 - ANA Prevalence in Seroconverted Dengue Patients]] | 2021 |
+| 1 | [[Velazqueza2017 - SLE vs Dengue Case Series]] | 2017 |
+| 74 | [[Pang2017 - DHF Pathogenesis Review]] | 2017 |
+| 54 | [[Rajadhyaksha2012 - Dengue Evolving into SLE and Lupus Nephritis]] | 2012 |
 
 ---
 
@@ -78,45 +88,46 @@
 
 | Page | Type | Sources |
 |------|------|---------|
-| [[DENV-1]] | Serotype | 7 |
-| [[DENV-2]] | Serotype | 8 |
-| [[DENV-3]] | Serotype | 8 |
-| [[DENV-4]] | Serotype | 7 |
-| [[FcγRIIa Receptor]] | Receptor / genetic locus | 6 |
-| [[Aedes aegypti]] | Vector | 6 |
-| [[Aedes albopictus]] | Vector | 2 |
-| [[NS1 Protein]] | Viral protein | 11 |
+| [[DENV-1]] | Serotype | 9 |
+| [[DENV-2]] | Serotype | 9 |
+| [[DENV-3]] | Serotype | 9 |
+| [[DENV-4]] | Serotype | 8 |
+| [[FcγRIIa Receptor]] | Receptor / genetic locus | 7 |
+| [[Aedes aegypti]] | Vector | 9 |
+| [[Aedes albopictus]] | Vector | 4 |
+| [[NS1 Protein]] | Viral protein | 13 |
 | [[E Protein]] | Viral protein | 4 |
-| [[prM Protein]] | Viral protein | 2 |
-| [[CYD-TDV]] | Vaccine | 1 |
+| [[prM Protein]] | Viral protein | 3 |
+| [[CYD-TDV]] | Vaccine | 2 |
 | [[Wolbachia]] | Endosymbiont / vector control | 1 |
 
 ---
 
-## Concepts (20)
+## Concepts (21)
 
 | Page | Sources |
 |------|---------|
 | [[Post-Dengue Syndrome]] | 4 |
-| [[Autoimmunity in Dengue]] | 23 |
-| [[Antibody-Dependent Enhancement]] | 11 |
+| [[Autoimmunity in Dengue]] | 27 |
+| [[Antibody-Dependent Enhancement]] | 12 |
 | [[Asymptomatic Dengue Infection]] | 5 |
-| [[Antinuclear Antibodies]] | 8 |
-| [[Infection-Triggered Autoimmunity]] | 6 |
+| [[Antinuclear Antibodies]] | 11 |
+| [[Infection-Triggered Autoimmunity]] | 10 |
+| [[Polyreactive Antibodies]] | 1 |
 | [[NS1 Molecular Mimicry in Dengue]] | 8 |
-| [[T Cell Responses in Dengue]] | 3 |
+| [[T Cell Responses in Dengue]] | 4 |
 | [[NK Cell Responses in Dengue]] | 1 |
-| [[Type I Interferon Response in Dengue]] | 3 |
+| [[Type I Interferon Response in Dengue]] | 4 |
 | [[Viraemia]] | 2 |
-| [[Dengue Pathophysiology]] | 8 |
-| [[Dengue Clinical Classification]] | 3 |
+| [[Dengue Pathophysiology]] | 10 |
+| [[Dengue Clinical Classification]] | 5 |
 | [[Dengue Vaccine Candidates]] | 6 |
-| [[Original Antigenic Sin]] | 2 |
-| [[Dengue Neurological Complications]] | 3 |
-| [[Secondary Dengue Infection]] | 12 |
-| [[Cross-Reactive Antibodies]] | 9 |
-| [[Cytokine Storm]] | 9 |
-| [[Macrophage Activation Syndrome in Dengue]] | 2 |
+| [[Original Antigenic Sin]] | 3 |
+| [[Dengue Neurological Complications]] | 4 |
+| [[Secondary Dengue Infection]] | 13 |
+| [[Cross-Reactive Antibodies]] | 10 |
+| [[Cytokine Storm]] | 10 |
+| [[Macrophage Activation Syndrome in Dengue]] | 3 |
 
 ---
 
@@ -127,14 +138,14 @@
 | [[PRNT]] | 3 |
 | [[ELISA Inhibition Method]] | 1 |
 | [[FcγRIIa Genotyping]] | 2 |
-| [[Indirect Immunofluorescence ANA Test]] | 6 |
+| [[Indirect Immunofluorescence ANA Test]] | 9 |
 | [[Single-Cell RNA Sequencing]] | 1 |
 | [[V(D)J Sequencing]] | 1 |
 | [[qRT-PCR]] | 1 |
 | [[Autoantigen Microarray]] | 1 |
-| [[RT-PCR]] | 5 |
-| [[NS1 Antigen Detection]] | 7 |
-| [[IgM-IgG Serology ELISA]] | 10 |
+| [[RT-PCR]] | 6 |
+| [[NS1 Antigen Detection]] | 9 |
+| [[IgM-IgG Serology ELISA]] | 13 |
 | [[Line Immunoassay ANA]] | 1 |
 | [[Surface Plasmon Resonance]] | 1 |
 | [[Hemagglutination Inhibition Test]] | 2 |
@@ -149,12 +160,13 @@
 | [[Cuba]] | 3 |
 | [[Thailand]] | 2 |
 | [[Taiwan]] | 4 |
-| [[India]] | 2 |
+| [[India]] | 4 |
 | [[Singapore]] | 2 |
 | [[Nicaragua]] | 1 |
 | [[Paraguay]] | 1 |
 | [[Cambodia]] | 1 |
 | [[Philippines]] | 2 |
+| Mexico | 1 | *(no page — 1 source; see [[Velazqueza2017 - SLE vs Dengue Case Series]])* |
 
 ---
 

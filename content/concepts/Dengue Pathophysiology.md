@@ -3,7 +3,7 @@ type: concept
 tags: [pathophysiology, vascular-permeability, thrombocytopenia, coagulopathy, complement, liver, NS1, TLR4, plasma-leakage, DHF, DSS, PAIgM, PAIgG, secondary-infection, immune-complex, FcR-bypass, glycocalyx, cathepsin-L, heparanase, MIF, autophagy]
 created: 2026-04-12
 updated: 2026-04-17
-sources: 8
+sources: 10
 ---
 
 # Dengue Pathophysiology
@@ -52,12 +52,17 @@ This fills a mechanistic gap in the existing glycocalyx-shedding model: Guzman20
 - Most coagulopathy is minor and self-limiting; major haemorrhage is usually a complication of prolonged shock, not a primary dengue effect
 - The APTT-vascular permeability correlation raises the possibility that coagulation interference is proximal to, not merely co-incident with, plasma leakage
 
+### Immune Complex-Mediated Renal Pathology
+
+Dengue viremia can trigger excessive antibody production; in susceptible individuals the resulting viral antigen–antibody immune complexes may deposit in the kidney causing renal tubular damage and glomerulonephritis (see [[Rajadhyaksha2012 - Dengue Evolving into SLE and Lupus Nephritis]], n=1 case report — not generalizable). In this single case, primary DENV-1 infection was followed 4 weeks later by Class IV diffuse proliferative glomerulonephritis with ANA 1:320, anti-dsDNA 1:80, and severe hypocomplementemia (C3 22 mg/dL), consistent with lupus nephritis triggered by or unmasked by dengue. Whether dengue viral ICs or anti-nuclear ICs drove the GN was not determined by the biopsy immunofluorescence. Dengue-associated acute kidney injury more broadly includes hypotension, rhabdomyolysis, and sepsis as additional mechanisms beyond immune complex deposition.
+
 ### Complement Activation
 - Complement system activated to control DENV infection but its activation contributes to pathogenesis
 - **Secondary infection**: classical complement pathway activation via circulating immune complexes; levels of C3a/C5a elevated; temporal correlation with fibrinogen and thrombocytopaenia changes
 - **Primary infant infection**: alternative complement pathway activated; NS1 may directly activate complement by the alternative pathway
 - Activated complement interacts with the coagulation system, amplifying both coagulopathy and vascular inflammation
 (see [[Guzman2016 - Dengue Infection]])
+- **NS1 → C5b-C9 → NLRP3 inflammasome:** Soluble DENV NS1 independently activates fluid-phase complement factors; a close correlation has been reported between NS1 concentration and **C5b-C9 complex formation** (Kurosu 2007, as cited in [[Pang2017 - DHF Pathogenesis Review]]). C5b-C9 (the membrane attack complex) then stimulates robust expression of inflammatory cytokines via **NLRP3 inflammasome activation** (Suresh 2016, as cited in [[Pang2017 - DHF Pathogenesis Review]]). This provides a mechanistic link between NS1 antigenaemia, terminal complement pathway activation, and cytokine-driven DHF pathogenesis. Note: Suresh 2016 is a general complement biology paper; direct confirmation in dengue patient samples has not yet been published in this wiki's sources.
 
 ### Autoantibodies Against Complement and Coagulation Components
 A protein microarray screen in Cambodian pediatric dengue patients revealed that **IgG autoantibodies against complement components and coagulation proteins are produced during DENV infection and correlate with platelet counts in DHF** (see [[Vo2020 - Autoantibody Profiling in Dengue]]):
@@ -102,3 +107,5 @@ A protein microarray screen in Cambodian pediatric dengue patients revealed that
 - [[Saito2004 - PAIgG and PAIgM in Secondary Dengue]] (PAIgM extension: both isotypes inversely correlated with platelet count; anti-dengue IgM confirmed in platelet eluates; PAIgM >20 ng/10⁷ predicts DHF with 92.1% specificity; FcγR bypass for PAIgM via IgM pentamer structure)
 - [[Vo2020 - Autoantibody Profiling in Dengue]] (protein microarray; IgM autoantibodies against complement C5, C8, C9, Factor B, H, P elevated vs. HD; anti-Factor P IgG + anti-C4 IgG + anti-prothrombin IgG positively correlated with platelet counts in DHF [consumption model]; anti-heparan sulfate/proteoglycan IgG decreased in DF/DHF vs. ASD; Cambodia pediatric cohort)
 - [[Bhatt2020 - Dengue Pathogenesis Review]] (glycocalyx degradation: NS1 activates heparanase → heparan sulfate chain cleavage; NS1 activates cathepsin L → proteoglycan core cleavage; dual enzymatic glycocalyx loss mechanism; MIF-autophagy viral amplification; review, India)
+- [[Pang2017 - DHF Pathogenesis Review]] (NS1 → fluid-phase complement activation → C5b-C9 complex → NLRP3 inflammasome → DHF-associated cytokines; ADE risk quantification: secondary infection DHF 118–208/1000 vs. 11–12/1000 primary; review, China)
+- [[Rajadhyaksha2012 - Dengue Evolving into SLE and Lupus Nephritis]] (immune complex-mediated renal pathology: primary DENV-1 → severe hypocomplementemia [C3 22 mg/dL, C4 5 mg/dL] + Class IV GN 4 weeks post-dengue; mechanism: dengue viral IC deposition proposed; Mumbai India; n=1 case report — not generalizable)

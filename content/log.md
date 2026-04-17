@@ -2,6 +2,120 @@
 
 ---
 
+## [2026-04-17] ingest | Rajadhyaksha2012 - Dengue Evolving into SLE and Lupus Nephritis
+
+**Citation:** Rajadhyaksha A, Mehra S. "Dengue fever evolving into systemic lupus erythematosus and lupus nephritis: a case report." *Lupus*. 2012;21(9):999–1002. DOI: 10.1177/0961203312437807. Citations: 54 (SS) / 35 (CR).
+
+**Type:** Case report (n=1). KEM Hospital and Seth GS Medical College, Mumbai, Maharashtra, India.
+
+**Key findings:**
+- Primary DENV-1 infection (IgM+/IgG-, RT-PCR confirmed genotype 1) in a 22-year-old woman with no prior autoimmune history
+- 4 weeks post-dengue: ANA 1:320 homogeneous 4+, anti-dsDNA 1:80 4+, C3 22 mg/dL (severely low), C4 5 mg/dL (low)
+- Anti-cardiolipin IgM 44 MPLU/mL and IgG 12 GPLU/mL — persistent at 4 months (IgM 46, IgG 18)
+- Renal biopsy: diffuse proliferative glomerulonephritis grade IV (ISN/RPS Class IV lupus nephritis)
+- Proposed mechanism: viral antigen–antibody IC deposition → renal pathology in susceptible individuals
+
+**Created:** `wiki/sources/Rajadhyaksha2012 - Dengue Evolving into SLE and Lupus Nephritis.md`
+
+**Updated:**
+- `wiki/geography/India.md` (sources 3→4; Mumbai KEM Hospital subsection added)
+- `wiki/concepts/Autoimmunity in Dengue.md` (sources 26→27; new subsection for Rajadhyaksha2012 biopsy-confirmed SLE+LN; Wan2012 mention resolved to primary source)
+- `wiki/concepts/Infection-Triggered Autoimmunity.md` (sources 9→10; dengue-SLE case reports expanded to include Rajadhyaksha2012)
+- `wiki/concepts/Dengue Pathophysiology.md` (sources 9→10; new subsection on immune complex-mediated renal pathology)
+- `wiki/concepts/Dengue Clinical Classification.md` (sources 4→5; 1997 WHO DHF criteria background mention)
+- `wiki/entities/DENV-1.md` (sources 8→9; primary DENV-1 infection context)
+- `wiki/entities/Aedes aegypti.md` (sources 8→9; background vector mention)
+- `wiki/methods/IgM-IgG Serology ELISA.md` (sources 12→13; IgM+/IgG- primary infection serology)
+- `wiki/methods/RT-PCR.md` (sources 5→6; DENV-1 genotype 1 confirmation)
+- `wiki/methods/Indirect Immunofluorescence ANA Test.md` (sources 8→9; ANA 1:320 homogeneous 4+ in dengue→SLE)
+- `wiki/analyses/Notable Findings.md` (sources 19→20; new entry: dengue→SLE+LN with persistent anti-cardiolipin IgM+IgG)
+- `wiki/index.md` (sources 32→33, pages 98→99; all affected page counts updated)
+
+---
+
+## [2026-04-17] ingest | Pang2017 - DHF Pathogenesis Review
+
+**Citation:** Pang X, Zhang R, Cheng G. "Progress towards understanding the pathogenesis of dengue hemorrhagic fever." *Virologica Sinica*. 2017;32(1):16–22. DOI: 10.1007/s12250-016-3855-9. Citations: 74 (SS) / 67 (CR).
+
+**Type:** Narrative review (no original data). Tsinghua University, Beijing, China.
+
+**New content added:**
+1. **NS1 Protein** — anti-NS1 antibody binding to GPI-anchored NS1 → protein tyrosine phosphorylation → enhanced DENV replication (Jacobs 2000 via Pang2017); distinct from NF-κB cytokine pathway.
+2. **Dengue Pathophysiology** — C5b-C9 complex formation correlates with NS1 concentration → NLRP3 inflammasome activation → DHF-associated cytokines (Kurosu 2007 + Suresh 2016 via Pang2017). Note: Suresh 2016 is a general complement paper; direct dengue confirmation not in wiki sources.
+3. **T Cell Responses in Dengue / Cytokine Storm** — IL-10 directly induces T cell apoptosis in acute dengue; IL-10 blockade reduces apoptosis; reduced T cell numbers in DHF vs. DF (Green 1999, Mathew & Rothman 2008 via Pang2017) → impaired viral clearance.
+
+**Updated:** [[Pang2017 - DHF Pathogenesis Review]] (created) + 21 existing pages — NS1 Protein, Dengue Pathophysiology, T Cell Responses in Dengue, Cytokine Storm (substantive), plus source-only: ADE, Type I IFN, Original Antigenic Sin, Secondary Dengue Infection, Cross-Reactive Antibodies, NS1 Molecular Mimicry in Dengue, Dengue Clinical Classification, NS1 Antigen Detection, DENV-1–4, Aedes aegypti, Aedes albopictus, prM Protein, CYD-TDV, index.md, log.md.
+
+---
+
+## [2026-04-17] ingest | Velazqueza2017 - SLE vs Dengue Case Series
+
+**Citation:** Luevanos-Velázquez A, Vega-Cornejo G, Monteón-Galván D. "What are we looking for? Systemic lupus erythematosus vs. dengue infection: A case series report." *Rev Colomb Reumatol*. 2018. DOI: 10.1016/j.rcreu.2017.05.006. Citations: 1 (SS) / 1 (CR).
+
+**New pages created (1):**
+- `wiki/sources/Velazqueza2017 - SLE vs Dengue Case Series.md`
+
+**Pages updated (10):**
+- `wiki/concepts/Autoimmunity in Dengue.md` — new "Pediatric SLE-Dengue Co-presentation" subsection; sources 25→26
+- `wiki/concepts/Macrophage Activation Syndrome in Dengue.md` — new "Full Dengue-Autoimmune Spectrum" section documenting ANA-positive SLE contrast; sources 2→3; updated date 04-15→04-17
+- `wiki/concepts/Infection-Triggered Autoimmunity.md` — dengue-triggered SLE de novo case added to Transience vs. Persistence section; sources 8→9
+- `wiki/concepts/Antinuclear Antibodies.md` — new "Dengue-Associated SLE: High-Titer ANA" subsection; sources 10→11
+- `wiki/concepts/Dengue Neurological Complications.md` — Case 2 convulsive crisis added; sources 3→4; updated date 04-15→04-17
+- `wiki/concepts/NS1 Molecular Mimicry in Dengue.md` — source added (NS1 endothelial/plasminogen mimicry cited); sources 8→9
+- `wiki/entities/NS1 Protein.md` — source added; sources 11→12
+- `wiki/entities/FcγRIIa Receptor.md` — source added (FcR polymorphism in autoimmunity); sources 6→7
+- `wiki/methods/IgM-IgG Serology ELISA.md` — source added; sources 11→12
+- `wiki/methods/Indirect Immunofluorescence ANA Test.md` — source added (ANA 1:1280 cases); sources 7→8
+
+**Geography:** Mexico (Guadalajara, Jalisco) — 1 source; no standalone page created per ≥2-source rule; noted in index.
+
+**Notable Findings:** No entry — paper confirms existing pattern (dengue + ANA-positive SLE) rather than producing a surprising cross-cutting finding.
+
+---
+
+## [2026-04-17] ingest | Gawali2021 - ANA Prevalence in Seroconverted Dengue Patients
+
+**Citation:** Gawali D, Misra V, Gaharwar R, Mittal A, Jain SB, Khetan R. "Understanding the ANA prevalence and its common pattern in seroconverted dengue infected patients." *International Journal of Applied Research* 2021; 7(10):154–158. DOI: null. Citations: null (SS) / null (CR). **⚠ Journal quality note:** IJAR is not indexed in PubMed/Scopus/WoS; its claimed "Impact Factor: 8.4" is not from Clarivate/JCR.
+
+**New pages created (1):**
+- `wiki/sources/Gawali2021 - ANA Prevalence in Seroconverted Dengue Patients.md`
+
+**Pages updated (11):**
+- `wiki/concepts/Antinuclear Antibodies.md` — 6-month ANA time point added to post-dengue section and comparison table; sources 9→10
+- `wiki/concepts/Autoimmunity in Dengue.md` — new "ANA at 6-Month Follow-Up" subsection; sources 24→25
+- `wiki/concepts/Infection-Triggered Autoimmunity.md` — 6-month data added to Transience vs. Persistence section; sources 7→8
+- `wiki/methods/Indirect Immunofluorescence ANA Test.md` — Gawali2021 6-month IIFA data added; sources 6→7; section header updated to "Acute and Post-Acute"
+- `wiki/methods/IgM-IgG Serology ELISA.md` — Gawali2021 added to Sources; sources 10→11
+- `wiki/methods/NS1 Antigen Detection.md` — Gawali2021 added to Sources; sources 7→8
+- `wiki/entities/Aedes aegypti.md` — background mention added; sources 6→7
+- `wiki/entities/Aedes albopictus.md` — background mention added; sources 2→3
+- `wiki/geography/India.md` — new Gwalior section (third Indian research centre); sources 2→3
+- `wiki/index.md` — sources 29→30; pages 95→96; all entity/concept/method/geography counts updated; Sources section header corrected (28→30); Concepts section header corrected (20→21)
+- `wiki/log.md` — this entry
+
+**Notable finding:** None. The 18.33% ANA positivity at 6 months is an interesting time point but the lack of a control group prevents definitive attribution to dengue; it is barely above the available healthy-population baseline (Li2019 14.01% at >1:100). No new mechanism or cross-cutting finding above the wiki's current knowledge.
+
+---
+
+## [2026-04-17] ingest | Zhou2007 - Polyreactive Antibodies Natural Antibody Function
+
+**Citation:** Zhou ZH, Tzioufas AG, Notkins AL. "Properties and function of polyreactive antibodies and polyreactive antigen-binding B cells." *Journal of Autoimmunity* 2007; 29(4):219–228. DOI: 10.1016/j.jaut.2007.07.015. Citations: 194 (SS) / 176 (CR).
+
+**New pages created (2):**
+- `wiki/sources/Zhou2007 - Polyreactive Antibodies Natural Antibody Function.md`
+- `wiki/concepts/Polyreactive Antibodies.md`
+
+**Pages updated (5):**
+- `wiki/concepts/Infection-Triggered Autoimmunity.md` — new subsection: polyreactive antibodies as a fourth interpretive layer; practical IIFA/LIA interpretation rule; sources 6→7
+- `wiki/concepts/Antinuclear Antibodies.md` — new paragraph: polyreactive IgM interpretation of IIFA-positive, LIA-negative dengue fraction; link to Polyreactive Antibodies; sources 8→9
+- `wiki/concepts/Autoimmunity in Dengue.md` — new inline paragraph: polyreactive IgM interpretation of ~66% non-specific IIFA fraction; Polyreactive Antibodies added to Related Pages and Sources; sources 23→24
+- `wiki/analyses/Notable Findings.md` — new entry [2026-04-17]: polyreactive IgM framework names the non-specific dengue ANA fraction; sources 18→19
+- `wiki/index.md` — sources 28→29; pages 93→95; Infection-Triggered Autoimmunity 6→7, Antinuclear Antibodies 8→9, Autoimmunity in Dengue 23→24; Polyreactive Antibodies added (1 source)
+
+**Notable finding flagged:** The two-thirds IIFA-positive, LIA-negative dengue ANA fraction is consistent with amplification of normal polyreactive IgM — not induced autoimmunity. This names a mechanism previously labelled "non-specific" and has interpretive implications across Chatterjee2024, Vo2020, and Berlin2007.
+
+---
+
 ## [2026-04-17] ingest | Bhatt2020 - Dengue Pathogenesis Review
 
 **Citation:** Bhatt P, Sabeena SP, Varma M, Arunkumar G. "Current Understanding of the Pathogenesis of Dengue Virus Infection." *Current Microbiology* 2021; 78(1):17–32. DOI: 10.1007/s00284-020-02284-w. Citations: 300 (SS) / 294 (CR).

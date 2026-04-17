@@ -2,8 +2,8 @@
 type: entity
 tags: [vector, mosquito, Aedes-aegypti, transmission, urban, salivary-gland, DENV-2, Asian-genotype]
 created: 2026-04-11
-updated: 2026-04-17
-sources: 6
+updated: 2026-04-17 (Rajadhyaksha2012 ingest)
+sources: 9
 ---
 
 # Aedes aegypti
@@ -49,3 +49,6 @@ None yet recorded.
 - [[Sungnak2025 - Distinct Immune Responses Asymptomatic Symptomatic Dengue]] (background mention)
 - [[Guzman2016 - Dengue Infection]] (vector biology, incubation periods, control programme histories)
 - [[Bhatt2020 - Dengue Pathogenesis Review]] (Asian genotype DENV-2 enhanced salivary gland replication in *Ae. aegypti* — underlying mechanism of genotypic virulence differential; review, India)
+- [[Gawali2021 - ANA Prevalence in Seroconverted Dengue Patients]] (background mention as primary dengue vector; Gwalior, Central India context)
+- [[Pang2017 - DHF Pathogenesis Review]] (background mention as primary dengue vector; review, China)
+- [[Rajadhyaksha2012 - Dengue Evolving into SLE and Lupus Nephritis]] (background mention as primary dengue vector; Mumbai India; n=1 case report)

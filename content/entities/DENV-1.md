@@ -2,8 +2,8 @@
 type: entity
 tags: [serotype, DENV-1, epidemiology, secondary-infection, ADE, Singapore, Nicaragua, antibody-kinetics, anti-prM, cross-reactivity, NS1-levels, viraemia]
 created: 2026-04-12
-updated: 2026-04-17
-sources: 7
+updated: 2026-04-17 (Rajadhyaksha2012 ingest)
+sources: 9
 ---
 
 # DENV-1
@@ -47,3 +47,5 @@ DENV-1 is one of the four dengue virus serotypes. It was the first to be introdu
 - [[Vo2020 - Autoantibody Profiling in Dengue]] (Cambodia 2012–2013; DENV-1 dominant in 72.7% ASD, 76.9% DF, 87.5% DHF; all 6 primary-infection patients infected with DENV-1)
 - [[Dejnirattisai2010 - Anti-prM Antibodies Enhance Dengue ADE]] (anti-prM hmAbs from DENV-infected donors show full cross-reactivity against DENV-1 antigen alongside DENV-2, -3, -4; cross-reactivity tested in all serotypes equally)
 - [[Bhatt2020 - Dengue Pathogenesis Review]] (DENV-1 primary infection: higher circulating NS1 levels than DENV-2 primary; higher viraemia in primary DENV-1 vs secondary DENV-2; review, India)
+- [[Pang2017 - DHF Pathogenesis Review]] (all four DENV serotypes mentioned in ADE and T cell pathogenesis context; review, China)
+- [[Rajadhyaksha2012 - Dengue Evolving into SLE and Lupus Nephritis]] (DENV-1 genotype 1 confirmed by RT-PCR; IgM+/IgG- primary infection; 22F Mumbai; dengue→SLE+Class IV lupus nephritis in 4 weeks; n=1 case report)

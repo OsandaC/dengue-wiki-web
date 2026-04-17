@@ -2,8 +2,8 @@
 type: concept
 tags: [neurological, ADEM, encephalomyelitis, encephalitis, Guillain-Barre, GBS, CNS, neuropathogenesis, DENV-2, DENV-3, post-infectious, molecular-mimicry, retinal-vasculitis, immune-complex, ophthalmological]
 created: 2026-04-12
-updated: 2026-04-15
-sources: 3
+updated: 2026-04-17
+sources: 4
 ---
 
 # Dengue Neurological Complications
@@ -33,6 +33,9 @@ The most epidemiologically confirmed neurological complication of dengue. From [
 - Dengue is reported in case series as a trigger for GBS (post-infectious demyelinating polyneuropathy); multiple case reports have been described (see [[Guzman2016 - Dengue Infection]]).
 - However, in the Shih2023 population-based cohort study, the association was NOT statistically significant after correction for multiple testing (aHR 1.29; 95% CI 0.61–2.72; P = 0.5106).
 - Whether the case-report signal represents a true biological association at low incidence, or chance co-occurrence, remains uncertain. The incidence is too low for adequate power even in this large cohort (only 10 GBS cases in the dengue group).
+
+### Dengue-Associated Seizures
+[[Velazqueza2017 - SLE vs Dengue Case Series]] documents a 3-year-old female patient who presented with fever and convulsive crisis as the initial manifestation of confirmed dengue infection, alongside thrombocytopenia, facial oedema, and proteinuria (nephrotic syndrome). She deteriorated and required ICU admission. The case is complicated by a subsequent SLE diagnosis 2 months later — the acute-phase seizures could represent dengue encephalopathy (metabolic/systemic pathway from thrombocytopenia, hypoalbuminaemia, and plasma leakage), direct CNS dengue involvement, or early CNS lupus. The temporal association with confirmed acute dengue at presentation places this case in the dengue neurological spectrum, though definitive mechanism attribution is not possible. This case illustrates the diagnostic challenge in dengue-endemic settings when SLE and dengue co-occur.
 
 ### Other Neurological Manifestations
 From [[Guzman2016 - Dengue Infection]]:
@@ -67,3 +70,4 @@ From [[Guzman2016 - Dengue Infection]]:
 - [[Shih2023 - Autoimmune Disease Risk After Dengue]]
 - [[Guzman2016 - Dengue Infection]]
 - [[Palacios2016 - Autoimmunity in Dengue Literature Review]] (retinal vasculitis via immune complex deposition; Chang et al. 2007, Singapore)
+- [[Velazqueza2017 - SLE vs Dengue Case Series]] (Case 2: convulsive crisis at initial dengue presentation in a 3-year-old; subsequently diagnosed SLE 2 months later; Guadalajara Mexico; n=2 case series)

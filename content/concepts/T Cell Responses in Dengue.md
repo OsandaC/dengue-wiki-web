@@ -3,7 +3,7 @@ type: concept
 tags: [CD8-T-cells, CD4-T-cells, MAIT, iNKT, exhaustion, effector, TCR, immunopathogenesis, low-avidity, OAS, cytolytic-loss, TNF-alpha, IL-6]
 created: 2026-04-12
 updated: 2026-04-17
-sources: 3
+sources: 4
 ---
 
 # T Cell Responses in Dengue
@@ -34,6 +34,19 @@ MAIT cells (TRAV1-2+) and iNKT cells (TRAV10+TRAJ18+) show significantly higher 
 **CD4 CTLs:** Also observed to be clonally expanded (consistent with prior reports of dengue-specific CD4 cytotoxic T lymphocytes). CD4 proliferating T cells in DHF show the highest IL10 expression and are proposed (via CellChat analysis) to signal to plasmablasts through IL-10/IL-10R — potentially driving pathogenic plasma cell expansion.
 
 **Longitudinal dynamics:** From febrile phase to 2-month convalescence, proliferating T cells contract. However, CD8-proliferating T cells from the febrile phase were found to transition to CD8 TEM identity at convalescence in 5/6 donors, suggesting the effector-to-memory transition occurs partly from this proliferating pool rather than exclusively from pre-existing CD8 TEM.
+
+### IL-10-driven T cell apoptosis — a mechanism for impaired viral clearance (Pang2017)
+
+[[Pang2017 - DHF Pathogenesis Review]] synthesises evidence for a specific IL-10 → T cell apoptosis pathway in severe dengue (citing Mathew & Rothman 2008; Green 1999):
+
+- **IL-10 is elevated in severe dengue** (consistent with Sungnak2025 and Bhatt2020 in this wiki, where IL-10 is the cytokine most consistently associated with DHF)
+- **IL-10 directly induces T cell apoptosis** in patients with acute dengue infection; IL-10 blockade is significantly associated with *reduced* T cell apoptosis in acute DENV infection
+- **Consequence: reduced T cell numbers in DHF vs. DF** — documented by Green et al. (1999) in the original source cited; fewer T cells → impaired viral clearance → prolonged viraemia → more severe clinical dengue
+- **Mechanism implication:** IL-10's role in dengue severity thus operates through at least two parallel arms: (1) Th2 skewing / IFN-γ suppression → impaired antiviral killing (Bhatt2020, Wan2012); and (2) T cell apoptosis → quantitative depletion of the effector pool → reduced clearance capacity
+
+This provides a quantitative cellular basis for the Bhatt2020 OAS model: not only are the expanded cross-reactive T cells functionally inferior (low avidity, cytolytic loss), but IL-10 produced in the same severe dengue context actively eliminates T cells — compounding the clearance deficit via a second, independent mechanism.
+
+Note: the IL-10 → T cell apoptosis connection is reviewed here from secondary sources (Pang2017 citing Mathew & Rothman 2008) and has not been directly measured in this wiki's primary data sources.
 
 ### OAS-driven CD8+ dysfunction mechanism — Bhatt2020
 
@@ -78,3 +91,4 @@ The relative importance of antibody-mediated (ADE) versus T cell–mediated immu
 - [[Sungnak2025 - Distinct Immune Responses Asymptomatic Symptomatic Dengue]]
 - [[Guzman2016 - Dengue Infection]] (NS protein epitope CD8 immunity; CD4 T cell multifunctionality; cross-reactive T cells and OAS; vaccine implications)
 - [[Bhatt2020 - Dengue Pathogenesis Review]] (OAS mechanism: low-avidity CD8+ preferentially expanded; cytolytic loss + TNF-α/IL-6 excess; delayed clearance; positive feedback to DHF/DSS; review article, India)
+- [[Pang2017 - DHF Pathogenesis Review]] (IL-10-driven T cell apoptosis: IL-10 blockade reduces T cell apoptosis; reduced T cell numbers in DHF vs DF; impaired clearance from apoptotic T cell loss; cross-reactive T cell OAS mechanism confirmed; Tsinghua University China; review)

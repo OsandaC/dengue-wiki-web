@@ -1,9 +1,9 @@
 ---
 type: method
-tags: [serology, IgM, IgG, ELISA, diagnostics, convalescent-phase, secondary-infection, Zika, cross-reactivity, MAC-ELISA, anti-dengue-IgG, anticardiolipin, anti-prM, research-ELISA]
+tags: [serology, IgM, IgG, ELISA, diagnostics, convalescent-phase, secondary-infection, Zika, cross-reactivity, MAC-ELISA, anti-dengue-IgG, anticardiolipin, anti-prM, research-ELISA, India]
 created: 2026-04-12
 updated: 2026-04-17
-sources: 10
+sources: 13
 ---
 
 # IgM-IgG Serology ELISA
@@ -69,3 +69,6 @@ Enzyme-linked immunosorbent assay (ELISA) detection of dengue-specific IgM and I
 - [[Palacios2016 - Autoimmunity in Dengue Literature Review]] (Lai 2012 reinfection diagnosis by IgG+IgM dual seropositivity; Garcia2009 longitudinal IgG follow-up methodology)
 - [[Vo2020 - Autoantibody Profiling in Dengue]] (IgM seroconversion from IgM-negative to IgM-positive during hospital stay used as one of three criteria for acute dengue diagnosis; primary/secondary classification used IgG:IgM ratio; Cambodia 2012–2013 cohort)
 - [[Dejnirattisai2010 - Anti-prM Antibodies Enhance Dengue ADE]] (indirect ELISA for anti-prM and anti-E monoclonal antibody binding to purified antigens; cross-reactivity panel across all four DENV serotypes and JEV controls; note: research ELISA for antibody characterisation, not clinical diagnostic serology)
+- [[Gawali2021 - ANA Prevalence in Seroconverted Dengue Patients]] (NIV DENGUE IgM Capture ELISA for acute diagnosis; J.MITRA DENGUE IgG MICROLISA at 6-month follow-up to confirm IgG seroconversion; India Central India; n=163)
+- [[Velazqueza2017 - SLE vs Dengue Case Series]] (dengue serology test positive in both pediatric SLE cases; Guadalajara Mexico; n=2)
+- [[Rajadhyaksha2012 - Dengue Evolving into SLE and Lupus Nephritis]] (IgM ELISA positive 16.27 [threshold >11]; IgG negative — primary infection classification; Mumbai India; n=1 case report)

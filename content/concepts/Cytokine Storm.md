@@ -3,7 +3,7 @@ type: concept
 tags: [cytokines, immunopathogenesis, IL-10, TNF-alpha, IFN-alpha, vascular-permeability, plasma-leakage, DHF, DSS, TLR4, NS1, bystander-activation, MAS, macrophage-activation-syndrome, HLH, hyperferritinemia, MIF, autophagy, Th2-skewing, Treg]
 created: 2026-04-13
 updated: 2026-04-17
-sources: 9
+sources: 10
 ---
 
 # Cytokine Storm
@@ -24,6 +24,7 @@ IL-10 is the cytokine most consistently associated with dengue severity in this 
 - IL-10 correlates with platelet loss in dengue patients (see [[Wan2012 - Autoimmunity in Dengue Pathogenesis]])
 - IL-10 ACC/ATA haplotype combined with TNF-308A is associated with susceptibility to DSS in the Cuban population (see [[Guzman2016 - Dengue Infection]])
 - In the intrinsic ADE model, FcgammaR-mediated viral entry enhances IL-10 production, which suppresses IFN-gamma signalling and promotes Th2 skewing — a positive feedback loop favouring antibody production over viral clearance (see [[Wan2012 - Autoimmunity in Dengue Pathogenesis]], [[Antibody-Dependent Enhancement]])
+- **IL-10 directly induces T cell apoptosis** in acute dengue: IL-10 blockade significantly reduces T cell apoptosis; reduced T cell numbers have been documented in DHF vs. DF patients (Green 1999; Mathew & Rothman 2008, as reviewed in [[Pang2017 - DHF Pathogenesis Review]]). This adds a cytotoxic arm to IL-10's role beyond immunosuppression: not only does IL-10 suppress Th1 killing, it actively eliminates T cells — compounding the viral clearance deficit (see [[T Cell Responses in Dengue]])
 
 #### IFN-alpha (Type I Interferon)
 - Plasma IFN-alpha2 is significantly elevated in symptomatic dengue (DF and DHF) versus asymptomatic infection (P < 0.05, Kruskal-Wallis + Dunn's test) (see [[Sungnak2025 - Distinct Immune Responses Asymptomatic Symptomatic Dengue]])
@@ -113,3 +114,4 @@ Critically, these MAS cases were **ANA and anti-dsDNA negative** — confirming 
 - [[Oishi2003 - PAIgG and Thrombocytopenia in Secondary Dengue]] (complement activation invoked in secondary-infection platelet clearance; immune-complex-driven macrophage engagement)
 - [[Vo2020 - Autoantibody Profiling in Dengue]] (cytokine storm cited as background pathogenesis mechanism; deregulated T cell compartment and elevated cytokines invoked to explain autoreactive antibody production during acute DENV infection)
 - [[Bhatt2020 - Dengue Pathogenesis Review]] (MIF-autophagy viral amplification loop; OAS CD8+ T cell TNF-α/IL-6 excess without cytolytic clearance; Th1→Th2 shift mechanism; IL-10 from Tregs + CD4 T cells; review, India)
+- [[Pang2017 - DHF Pathogenesis Review]] (IL-10 → T cell apoptosis mechanism reviewed; reduced T cell numbers in DHF vs DF; IL-10 blockade reduces apoptosis; anti-NS1 NF-κB → IL-6/IL-8/MCP-1 pathway confirmed; review, China)

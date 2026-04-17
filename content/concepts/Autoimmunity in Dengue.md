@@ -1,9 +1,10 @@
 ---
 type: concept
-tags: [autoimmunity, immune-complex, ANA, CRP, cytokines, molecular-mimicry, NS1, post-dengue, infection-triggered-autoimmunity, thrombocytopenia, endothelial-cells, ADEM, encephalomyelitis, epidemiology, MCTD, myositis, LIA, India, sex-bias, host-factors, adrenocortical-insufficiency, TLR, Taiwan, NHIRD, MAS, macrophage-activation-syndrome, HLH, Paraguay, SLE, lupus-nephritis, ANA-negative, PAIgG, secondary-infection, Philippines]
+tags: [autoimmunity, immune-complex, ANA, CRP, cytokines, molecular-mimicry, NS1, post-dengue, infection-triggered-autoimmunity, thrombocytopenia, endothelial-cells, ADEM, encephalomyelitis, epidemiology, MCTD, myositis, LIA, India, sex-bias, host-factors, adrenocortical-insufficiency, TLR, Taiwan, NHIRD, MAS, macrophage-activation-syndrome, HLH, Paraguay, SLE, lupus-nephritis, ANA-negative, PAIgG, secondary-infection, Philippines, polyreactive-antibodies, 6-month-follow-up]
 created: 2026-04-11
-updated: 2026-04-17 (post-Vo2020 ingest)
-sources: 23
+updated: 2026-04-17
+sources: 27
+
 ---
 
 # Autoimmunity in Dengue
@@ -17,7 +18,7 @@ Dengue virus infection can trigger transient or prolonged autoimmune responses. 
 [[Chatterjee2024 - ANA Detection in Dengue Kolkata]] provides the first ANA measurement during acute dengue using the HEp-2 gold standard IIFA (Kolkata, India; n=135 dengue-confirmed, 126 controls):
 - **54.8%** of dengue-positive patients ANA-positive by IIFA vs. **10.3%** controls (p < 0.001)
 - **18.5%** by LIA (18 specific autoantibodies) vs. **7.1%** controls (p = 0.009)
-- The ~3:1 IIFA:LIA ratio reveals that the majority of dengue-associated ANAs are non-specific and do not correspond to established autoimmune disease specificities
+- The ~3:1 IIFA:LIA ratio reveals that the majority of dengue-associated ANAs are non-specific and do not correspond to established autoimmune disease specificities. **A polyreactive IgM interpretation:** [[Zhou2007 - Polyreactive Antibodies Natural Antibody Function]] provides a mechanism — the ~66% IIFA-positive, LIA-negative fraction is consistent with expansion or unmasking of normal germline-encoded polyreactive IgM, which binds structurally unrelated self-antigens (including nuclear antigens) as a constitutive property of the immune repertoire (see [[Polyreactive Antibodies]]). Dengue's inflammatory milieu could amplify the polyreactive IgM background without invoking antigen-specific autoimmune induction — explaining the non-specific IIFA signal, IgM dominance, LIA-negativity, and expected transience (polyreactive IgM half-life ~8h). This applies specifically to the non-specific fraction; the LIA-positive fraction requires separate explanation (molecular mimicry, epitope spreading).
 - Of 7 autoimmune disease categories tested (SLE, Sjögren's, CREST, MCTD, PBC, myositis, non-rheumatic diseases), only **MCTD** (multivariate p = 0.041) and **autoimmune myositis** (multivariate p = 0.018) were significantly elevated in dengue patients — important caveat: wide confidence intervals (OR 14.01, 95% CI 2.197–89.215 and OR 18.37, 95% CI 2.746–122.944 respectively) and a small sample (n=135) make these hypothesis-generating rather than confirmed findings
 
 - Among symptomatic patients followed 2 years post-infection, 76.9% (20/26) showed ≥1 autoimmune marker alteration, including elevated IC and CRP in 42.3% each and ANA positivity in 23.1% (see [[Garcia2009 - Long-term Clinical Symptoms Post-Dengue]]).
@@ -51,7 +52,10 @@ The "intrinsic ADE" hypothesis in Wan2012 links ADE to autoimmunity mechanistica
 
 The temporal profile — resolution within months — makes Garcia2009's 2-year ANA persistence a significant outlier. Possible explanations: (1) FcγRIIa-HH genotype impairs IC clearance, prolonging immune stimulation; (2) ongoing anti-dengue IgG production (correlated with elevated IC in Garcia2009) sustains the autoantibody response beyond the expected window; (3) the Garcia2009 ANA may reflect a population of autoantibodies distinct from anti-NS1 cross-reactive Abs.
 
-Case reports cited in Wan2012 document individual patients progressing from dengue to frank SLE/lupus nephritis (Rajadhyaksha 2012) and multiple autoimmune features (Jardim 2012) — though Shih2023 shows this is not detectable as a population-level risk.
+Case reports cited in Wan2012 document individual patients progressing from dengue to frank SLE/lupus nephritis and multiple autoimmune features — though Shih2023 shows this is not detectable as a population-level risk. The primary source for the dengue→SLE+lupus nephritis case cited by Wan2012 is [[Rajadhyaksha2012 - Dengue Evolving into SLE and Lupus Nephritis]] (see below).
+
+### ANA at 6-Month Follow-Up — A New Time Point
+[[Gawali2021 - ANA Prevalence in Seroconverted Dengue Patients]] provides the first 6-month post-dengue ANA measurement using HEp-2 IIFA (Gwalior, Madhya Pradesh, India; n=120 IgG-positive dengue patients; 22/120 = 18.33% ANA-positive at 1:100 dilution). This sits chronologically between Chatterjee2024 (acute, 54.8%) and Garcia2009 (2 years, 23.1%), consistent with a declining trajectory from the acute peak. The dominant ANA pattern was AC-1 (nuclear homogeneous, 81.81%) — pointing to dsDNA/histone/nucleosome targets, the same specificity class found positively correlated with platelet counts in DHF patients by Vo2020. However, **no control group was tested**, making it impossible to determine the regional background ANA rate for Central India. The closest available baseline is Li2019 (Chinese >1:100: 14.01%), which reduces the apparent dengue-attributable excess to ~4 percentage points — within the range of sampling variability for n=120.
 
 ### Contextualising ANA Positivity Against Healthy-Population Baselines
 The 23.1% ANA positivity reported in Garcia2009 must be evaluated against contemporary healthy-population reference data:
@@ -101,6 +105,38 @@ This is the only wiki source with direct ANA measurement in dengue-associated MA
 The within-series comparison in Morel2014 is also notable: Case 1 (the mildest, self-limiting case) showed the most conventional autoimmune markers (IgM anticardiolipin positive, hypocomplementemia, proteinuria) while being the least severe clinically. Cases 2 and 3 (the most severe, requiring corticosteroids) had no conventional autoantibodies. This inversion does not necessarily contradict the Wan2012 autoantibody-severity correlation (which measured flow cytometric anti-endothelial antibodies, a different assay), but it highlights that **the autoimmune marker panel routinely tested (ANA, anti-dsDNA, lupus anticoagulant) cannot distinguish dengue-MAS from other causes of MAS**.
 
 [[Palacios2016 - Autoimmunity in Dengue Literature Review]] (a letter to the editor responding to Morel2014) adds another MAS case — an adult woman with concurrent nephrotic syndrome (Lai et al. 2012, France), confirming that dengue-MAS is not solely paediatric. Palacios2016 also documents additional dengue-autoimmune clinical forms: SLE+lupus nephritis (Talib 2013, ANA homogeneous + anti-dsDNA positive — the one case with positive ANA in contrast to Morel2014) and retinal vasculitis (Chang 2007, Singapore, via immune complex deposition).
+
+### Pediatric SLE-Dengue Co-presentation — ANA-Positive Cases
+
+[[Velazqueza2017 - SLE vs Dengue Case Series]] extends the ANA-positive SLE-dengue cluster beyond the single Talib 2013 case cited in Palacios2016, providing the first directly reported pediatric SLE-dengue case series from Mexico in this wiki (n=2; ages 3 and 6 years; Guadalajara, Jalisco, Mexico; Hospital General de Occidente, Pediatric Rheumatology Service).
+
+Both cases had the complete SLE autoantibody signature at very high titres:
+- **ANA 1:1280** by IIFA — Case 1: homogeneous + cytoplasmic pattern; Case 2: fine speckled — far above the 1:80 mandatory SLE entry criterion (see [[Aringer2019 - 2019 EULAR ACR SLE Classification Criteria]])
+- **Antinucleosome antibodies** in both: 52 U/ml (Case 1) and 258 IU/ml (Case 2) — targeting histone-DNA complexes; a canonical SLE-specific autoantibody distinct from non-specific infection-triggered ANA
+- **Anti-dsDNA** positive in both (1:10 and 31 IU/ml)
+- **Hypocomplementemia** (Case 1)
+
+Case 1 (6F, severe dengue + concurrent SLE diagnosis) responded to chloroquine, azathioprine, and prednisone. Case 2 (3F): dengue was the acute presentation; SLE was diagnosed 2 months later — the most temporally direct case of dengue preceding de novo SLE diagnosis in this wiki, though the authors note that "it is not possible to determine the chronology between dengue and SLE." Case 2 died from pulmonary haemorrhage one week after SLE diagnosis.
+
+Together with the Talib 2013 case (cited via Palacios2016, Singapore), these cases document an ANA-positive SLE cluster within the broader dengue-autoimmune literature. **The contrast with Morel2014's ANA-negative MAS is complete: dengue-associated immune complications span from ANA-negative, macrophage-driven MAS to ANA-positive, antinucleosome-positive SLE.** Whether FC receptor polymorphism, complement gene variation, or other host factors determine which path a given dengue patient takes remains unknown.
+
+The antinucleosome specificity (both cases) is notable in the context of Vo2020's finding that nuclear antigen IgGs (including histone H3/H4 and nucleosome antigens) are *positively* correlated with platelet counts in DHF — interpreted as consumption via immune complex formation. Whether very high antinucleosome titres in active SLE represent a production-dominant state that overrides the consumption signal, or whether these are mechanistically different populations of anti-nucleosome antibodies, cannot be resolved from n=2 case reports.
+
+**Methodological note:** n=2 case series — not generalizable. No dengue serotype data. Temporal sequence ambiguous for Case 1 (concurrent diagnosis). Both cases could represent dengue unmasking pre-existing subclinical SLE rather than de novo triggering.
+
+### Biopsy-Confirmed SLE and Lupus Nephritis After Primary DENV-1 — Adult Case
+
+[[Rajadhyaksha2012 - Dengue Evolving into SLE and Lupus Nephritis]] (n=1, 22F, Mumbai India; KEM Hospital) provides the primary-source documentation for a case in which primary DENV-1 infection (IgM+/IgG- by ELISA, DENV-1 genotype 1 by RT-PCR) was followed 4 weeks later by frank SLE with biopsy-confirmed Class IV diffuse proliferative glomerulonephritis. Key features:
+
+- ANA 1:320 homogeneous 4+, anti-dsDNA 1:80 4+, severely low C3 (22 mg/dL) and C4 (5 mg/dL)
+- **Anti-cardiolipin IgM 44 MPLU/mL and IgG 12 GPLU/mL** — both elevated and persistent at 4 months; adding an antiphospholipid axis not documented in other dengue-SLE cases in this wiki
+- LE cells in ascitic fluid; negative ANCA and RF
+- Responded partially to methylprednisolone pulse + MMF + hydroxychloroquine
+- Authors claim this as the first published case of dengue fever evolving into lupus nephritis
+
+This case extends the dengue-SLE cluster beyond [[Velazqueza2017 - SLE vs Dengue Case Series]] and the Talib 2013 case (cited via [[Palacios2016 - Autoimmunity in Dengue Literature Review]]) with: (1) shorter dengue→SLE interval (4 weeks vs. 2 months for Velazqueza2017 Case 2); (2) biopsy confirmation of Class IV LN; (3) confirmed primary infection. The fundamental causal ambiguity remains: no autoantibody testing was performed during acute dengue, so whether dengue triggered de novo SLE or unmasked pre-existing subclinical SLE cannot be resolved. The authors favour the latter interpretation.
+
+**Evidence weight:** n=1 case report — cannot support generalizable mechanistic claims. The anti-cardiolipin persistence (4 months) is unusual compared with the transient IgM aCL seen in dengue without SLE (Morel2014 Case 1), suggesting SLE-driven antiphospholipid antibody production rather than a dengue-specific transient response.
 
 ### Systematic Autoantibody Profiling — Protein Microarray in Cambodian Children
 
@@ -154,6 +190,7 @@ The nuclear antigen correlation finding is particularly notable given the existi
 - [[Line Immunoassay ANA]]
 - [[Autoantigen Microarray]]
 - [[Cambodia]]
+- [[Polyreactive Antibodies]]
 
 ## Sources
 - [[Garcia2009 - Long-term Clinical Symptoms Post-Dengue]]
@@ -179,3 +216,7 @@ The nuclear antigen correlation finding is particularly notable given the existi
 - [[Saito2004 - PAIgG and PAIgM in Secondary Dengue]] (extends Oishi2003 to PAIgM: anti-dengue IgM immune complexes also confirmed on platelets in secondary infection; PAIgM is NOT anti-platelet autoantibody; PAIgM completely FcγR-independent; mechanistically distinguishes secondary-infection IgM immune complex from primary-infection IgM autoantibody; Philippines cohort)
 - [[Bos2025 - Longitudinal Antibody Dynamics After Dengue]] (indirect — NS1-IgG waning t½≈2.1y provides kinetic context for decline of NS1-mimicry component of autoantibody repertoire; bridges Chatterjee2024 acute ANA spike toward Garcia2009 2-year ANA; PREPRINT)
 - [[Vo2020 - Autoantibody Profiling in Dengue]] (protein microarray of 123 autoantigens; 80 IgM + 6 IgG elevated vs. HD; primary > secondary IgG autoantibody inversion; no ASD vs. DF/DHF difference in total load; 19 IgG autoantibodies positively correlated with platelet count in DHF including nuclear antigen IgGs [KU, Smith, histone, Sm/RNP, nucleosome]; Cambodia pediatric cohort)
+- [[Zhou2007 - Polyreactive Antibodies Natural Antibody Function]] (mechanistic interpretive framework for non-specific dengue ANA; polyreactive IgM as explanation for IIFA-positive, LIA-negative fraction; distinction from pathogenic disease autoantibodies; PAB cell biology)
+- [[Gawali2021 - ANA Prevalence in Seroconverted Dengue Patients]] (ANA in IgG-seroconverted dengue patients at 6 months; 18.33% IIFA HEp-2-positive; AC-1 dominant; no control group; Gwalior Central India; n=120 IgG+)
+- [[Velazqueza2017 - SLE vs Dengue Case Series]] (n=2 pediatric SLE + dengue cases; Guadalajara Mexico; ANA 1:1280 + anti-dsDNA + antinucleosome in both; Case 2 SLE diagnosed 2 months after dengue; FcR polymorphism and NS1 molecular mimicry cited as mechanisms; n=2 case series — not generalizable)
+- [[Rajadhyaksha2012 - Dengue Evolving into SLE and Lupus Nephritis]] (n=1 adult female; primary DENV-1 [IgM+/IgG-]; ANA 1:320 + anti-dsDNA 1:80 + hypocomplementemia + anti-cardiolipin IgM+IgG+ at 4 weeks post-dengue; biopsy-confirmed Class IV diffuse proliferative GN; first reported dengue→lupus nephritis case; Mumbai India; causal direction ambiguous — no pre-dengue autoantibody baseline)
