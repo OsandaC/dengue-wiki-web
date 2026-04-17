@@ -2,13 +2,63 @@
 type: analysis
 tags: [notable-findings, flags, cross-cutting, observations]
 created: 2026-04-12
-updated: 2026-04-15
-sources: 16
+updated: 2026-04-17
+sources: 18
 ---
 
 # Notable Findings
 
 A running log of observations that are striking, unexpected, or carry implications beyond the paper they came from. Each entry is a flag — something worth returning to, following up on, or building an analysis around. Entries are added during ingest whenever something catches the eye.
+
+---
+
+## [2026-04-17] ADE is not just a threshold phenomenon — there is a discrete quantitative enhancement window (titer 1:21–1:80)
+
+**Source:** [[Bhatt2020 - Dengue Pathogenesis Review]] (citing Katzelnick et al. 2017, *Science*)
+
+**Finding:** In a prospective cohort of 6,684 Nicaraguan children followed for nine years, pre-existing anti-dengue antibody titres of 1:21–1:80 were associated with peak dengue hospitalisation risk — the ADE enhancement window. Below this range, antibody levels are insufficient to mediate meaningful FcγR-dependent viral uptake. Above 1:1,280, neutralisation dominates and protection is conferred. The ADE danger zone is thus bounded on both ends by a discrete quantitative range.
+
+**Why notable:** Prior wiki sources (Guzman2016, Wan2012, Dejnirattisai2010) established ADE as a qualitative mechanism — cross-reactive antibodies below the neutralisation threshold are enhancing. The Katzelnick data convert this into a quantitative prediction with practical implications. The "enhancement window" framing changes how waning immunity should be evaluated: it is not simply that waning immunity is risky as neutralising titres fall, but that there is a specific titer band where an individual has *exactly the wrong amount of antibody* — enough to load Fc receptors with virus but not enough to neutralise. This is directly relevant to: (1) vaccine safety monitoring — post-vaccination titre waning should be tracked against this window, not just against a binary seropositive/seronegative threshold; (2) the risk model for CYD-TDV seronegatives — their primed-but-waned antibody titres likely fell into this range upon natural DENV challenge; (3) the Bos2025 (PREPRINT) observation that cross-reactive E-IgG *rises* post-primary — the question of whether rising XR E-IgG titres pass through or above the enhancement window has direct bearing on when and whether ADE risk peaks.
+
+**Follow-up questions:**
+- What are the post-vaccination antibody waning kinetics for TAK-003 and TV003 in seronegative vaccinees, and do their waning trajectories pass through the 1:21–1:80 window?
+- Is the 1:21–1:80 window specific to total anti-dengue IgG, or do anti-prM and anti-E antibodies each have their own enhancement windows?
+- Does the quantitative ADE window shift by infecting serotype sequence (e.g., is the enhancement window for DENV2 secondary different from DENV4)?
+
+**Related pages:** [[Antibody-Dependent Enhancement]], [[Dengue Vaccine Candidates]], [[Cross-Reactive Antibodies]], [[CYD-TDV]], [[Secondary Dengue Infection]]
+
+---
+
+## [2026-04-17] Anti-prM antibodies are the dominant structural antibody in dengue infection — and the most potent ADE mediators
+
+**Source:** [[Dejnirattisai2010 - Anti-prM Antibodies Enhance Dengue ADE]]
+
+**Finding:** In DENV-infected humans, approximately 60% of anti-dengue structural antibodies are directed against the prM (pre-membrane) protein — not the E protein, which had been assumed to dominate the structural humoral response. Anti-prM antibodies are fully cross-reactive across all four DENV serotypes, cannot neutralise above a 10–60% ceiling regardless of titre, and mediate ADE in primary human monocytes and dendritic cells at up to 10^5-fold enhancement — substantially exceeding typical anti-E ADE magnitudes.
+
+**Why notable:** The entire established ADE and vaccine-design literature in this wiki frames anti-E antibodies as the relevant ADE-mediating population, with the neutralisation threshold as the key variable separating protective from enhancing antibody. Dejnirattisai2010 introduces a parallel ADE pathway with two fundamental differences: (1) the dominant antibody class is anti-prM, not anti-E; (2) the neutralisation ceiling is structural — from incomplete prM cleavage leaving a non-neutralisable mature virion fraction — not a matter of titre falling below a threshold. These are not competing models; both pathways likely operate in vivo. But if anti-prM is the numerically dominant pathway, then: (a) prior conclusions about sub-threshold anti-E as the ADE driver need qualification; (b) standard vaccine immunogenicity readouts (anti-E neutralising titres) may be measuring a minority antibody population while ignoring the majority enhancing one; (c) all three leading vaccine platforms (CYD-TDV, TAK-003, TV003) prime anti-prM responses that are, by this paper's characterisation, structurally incapable of providing complete neutralisation and constitutively ADE-prone. The 10^5-fold monocyte/DC enhancement also substantially exceeds prior quantifications of ADE magnitude in the wiki, implying a more explosive viral amplification upon Fc-mediated uptake than the classical model suggests.
+
+**Follow-up questions:**
+- What are the relative anti-prM and anti-E antibody titres at the point of secondary infection — does anti-prM dominate at the time of heterotypic challenge as it does at the B cell population level?
+- Have post-2010 vaccine candidates (especially DNA vaccines or mRNA platforms) adopted modified or deleted prM sequences in response to this finding?
+- Is there any clinical correlate of anti-prM titre with DHF risk in prospective secondary-infection cohorts?
+
+**Related pages:** [[prM Protein]], [[Antibody-Dependent Enhancement]], [[Cross-Reactive Antibodies]], [[Dengue Vaccine Candidates]], [[E Protein]], [[Secondary Dengue Infection]]
+
+---
+
+## [2026-04-17] Secondary dengue PAIgM is an anti-dengue immune complex — not an autoantibody — refining the bifurcation model
+
+**Sources:** [[Saito2004 - PAIgG and PAIgM in Secondary Dengue]], [[Oishi2003 - PAIgG and Thrombocytopenia in Secondary Dengue]], [[Lin2001 - IgM Anti-Platelet Autoantibody in Dengue Patients]]
+
+**Finding:** Saito2004 confirms that IgM elevated on platelets in secondary dengue infection carries **anti-dengue virus IgM specificity** (confirmed by platelet eluate ELISA), not anti-platelet autoantibody specificity. Combined with Oishi2003 (PAIgG also carries anti-dengue IgG specificity), the secondary-infection mechanism is now fully characterised as two-isotype anti-dengue immune complex deposition — not autoimmunity. PAIgM is additionally an FcγR-independent predictor of DHF (specificity 92.1%, cut-off >20 ng/10⁷ platelets).
+
+**Why notable:** The wiki's existing Notable Finding [2026-04-15] ("thrombocytopenia bifurcates by infection order") describes the secondary mechanism as "anti-dengue IgG immune complexes." Saito2004 now adds a second immune complex isotype (IgM) to the secondary picture. This matters because the primary-infection mechanism (Lin2001) involves IgM anti-platelet *autoantibodies* — the same isotype now documented as anti-dengue immune complexes in secondary infection. The two IgM species are therefore mechanistically opposite: one is anti-self (NS1 molecular mimicry), the other is anti-viral (immune complex). The bifurcation is now precisely: primary infection → IgM anti-platelet autoantibody; secondary infection → PAIgG + PAIgM anti-dengue immune complexes (both FcγRII-independent at platelet docking; PAIgM additionally FcγR-independent at clearance). Any future study measuring "IgM on platelets" in dengue must distinguish IgM origin (autoantibody vs. immune complex) — simple PAIgM elevation cannot be interpreted without eluate specificity testing.
+
+**Follow-up questions:**
+- Is PAIgM's complete FcγR independence the mechanistic reason it outperforms PAIgG as a DHF severity predictor? (FcγRIIa genotype would modulate PAIgG clearance but not PAIgM clearance — the more severe DHF cases may be those in which the complement-driven PAIgM pathway predominates.)
+- Does a study of PAIgG/PAIgM in primary dengue infection find PAIgG elevated (anti-dengue IgG IC mechanism from prior sensitisation is absent in primary — so PAIgG should be low if Oishi2003 is correct)?
+
+**Related pages:** [[Secondary Dengue Infection]], [[Dengue Pathophysiology]], [[FcγRIIa Receptor]], [[Platelet-Associated Immunoglobulin ELISA]], [[Autoimmunity in Dengue]]
 
 ---
 
@@ -278,5 +328,22 @@ A running log of observations that are striking, unexpected, or carry implicatio
 **Why notable:** This connects two mechanisms previously treated as parallel — ADE and autoimmunity — into a potential causal chain. If intrinsic ADE drives Th2/antibody-dominant responses while suppressing Th1/IFN-mediated viral clearance, then ADE doesn't just increase viral load; it actively tilts the immune response toward the antibody-producing phenotype that generates cross-reactive autoantibodies via NS1 molecular mimicry. This would explain why severe dengue (DHF/DSS, where ADE is most active) shows the highest anti-platelet and anti-endothelial autoantibody levels (Lin2006). It also raises the question of whether the IL-10-driven IGHG1+ plasmablast expansion documented in DHF by Sungnak2025 is partly a consequence of intrinsic ADE.
 
 **Related pages:** [[Antibody-Dependent Enhancement]], [[NS1 Molecular Mimicry in Dengue]], [[Autoimmunity in Dengue]], [[Type I Interferon Response in Dengue]]
+
+---
+
+## [2026-04-17] Primary DENV infection generates more IgG autoantibodies than secondary infection
+
+**Source:** [[Vo2020 - Autoantibody Profiling in Dengue]]
+
+**Finding:** In a Cambodian pediatric cohort screened with a 123-antigen protein array, primary DENV infection was associated with significantly higher IgG autoantibody levels than secondary infection (p < 0.01; 70 IgG autoantibodies individually elevated in primary vs. secondary). IgM autoantibody load did not differ significantly. The total IgG autoantibody NFI in primary patients exceeded even the secondary-infection level despite lower disease severity (no primary-infection DHF was observed in this cohort).
+
+**Why notable:** The standard immunopathological expectation is that secondary infection — the context of ADE, higher viral loads, and greater disease burden — would also show more immunological dysregulation. That primary infection shows *more* IgG autoantibody breadth inverts this. The Vo2020 interpretation (B cell tolerance checkpoint leakiness preferentially in primary infection) is consistent with work showing that DENV directly infects B cells and can disrupt checkpoint deletion of autoreactive clones. This also implies that the dengue autoimmunity risk may be partially concentrated in *first* infection rather than reinfection — a reversal of conventional severity-centric thinking. However, the finding is limited by a very small primary group (n=6, all male, all DENV-1) and requires replication. Notably, this inversion applies to breadth (number/range of IgG autoantibodies), not necessarily to the specific pathogenic anti-endothelial and anti-platelet autoantibodies tracked by Lin2006/Wan2012, which do correlate positively with DHF severity.
+
+**Follow-up questions:**
+- Does the primary-infection IgG autoantibody excess persist longitudinally (kinetics past the sampling point), or does tolerance re-establishment rapidly deplete it?
+- Is the inversion (primary > secondary for IgG autoantibodies) serotype-specific (all 6 primary patients were DENV-1), or a general feature of first DENV exposure?
+- Do the specific pathogenic anti-platelet/anti-endothelial autoantibodies (Lin2001/Lin2006 targets) also show this inversion, or is the breadth signal driven by non-pathogenic bystander-activated clones?
+
+**Related pages:** [[Autoimmunity in Dengue]], [[Secondary Dengue Infection]], [[Antibody-Dependent Enhancement]], [[Cambodia]]
 
 ---

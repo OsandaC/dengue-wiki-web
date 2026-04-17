@@ -1,9 +1,9 @@
 ---
 type: concept
-tags: [vaccines, CYD-TDV, DENVax, TAK-003, TV003, tetravalent, live-attenuated, subunit, ADE, seronegative, phase-III, correlates-of-protection]
+tags: [vaccines, CYD-TDV, DENVax, TAK-003, TV003, tetravalent, live-attenuated, subunit, ADE, seronegative, phase-III, correlates-of-protection, anti-prM, prM-design, ADE-risk, ADE-window, enhancement-titer, Katzelnick]
 created: 2026-04-12
-updated: 2026-04-16
-sources: 4
+updated: 2026-04-17
+sources: 6
 ---
 
 # Dengue Vaccine Candidates
@@ -65,15 +65,40 @@ Dengue vaccine development is complicated by the need to simultaneously protect 
 - A successful dengue vaccine must therefore address three constraints: tetravalent efficacy, no ADE, AND no autoimmune cross-reactivity
 (see [[Wan2012 - Autoimmunity in Dengue Pathogenesis]])
 
+### Anti-prM ADE risk from native prM sequences (Dejnirattisai2010)
+
+All three leading vaccine platforms — CYD-TDV, TAK-003, and TV003/TV005 — incorporate **native prM sequences** alongside E protein genes. Dejnirattisai2010 demonstrates that natural DENV infection primes anti-prM antibodies as the **dominant structural antibody class (~60%)**, and that these antibodies are:
+- Fully cross-reactive across all four serotypes
+- Unable to neutralise above a 10–60% ceiling (structural limit from incomplete prM cleavage)
+- Capable of up to 10^5-fold ADE enhancement in primary monocytes and DCs
+
+Any vaccine using native prM sequences will likely prime an anti-prM response with the same profile. The authors call for **heterologous prM sequences** or **prM deletion** in future vaccine constructs to avoid priming this ADE-prone antibody class. This is an unresolved challenge: as of the sources in this wiki, no approved dengue vaccine has adopted a modified or deleted prM approach.
+
+See [[prM Protein]] and [[Antibody-Dependent Enhancement]] for full mechanistic context. This adds a specific structural-antibody-level constraint to the ADE concern documented for CYD-TDV seronegatives (see [[CYD-TDV]]).
+(see [[Dejnirattisai2010 - Anti-prM Antibodies Enhance Dengue ADE]])
+
+### Quantitative ADE window — a rational safety benchmark for vaccine titre monitoring (Bhatt2020)
+
+[[Bhatt2020 - Dengue Pathogenesis Review]] introduces the **Katzelnick 2017 quantitative ADE window** (1:21–1:80 as peak enhancement titer; n=6,684 Nicaraguan children) as a benchmark for evaluating vaccine safety over time. This converts the qualitative "waning immunity = ADE risk" concern into a testable quantitative criterion:
+
+- Vaccines that induce neutralising titres well above 1:1,280 initially may provide protection, but as titres wane (which occurs at different rates for different vaccines and recipients), **any period spent in the 1:21–1:80 range represents a potential ADE vulnerability window**
+- For **seronegative CYD-TDV vaccinees** specifically: the vaccine induced titres that, as they waned, passed through the enhancement range — consistent with the observed 5× hospitalisation risk in this group
+- For **TAK-003 (Qdenga)** and **TV003**: post-vaccination waning kinetics have not been benchmarked against the Katzelnick window in available wiki sources; whether their titres track through 1:21–1:80 as they wane is unknown
+- The window also contextualises the Bos2025 (PREPRINT) observation that XR E-IgG *rises* post-primary — if rising cross-reactive antibody titres are in the enhancement range, duration of risk may differ from the simple waning model
+
+(see [[Antibody-Dependent Enhancement]], [[CYD-TDV]])
+
 ## Contradictions & Debates
 - **CYD-TDV seronegative risk**: The ADE interpretation of the CYD-TDV safety signal is widely accepted but mechanistic proof in vaccinees (e.g., FcR pathway enrichment, IGHG1 plasmablast expansion as in DHF Sungnak2025 data) has not been directly demonstrated.
 - **Neutralising antibody vs. T cell correlates**: High neutralising antibody titres in vaccinees do not always predict protection (observed for DENV-2 in some CYD-TDV vaccinees); T cell immunity is increasingly recognised as important but is not yet a validated regulatory correlate.
+- **Anti-prM vs. anti-E as dominant ADE mechanism**: Standard vaccine immunogenicity readouts measure anti-E neutralising titres. If anti-prM is the more potent and numerically dominant ADE pathway (Dejnirattisai2010), current vaccine evaluation frameworks may be missing the most important enhancing antibody class. Whether anti-prM titres post-vaccination track with breakthrough DHF risk has not been tested.
 
 ## Related Pages
 - [[CYD-TDV]]
 - [[Antibody-Dependent Enhancement]]
-- [[T Cell Responses in Dengue]]
+- [[prM Protein]]
 - [[E Protein]]
+- [[T Cell Responses in Dengue]]
 - [[NS1 Protein]]
 - [[Asymptomatic Dengue Infection]]
 - [[DENV-1]]
@@ -86,3 +111,5 @@ Dengue vaccine development is complicated by the need to simultaneously protect 
 - [[Sungnak2025 - Distinct Immune Responses Asymptomatic Symptomatic Dengue]] (vaccine implications from protective immune correlates)
 - [[Wan2012 - Autoimmunity in Dengue Pathogenesis]] (NS1 vaccine paradox: complement-mediated protection vs. autoimmune cross-reactivity)
 - [[Lin2001 - IgM Anti-Platelet Autoantibody in Dengue Patients]] (foundational anti-platelet IgM finding; discussion section explicitly notes need to avoid pathogenic cross-reactive epitopes in NS1-based vaccine design)
+- [[Dejnirattisai2010 - Anti-prM Antibodies Enhance Dengue ADE]] (all current vaccines use native prM; will prime ADE-potent anti-prM response; heterologous prM design needed; Thailand experimental n=7 donors)
+- [[Bhatt2020 - Dengue Pathogenesis Review]] (Katzelnick 2017 peak ADE window 1:21–1:80 titer; n=6684 Nicaraguan children; quantitative safety benchmark for post-vaccination titre monitoring; review, India)

@@ -1,9 +1,9 @@
 ---
 type: method
-tags: [serology, neutralising-antibody, PRNT, gold-standard, virus-isolation]
+tags: [serology, neutralising-antibody, PRNT, gold-standard, virus-isolation, anti-prM, neutralisation-ceiling]
 created: 2026-04-11
-updated: 2026-04-12
-sources: 2
+updated: 2026-04-17
+sources: 3
 ---
 
 # PRNT
@@ -25,3 +25,4 @@ None yet recorded.
 ## Sources
 - [[Garcia2009 - Long-term Clinical Symptoms Post-Dengue]]
 - [[Sungnak2025 - Distinct Immune Responses Asymptomatic Symptomatic Dengue]] (primary/secondary classification in Thailand cohort)
+- [[Dejnirattisai2010 - Anti-prM Antibodies Enhance Dengue ADE]] (neutralisation assay for 26 anti-prM and 26 anti-E hmAbs against all four DENV serotypes; key finding: anti-prM hmAbs plateau at 10–60% PRNT regardless of concentration — incomplete prM cleavage creates a non-neutralisable mature virion fraction)

@@ -1,9 +1,9 @@
 ---
 type: concept
-tags: [CD8-T-cells, CD4-T-cells, MAIT, iNKT, exhaustion, effector, TCR, immunopathogenesis]
+tags: [CD8-T-cells, CD4-T-cells, MAIT, iNKT, exhaustion, effector, TCR, immunopathogenesis, low-avidity, OAS, cytolytic-loss, TNF-alpha, IL-6]
 created: 2026-04-12
-updated: 2026-04-12
-sources: 2
+updated: 2026-04-17
+sources: 3
 ---
 
 # T Cell Responses in Dengue
@@ -34,6 +34,16 @@ MAIT cells (TRAV1-2+) and iNKT cells (TRAV10+TRAJ18+) show significantly higher 
 **CD4 CTLs:** Also observed to be clonally expanded (consistent with prior reports of dengue-specific CD4 cytotoxic T lymphocytes). CD4 proliferating T cells in DHF show the highest IL10 expression and are proposed (via CellChat analysis) to signal to plasmablasts through IL-10/IL-10R — potentially driving pathogenic plasma cell expansion.
 
 **Longitudinal dynamics:** From febrile phase to 2-month convalescence, proliferating T cells contract. However, CD8-proliferating T cells from the febrile phase were found to transition to CD8 TEM identity at convalescence in 5/6 donors, suggesting the effector-to-memory transition occurs partly from this proliferating pool rather than exclusively from pre-existing CD8 TEM.
+
+### OAS-driven CD8+ dysfunction mechanism — Bhatt2020
+
+[[Bhatt2020 - Dengue Pathogenesis Review]] provides mechanistic detail for how original antigenic sin translates into T cell dysfunction and downstream pathology in secondary dengue (see [[Original Antigenic Sin]]):
+
+- **Low-avidity CD8+ T cells are expanded preferentially**: memory CD8+ T cells from the primary serotype have a lower activation threshold than naive T cells; in secondary infection they expand before naive T cells can establish adequate primary responses. These cross-reactive cells bind heterologous epitopes with sub-optimal avidity.
+- **Cytolytic activity is lost**: the low-avidity cross-reactive CD8+ T cells produce high TNF-α and IL-6 (cytokine-producing function retained) but lose cytolytic capacity (perforin/granzyme killing impaired). This mirrors the PRF1/GZMB expression in DHF-associated CD8 TEM from Sungnak2025 — perforin and granzyme B are expressed, but killing efficiency against the heterologous serotype may be reduced by low TCR avidity.
+- **Delayed clearance → amplification**: viral replication continues longer than in a well-matched primary response → sustained antigen stimulation → prolonged T cell activation → cytokine amplification → vascular permeability.
+
+The Bhatt2020 OAS mechanism and the Sungnak2025 single-cell exhaustion data are complementary: Sungnak2025 identifies the end-state (exhaustion markers, PRF1/GZMB bias, PD-1↑/LAG3↑/TIGIT↑); Bhatt2020 provides the upstream cause (avidity mismatch from preferential cross-reactive memory expansion).
 
 ## T cell biology from Guzman2016
 
@@ -67,3 +77,4 @@ The relative importance of antibody-mediated (ADE) versus T cell–mediated immu
 
 - [[Sungnak2025 - Distinct Immune Responses Asymptomatic Symptomatic Dengue]]
 - [[Guzman2016 - Dengue Infection]] (NS protein epitope CD8 immunity; CD4 T cell multifunctionality; cross-reactive T cells and OAS; vaccine implications)
+- [[Bhatt2020 - Dengue Pathogenesis Review]] (OAS mechanism: low-avidity CD8+ preferentially expanded; cytolytic loss + TNF-α/IL-6 excess; delayed clearance; positive feedback to DHF/DSS; review article, India)

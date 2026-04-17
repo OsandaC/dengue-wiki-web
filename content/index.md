@@ -1,10 +1,10 @@
 # Dengue Wiki — Master Index
 
-*Last updated: 2026-04-16 | Sources: 24 | Total pages: 84*
+*Last updated: 2026-04-17 | Sources: 28 | Total pages: 93*
 
 ---
 
-## Sources (24)
+## Sources (28)
 
 | Page | Year | Journal | Citations (SS / CR) | Key Topics |
 |------|------|---------|---------------------|------------|
@@ -32,8 +32,12 @@
 | [[Morel2014 - Autoimmune Response in Children With Dengue]] | 2014 | Reumatol Clin | null / 0 | MAS/secondary HLH in 3 pediatric dengue cases; ANA/anti-dsDNA negative in all cases; anticardiolipin IgM positive in mild Case 1 only; MAS responded to methylprednisolone; Paraguay endemic setting |
 | [[Palacios2016 - Autoimmunity in Dengue Literature Review]] | 2016 | Reumatol Clin | 1 / 0 | Letter to editor; responds to Morel2014; adds MAS+nephrotic syndrome, SLE+ANA+/anti-dsDNA+ (Talib 2013), retinal vasculitis; cites Wan2012 autoantibody-severity correlation; calls for larger endemic studies |
 | [[Oishi2003 - PAIgG and Thrombocytopenia in Secondary Dengue]] | 2003 | J Med Virol | 62 / 41 | PAIgG–thrombocytopenia inverse correlation in secondary dengue; anti-dengue IgG (not anti-platelet autoAb) in platelet eluates; FcγRII not required for dengue-platelet binding; Philippines; n=53 |
+| [[Saito2004 - PAIgG and PAIgM in Secondary Dengue]] | 2004 | Clin Exp Immunol | 138 / 89 | PAIgG + PAIgM in secondary dengue; both inversely correlated with platelet count; anti-dengue IgM confirmed in platelet eluates; PAIgM DHF predictor (specificity 92.1%, cut-off >20 ng/10⁷); FcγR bypass for PAIgM; Philippines; n=78 |
+| [[Vo2020 - Autoantibody Profiling in Dengue]] | 2020 | Pathogens | 10 / 12 | 123-antigen protein microarray; 80 IgM + 6 IgG autoantibodies elevated vs. HD; primary > secondary IgG autoantibody inversion; no ASD vs. DF/DHF difference in total load; 19 IgG autoantibodies (complement, coagulation, nuclear antigens) positively correlated with platelet count in DHF; Cambodia pediatric cohort; n=40 |
+| [[Dejnirattisai2010 - Anti-prM Antibodies Enhance Dengue ADE]] | 2010 | Science | 891 / 820 | Anti-prM dominant structural antibody (~60%); full cross-reactivity DENV-1–4; neutralisation ceiling 10–60% from incomplete prM cleavage; 10^5-fold monocyte/DC ADE; FcγR-dependent; all current vaccines use native prM; dengue-specific vs. JEV; Thailand n=7 donors, 3020 B cell lines; erratum July 2010 |
+| [[Bhatt2020 - Dengue Pathogenesis Review]] | 2021 | Curr Microbiol | 300 / 294 | Narrative review: sfRNA→TRIM25→RIG-I IFN suppression; sfRNA→Dicer siRNA inhibition; Katzelnick 2017 ADE window 1:21–1:80 (n=6684 Nicaragua); OAS low-avidity CD8+ cytolytic loss; NS1 replication complex cofactor; glycocalyx: heparanase + cathepsin L; MIF-autophagy viral amplification; Th1→Th2 + Treg IL-10; DENV-1 higher NS1/primary viremia; Asian DENV-2 NS3 salivary gland replication; India Manipal |
 
-*Citations: SS = Semantic Scholar, CR = CrossRef. Retrieved 2026-04-12 (existing) / 2026-04-13 (Seet2007, Li2018, Bruhns2009) / 2026-04-14 (Bos2025) / 2026-04-15 (Morel2014, Palacios2016, Lin2001, Oishi2003). Morel2014 SS not indexed at English-edition DOI (null). Recent papers and preprints will have low counts regardless of quality.*
+*Citations: SS = Semantic Scholar, CR = CrossRef. Retrieved 2026-04-12 (existing) / 2026-04-13 (Seet2007, Li2018, Bruhns2009) / 2026-04-14 (Bos2025) / 2026-04-15 (Morel2014, Palacios2016, Lin2001, Oishi2003) / 2026-04-17 (Dejnirattisai2010, Bhatt2020). Morel2014 SS not indexed at English-edition DOI (null). Recent papers and preprints will have low counts regardless of quality.*
 
 ### By citation count (SS)
 
@@ -41,6 +45,7 @@
 |---------------|------|------|
 | 2248 | [[Aringer2019 - 2019 EULAR ACR SLE Classification Criteria]] | 2019 |
 | 1444 | [[Bruhns2009 - FcγR Specificity and Affinity for IgG Subclasses]] | 2009 |
+| 891 | [[Dejnirattisai2010 - Anti-prM Antibodies Enhance Dengue ADE]] | 2010 |
 | 687 | [[Guzman2016 - Dengue Infection]] | 2016 |
 | 424 | [[Satoh2012 - ANA Prevalence in United States]] | 2012 |
 | 381 | [[Tan1997 - ANA Range in Healthy Individuals]] | 1997 |
@@ -60,25 +65,29 @@
 | 1 | [[Sungnak2025 - Distinct Immune Responses Asymptomatic Symptomatic Dengue]] | 2025 |
 | 1 | [[Palacios2016 - Autoimmunity in Dengue Literature Review]] | 2016 |
 | 0 | [[Bos2025 - Longitudinal Antibody Dynamics After Dengue]] | 2025 |
+| 300 | [[Bhatt2020 - Dengue Pathogenesis Review]] | 2021 |
 | 195 | [[Lin2001 - IgM Anti-Platelet Autoantibody in Dengue Patients]] | 2001 |
+| 138 | [[Saito2004 - PAIgG and PAIgM in Secondary Dengue]] | 2004 |
 | 62 | [[Oishi2003 - PAIgG and Thrombocytopenia in Secondary Dengue]] | 2003 |
 | null | [[Morel2014 - Autoimmune Response in Children With Dengue]] | 2014 |
+| 10 | [[Vo2020 - Autoantibody Profiling in Dengue]] | 2020 |
 
 ---
 
-## Entities (11)
+## Entities (12)
 
 | Page | Type | Sources |
 |------|------|---------|
-| [[DENV-1]] | Serotype | 4 |
-| [[DENV-2]] | Serotype | 5 |
-| [[DENV-3]] | Serotype | 7 |
-| [[DENV-4]] | Serotype | 5 |
-| [[FcγRIIa Receptor]] | Receptor / genetic locus | 5 |
-| [[Aedes aegypti]] | Vector | 5 |
+| [[DENV-1]] | Serotype | 7 |
+| [[DENV-2]] | Serotype | 8 |
+| [[DENV-3]] | Serotype | 8 |
+| [[DENV-4]] | Serotype | 7 |
+| [[FcγRIIa Receptor]] | Receptor / genetic locus | 6 |
+| [[Aedes aegypti]] | Vector | 6 |
 | [[Aedes albopictus]] | Vector | 2 |
-| [[NS1 Protein]] | Viral protein | 9 |
-| [[E Protein]] | Viral protein | 3 |
+| [[NS1 Protein]] | Viral protein | 11 |
+| [[E Protein]] | Viral protein | 4 |
+| [[prM Protein]] | Viral protein | 2 |
 | [[CYD-TDV]] | Vaccine | 1 |
 | [[Wolbachia]] | Endosymbiont / vector control | 1 |
 
@@ -89,60 +98,63 @@
 | Page | Sources |
 |------|---------|
 | [[Post-Dengue Syndrome]] | 4 |
-| [[Autoimmunity in Dengue]] | 21 |
-| [[Antibody-Dependent Enhancement]] | 8 |
-| [[Asymptomatic Dengue Infection]] | 4 |
+| [[Autoimmunity in Dengue]] | 23 |
+| [[Antibody-Dependent Enhancement]] | 11 |
+| [[Asymptomatic Dengue Infection]] | 5 |
 | [[Antinuclear Antibodies]] | 8 |
 | [[Infection-Triggered Autoimmunity]] | 6 |
-| [[NS1 Molecular Mimicry in Dengue]] | 7 |
-| [[T Cell Responses in Dengue]] | 2 |
+| [[NS1 Molecular Mimicry in Dengue]] | 8 |
+| [[T Cell Responses in Dengue]] | 3 |
 | [[NK Cell Responses in Dengue]] | 1 |
-| [[Type I Interferon Response in Dengue]] | 2 |
+| [[Type I Interferon Response in Dengue]] | 3 |
 | [[Viraemia]] | 2 |
-| [[Dengue Pathophysiology]] | 5 |
-| [[Dengue Clinical Classification]] | 1 |
-| [[Dengue Vaccine Candidates]] | 4 |
-| [[Original Antigenic Sin]] | 1 |
+| [[Dengue Pathophysiology]] | 8 |
+| [[Dengue Clinical Classification]] | 3 |
+| [[Dengue Vaccine Candidates]] | 6 |
+| [[Original Antigenic Sin]] | 2 |
 | [[Dengue Neurological Complications]] | 3 |
-| [[Secondary Dengue Infection]] | 9 |
-| [[Cross-Reactive Antibodies]] | 7 |
-| [[Cytokine Storm]] | 7 |
+| [[Secondary Dengue Infection]] | 12 |
+| [[Cross-Reactive Antibodies]] | 9 |
+| [[Cytokine Storm]] | 9 |
 | [[Macrophage Activation Syndrome in Dengue]] | 2 |
 
 ---
 
-## Methods (13)
+## Methods (14)
 
 | Page | Sources |
 |------|---------|
-| [[PRNT]] | 2 |
+| [[PRNT]] | 3 |
 | [[ELISA Inhibition Method]] | 1 |
 | [[FcγRIIa Genotyping]] | 2 |
 | [[Indirect Immunofluorescence ANA Test]] | 6 |
 | [[Single-Cell RNA Sequencing]] | 1 |
 | [[V(D)J Sequencing]] | 1 |
 | [[qRT-PCR]] | 1 |
-| [[RT-PCR]] | 3 |
-| [[NS1 Antigen Detection]] | 6 |
-| [[IgM-IgG Serology ELISA]] | 7 |
+| [[Autoantigen Microarray]] | 1 |
+| [[RT-PCR]] | 5 |
+| [[NS1 Antigen Detection]] | 7 |
+| [[IgM-IgG Serology ELISA]] | 10 |
 | [[Line Immunoassay ANA]] | 1 |
 | [[Surface Plasmon Resonance]] | 1 |
-| [[Hemagglutination Inhibition Test]] | 1 |
+| [[Hemagglutination Inhibition Test]] | 2 |
+| [[Platelet-Associated Immunoglobulin ELISA]] | 2 |
 
 ---
 
-## Geography (8)
+## Geography (9)
 
 | Page | Sources |
 |------|---------|
 | [[Cuba]] | 3 |
-| [[Thailand]] | 1 |
+| [[Thailand]] | 2 |
 | [[Taiwan]] | 4 |
-| [[India]] | 1 |
+| [[India]] | 2 |
 | [[Singapore]] | 2 |
 | [[Nicaragua]] | 1 |
 | [[Paraguay]] | 1 |
-| [[Philippines]] | 1 |
+| [[Cambodia]] | 1 |
+| [[Philippines]] | 2 |
 
 ---
 

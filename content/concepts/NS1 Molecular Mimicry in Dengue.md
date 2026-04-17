@@ -1,9 +1,9 @@
 ---
 type: concept
-tags: [NS1, molecular-mimicry, autoimmunity, platelets, endothelial-cells, PDI, vimentin, HSP60, thrombocytopenia, coagulation, DHF, flavivirus, WGNGCG, MAS, ANA-negative, IgM, primary-infection, complement, platelet-lysis]
+tags: [NS1, molecular-mimicry, autoimmunity, platelets, endothelial-cells, PDI, vimentin, HSP60, thrombocytopenia, coagulation, DHF, flavivirus, WGNGCG, MAS, ANA-negative, IgM, primary-infection, complement, platelet-lysis, cathepsin-L, heparanase, glycocalyx]
 created: 2026-04-12
-updated: 2026-04-15
-sources: 7
+updated: 2026-04-17
+sources: 8
 ---
 
 # NS1 Molecular Mimicry in Dengue
@@ -126,3 +126,4 @@ These direct sNS1 effects are not mutually exclusive with the anti-NS1 autoantib
 - [[Wan2012 - Autoimmunity in Dengue Pathogenesis]] (LYRIC mimicry; RGD structural mimicry; capsid protein; autoantibody kinetics)
 - [[Morel2014 - Autoimmune Response in Children With Dengue]] (ANA/anti-dsDNA negative in dengue-MAS — confirms NS1 mimicry mechanism NOT operative in macrophage-driven dengue complications)
 - [[Palacios2016 - Autoimmunity in Dengue Literature Review]] (cites Wan2012 autoantibody-severity correlation; SLE+positive ANA case from Talib 2013 contrasting with Morel2014's ANA-negative MAS)
+- [[Bhatt2020 - Dengue Pathogenesis Review]] (NF-κB → MCP-1/IL-6/IL-8/ICAM-1 endothelial activation pathway reviewed and confirmed; glycocalyx disruption via cathepsin L and heparanase as additional NS1-driven endothelial mechanisms; India review)

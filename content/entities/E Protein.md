@@ -1,9 +1,9 @@
 ---
 type: entity
-tags: [E-protein, envelope-protein, structural-protein, receptor-binding, vaccine-target, fusion, neutralising-antibody, WGNGCG, coagulation, EDI-II, EDIII, cross-reactive, longitudinal, IgG-kinetics]
+tags: [E-protein, envelope-protein, structural-protein, receptor-binding, vaccine-target, fusion, neutralising-antibody, WGNGCG, coagulation, EDI-II, EDIII, cross-reactive, longitudinal, IgG-kinetics, anti-prM, structural-antibody-proportion]
 created: 2026-04-12
-updated: 2026-04-14
-sources: 3
+updated: 2026-04-17
+sources: 4
 ---
 
 # E Protein
@@ -43,15 +43,28 @@ The envelope (E) protein is the major surface structural protein of dengue virio
 - **Implication for ADE risk:** The EDI/II-targeting cross-reactive pool that rises post-primary infection is not enriched for neutralising antibodies — it is the population most likely to bind heterotypic virus without neutralising it, consistent with ADE-mediating antibodies. The ADE risk window may therefore be driven by active accumulation, not passive decay below the neutralisation threshold.
 - **Secondary infection kinetics** show more compressed, attenuated trajectories at 18M, consistent with rapid recall and contraction in a memory-primed host.
 
+### Anti-E is a minority of the structural antibody response — anti-prM dominates
+
+Human monoclonal antibody (hmAb) isolation from 7 DENV-infected Thai donors (3,020 B cell lines screened) found that only **~35% of anti-dengue structural antibodies were anti-E**; approximately 60% were anti-prM (see [[Dejnirattisai2010 - Anti-prM Antibodies Enhance Dengue ADE]], n=7 donors, experimental). This contrasts with the prior assumption that anti-E constitutes the primary structural humoral response.
+
+Key distinctions between anti-E and anti-prM in the Dejnirattisai2010 dataset:
+- **Serotype specificity**: Anti-E hmAbs showed more serotype-restricted binding; anti-prM hmAbs were fully cross-reactive across all four serotypes.
+- **Neutralisation**: Anti-E hmAbs achieved higher PRNT inhibition, consistent with classical neutralising antibody activity. Anti-prM hmAbs plateaued at 10–60% PRNT and could not achieve complete neutralisation.
+- **ADE magnitude**: Anti-prM hmAbs mediated up to 10^5-fold enhancement in primary monocytes and DCs — substantially greater than anti-E ADE.
+
+The WGNGCG coagulation factor homology motif resides in domain II of E protein (aa 101–106), meaning it is expressed on mature virions. Anti-E antibodies targeting this region would engage mature, infective particles — distinct from anti-prM, which targets the immature/partially immature fraction.
+
 ## Contradictions & Debates
 - The relative contribution of anti-E WGNGCG-mediated coagulation interference (Lin2011) vs. direct NS1-thrombin binding (Guzman2016) to the coagulopathy of DHF has not been disentangled in clinical studies.
 
 ## Related Pages
+- [[prM Protein]]
 - [[NS1 Protein]]
 - [[NS1 Molecular Mimicry in Dengue]]
 - [[Dengue Vaccine Candidates]]
 - [[CYD-TDV]]
 - [[Antibody-Dependent Enhancement]]
+- [[Cross-Reactive Antibodies]]
 - [[DENV-1]]
 - [[DENV-2]]
 - [[DENV-3]]
@@ -61,3 +74,4 @@ The envelope (E) protein is the major surface structural protein of dengue virio
 - [[Guzman2016 - Dengue Infection]] (structure, function, vaccine antigen)
 - [[Lin2011 - Molecular Mimicry Virus Host Dengue Pathogenesis]] (WGNGCG coagulation factor homology)
 - [[Bos2025 - Longitudinal Antibody Dynamics After Dengue]] (XR E-IgG rising 6–18M post-primary; EDI/II drives cross-reactive rise; EDIII flat; domain-resolved longitudinal kinetics; PREPRINT)
+- [[Dejnirattisai2010 - Anti-prM Antibodies Enhance Dengue ADE]] (anti-E ~35% of structural antibodies vs. anti-prM ~60%; anti-E more serotype-restricted and better-neutralising than anti-prM; E vs. prM ADE magnitude comparison; Thailand n=7 donors)

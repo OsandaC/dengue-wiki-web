@@ -2,8 +2,8 @@
 type: concept
 tags: [autoimmunity, immune-complex, ANA, CRP, cytokines, molecular-mimicry, NS1, post-dengue, infection-triggered-autoimmunity, thrombocytopenia, endothelial-cells, ADEM, encephalomyelitis, epidemiology, MCTD, myositis, LIA, India, sex-bias, host-factors, adrenocortical-insufficiency, TLR, Taiwan, NHIRD, MAS, macrophage-activation-syndrome, HLH, Paraguay, SLE, lupus-nephritis, ANA-negative, PAIgG, secondary-infection, Philippines]
 created: 2026-04-11
-updated: 2026-04-16
-sources: 21
+updated: 2026-04-17 (post-Vo2020 ingest)
+sources: 23
 ---
 
 # Autoimmunity in Dengue
@@ -102,6 +102,22 @@ The within-series comparison in Morel2014 is also notable: Case 1 (the mildest, 
 
 [[Palacios2016 - Autoimmunity in Dengue Literature Review]] (a letter to the editor responding to Morel2014) adds another MAS case — an adult woman with concurrent nephrotic syndrome (Lai et al. 2012, France), confirming that dengue-MAS is not solely paediatric. Palacios2016 also documents additional dengue-autoimmune clinical forms: SLE+lupus nephritis (Talib 2013, ANA homogeneous + anti-dsDNA positive — the one case with positive ANA in contrast to Morel2014) and retinal vasculitis (Chang 2007, Singapore, via immune complex deposition).
 
+### Systematic Autoantibody Profiling — Protein Microarray in Cambodian Children
+
+[[Vo2020 - Autoantibody Profiling in Dengue]] provides the first untargeted, high-throughput characterisation of the autoantibody repertoire in dengue, using a 123-antigen protein microarray in Cambodian pediatric patients (n=32 DENV-positive; 11 ASD, 13 DF, 8 DHF; predominantly secondary infection) vs. healthy donors (n=8).
+
+Key findings bearing directly on the autoimmunity thread:
+
+- **80 IgM and 6 IgG autoantibodies elevated** in DENV-infected patients vs. healthy donors, with the total IgM signal significantly higher (p < 0.01). The breadth — 80 IgM targets spanning complement (C5, C8, C9, factor B, factor H, factor P), coagulation (β2GPI), and other self-proteins — is consistent with bystander polyclonal B cell activation generating low-affinity, broadly cross-reactive IgM.
+
+- **Primary infection has significantly higher IgG autoantibodies than secondary infection** (p < 0.01; 70 individual IgG autoantibodies elevated in primary vs. secondary). This inversion — primary > secondary for IgG autoantibody load — is not what severity-based predictions would expect and is a mechanistically important observation. The authors interpret it as "leakiness in B cell tolerance mechanisms" during primary infection, where naïve B cells escaping checkpoint deletion differentiate into IgG-secreting plasma cells. In secondary infection, memory-dominated recall responses may compete with and suppress autoreactive clones. Caveat: the primary group was only n=6, all male, all DENV-1.
+
+- **19 IgG autoantibodies positively correlated with platelet counts in DHF** (Spearman r = 0.74–0.83; all p < 0.05). These include complement components (Factor P, C4), coagulation proteins (prothrombin), and — critically for the ANA thread — **nuclear antigens: KU (P70/P80) DNA-binding antigen, SmD, SRP54, Sm/RNP, SmD1, histone H3, histone H4, nucleosome antigen, U1-snRNP-C**. The *positive* direction means low autoantibody = low platelet count. This implicates consumption through immune complex formation rather than direct pathogenicity: as DHF worsens, these autoantibodies (and complement factors C4/Factor P) are consumed through immune complex formation, simultaneously depleting the measured autoantibody pool and contributing to complement dysregulation and platelet clearance.
+
+- **No significant difference in total autoantibody load between ASD and DF/DHF patients**, reinforcing the Sungnak2025 finding that the overall autoantibody repertoire does not discriminate severity. The pathologically relevant difference may be in specific antibody consumption patterns and immune complex formation rather than overall production.
+
+The nuclear antigen correlation finding is particularly notable given the existing ANA literature in this wiki: KU (P70/P80), SmD, Sm/RNP, histone, and nucleosome antigens are all canonical ANA targets measured by LIA (see [[Chatterjee2024 - ANA Detection in Dengue Kolkata]] and [[Line Immunoassay ANA]]). The Vo2020 data raises the possibility that dengue-associated nuclear antigen IgGs are consumed rather than amplified in severe disease — which would produce a *negative* ANA correlation with severity, the opposite of what naive pathogenic models predict.
+
 ### Indirect Evidence: Sex and Severity as Cross-Outcome Modifiers
 
 [[Seet2007 - Post-Infectious Fatigue Syndrome in Dengue]] does not measure autoimmune markers and is not directly about autoimmunity — but it provides two findings that are relevant here as indirect evidence of a shared host-immunological axis across post-dengue outcomes:
@@ -136,6 +152,8 @@ The within-series comparison in Morel2014 is also notable: Case 1 (the mildest, 
 - [[Singapore]]
 - [[Paraguay]]
 - [[Line Immunoassay ANA]]
+- [[Autoantigen Microarray]]
+- [[Cambodia]]
 
 ## Sources
 - [[Garcia2009 - Long-term Clinical Symptoms Post-Dengue]]
@@ -158,4 +176,6 @@ The within-series comparison in Morel2014 is also notable: Case 1 (the mildest, 
 - [[Palacios2016 - Autoimmunity in Dengue Literature Review]] (letter to editor responding to Morel2014; adds MAS+nephrotic syndrome [Lai 2012], SLE+lupus nephritis with ANA+ [Talib 2013], retinal vasculitis [Chang 2007]; cites Wan2012 autoantibody-severity correlation and Garcia2009 2-year persistence; calls for larger endemic-population studies)
 - [[Lin2001 - IgM Anti-Platelet Autoantibody in Dengue Patients]] (foundational NCKU paper; original demonstration of IgM anti-platelet autoantibodies; lysis severity-correlated, aggregation inhibition not; primary-infection context; dengue-specific; Taiwan DENV-3 outbreak)
 - [[Oishi2003 - PAIgG and Thrombocytopenia in Secondary Dengue]] (secondary infection; anti-dengue IgG immune complexes on platelets rather than anti-platelet autoAbs; FcγRII-independent dengue-platelet binding; mechanistic contrast with primary-infection IgM autoAb pathway; Philippines cohort)
+- [[Saito2004 - PAIgG and PAIgM in Secondary Dengue]] (extends Oishi2003 to PAIgM: anti-dengue IgM immune complexes also confirmed on platelets in secondary infection; PAIgM is NOT anti-platelet autoantibody; PAIgM completely FcγR-independent; mechanistically distinguishes secondary-infection IgM immune complex from primary-infection IgM autoantibody; Philippines cohort)
 - [[Bos2025 - Longitudinal Antibody Dynamics After Dengue]] (indirect — NS1-IgG waning t½≈2.1y provides kinetic context for decline of NS1-mimicry component of autoantibody repertoire; bridges Chatterjee2024 acute ANA spike toward Garcia2009 2-year ANA; PREPRINT)
+- [[Vo2020 - Autoantibody Profiling in Dengue]] (protein microarray of 123 autoantigens; 80 IgM + 6 IgG elevated vs. HD; primary > secondary IgG autoantibody inversion; no ASD vs. DF/DHF difference in total load; 19 IgG autoantibodies positively correlated with platelet count in DHF including nuclear antigen IgGs [KU, Smith, histone, Sm/RNP, nucleosome]; Cambodia pediatric cohort)

@@ -45,7 +45,7 @@ The authors propose that immune complexes of dengue virus antigen + anti-dengue 
 ## Methods Used
 - [[IgM-IgG Serology ELISA]] (IgM-capture ELISA for dengue diagnosis, Bundo & Igarashi 1985)
 - [[Hemagglutination Inhibition Test]] (HI assay; titer ≥1:2,560 used to classify secondary infection; all four DENV serotype antigens tested)
-- Competitive ELISA for PAIgG (Mitsubishi Kagaku BCL kit; Kawaguchi 1992 method; results as ng IgG per 10⁷ platelets)
+- [[Platelet-Associated Immunoglobulin ELISA]] (competitive ELISA for PAIgG; Mitsubishi Kagaku BCL kit; Kawaguchi 1992 method; results as ng IgG per 10⁷ platelets)
 - Mixed passive hemagglutination for plasma anti-platelet IgG (Olympus kit)
 - Platelet IgG elution + indirect ELISA for anti-dengue virus IgG specificity (four-serotype antigen mixture; sucrose-gradient-purified dengue virus from *Aedes albopictus* C6/36 cells)
 

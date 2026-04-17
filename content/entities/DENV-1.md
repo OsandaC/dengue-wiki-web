@@ -1,9 +1,9 @@
 ---
 type: entity
-tags: [serotype, DENV-1, epidemiology, secondary-infection, ADE, Singapore, Nicaragua, antibody-kinetics]
+tags: [serotype, DENV-1, epidemiology, secondary-infection, ADE, Singapore, Nicaragua, antibody-kinetics, anti-prM, cross-reactivity, NS1-levels, viraemia]
 created: 2026-04-12
-updated: 2026-04-16
-sources: 4
+updated: 2026-04-17
+sources: 7
 ---
 
 # DENV-1
@@ -21,6 +21,9 @@ DENV-1 is one of the four dengue virus serotypes. It was the first to be introdu
 ### Singapore 2005 Outbreak
 - In the October–November 2005 dengue outbreak in Singapore, DEN-1 was the **dominant circulating serotype**: 20 of 27 virologically typed patients (74%) had DEN-1 isolated from serum. DEN-3 was the minor circulating serotype (6/27, 22%), with DEN-4 in 1 patient (see [[Seet2007 - Post-Infectious Fatigue Syndrome in Dengue]]).
 - This places Singapore in a different serotype-epidemiology context than Cuba in the same era (DENV-4 dominant in Cuba 2006; DENV-1 the initial sensitising serotype from 1977 onwards). In Singapore, DEN-1 remained the primary circulating serotype in 2005, suggesting it had not yet been displaced by other serotypes as occurred in the Cuban sequence.
+
+### DENV-1 NS1 levels and primary viraemia (Bhatt2020)
+[[Bhatt2020 - Dengue Pathogenesis Review]] notes that **DENV-1 primary infection is associated with higher circulating NS1 levels and higher primary viraemia than DENV-2 primary infection** (see [[NS1 Protein]]). By contrast, DENV-2 secondary infection produces the highest overall viraemia across infection sequences. This suggests that serotype-specific differences in NS1 secretion or replication efficiency contribute to the variation in NS1 titre observed across clinical cohorts — with important implications for the clinical utility of NS1 as a severity biomarker (which correlates with severity specifically in secondary infection, see [[Viraemia]]).
 
 ## Contradictions & Debates
 - The severity of secondary DENV-1 infection varies dramatically by geographic context (severe in Santiago de Cuba 1997; not severe in Thailand 1980), suggesting intrinsic serotype virulence is less important than host immune history, viral genotype, and local vector competence. The paper frames DENVs as "conditionally virulent" rather than intrinsically so.
@@ -41,3 +44,6 @@ DENV-1 is one of the four dengue virus serotypes. It was the first to be introdu
 - [[Seet2007 - Post-Infectious Fatigue Syndrome in Dengue]] (Singapore 2005: DEN-1 dominant, 20/27 serotyped patients)
 - [[Bos2025 - Longitudinal Antibody Dynamics After Dengue]] (Nicaragua pediatric cohort; DENV-1 a circulating serotype; longitudinal antibody kinetics primary/secondary; PREPRINT)
 - [[Oishi2003 - PAIgG and Thrombocytopenia in Secondary Dengue]] (HI antigen panel classification using all four DENV serotypes; secondary-infection thrombocytopenia mechanism context)
+- [[Vo2020 - Autoantibody Profiling in Dengue]] (Cambodia 2012–2013; DENV-1 dominant in 72.7% ASD, 76.9% DF, 87.5% DHF; all 6 primary-infection patients infected with DENV-1)
+- [[Dejnirattisai2010 - Anti-prM Antibodies Enhance Dengue ADE]] (anti-prM hmAbs from DENV-infected donors show full cross-reactivity against DENV-1 antigen alongside DENV-2, -3, -4; cross-reactivity tested in all serotypes equally)
+- [[Bhatt2020 - Dengue Pathogenesis Review]] (DENV-1 primary infection: higher circulating NS1 levels than DENV-2 primary; higher viraemia in primary DENV-1 vs secondary DENV-2; review, India)

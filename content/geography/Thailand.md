@@ -1,9 +1,9 @@
 ---
 type: geography
-tags: [Thailand, Southeast-Asia, DENFREE, epidemiology, cohort]
+tags: [Thailand, Southeast-Asia, DENFREE, epidemiology, cohort, anti-prM, monoclonal-antibody, ADE]
 created: 2026-04-12
-updated: 2026-04-12
-sources: 1
+updated: 2026-04-17
+sources: 2
 ---
 
 # Thailand
@@ -25,6 +25,8 @@ Thailand is a hyperendemic dengue country in Southeast Asia, experiencing regula
 
 **Institutional context:** Key dengue research groups at Mahidol University (Bangkok) collaborate closely with the Wellcome Sanger Institute (UK), the University of Oxford, and Institut Pasteur (Paris), reflecting Thailand's role as a major site for international dengue research partnerships.
 
+**Anti-prM ADE research (Khon Kaen + Songkhla):** Dejnirattisai et al. (2010) recruited DENV-infected donors from Khon Kaen Hospital (northeast Thailand) and Songkhla Hospital (south Thailand) for human monoclonal antibody isolation. This study identified anti-prM as the dominant (~60%) structural antibody class in dengue-infected humans and characterised its potent ADE activity, conducted in collaboration with the Wellcome Centre and Ministry of Public Health Bangkok (see [[Dejnirattisai2010 - Anti-prM Antibodies Enhance Dengue ADE]]).
+
 ## Contradictions & Debates
 
 None currently in this wiki.
@@ -33,6 +35,7 @@ None currently in this wiki.
 
 - [[Asymptomatic Dengue Infection]]
 - [[Antibody-Dependent Enhancement]]
+- [[prM Protein]]
 - [[T Cell Responses in Dengue]]
 - [[NK Cell Responses in Dengue]]
 - [[Type I Interferon Response in Dengue]]
@@ -40,3 +43,4 @@ None currently in this wiki.
 ## Sources
 
 - [[Sungnak2025 - Distinct Immune Responses Asymptomatic Symptomatic Dengue]]
+- [[Dejnirattisai2010 - Anti-prM Antibodies Enhance Dengue ADE]] (anti-prM dominant structural antibody; ADE characterisation; Khon Kaen + Songkhla donor recruitment)

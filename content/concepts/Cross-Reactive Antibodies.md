@@ -1,9 +1,9 @@
 ---
 type: concept
-tags: [cross-reactivity, ADE, neutralisation, IgG, IgA, IgM, IgG3, IgG4, serotype, E-protein, NS1, EDI-II, EDIII, flavivirus, diagnostics, vaccine, longitudinal, antibody-kinetics]
+tags: [cross-reactivity, ADE, neutralisation, IgG, IgA, IgM, IgG3, IgG4, serotype, E-protein, NS1, EDI-II, EDIII, flavivirus, diagnostics, vaccine, longitudinal, antibody-kinetics, anti-prM, prM, structural-antibody]
 created: 2026-04-13
-updated: 2026-04-16
-sources: 7
+updated: 2026-04-17
+sources: 9
 ---
 
 # Cross-Reactive Antibodies
@@ -31,6 +31,16 @@ Single-cell transcriptomic and V(D)J sequencing data from the DENFREE Thailand c
 - **IGHA1+ (IgA1) plasmablasts** were significantly enriched in asymptomatic dengue (P < 0.05); DENV-specific IgA has been separately shown to neutralise virus and antagonise IgG-mediated ADE
 - A public BCR clonotype network (79 plasmablasts from 8 symptomatic donors; 83.5% using IGHV4-39*01 and IGKV1-9*01) was identified exclusively in symptomatic plasmablasts — biased V(D)J gene usage suggesting antigen-driven clonal expansion of potentially ADE-mediating IgG1 antibodies
 - IL-10 from CD4 proliferating T cells promotes plasma cell differentiation and class switching, driving IGHG1+ plasmablast expansion — a proposed axis for in vivo amplification of ADE-capable antibody
+
+### Anti-prM as the dominant non-neutralising cross-reactive antibody class (Dejnirattisai2010)
+
+A crucial revision to the cross-reactive antibody framework: human monoclonal antibody isolation from 7 DENV-infected Thai donors reveals that **anti-prM antibodies constitute ~60% of the structural humoral response** — more than anti-E — and are *fully* cross-reactive across all four DENV serotypes (see [[Dejnirattisai2010 - Anti-prM Antibodies Enhance Dengue ADE]], n=3,020 B cell lines screened, experimental).
+
+- **Mechanism of poor neutralisation**: Anti-prM antibodies plateau at 10–60% PRNT inhibition regardless of concentration. The reason: incomplete furin cleavage during virion maturation produces a mixed population of prM-positive (immature) and prM-negative (mature, classically infective) particles. Anti-prM binds the immature fraction but cannot neutralise the mature fraction — setting an intrinsic neutralisation floor.
+- **ADE magnitude**: Anti-prM hmAbs mediated up to 10^5-fold enhancement in primary human monocytes and DCs — substantially exceeding the typical anti-E ADE range. Enhancement was FcγR-dependent.
+- **Dengue specificity**: Anti-JEV serum showed minimal DENV prM cross-reactivity, distinguishing the anti-prM response as dengue-specific rather than a broad flavivirus phenomenon.
+
+This finding reframes the cross-reactive antibody landscape: the cross-reactive population that most threatens to mediate ADE upon secondary exposure is not a sub-threshold anti-E antibody pool, but a numerically dominant anti-prM pool that *cannot* neutralise regardless of titre. The two mechanisms are not mutually exclusive and may act additively in vivo.
 
 ### Broadly neutralising antibodies as vaccine targets
 Not all cross-reactive antibodies are harmful. Some antibodies that bind the DI-DII domain hinge of the E protein broadly neutralise all four serotypes without mediating ADE — representing a potential target for vaccines capable of eliciting protective rather than enhancing cross-serotype immunity (see [[Guzman2016 - Dengue Infection]], [[E Protein]]).
@@ -61,6 +71,7 @@ Flavivirus cross-reactive antibodies create significant diagnostic challenges:
 - PRNT remains the gold standard for serotype-specific confirmation precisely because it measures functional neutralisation rather than binding alone (see [[PRNT]])
 
 ## Contradictions & Debates
+- **Anti-prM neutralisation ceiling vs. anti-E below-threshold model:** The classical cross-reactive ADE model (Guzman2016) holds that cross-reactive anti-E antibodies below the neutralisation threshold cause ADE — implying that high anti-E titres are protective while low titres are enhancing. Dejnirattisai2010 introduces a distinct mechanism: anti-prM antibodies cannot neutralise above a 60% ceiling *regardless of titre* — the ceiling is structural, not a function of concentration. These are parallel ADE pathways, not competing explanations. Whether anti-prM or sub-threshold anti-E dominates in natural secondary infection is unresolved.
 - **Rising XR E-IgG vs. classical waning ADE model:** The standard model holds that ADE risk arises because cross-reactive antibodies wane below the neutralisation threshold in the inter-infection period (Guzman2016). Bos2025 shows XR E-IgG actually *rises* 6–18M post-primary infection — which either (a) means the rising antibodies are non-neutralising regardless of concentration (ADE is driven by the binding/non-neutralising antibody pool, not the waning neutralising pool), or (b) the classical model requires revision. The two interpretations are not mutually exclusive and have not been resolved (Bos2025 is a preprint).
 - **Bruhns paradox:** Bruhns et al. (2009) found IgG1 binds less efficiently to FcgammaRIIa-R131 than to FcgammaRIIa-H131 — the opposite of what the standard ADE model predicts. If RR individuals have lower IgG1/FcgammaRIIa affinity, the protective effect of the RR genotype (see [[FcγRIIa Receptor]]) cannot be explained by reduced ADE through this receptor alone. The discrepancy may reflect differences between monoclonal and polyclonal antibody systems and has not been resolved with DENV-specific immune complexes (see [[Garcia2010 - Asymptomatic Dengue FcγRIIa Polymorphism]]).
 - **Antigen target of public clonotype unknown:** The IGHV4-39*01/IGKV1-9*01 public BCR clonotype in symptomatic dengue has not been mapped to a specific DENV antigen — whether these antibodies are cross-reactive, serotype-specific, or autoimmune is unknown.
@@ -68,15 +79,17 @@ Flavivirus cross-reactive antibodies create significant diagnostic challenges:
 
 ## Related Pages
 - [[Antibody-Dependent Enhancement]]
+- [[prM Protein]]
+- [[E Protein]]
 - [[Secondary Dengue Infection]]
 - [[NS1 Molecular Mimicry in Dengue]]
-- [[E Protein]]
 - [[FcγRIIa Receptor]]
 - [[CYD-TDV]]
 - [[PRNT]]
 - [[IgM-IgG Serology ELISA]]
 - [[Dengue Vaccine Candidates]]
 - [[Nicaragua]]
+- [[Thailand]]
 
 ## Sources
 - [[Guzman2016 - Dengue Infection]] (cross-protection kinetics; ADE conditional virulence; maternal Ab; broadly neutralising Abs; CYD-TDV; Zika cross-reactivity)
@@ -86,3 +99,5 @@ Flavivirus cross-reactive antibodies create significant diagnostic challenges:
 - [[Lin2011 - Molecular Mimicry Virus Host Dengue Pathogenesis]] (anti-NS1 molecular targets; C-terminal domain mapping; E protein coagulation homology)
 - [[Bos2025 - Longitudinal Antibody Dynamics After Dengue]] (XR E-IgG rising 6–18M post-primary; NS1-IgG waning t½≈2.1y; EDI/II vs EDIII domain specificity; IgA/IgM/IgG3/IgG4 kinetics; PREPRINT)
 - [[Palacios2016 - Autoimmunity in Dengue Literature Review]] (Wan2012 cross-serotype autoantibody data cited: anti-endothelial-cell Ab titres similar across DENV-2/3/4 — no serotype-specific autoimmune signature among these three; acute peak, months persistence; severity correlation DHF/DSS > DF)
+- [[Vo2020 - Autoantibody Profiling in Dengue]] (high-throughput autoantigen array: anti-dengue antibodies cross-reactive with complement components, coagulation factors, and nuclear antigens identified; anti-NS1 cross-reactivity with platelet antigens cited as established context; Cambodia pediatric cohort)
+- [[Dejnirattisai2010 - Anti-prM Antibodies Enhance Dengue ADE]] (anti-prM ~60% of structural antibodies; full cross-reactivity DENV-1–4; poor neutralisation ceiling from incomplete prM cleavage; 10^5-fold monocyte/DC ADE; anti-JEV cross-reactivity minimal — dengue-specific; Thailand n=7 donors)

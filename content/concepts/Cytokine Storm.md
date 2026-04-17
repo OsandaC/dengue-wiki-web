@@ -1,9 +1,9 @@
 ---
 type: concept
-tags: [cytokines, immunopathogenesis, IL-10, TNF-alpha, IFN-alpha, vascular-permeability, plasma-leakage, DHF, DSS, TLR4, NS1, bystander-activation, MAS, macrophage-activation-syndrome, HLH, hyperferritinemia]
+tags: [cytokines, immunopathogenesis, IL-10, TNF-alpha, IFN-alpha, vascular-permeability, plasma-leakage, DHF, DSS, TLR4, NS1, bystander-activation, MAS, macrophage-activation-syndrome, HLH, hyperferritinemia, MIF, autophagy, Th2-skewing, Treg]
 created: 2026-04-13
-updated: 2026-04-16
-sources: 7
+updated: 2026-04-17
+sources: 9
 ---
 
 # Cytokine Storm
@@ -51,6 +51,24 @@ Cytokine storm can drive non-specific polyclonal B and T cell activation (bystan
 ### Original antigenic sin amplifies cytokine production
 In secondary heterotypic infection, low-affinity memory T cells from the primary infection expand selectively (original antigenic sin). These cross-reactive T cells produce inflammatory cytokines (TNF-alpha, IFN-gamma) that drive plasma leakage, but clear the new serotype inefficiently — a proposed mechanism for why secondary infection is more severe (see [[Wan2012 - Autoimmunity in Dengue Pathogenesis]], [[Original Antigenic Sin]], [[T Cell Responses in Dengue]]).
 
+Bhatt2020 specifies the functional correlate: **low-avidity CD8+ T cells produce elevated TNF-α and IL-6** specifically while losing cytolytic activity — meaning the cytokine excess is not merely a by-product of vigorous killing but occurs in the absence of adequate viral clearance. This decoupling of inflammation from viral control is the mechanistic basis for why OAS amplifies the cytokine storm rather than resolving it (see [[Bhatt2020 - Dengue Pathogenesis Review]]).
+
+### MIF-autophagy: a viral amplifier of cytokine-linked pathology (Bhatt2020)
+
+Macrophage migration inhibitory factor (MIF), a pro-inflammatory cytokine elevated during dengue, induces **autophagy** in DENV-infected cells (see [[Bhatt2020 - Dengue Pathogenesis Review]]). DENV hijacks the autophagic flux — using lipid droplets and amino acids from autophagosomes as nutrient substrates for replication on ER-derived membranes. The implication is that MIF, despite being an inflammatory cytokine, paradoxically promotes viral replication by triggering a nutrient-mobilisation pathway the virus exploits:
+
+- MIF elevation (part of the cytokine storm) → autophagy induction → increased viral replication → more virus → more antigen → amplified immune response → more MIF
+- This positive feedback may partly explain why MIF elevation correlates with disease severity
+
+### Th2 skewing and Treg IL-10 in secondary infection (Bhatt2020)
+
+[[Bhatt2020 - Dengue Pathogenesis Review]] consolidates the Th1→Th2 shift mechanism in secondary DENV infection:
+
+- ADE-mediated FcγR viral entry into monocytes/macrophages suppresses IFN-γ (Th1 cytokine) production while enhancing IL-10 output
+- **IL-10 is produced by T regulatory cells (Tregs) as well as CD4+ T cells** — consistent with Sungnak2025's finding that CD4 proliferating T cells are the highest IL10 expressers in DHF, and extending the cellular source to include Tregs
+- IL-10-driven Th2 skewing: inhibits virus clearance (Th1/CD8+ cytolytic killing dependent) while sustaining high antibody production → creates conditions for ADE amplification in a positive feedback loop
+- This mechanism is the molecular link between intrinsic ADE and the high IL-10 levels consistently documented in severe dengue (see [[Antibody-Dependent Enhancement]])
+
 ### Temporal dynamics
 The cytokine cascade follows a characteristic time course:
 - Cytokine accumulation occurs throughout the febrile phase
@@ -93,3 +111,5 @@ Critically, these MAS cases were **ANA and anti-dsDNA negative** — confirming 
 - [[Morel2014 - Autoimmune Response in Children With Dengue]] (dengue-triggered MAS as extreme cytokine storm; ANA-negative; responded to methylprednisolone; hyperferritinemia 3828 mg/dl in most severe case)
 - [[Palacios2016 - Autoimmunity in Dengue Literature Review]] (additional MAS + nephrotic syndrome case; literature context for dengue-MAS as cytokine-driven complication)
 - [[Oishi2003 - PAIgG and Thrombocytopenia in Secondary Dengue]] (complement activation invoked in secondary-infection platelet clearance; immune-complex-driven macrophage engagement)
+- [[Vo2020 - Autoantibody Profiling in Dengue]] (cytokine storm cited as background pathogenesis mechanism; deregulated T cell compartment and elevated cytokines invoked to explain autoreactive antibody production during acute DENV infection)
+- [[Bhatt2020 - Dengue Pathogenesis Review]] (MIF-autophagy viral amplification loop; OAS CD8+ T cell TNF-α/IL-6 excess without cytolytic clearance; Th1→Th2 shift mechanism; IL-10 from Tregs + CD4 T cells; review, India)

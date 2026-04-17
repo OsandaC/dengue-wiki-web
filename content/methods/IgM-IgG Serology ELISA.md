@@ -1,12 +1,12 @@
 ---
 type: method
-tags: [serology, IgM, IgG, ELISA, diagnostics, convalescent-phase, secondary-infection, Zika, cross-reactivity, MAC-ELISA, anti-dengue-IgG, anticardiolipin]
+tags: [serology, IgM, IgG, ELISA, diagnostics, convalescent-phase, secondary-infection, Zika, cross-reactivity, MAC-ELISA, anti-dengue-IgG, anticardiolipin, anti-prM, research-ELISA]
 created: 2026-04-12
-updated: 2026-04-16
-sources: 7
+updated: 2026-04-17
+sources: 10
 ---
 
-# IgM/IgG Serology ELISA
+# IgM-IgG Serology ELISA
 
 ## Overview
 Enzyme-linked immunosorbent assay (ELISA) detection of dengue-specific IgM and IgG antibodies is the most widely used method for dengue diagnosis globally. IgM-capture ELISA (MAC-ELISA) detects acute-phase IgM from approximately day 5–6 of illness. IgG ELISA, when used with paired acute and convalescent sera, can confirm seroconversion or identify secondary (heterotypic) infection by the magnitude of the anamnestic IgG response. Serological methods do not distinguish between the four DENV serotypes and cannot replace molecular methods for early acute-phase diagnosis.
@@ -64,5 +64,8 @@ Enzyme-linked immunosorbent assay (ELISA) detection of dengue-specific IgM and I
 - [[Bos2025 - Longitudinal Antibody Dynamics After Dengue]] (isotype-specific ELISA for all 84 antibody features — IgA, IgG1–4, IgM, across E protein and NS1 antigens; longitudinal kinetics at <1M, 3M, 6M, 18M post-primary and post-secondary; PREPRINT)
 - [[Lin2001 - IgM Anti-Platelet Autoantibody in Dengue Patients]] (anti-NS1 IgG confirmed in dengue patient sera by ELISA; Taiwan 1998–99 DENV-3 outbreak)
 - [[Oishi2003 - PAIgG and Thrombocytopenia in Secondary Dengue]] (IgM-capture ELISA for dengue diagnosis, Bundo & Igarashi 1985 protocol; Manila Philippines 2001 secondary-infection cohort; indirect ELISA for anti-dengue specificity in platelet IgG eluates)
+- [[Saito2004 - PAIgG and PAIgM in Secondary Dengue]] (IgM-capture ELISA for dengue diagnosis; Bundo & Igarashi 1985 protocol; indirect ELISA for anti-dengue IgG and IgM specificity in platelet eluates; Manila Philippines 2002–2003)
 - [[Morel2014 - Autoimmune Response in Children With Dengue]] (Case 1: IgG and IgM dengue antibodies positive — confirmation of reinfection or early primary; IgM anticardiolipin antibody positive — autoimmune marker by serology)
 - [[Palacios2016 - Autoimmunity in Dengue Literature Review]] (Lai 2012 reinfection diagnosis by IgG+IgM dual seropositivity; Garcia2009 longitudinal IgG follow-up methodology)
+- [[Vo2020 - Autoantibody Profiling in Dengue]] (IgM seroconversion from IgM-negative to IgM-positive during hospital stay used as one of three criteria for acute dengue diagnosis; primary/secondary classification used IgG:IgM ratio; Cambodia 2012–2013 cohort)
+- [[Dejnirattisai2010 - Anti-prM Antibodies Enhance Dengue ADE]] (indirect ELISA for anti-prM and anti-E monoclonal antibody binding to purified antigens; cross-reactivity panel across all four DENV serotypes and JEV controls; note: research ELISA for antibody characterisation, not clinical diagnostic serology)

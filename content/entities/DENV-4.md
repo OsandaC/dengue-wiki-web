@@ -1,9 +1,9 @@
 ---
 type: entity
-tags: [serotype, DENV-4, Cuba, epidemic, autoantibody-cross-serotype]
+tags: [serotype, DENV-4, Cuba, epidemic, autoantibody-cross-serotype, anti-prM, cross-reactivity]
 created: 2026-04-11
-updated: 2026-04-16
-sources: 5
+updated: 2026-04-17
+sources: 7
 ---
 
 # DENV-4
@@ -38,3 +38,5 @@ None yet recorded.
 - [[Guzman2016 - Dengue Infection]] (serial serotype introduction; DENV-4 Havana 2006 containment; Cuban epidemic pattern)
 - [[Oishi2003 - PAIgG and Thrombocytopenia in Secondary Dengue]] (DENV-4 antigen used in HI titer panel; secondary-infection PAIgG mechanism context)
 - [[Palacios2016 - Autoimmunity in Dengue Literature Review]] (Wan2012 cross-serotype autoantibody data: similar autoantibody levels in DENV-2/3/4)
+- [[Vo2020 - Autoantibody Profiling in Dengue]] (Cambodia 2012–2013; DENV-4 present in 9.09% ASD and 15.4% DF; minor serotype in this cohort)
+- [[Dejnirattisai2010 - Anti-prM Antibodies Enhance Dengue ADE]] (anti-prM hmAbs from DENV-infected donors fully cross-reactive against DENV-4 antigen; complete serotype cross-reactivity of anti-prM response)

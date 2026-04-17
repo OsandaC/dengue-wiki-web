@@ -2,6 +2,201 @@
 
 ---
 
+## [2026-04-17] ingest | Bhatt2020 - Dengue Pathogenesis Review
+
+**Citation:** Bhatt P, Sabeena SP, Varma M, Arunkumar G. "Current Understanding of the Pathogenesis of Dengue Virus Infection." *Current Microbiology* 2021; 78(1):17–32. DOI: 10.1007/s00284-020-02284-w. Citations: 300 (SS) / 294 (CR).
+
+**New pages created (1):**
+- `wiki/sources/Bhatt2020 - Dengue Pathogenesis Review.md`
+
+**Pages updated (16):**
+- `wiki/concepts/Type I Interferon Response in Dengue.md` — new section: sfRNA1→TRIM25→RIG-I K172 ubiquitination block → IFN suppression; sfRNA→Dicer siRNA pathway inhibition; XRN1 stalling mechanism; relationship to Sungnak2025 IFN-α2 paradox; sources 2→3
+- `wiki/concepts/Original Antigenic Sin.md` — new section: OAS T cell mechanism (low-avidity CD8+ preferential expansion; cytolytic loss; TNF-α/IL-6 excess without killing; delayed clearance → positive feedback → DHF/DSS); sources 1→2
+- `wiki/concepts/Antibody-Dependent Enhancement.md` — new section: Katzelnick 2017 quantitative ADE window 1:21–1:80 (n=6684 Nicaraguan children); bounded enhancement zone; vaccine design implications; sources 10→11
+- `wiki/concepts/T Cell Responses in Dengue.md` — new "OAS-driven CD8+ dysfunction" subsection (low-avidity expansion; cytolytic loss + TNF-α/IL-6; Bhatt2020 + Sungnak2025 exhaution data as complementary); sources 2→3
+- `wiki/concepts/Cytokine Storm.md` — new sections: MIF-autophagy viral amplification loop; Th1→Th2 shift + Treg IL-10 mechanism; OAS cytokine excess updated with Bhatt2020 specifics (TNF-α/IL-6 without cytolysis); sources 8→9
+- `wiki/concepts/Dengue Pathophysiology.md` — new section: glycocalyx degradation via heparanase (NS1-activated, cleaves heparan sulfate chains) and cathepsin L (NS1-activated, cleaves proteoglycan cores); dual enzymatic route; sources 7→8
+- `wiki/concepts/Dengue Vaccine Candidates.md` — new section: Katzelnick 2017 ADE window as quantitative safety benchmark for post-vaccination titre monitoring; CYD-TDV seronegative risk framed against 1:21–1:80 window; sources 5→6
+- `wiki/concepts/NS1 Molecular Mimicry in Dengue.md` — Bhatt2020 source added confirming NF-κB/MCP-1/IL-6/IL-8 pathway; sources 7→8
+- `wiki/entities/NS1 Protein.md` — new section: NS1 ER-membrane replication complex cofactor (with NS2A/B, NS3, NS4A/B); heparanase + cathepsin L activation; MIF-autophagy context; sources 10→11
+- `wiki/entities/prM Protein.md` — new section: anti-prM HSP60 cross-reactivity (molecular mimicry) noted; sources 1→2
+- `wiki/entities/DENV-1.md` — DENV-1 primary: higher NS1 levels and viraemia than DENV-2 primary; sources 6→7
+- `wiki/entities/DENV-2.md` — Asian genotype NS3 salivary gland replication efficiency specified; DENV-2 secondary highest overall viraemia; sources 7→8
+- `wiki/entities/Aedes aegypti.md` — new section: Asian genotype DENV-2 enhanced salivary gland replication; sources 5→6
+- `wiki/geography/India.md` — new Manipal, Karnataka subsection (Kasturba Medical College); sources 1→2
+- `wiki/analyses/Notable Findings.md` — new entry [2026-04-17]: Katzelnick quantitative ADE window 1:21–1:80; sources 17→18
+- `wiki/index.md` — sources 27→28; pages 92→93; all affected entity/concept/geography counts updated
+
+**Notable finding flagged:** ADE has a discrete quantitative "danger zone" at antibody titer 1:21–1:80 (Katzelnick 2017 via Bhatt2020; n=6684) — converting the qualitative "sub-threshold ADE" model into a bounded enhancement window with direct vaccine safety implications.
+
+---
+
+## [2026-04-17] ingest | Dejnirattisai2010 - Anti-prM Antibodies Enhance Dengue ADE
+
+**Citation:** Dejnirattisai W et al. "Cross-Reacting Antibodies Enhance Dengue Virus Infection in Humans." *Science* 2010; 328:745–748. DOI: 10.1126/science.1185181. Citations: 891 (SS) / 820 (CR).
+
+**New pages created (2):**
+- `wiki/sources/Dejnirattisai2010 - Anti-prM Antibodies Enhance Dengue ADE.md`
+- `wiki/entities/prM Protein.md` (new entity; 1 source)
+
+**Pages updated (14):**
+- `wiki/concepts/Antibody-Dependent Enhancement.md` — new "Anti-prM Antibodies" section (dominant class, ~60%; neutralisation ceiling; 10^5-fold monocyte/DC ADE; mechanism via incomplete prM cleavage); two new Contradictions entries; sources 9→10
+- `wiki/entities/E Protein.md` — new section on anti-E as minority (~35%) vs. anti-prM (~60%); E vs. prM ADE comparison; sources 3→4
+- `wiki/concepts/Cross-Reactive Antibodies.md` — new "Anti-prM dominant non-neutralising class" section; new Contradiction (neutralisation ceiling vs. sub-threshold model); sources 8→9
+- `wiki/concepts/Dengue Vaccine Candidates.md` — new "Anti-prM ADE risk from native prM sequences" section; new Contradiction (anti-prM as untracked dominant ADE pathway in vaccine immunogenicity readouts); sources 4→5
+- `wiki/concepts/Secondary Dengue Infection.md` — new section on anti-prM as dominant cross-reactive ADE pool in secondary infection context; sources 11→12
+- `wiki/geography/Thailand.md` — Khon Kaen + Songkhla donor recruitment context; sources 1→2
+- `wiki/entities/DENV-1.md` — anti-prM cross-reactivity note; sources 5→6
+- `wiki/entities/DENV-2.md` — anti-prM cross-reactivity note; sources 6→7
+- `wiki/entities/DENV-3.md` — anti-prM cross-reactivity note; sources 7→8
+- `wiki/entities/DENV-4.md` — anti-prM cross-reactivity note; sources 6→7
+- `wiki/methods/PRNT.md` — neutralisation plateau finding (anti-prM 10–60% ceiling); sources 2→3
+- `wiki/methods/IgM-IgG Serology ELISA.md` — research ELISA for anti-prM/anti-E characterisation; sources 9→10
+- `wiki/analyses/Notable Findings.md` — new entry [2026-04-17]: anti-prM dominant structural antibody and most potent ADE mediator
+- `wiki/index.md` — sources 26→27; pages 90→92; entity/concept/method/geography counts updated
+
+**Notable finding flagged:** Anti-prM as dominant (~60%) structural antibody, fully cross-reactive across all four DENV serotypes, incapable of complete neutralisation (structural ceiling from incomplete prM cleavage), mediating 10^5-fold monocyte/DC ADE — substantially exceeding typical anti-E ADE. All current vaccine platforms will prime this response.
+
+---
+
+## [2026-04-17] update | ANA and Dengue - A Literature Review — integrated Vo2020 and Saito2004
+
+**Sources added:** Vo2020 (autoantigen microarray, Cambodian pediatric cohort, n=40), Saito2004 (PAIgM in secondary dengue, n=78). Source count: 22 → 24.
+
+**New content:**
+- §4.4: Nuclear antigen IgG consumption model — 19 DHF-correlated IgGs (including KU, Smith, histone, Sm/RNP, nucleosome) positively correlated with platelet count in DHF (Vo2020); proposed interpretation: ANA testing at peak disease may underestimate autoimmune burden in DHF due to IC sequestration; provides mechanistic explanation for ANA-negative severe dengue cases
+- §5.4 extended: Saito2004 PAIgM characterised as anti-dengue IgM immune complex (not anti-platelet autoantibody); completely FcγR-independent; independently predicts DHF with 92.1% specificity; thrombocytopenia now fully three-pathway (primary IgM autoAb + secondary PAIgG IC + secondary PAIgM IC)
+- §7 addition: Vo2020 primary>secondary IgG inversion complicates the "ADE drives autoantibody production" model
+- §9 addition: Infection order (primary vs. secondary) as host factor
+- §10 Q12–Q13: Nuclear antigen consumption model testing; PAIgM FcγR-independence and DHF predictive superiority
+- §11: Established claim updated (3-pathway thrombocytopenia); two new hypothesis-generating entries (Vo2020 consumption model; primary>secondary inversion)
+
+**Watch Item resolved:** "ANA analysis page not updated with Vo2020/Saito2004" (from post-ingest lint flag 2026-04-17)
+
+---
+
+## [2026-04-17] lint | batched full-wiki health check
+
+**Method:** Batched by folder (sources → entities/concepts → methods/geography → analyses) per new CLAUDE.md context-scaling convention.
+
+**Stale cross-references:** 0 in content pages. Two apparent stale links (`[[IgM/IgG Serology ELISA]]`, `[[Lin2006]]`) confirmed as backtick code spans in log.md (historical documentation, not live wikilinks — confirmed from prior lint).
+
+**Forward propagation:** 27/27 checks passed for Saito2004 and Vo2020 across all linked entity, concept, method, and geography pages.
+
+**Orphans:** Reading Plan - ANA and Dengue Dynamics (only linked from index.md) — unchanged, acceptable for a meta document.
+
+**Fixes applied:**
+- `wiki/methods/IgM-IgG Serology ELISA.md` H1 title corrected from "IgM/IgG" to "IgM-IgG" (cosmetic, aligns with filename and all wikilinks)
+- `wiki/state.md` Geography gaps Watch Item updated (stale "4 countries" → correct "8 countries")
+- New Watch Items added: NK Cell Responses in Dengue (1 source), Original Antigenic Sin (1 source), Line Immunoassay ANA (1 source), Surface Plasmon Resonance (1 source), thin geography pages under retroactive hierarchy rule (Thailand, India, Paraguay)
+
+**Outstanding gaps flagged (not fixed during lint):**
+- `ANA and Dengue - A Literature Review` not updated with Vo2020 or Saito2004 — highest-priority follow-on task
+- Thin pages: CYD-TDV (1), Wolbachia (1), NK Cell Responses in Dengue (1), Original Antigenic Sin (1); thin methods: Single-Cell RNA Sequencing, V(D)J Sequencing, qRT-PCR, ELISA Inhibition Method, Autoantigen Microarray, Line Immunoassay ANA, Surface Plasmon Resonance; thin geography: Thailand (1), India (1), Paraguay (1), Cambodia (1), Nicaragua (1)
+
+---
+
+## [2026-04-17] schema-update | CLAUDE.md — 8 workflow and convention improvements
+
+**Changes:**
+1. **Architecture block** — added `CLAUDE_UPDATE.md` reference
+2. **Analyses page template** — new convention section with minimum required structure (Research Question, Sources Used, Synthesis, Open Questions, Related Pages)
+3. **Evidence weighting** — new convention requiring study type + sample size inline on all concept/entity/method "Key Points from Literature" citations
+4. **Geography hierarchy** — new convention: country pages require ≥2 sources; regional pages trigger on next relevant ingest when ≥3 country pages exist in region; retroactive rule flags Cambodia and Nicaragua as thin pending fold
+5. **Ingest workflow** — added `--fast` flag (skips discussion step); added git snapshot as step 1; renumbered steps 1→14; step 13 now propagates "Questions Raised" to state.md Watch Items
+6. **Lint workflow** — added context-scaling note: batch by folder when wiki >80 pages (currently above threshold)
+7. **Retract/Correct workflow** — new workflow for handling retracted or corrected papers (warning banner, frontmatter flag, inline citation warnings, Watch Item, log entry)
+8. **commands.md** — updated with all new commands (`ingest --fast`, `retract`, `correct`) and revised descriptions
+
+**Sections of CLAUDE.md modified:** Architecture, Conventions (Page naming, new Geography hierarchy, new Analyses pages, new Evidence weighting), Workflows (Ingest, Lint, new Retract/Correct)
+**Pages affected:** `wiki/state.md` (Watch Items updated for Cambodia, Nicaragua), `wiki/commands.md`
+**Reason:** Token efficiency (fast-track ingest, batched lint, analyses template) and inter-session memory (Questions Raised propagation, retraction workflow, geography hierarchy rules)
+
+---
+
+## [2026-04-17] ingest | Vo 2020 - Autoantibody Profiling in Dengue
+
+**Source:** Vo HTM et al. *Pathogens*. 2020;9(12):1060. doi:10.3390/pathogens9121060
+
+**Citations:** SS = 10 / CR = 12 (retrieved 2026-04-17)
+
+**Created:**
+- `wiki/sources/Vo2020 - Autoantibody Profiling in Dengue.md`
+- `wiki/methods/Autoantigen Microarray.md` (new method page)
+- `wiki/geography/Cambodia.md` (new geography page)
+
+**Updated:**
+- `wiki/concepts/Autoimmunity in Dengue.md` (sources 22→23; new §"Systematic Autoantibody Profiling" covering primary>secondary IgG inversion, 80 IgM elevation, 19 DHF autoantibody-platelet correlations including nuclear antigen IgGs)
+- `wiki/concepts/Dengue Pathophysiology.md` (sources 6→7; new §"Autoantibodies Against Complement and Coagulation Components" covering Factor P/C4/prothrombin IgG-platelet correlation + anti-heparan sulfate reduction in DF/DHF)
+- `wiki/concepts/Secondary Dengue Infection.md` (sources 10→11; new §"IgG Autoantibody Paradox: Primary > Secondary" with Wan2012 reconciliation)
+- `wiki/concepts/Asymptomatic Dengue Infection.md` (sources 4→5; ASD as comparator group; no autoantibody severity difference)
+- `wiki/concepts/Cross-Reactive Antibodies.md` (sources 7→8; cross-reactivity context added)
+- `wiki/concepts/Antibody-Dependent Enhancement.md` (sources 8→9; background citation)
+- `wiki/concepts/Cytokine Storm.md` (sources 7→8; background citation)
+- `wiki/concepts/Dengue Clinical Classification.md` (sources 2→3; WHO 1997 criteria applied)
+- `wiki/entities/NS1 Protein.md` (sources 9→10; anti-NS1 cross-reactivity citation added)
+- `wiki/entities/DENV-1.md` (sources 4→5; Cambodia 2012–2013 dominant serotype)
+- `wiki/entities/DENV-2.md` (sources 5→6; minority serotype in Cambodia cohort)
+- `wiki/entities/DENV-4.md` (sources 5→6; minority serotype in Cambodia cohort)
+- `wiki/methods/RT-PCR.md` (sources 4→5; RT-qPCR for DENV confirmation and serotyping, Cambodia cohort)
+- `wiki/methods/IgM-IgG Serology ELISA.md` (sources 8→9; IgM seroconversion diagnosis criterion)
+- `wiki/methods/NS1 Antigen Detection.md` (sources 6→7; SD Bioline NS1 RDT diagnosis criterion)
+- `wiki/analyses/Notable Findings.md` (new entry: primary > secondary IgG autoantibody inversion)
+- `wiki/index.md` (sources 25→26; pages 87→90; new entries for Vo2020 source, Autoantigen Microarray method, Cambodia geography; updated counts for DENV-1/2/4, NS1 Protein, Autoimmunity, ADE, Asymptomatic, Pathophysiology, Clinical Classification, Secondary Infection, Cross-Reactive Abs, Cytokine Storm, RT-PCR, NS1 Antigen Detection, IgM-IgG ELISA)
+
+**Key finding:** First systematic autoantibody microarray in dengue. Primary infection has higher IgG autoantibody breadth than secondary (counterintuitive). IgG autoantibodies against nuclear antigens (KU, Smith, histone, Sm/RNP, nucleosome), complement (Factor P, C4) and coagulation (prothrombin) positively correlate with platelet counts in DHF — suggesting consumption not production is pathologically significant. No severity difference in total autoantibody load between asymptomatic and hospitalised patients.
+
+---
+
+## [2026-04-17] ingest | Saito 2004 - PAIgG and PAIgM in Secondary Dengue
+
+**Source:** Saito M et al. *Clinical and Experimental Immunology*, 2004; 138:299–303. doi:10.1111/j.1365-2249.2004.02626.x
+
+**Citations:** SS = 138 / CR = 89 (retrieved 2026-04-17)
+
+**Created:**
+- `wiki/sources/Saito2004 - PAIgG and PAIgM in Secondary Dengue.md`
+- `wiki/methods/Platelet-Associated Immunoglobulin ELISA.md` (new method page; retroactively covers Oishi2003 + Saito2004)
+
+**Updated:**
+- `wiki/geography/Philippines.md` (sources 1→2; added Saito2004 study details; updated tags)
+- `wiki/concepts/Secondary Dengue Infection.md` (sources 9→10; PAIgM subsection added; bifurcation model refined to primary: IgM autoAb, secondary: PAIgG + PAIgM immune complexes)
+- `wiki/concepts/Dengue Pathophysiology.md` (sources 5→6; thrombocytopenia section expanded with infection-order split and PAIgM FcγR bypass)
+- `wiki/concepts/Autoimmunity in Dengue.md` (sources 21→22; Saito2004 added to sources with distinction of secondary-infection IgM immune complex from primary-infection IgM autoantibody)
+- `wiki/entities/FcγRIIa Receptor.md` (sources 5→6; PAIgM FcγR bypass deepens FcγRIIa paradox)
+- `wiki/methods/IgM-IgG Serology ELISA.md` (sources 7→8; Saito2004 added)
+- `wiki/methods/Hemagglutination Inhibition Test.md` (sources 1→2; Saito2004 added)
+- `wiki/methods/RT-PCR.md` (sources 3→4; Saito2004 + platelet RNA detection finding added)
+- `wiki/sources/Oishi2003 - PAIgG and Thrombocytopenia in Secondary Dengue.md` (Methods Used: "Competitive ELISA for PAIgG" → `[[Platelet-Associated Immunoglobulin ELISA]]`)
+- `wiki/analyses/Notable Findings.md` (new entry: secondary-infection PAIgM as anti-dengue immune complex; bifurcation model refinement)
+- `wiki/index.md` (sources 24→25; pages 84→87; new entries for Saito2004 source + Platelet-Associated Immunoglobulin ELISA method; updated counts for Philippines, Secondary Dengue Infection, Dengue Pathophysiology, Autoimmunity in Dengue, FcγRIIa Receptor, RT-PCR, IgM-IgG Serology ELISA, Hemagglutination Inhibition Test)
+
+**Key finding:** PAIgM in secondary dengue carries anti-dengue virus IgM (not anti-platelet autoantibody IgM; confirmed by platelet eluate). PAIgM >20 ng/10⁷ is a DHF predictor (92.1% specificity). FcγR completely bypassed for PAIgM. Bifurcation model now fully specified: primary = IgM anti-platelet autoantibody; secondary = PAIgG + PAIgM anti-dengue immune complexes.
+
+---
+
+## [2026-04-17] analysis update | ANA and Dengue — A Literature Review (12→22 sources)
+
+**Scope:** Expanded the ANA literature review to incorporate the 5 ingests since 2026-04-13 (Bos2025, Lin2001, Oishi2003, Morel2014, Palacios2016) plus Garcia2010 and Bruhns2009 (referenced in body but missing from sources list).
+
+**Sections added/changed:**
+- Frontmatter: `sources: 12→22`, `updated: 2026-04-13→2026-04-17`, tags expanded (MAS, HLH, macrophage-activation, NS1-IgG-kinetics, primary-infection, PAIgG, ANA-negative, Talib2013).
+- Revision note blockquote added at top.
+- §5.1: Lin2001 attribution correction (foundational IgM anti-platelet autoantibody — precedes Lin2006 by 5 years).
+- §5.4: Oishi2003 inserted — NS1-IC pathway distinct from Lin2001/Lin2006 IgM autoantibody pathway; FcγRII bypassed at platelet surface.
+- **New §5.5 "Macrophage-Driven Autoimmunity Without ANA":** Morel2014's two MAS cases (ANA-/anti-dsDNA-negative, hyperferritinaemia 3828 mg/dl) + Palacios2016/Lai2012 MAS+nephrotic case. Establishes parallel macrophage-hyperactivation axis distinct from NS1-mimicry → autoantibody axis.
+- **New §6.3 "What the NS1-IgG Kinetics Tell Us":** Bos2025 NS1-IgG t½ ≈ 2.1 y constraint; reframes Garcia2009 2-year ANA persistence as residual NS1-mimicry + epitope-spreading + IC-persistence components rather than continued NS1 mimicry. Counter-trajectory note: XR E-IgG actively rises 6–18M (t½ = −2.13 y), implying anti-coagulation-factor reactivity may follow opposite vector.
+- §8: Morel/Talib case contrast table — ANA-negative MAS vs. ANA-positive SLE+lupus nephritis (Talib 2013) as opposite poles within the dengue-autoimmune disease space.
+- §10: Five new open questions (Q7–Q11) — MAS axis invisibility to ANA; Talib SLE de novo vs. flare; NS1-IgG → autoantibody decay correlation; rising XR E-IgG → coagulation-factor reactivity; relative contribution of Lin2001 IgM autoreactive vs. Oishi2003 NS1-IC pathways to thrombocytopenia.
+- §11: Revised epistemic taxonomy. Two new "Established" claims (ANA-negative MAS axis; bifurcated thrombocytopenia mechanisms). One new "Probable" (NS1-IgG t½ ≈ 2.1 y reframes Garcia2009 persistence). Two new "Hypothesis-generating" (Talib SLE; rising XR E-IgG counter-trajectory).
+- Sources list: appended Lin2001, Oishi2003, Garcia2010, Bos2025, Bruhns2009, Morel2014, Palacios2016.
+
+**Commit:** `b791fb6` (master) — bundled with the 2026-04-16 lint propagation sweep and 9 source ingests since 2026-04-13. 57 files changed, 11,019 insertions, 209 deletions.
+
+**Web deploy:** `sync-and-build.ps1` ran clean — Quartz built 85 input files → 564 emitted in 10s. Pushed `988cb04` to `OsandaC/dengue-wiki-web` v4 branch; Cloudflare Pages auto-redeploys at https://dengue-wiki-web.pages.dev within ~1 min.
+
+---
+
 ## [2026-04-16] lint | Deep propagation sweep
 
 **Scope:** Forward-propagation audit for the last five ingests (Bos2025, Lin2001, Oishi2003, Morel2014, Palacios2016). For each source page, enumerated every wikilink under Entities Mentioned / Concepts Addressed / Methods Used and confirmed the target page included that source in its Sources section AND had its frontmatter `sources` count incremented. Also: orphan check (Nicaragua), erroneous link audit (Morel2014 → DENV-1), and contradiction audit (FcγRIIa paradox, ANA-negative MAS).

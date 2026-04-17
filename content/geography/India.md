@@ -1,9 +1,9 @@
 ---
 type: geography
-tags: [India, Kolkata, dengue-epidemiology, endemic, Southeast-Asia, Indian-subcontinent, ANA]
+tags: [India, Kolkata, Manipal, Karnataka, dengue-epidemiology, endemic, Southeast-Asia, Indian-subcontinent, ANA, pathogenesis-review]
 created: 2026-04-12
-updated: 2026-04-12
-sources: 1
+updated: 2026-04-17
+sources: 2
 ---
 
 # India
@@ -23,6 +23,9 @@ India and the broader Indian subcontinent are among the highest-burden regions f
 - LIA confirmation rate was 18.5% in dengue-positive patients, indicating most IIFA-positive dengue ANAs are non-specific.
 - MCTD and autoimmune myositis were the two autoimmune disease categories significantly associated with dengue in multivariate analysis (see [[Autoimmunity in Dengue]]).
 
+### Manipal, Karnataka — Pathogenesis Research Setting (Bhatt2020)
+[[Bhatt2020 - Dengue Pathogenesis Review]] originates from **Kasturba Medical College, Manipal Academy of Higher Education, Manipal, Karnataka** — a different Indian research centre from Kolkata's NICED. This is a narrative review article drawing on international literature; it does not report an original Indian patient cohort, but its authorship from a major Indian medical institution reflects the depth of dengue research infrastructure in Karnataka, a dengue-endemic state in southern India. The Southeast Asian epidemiological context — including the dominance of the virulent Asian genotype of DENV-2 in this region — shapes the paper's framing of dengue pathogenesis. Karnataka is relevant to dengue epidemiology as part of India's tropical dengue-endemic belt.
+
 ### Endemic vs. Non-Endemic Context
 Findings from endemic India may not directly generalise to epidemic settings in non-endemic countries (Taiwan, Cuba). In endemic areas: (a) a higher proportion of dengue patients will be secondary infections (prior immunity); (b) dengue-like febrile illnesses from other pathogens are more frequent, complicating clinical diagnosis; (c) healthcare-seeking behaviour and illness severity threshold differ. The Kolkata study's predominantly IgM-based confirmation (94%) may include patients at varying phases of infection including convalescence.
 
@@ -37,3 +40,4 @@ Findings from endemic India may not directly generalise to epidemic settings in 
 
 ## Sources
 - [[Chatterjee2024 - ANA Detection in Dengue Kolkata]]
+- [[Bhatt2020 - Dengue Pathogenesis Review]] (Kasturba Medical College, Manipal, Karnataka; pathogenesis review; no original patient cohort reported; Southeast Asian epidemiological framing including Asian genotype DENV-2)

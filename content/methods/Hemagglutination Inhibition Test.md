@@ -2,8 +2,8 @@
 type: method
 tags: [serology, HI-test, primary-secondary-classification, dengue-diagnosis, antibody-titre]
 created: 2026-04-15
-updated: 2026-04-15
-sources: 1
+updated: 2026-04-17
+sources: 2
 ---
 
 # Hemagglutination Inhibition Test
@@ -35,3 +35,4 @@ In Oishi2003, HI titre was used to confirm secondary infection in all 83 enrolle
 
 ## Sources
 - [[Oishi2003 - PAIgG and Thrombocytopenia in Secondary Dengue]] (HI titer ≥1:2,560 = secondary classification; Clarke & Casals 1958 method; all four DENV serotype antigens; no correlation of HI titre with PAIgG levels)
+- [[Saito2004 - PAIgG and PAIgM in Secondary Dengue]] (same HI ≥1:2,560 threshold and Clarke & Casals protocol; applied to classify 78-patient secondary-infection cohort; confirms the method's applicability across consecutive dengue seasons at the same Manila sites)

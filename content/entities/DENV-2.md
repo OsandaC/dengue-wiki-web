@@ -1,9 +1,9 @@
 ---
 type: entity
-tags: [serotype, DENV-2, Asian-genotype, virulence, ADE, secondary-infection, Cuba, CNS-invasion, neuropathogenesis, anti-platelet, IgM, autoantibody-cross-serotype]
+tags: [serotype, DENV-2, Asian-genotype, virulence, ADE, secondary-infection, Cuba, CNS-invasion, neuropathogenesis, anti-platelet, IgM, autoantibody-cross-serotype, anti-prM, cross-reactivity, NS3, salivary-gland-replication]
 created: 2026-04-12
-updated: 2026-04-16
-sources: 5
+updated: 2026-04-17
+sources: 8
 ---
 
 # DENV-2
@@ -13,7 +13,7 @@ DENV-2 is one of the four dengue virus serotypes and is historically associated 
 
 ## Key Points from Literature
 
-- The **Asian genotype** of DENV-2 replicates to higher titres in human dendritic cells, infects *Ae. aegypti* more efficiently, and is transmitted at higher rates than American DENV-2 strains. Amino acid changes in NS proteins appear to underlie these differences in epidemic potential (see [[Guzman2016 - Dengue Infection]]).
+- The **Asian genotype** of DENV-2 replicates to higher titres in human dendritic cells, infects *Ae. aegypti* more efficiently, and is transmitted at higher rates than American DENV-2 strains. Amino acid changes in NS proteins appear to underlie these differences in epidemic potential (see [[Guzman2016 - Dengue Infection]]). Bhatt2020 specifically implicates differences in the **NS3 protein** and replication complex efficiency as the molecular basis for the genotypic virulence difference; the Asian genotype also replicates more efficiently in *Ae. aegypti* **salivary glands** — the anatomical step required for transmission to humans (see [[Bhatt2020 - Dengue Pathogenesis Review]]).
 - The **Santiago de Cuba 1997 DENV-2 epidemic** is a pivotal natural experiment: susceptible individuals (no prior dengue) developed predominantly subclinical infections; individuals with prior DENV-1 infection almost invariably developed overt disease (overt:subclinical ratio ≈ 1). The epidemic also revealed rapid within-epidemic selection: month-to-month increases in severe disease proportion and case fatality rate were observed, accompanied by a stable amino acid switch in NS1 — suggesting viral evolution during an epidemic can shift virulence (see [[Guzman2016 - Dengue Infection]]).
 - The second Cuban DENV-2 epidemic in 1981 was the first large DHF/DSS outbreak in the Americas, establishing Cuba as a key setting for dengue pathogenesis research.
 - DENV-2 serves as the attenuated PDK-53 backbone for the **DENVax** chimeric tetravalent vaccine candidate (TAK-003); the prM and E genes of wild-type DENV-1, -3, and -4 are substituted into the PDK-53 scaffold (see [[Dengue Vaccine Candidates]]).
@@ -45,3 +45,6 @@ DENV-2, along with DENV-3, is specifically implicated in **direct CNS invasion**
 - [[Lin2001 - IgM Anti-Platelet Autoantibody in Dengue Patients]] (DENV-2 patient confirmed anti-platelet IgM; comparable to DENV-3 levels — cross-serotype generalisation)
 - [[Oishi2003 - PAIgG and Thrombocytopenia in Secondary Dengue]] (DENV-2 antigen used in HI titer panel; secondary-infection PAIgG mechanism context)
 - [[Palacios2016 - Autoimmunity in Dengue Literature Review]] (Wan2012 cross-serotype autoantibody data: similar autoantibody levels in DENV-2/3/4)
+- [[Vo2020 - Autoantibody Profiling in Dengue]] (Cambodia 2012–2013; DENV-2 present in 18.18% ASD and 12.5% DHF; minority serotype)
+- [[Dejnirattisai2010 - Anti-prM Antibodies Enhance Dengue ADE]] (anti-prM hmAbs from DENV-infected donors fully cross-reactive against DENV-2 antigen; consistent with complete serotype cross-reactivity of the anti-prM response)
+- [[Bhatt2020 - Dengue Pathogenesis Review]] (Asian genotype DENV-2: NS3 protein differences + efficient *Ae. aegypti* salivary gland replication underlie higher virulence than American genotype; DENV-2 secondary infection produces highest viraemia across infection sequences; review, India)

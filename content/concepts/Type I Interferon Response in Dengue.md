@@ -1,9 +1,9 @@
 ---
 type: concept
-tags: [interferon, IFN-alpha, innate-immunity, immunopathogenesis, TLR, RIG-I]
+tags: [interferon, IFN-alpha, innate-immunity, immunopathogenesis, TLR, RIG-I, sfRNA, TRIM25, XRN1, Dicer, siRNA, immune-evasion]
 created: 2026-04-12
-updated: 2026-04-12
-sources: 2
+updated: 2026-04-17
+sources: 3
 ---
 
 # Type I Interferon Response in Dengue
@@ -39,6 +39,18 @@ Guzman2016 introduces IFN-β (type I interferon) as the proposed mediator of bon
 
 **Relationship to Sungnak2025**: Sungnak2025 documents elevated plasma IFN-α2 (not IFN-β specifically) in symptomatic dengue associated with a transcriptional IFN-α response gene set enrichment. The two IFN subtypes may serve distinct roles: IFN-β in bone marrow suppression (via DENV-infected haematopoietic progenitors or stromal cells), and IFN-α in peripheral immune cell activation and immunopathology in severe disease.
 
+## sfRNA-mediated IFN suppression — viral immune evasion mechanism (Bhatt2020)
+
+[[Bhatt2020 - Dengue Pathogenesis Review]] introduces a key molecular mechanism by which DENV actively suppresses type I IFN production that is absent from the other sources in this wiki.
+
+**Generation of sfRNA:** The host 5′→3′ exoribonuclease XRN1 degrades DENV genomic RNA but stalls at secondary structures in the 3′ UTR, generating **subgenomic flavivirus RNA (sfRNA)** fragments of approximately 0.3–0.5 kb. Three sfRNA species are produced (sfRNA1, sfRNA2, sfRNA3); sfRNA1 is most abundant.
+
+**Mechanism of RIG-I inhibition:** sfRNA1 binds **TRIM25** (tripartite motif-containing 25), the ubiquitin E3 ligase required for RIG-I activation. Normally, TRIM25 ubiquitinates RIG-I at K172 → licensed RIG-I signals through MAVS → IRF3 phosphorylation → IFN-β transcription. By sequestering TRIM25, sfRNA blocks this ubiquitination step, leaving RIG-I inactive → type I IFN production is suppressed despite cytosolic double-stranded RNA being present (primary evidence in Manokaran et al. 2015, *Science* 350:217–221, as cited in Bhatt2020).
+
+**Parallel siRNA pathway suppression:** sfRNA also inhibits **Dicer**, the endonuclease that generates siRNAs from dsRNA. This suppresses the RNAi-mediated antiviral pathway in parallel with the IFN pathway, providing dual coverage of innate RNA sensing.
+
+**Relationship to existing wiki content on IFN-α2 elevation (Sungnak2025):** Sungnak2025 documents elevated plasma IFN-α2 in symptomatic dengue — which may appear paradoxical given the sfRNA mechanism. The two are not contradictory: (1) sfRNA suppresses IFN in the primary infected cells (monocytes/DCs — where DENV needs to replicate), but neighbouring uninfected cells that receive paracrine IFN signals are not subject to sfRNA-mediated suppression; (2) the elevated systemic IFN-α2 in severe dengue may represent a second-wave response from non-infected innate cells (pDCs, NK cells) reacting to danger signals and viral products circulating at high titre during secondary infection. The sfRNA mechanism explains an early escape window at the level of the infected cell; the eventual systemic IFN-α2 elevation reflects a response that overwhelms this evasion.
+
 ## Contradictions & Debates
 
 The relationship between type I IFN and dengue severity is not fully resolved. In some experimental models, IFN-α/β are protective; in severe clinical disease, they appear pathological. Whether the elevated IFN-α2 in symptomatic dengue is causally driving immunopathology, or is merely a marker of higher viral burden, cannot be determined from Sungnak2025's design alone. Viremia was matched across severity groups, which argues against a simple "more virus → more IFN" interpretation, but the matched groups had overlapping viremia ranges.
@@ -51,8 +63,10 @@ The asymptomatic dengue group in Sungnak2025 did not show IFN-α enrichment desp
 - [[T Cell Responses in Dengue]]
 - [[NK Cell Responses in Dengue]]
 - [[Asymptomatic Dengue Infection]]
+- [[NS1 Protein]]
 
 ## Sources
 
 - [[Sungnak2025 - Distinct Immune Responses Asymptomatic Symptomatic Dengue]]
 - [[Guzman2016 - Dengue Infection]] (IFN-β and bone marrow suppression in early febrile phase; LCMV analogy)
+- [[Bhatt2020 - Dengue Pathogenesis Review]] (sfRNA1 biogenesis from XRN1 stalling; TRIM25 sequestration → RIG-I K172 ubiquitination block → IFN-β suppression; Dicer inhibition → siRNA pathway suppression; three sfRNA species; review of Manokaran 2015 mechanism; India review)

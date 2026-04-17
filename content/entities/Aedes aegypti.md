@@ -1,9 +1,9 @@
 ---
 type: entity
-tags: [vector, mosquito, Aedes-aegypti, transmission, urban]
+tags: [vector, mosquito, Aedes-aegypti, transmission, urban, salivary-gland, DENV-2, Asian-genotype]
 created: 2026-04-11
-updated: 2026-04-12
-sources: 5
+updated: 2026-04-17
+sources: 6
 ---
 
 # Aedes aegypti
@@ -21,6 +21,10 @@ sources: 5
 - **Extrinsic incubation period**: 5–12 days in the mosquito (blood meal to virus reaching salivary glands); generally 8–10 days; once infected, the mosquito remains infective for life
 - **Intrinsic incubation period** (human infection to fever): 3–14 days (average 4–7 days)
 - Urban-adapted; preferential human biter; breeds in small peridomestic water containers (vases, tyres, gutters); highly susceptible to indoor residual spraying and larval source reduction
+
+### Differential DENV-2 replication by genotype (Bhatt2020)
+
+The **Asian genotype of DENV-2** replicates more efficiently in *Ae. aegypti* **salivary glands** than the American DENV-2 genotype (see [[Bhatt2020 - Dengue Pathogenesis Review]]). Salivary gland replication efficiency is a key determinant of transmission potential — only virus that successfully disseminates from the midgut to the salivary glands can be transmitted to a new human host during a subsequent blood meal. This genotype-specific differential explains in part why the Southeast Asian DENV-2 genotype is epidemiologically more aggressive (higher transmission rate, higher epidemic potential) than the American genotype, even when other host and environmental factors are held constant.
 
 ### Vector control programmes
 - **Cuba**: insecticide spraying programme initiated 1981 after the DENV-2 epidemic; combined larval source reduction, adulticidal spraying, and community engagement (same three pillars as Singapore); epidemic dengue successfully controlled for ~30 years until the programme failed due to economic difficulties and re-introduction (see [[Guzman2016 - Dengue Infection]])
@@ -44,3 +48,4 @@ None yet recorded.
 - [[Lin2011 - Molecular Mimicry Virus Host Dengue Pathogenesis]] (background mention)
 - [[Sungnak2025 - Distinct Immune Responses Asymptomatic Symptomatic Dengue]] (background mention)
 - [[Guzman2016 - Dengue Infection]] (vector biology, incubation periods, control programme histories)
+- [[Bhatt2020 - Dengue Pathogenesis Review]] (Asian genotype DENV-2 enhanced salivary gland replication in *Ae. aegypti* — underlying mechanism of genotypic virulence differential; review, India)

@@ -3,7 +3,7 @@ type: concept
 tags: [asymptomatic, subclinical, silent-infection, seroprevalence, FcgRIIa, protection, scRNA-seq, immune-profiling, CD8-T-cells, NK-cells, plasmablasts]
 created: 2026-04-11
 updated: 2026-04-12
-sources: 4
+sources: 5
 ---
 
 # Asymptomatic Dengue Infection
@@ -68,3 +68,4 @@ The implication for seroprevalence studies: measured dengue seroprevalence subst
 - [[Garcia2010 - Asymptomatic Dengue FcγRIIa Polymorphism]]
 - [[Sungnak2025 - Distinct Immune Responses Asymptomatic Symptomatic Dengue]]
 - [[Guzman2016 - Dengue Infection]] (primary infections predominantly subclinical; 3rd/4th infections mild/asymptomatic; Cuban epidemic overt:subclinical ratios)
+- [[Vo2020 - Autoantibody Profiling in Dengue]] (ASD as primary comparator group; no significant difference in total IgM or IgG autoantibody load between ASD and DF/DHF patients; asymptomatic individuals identified via household cluster investigation; Cambodia 2012–2013)

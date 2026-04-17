@@ -1,9 +1,9 @@
 ---
 type: entity
-tags: [serotype, DENV-3, Cuba, displacement, epidemic-dynamics, CNS-invasion, neuropathogenesis, Singapore, Taiwan, Nicaragua, anti-platelet, IgM, primary-infection, antibody-kinetics, autoantibody-cross-serotype]
+tags: [serotype, DENV-3, Cuba, displacement, epidemic-dynamics, CNS-invasion, neuropathogenesis, Singapore, Taiwan, Nicaragua, anti-platelet, IgM, primary-infection, antibody-kinetics, autoantibody-cross-serotype, anti-prM, cross-reactivity]
 created: 2026-04-12
-updated: 2026-04-16
-sources: 7
+updated: 2026-04-17
+sources: 8
 ---
 
 # DENV-3
@@ -50,3 +50,4 @@ None yet recorded.
 - [[Bos2025 - Longitudinal Antibody Dynamics After Dengue]] (Nicaragua pediatric cohort; DENV-3 a circulating serotype; longitudinal antibody kinetics primary/secondary; PREPRINT)
 - [[Oishi2003 - PAIgG and Thrombocytopenia in Secondary Dengue]] (DENV-3 antigen used in HI titer panel; secondary-infection PAIgG mechanism context)
 - [[Palacios2016 - Autoimmunity in Dengue Literature Review]] (Wan2012 cross-serotype autoantibody data: similar autoantibody levels in DENV-2/3/4)
+- [[Dejnirattisai2010 - Anti-prM Antibodies Enhance Dengue ADE]] (anti-prM hmAbs from DENV-infected donors fully cross-reactive against DENV-3 antigen; consistent with complete serotype cross-reactivity of the anti-prM response)

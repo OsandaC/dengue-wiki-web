@@ -1,9 +1,9 @@
 ---
 type: entity
-tags: [NS1, non-structural-protein, molecular-mimicry, autoimmunity, platelet, endothelial-cell, coagulation, vaccine, DHF, flavivirus, antibody-kinetics, waning, type-specific, IgM, primary-infection, platelet-lysis, complement, PAIgG, secondary-infection, immune-complex]
+tags: [NS1, non-structural-protein, molecular-mimicry, autoimmunity, platelet, endothelial-cell, coagulation, vaccine, DHF, flavivirus, antibody-kinetics, waning, type-specific, IgM, primary-infection, platelet-lysis, complement, PAIgG, secondary-infection, immune-complex, replication-complex, MIF, autophagy, cathepsin-L, heparanase]
 created: 2026-04-12
-updated: 2026-04-16
-sources: 9
+updated: 2026-04-17
+sources: 11
 ---
 
 # NS1 Protein
@@ -51,6 +51,14 @@ The host proteins on platelet and endothelial cell surfaces identified as target
 Anti-NS1 causes two distinct endothelial cell effects (see [[Lin2006 - Autoimmune Pathogenesis in Dengue Virus Infection]]):
 1. **Apoptosis pathway**: NO production → p53↑, Bax↑, Bcl-2↓, Bcl-xL↓ → cytochrome c release → caspase-3 activation
 2. **Inflammatory activation**: Tyrosine phosphorylation + NF-κB activation → IL-6↑, IL-8↑, MCP-1↑; ICAM-1↑ → increased PBMC adhesion; increased endothelial monolayer permeability
+
+### NS1 as intracellular replication complex cofactor (Bhatt2020)
+
+[[Bhatt2020 - Dengue Pathogenesis Review]] highlights that ER-membrane NS1 — distinct from the sNS1 secreted into the bloodstream — functions as an **essential cofactor for the viral RNA replication complex**, associating with NS2A, NS2B, NS3, NS4A, and NS4B on the ER membrane surface to form the replicase complex. Without functional NS1, RNA replication is impaired. This intracellular role positions NS1 as an antiviral target that could disrupt replication without the anti-NS1 antibody cross-reactivity risks discussed below.
+
+Also via Bhatt2020: NS1 activates **heparanase** and **cathepsin L** — the two enzymes that degrade the endothelial glycocalyx (heparan sulfate chain cleavage and proteoglycan core proteolysis, respectively). See [[Dengue Pathophysiology]] for the full mechanistic context.
+
+Additionally, elevated MIF (macrophage migration inhibitory factor) during dengue infection — driven partly by NS1-TLR4 activation — induces autophagy in infected cells; DENV exploits this autophagic flux for replication substrates (see [[Cytokine Storm]]).
 
 ### Direct sNS1 pathogenic mechanisms
 These are distinct from the anti-NS1 autoantibody mechanisms above; both operate simultaneously (see [[Guzman2016 - Dengue Infection]]):
@@ -102,3 +110,5 @@ These are distinct from the anti-NS1 autoantibody mechanisms above; both operate
 - [[Bos2025 - Longitudinal Antibody Dynamics After Dengue]] (NS1-IgG waning t½≈2.1 years; type-specific trajectory; kinetic divergence from XR E-IgG; autoimmunity thread context; PREPRINT)
 - [[Morel2014 - Autoimmune Response in Children With Dengue]] (NS1 antigen positive in 2 of 3 pediatric MAS/DHF cases — diagnostic confirmation pathway; Paraguay)
 - [[Palacios2016 - Autoimmunity in Dengue Literature Review]] (NS1 referenced across cited cases: NS1+ in Lai 2012 MAS+nephrotic syndrome and Talib 2013 SLE+lupus nephritis; discussion of NS1-driven immune complex mechanism)
+- [[Vo2020 - Autoantibody Profiling in Dengue]] (anti-NS1 cross-reactivity with platelets and endothelial cells cited as established background; NS1 rapid test used for dengue diagnosis; IgM and IgG anti-NS1 cited as cross-reactive with platelet antigens in discussion)
+- [[Bhatt2020 - Dengue Pathogenesis Review]] (NS1 ER-membrane replication complex cofactor with NS2A/B, NS3, NS4A/B; heparanase + cathepsin L activation → dual glycocalyx degradation routes; MIF-autophagy loop linking NS1-TLR4 → MIF → viral replication amplification; DENV-1 primary infection higher sNS1 than DENV-2 primary; review, India)

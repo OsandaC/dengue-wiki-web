@@ -3,7 +3,7 @@ type: method
 tags: [NS1, antigen-detection, ELISA, rapid-test, acute-phase, diagnostics, sNS1, early-diagnosis, Taiwan, laboratory-confirmation, pediatric-MAS, reinfection]
 created: 2026-04-12
 updated: 2026-04-16
-sources: 6
+sources: 7
 ---
 
 # NS1 Antigen Detection
@@ -64,3 +64,4 @@ This finding has methodological implications beyond Taiwan: it suggests that any
 - [[Bos2025 - Longitudinal Antibody Dynamics After Dengue]] (NS1 used as antigen target in 84-feature isotype-specific antibody panel; longitudinal NS1-IgG t½ ≈ 2.1y; PREPRINT)
 - [[Morel2014 - Autoimmune Response in Children With Dengue]] (NS1 antigen positive used to confirm dengue diagnosis in Cases 2 and 3, both pediatric MAS presentations)
 - [[Palacios2016 - Autoimmunity in Dengue Literature Review]] (NS1 antigen positivity referenced in cited Lai 2012 MAS+nephrotic syndrome case and Talib 2013 SLE case as primary dengue confirmation method)
+- [[Vo2020 - Autoantibody Profiling in Dengue]] (SD Bioline Dengue Duo rapid NS1 antigen test used as one of three criteria for acute dengue diagnosis in hospitalised patients; Cambodia 2012–2013 cohort)
