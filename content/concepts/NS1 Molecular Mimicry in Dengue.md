@@ -1,9 +1,9 @@
 ---
 type: concept
-tags: [NS1, molecular-mimicry, autoimmunity, platelets, endothelial-cells, PDI, vimentin, HSP60, thrombocytopenia, coagulation, DHF, flavivirus, WGNGCG, MAS, ANA-negative, IgM, primary-infection, complement, platelet-lysis, cathepsin-L, heparanase, glycocalyx]
+tags: [NS1, molecular-mimicry, autoimmunity, platelets, endothelial-cells, PDI, vimentin, HSP60, thrombocytopenia, coagulation, DHF, flavivirus, WGNGCG, MAS, ANA-negative, IgM, primary-infection, complement, platelet-lysis, cathepsin-L, heparanase, glycocalyx, P311-330, epitope-mapping, Vietnam]
 created: 2026-04-12
 updated: 2026-04-18
-sources: 11
+sources: 12
 ---
 
 # NS1 Molecular Mimicry in Dengue
@@ -36,11 +36,18 @@ The specific host proteins cross-targeted by anti-NS1 Abs are (see [[Lin2011 - M
 - **Capsid (C) protein**: A fourth dengue protein (alongside NS1, prM, E) with sequence similarity to coagulatory molecules — broadening the autoantibody repertoire beyond anti-NS1
 (see [[Wan2012 - Autoimmunity in Dengue Pathogenesis]])
 
-### NS1 domain responsible
-- The **C-terminal NS1 region (amino acids 311–352)** is the domain responsible for cross-reactivity
+### NS1 domain responsible — and epitope resolution for PDI
+
+- The **C-terminal NS1 region (amino acids 311–352)** is the domain responsible for cross-reactivity with platelets and endothelial cells
 - Deletion of the broader C-terminal region (aa 277–352) abolishes anti-NS1-mediated platelet aggregation and bleeding tendency
 - This mapping has direct implications for vaccine design: NS1-based vaccines retaining the C-terminal domain carry autoimmune risk
 (see [[Lin2011 - Molecular Mimicry Virus Host Dengue Pathogenesis]], [[Wan2012 - Autoimmunity in Dengue Pathogenesis]])
+
+**Epitope resolution — PDI vs. HSP60 use distinct epitopes** (see [[Cheng2015 - NS1 P311-330 Anti-PDI Autoantibodies in DHF]], n=43 DHF sera, cross-sectional/in vitro):
+- Within the C-terminal region, **P311–330 (aa 311–330) is the major cross-reactive epitope for PDI** specifically: anti-PDI IgM and IgG both correlate with anti-P311–330 IgM and IgG (r = 0.377 IgM P = 0.013; r = 0.732 IgG P < 0.0001)
+- Anti-P311–330 IgM and IgG were higher in DHF than in DF (P < 0.05 for IgM), whereas anti-PDI and anti-HSP60 levels were similar between DF and DHF — making P311–330-specific antibody a better DHF vs. DF discriminator than either individual autoantigen
+- **HSP60 cross-reactivity uses a different, unidentified NS1 epitope**: anti-HSP60 did not correlate with anti-P311–330 (both IgM and IgG NS), despite anti-HSP60 IgM correlating with anti-EC IgM (r = 0.610, P < 0.0001) and anti-NS1 IgM (r = 0.443, P = 0.003)
+- **Anti-vimentin IgM does not correlate with anti-EC IgM or anti-NS1 IgM** despite being elevated in DHF vs. controls — vimentin cross-reactivity mechanism remains unresolved; may involve a non-NS1 or non-P311–330 antibody population
 
 ### Platelet effects
 
@@ -74,6 +81,13 @@ In vivo: anti-NS1 Abs injected into mice increase vascular permeability (dye lea
 - Anti-E protein Abs bind human plasminogen and inhibit plasmin activity — direct anti-fibrinolytic mechanism
 - Critically, the WGNGCG motif is conserved across haemorrhagic flaviviruses (JEV, WNV, YFV, TBE, OHFV) but absent in HCV, which does not typically cause haemorrhagic disease — independent molecular evidence that this motif contributes to flavivirus haemorrhagic phenotype
 (see [[Lin2011 - Molecular Mimicry Virus Host Dengue Pathogenesis]])
+
+### Infection-order independence of endothelial autoantibodies
+
+Anti-endothelial autoantibodies (anti-PDI, anti-HSP60, anti-vimentin, anti-P311–330) show no significant difference between primary and secondary DHF. Only anti-DENV NS1 IgG was higher in secondary vs. primary infection (P = 0.0075), consistent with the expected anamnestic response. The NS1 molecular mimicry autoantibody response at endothelial targets is therefore infection-order independent — both primary and secondary DHF generate comparable anti-endothelial autoantibody levels. The secondary-infection severity escalation is driven by ADE/immune complex mechanisms, not by a quantitative increase in NS1-driven anti-endothelial autoantibodies. **Caveat:** n=2 primary DHF patients in Cheng2015 — insufficient to confirm this definitively.
+(see [[Cheng2015 - NS1 P311-330 Anti-PDI Autoantibodies in DHF]])
+
+This is consistent with [[Lin2001 - IgM Anti-Platelet Autoantibody in Dengue Patients]] (IgM anti-platelet autoAbs arise in primary infection) and [[Saito2004 - PAIgG and PAIgM in Secondary Dengue]] (PAIgM/PAIgG in secondary infection are anti-dengue immune complexes, not autoantibodies). Together, three independent studies converge on a pattern: NS1-driven molecular mimicry autoantibodies are infection-order independent; immune complex pathways (PAIgG, PAIgM) operate in secondary infection but through a distinct mechanism.
 
 ### Primary infection context — IgM anti-platelet production is not secondary-infection-dependent
 - The Taiwan 1998–1999 DENV-3 outbreak cohort (Lin2001) was confirmed by haemagglutination inhibition assay to consist predominantly of **primary infections**, yet anti-platelet IgM was present in DF and DHF/DSS patients alike, and DHF/DSS occurred
@@ -130,3 +144,4 @@ These direct sNS1 effects are not mutually exclusive with the anti-NS1 autoantib
 - [[Velazqueza2017 - SLE vs Dengue Case Series]] (cites NS1 cross-reactivity with endothelial cells and plasminogen inhibition via molecular mimicry as a proposed mechanism for dengue-triggered autoimmunity; 2 pediatric SLE cases; Guadalajara Mexico; n=2 case series)
 - [[Pang2017 - DHF Pathogenesis Review]] (NS1 sequence homology with plasminogen and integrin cited; anti-NS1 → NO production/apoptosis in endothelial cells and platelet lysis/aggregation inhibition confirmed; anti-NS1 NF-κB → IL-6/IL-8/MCP-1 pathway reviewed; review, China)
 - [[Jardim2012 - Autoimmune Features DHF Case Report]] (cites Lin CF 2003 and Lin2006 as mechanistic basis for NS1 cross-reactivity with endothelial cells and platelets; case report of secondary DENV-3 DHF with ANA 1/320 [mitotic spindle], cryoglobulinemia, C3 depression — all resolved at follow-up; Campinas Brazil; n=1 case report)
+- [[Cheng2015 - NS1 P311-330 Anti-PDI Autoantibodies in DHF]] (P311–330 identified as major PDI-specific NS1 epitope; anti-PDI/HSP60 IgM correlate with anti-EC and anti-NS1 IgM; anti-vimentin IgM does not; anti-P311–330 DHF > DF; autoantibodies infection-order independent except anti-NS1 IgG; Ho Chi Minh City Vietnam/NCKU Taiwan; n=15 DHF patients)

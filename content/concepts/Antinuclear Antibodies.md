@@ -3,7 +3,7 @@ type: concept
 tags: [ANA, antinuclear-antibody, autoimmunity, IIF, HEp-2, prevalence, SLE, healthy-population, viral-infection, acute-dengue, LIA, India, polyreactive-antibodies, post-dengue, 6-month-follow-up]
 created: 2026-04-12
 updated: 2026-04-18
-sources: 12
+sources: 13
 ---
 
 # Antinuclear Antibodies
@@ -66,7 +66,7 @@ Among ANA-positive individuals in the general US population (see [[Satoh2012 - A
 
 The 3.8% control rate is lower than IIF-based population estimates (13.8–16.1%), because ELISA covers only 8 specific nuclear antigens while IIF detects all antinuclear reactivities. The fold-change (~5.7×) is more informative than the absolute infection-group rate. Notably, HAV patients were positive for all 8 tested ANA specificities, including disease-associated antigens such as anti-Sm, anti-U1RNP, and anti-centromere.
 
-These infection-triggered ANA may be transient: a study cited by Berlin2007 found ANA in 20.5% of acute viral hepatitis patients dropping to 6.4% in convalescence. See [[Infection-Triggered Autoimmunity]] for mechanistic context.
+These infection-triggered ANA may be transient: [[Codes2002 - Autoantibodies in Acute Viral Hepatitis]] found ANA in 20.5% of acute viral hepatitis patients (IIF homogeneous ≥1:40, n=156 prospective, Salvador Brazil) dropping to 6.4% in convalescence. See [[Infection-Triggered Autoimmunity]] for mechanistic context.
 
 ### ANA in Acute Dengue — HEp-2 Gold Standard Data
 [[Chatterjee2024 - ANA Detection in Dengue Kolkata]] provides the first ANA measurements from *acute* dengue using the HEp-2 gold standard IIFA platform:
@@ -147,3 +147,4 @@ The 54.8% acute dengue IIFA rate (Chatterjee2024) is not directly comparable to 
 - [[Gawali2021 - ANA Prevalence in Seroconverted Dengue Patients]] (ANA at 6-month follow-up in dengue IgG+ patients; 18.33% IIFA-positive on HEp-2; AC-1 dominant; no control group; Gwalior, India; n=120)
 - [[Velazqueza2017 - SLE vs Dengue Case Series]] (ANA 1:1280 in both pediatric dengue cases; homogeneous+cytoplasmic and fine-speckled patterns; antinucleosome 52 and 258 IU/ml; anti-dsDNA co-positive; SLE criteria met; Guadalajara Mexico; n=2 case series)
 - [[Jardim2012 - Autoimmune Features DHF Case Report]] (ANA 1/320 mitotic spindle pattern during secondary DENV-3 DHF; negative at follow-up; anti-dsDNA negative; cryoglobulins co-positive; selective C3 depression; first documented mitotic spindle ANA pattern in dengue; Campinas Brazil; n=1 case report)
+- [[Codes2002 - Autoantibodies in Acute Viral Hepatitis]] (primary source for 20.5% acute / 6.4% convalescent ANA in viral hepatitis; IIF homogeneous ≥1:40; n=156 prospective; Salvador Brazil; not a dengue paper — viral-infection transience comparator baseline)

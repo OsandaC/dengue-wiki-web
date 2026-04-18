@@ -1,9 +1,9 @@
 ---
 type: concept
-tags: [pathophysiology, vascular-permeability, thrombocytopenia, coagulopathy, complement, liver, NS1, TLR4, plasma-leakage, DHF, DSS, PAIgM, PAIgG, secondary-infection, immune-complex, FcR-bypass, glycocalyx, cathepsin-L, heparanase, MIF, autophagy]
+tags: [pathophysiology, vascular-permeability, thrombocytopenia, coagulopathy, complement, liver, NS1, TLR4, plasma-leakage, DHF, DSS, PAIgM, PAIgG, secondary-infection, immune-complex, FcR-bypass, glycocalyx, cathepsin-L, heparanase, MIF, autophagy, cytotoxic-factor, hCF]
 created: 2026-04-12
 updated: 2026-04-18
-sources: 11
+sources: 13
 ---
 
 # Dengue Pathophysiology
@@ -20,6 +20,7 @@ Dengue haemorrhagic fever (DHF) and dengue shock syndrome (DSS) are defined by t
 - **NS1 as a direct trigger**: sNS1 activates TLR4 on myeloid cells → pro-inflammatory cytokines; separately, sNS1 disrupts endothelial monolayer integrity in vitro and in vivo; DENV NS1-induced TLR4 signalling is a proposed central mechanism for barrier dysfunction (see [[Guzman2016 - Dengue Infection]], [[NS1 Protein]])
 - **APTT as strongest vascular permeability correlate**: APTT values (measuring coagulation activation time) are the strongest laboratory correlate of vascular permeability in dengue patients — linking coagulopathy and plasma leakage mechanistically (see [[Guzman2016 - Dengue Infection]])
 - Anti-NS1 autoantibodies additionally induce endothelial apoptosis (NO→p53/Bax/caspase-3 pathway) and NF-κB inflammatory activation (IL-6, IL-8, MCP-1; ICAM-1 upregulation) — a distinct antibody-mediated vascular damage pathway (see [[NS1 Molecular Mimicry in Dengue]])
+- Anti-PDI, anti-HSP60, and anti-vimentin IgM/IgG are elevated in DHF vs. controls; anti-PDI antibodies generated via NS1 P311–330 molecular mimicry may additionally disrupt PDI-mediated integrin activation on the endothelial surface — providing a mechanistic link between NS1 mimicry and endothelial barrier dysfunction (see [[Cheng2015 - NS1 P311-330 Anti-PDI Autoantibodies in DHF]], [[NS1 Molecular Mimicry in Dengue]])
 
 ### Thrombocytopaenia
 - Two concurrent mechanisms:
@@ -51,6 +52,12 @@ This fills a mechanistic gap in the existing glycocalyx-shedding model: Guzman20
 - **Glycocalyx shedding**: NS1 may shed heparan sulfate/chondroitin sulfate from the endothelial glycocalyx → anticoagulant molecules enter circulation → contributes to coagulopathy (see [[Guzman2016 - Dengue Infection]])
 - Most coagulopathy is minor and self-limiting; major haemorrhage is usually a complication of prolonged shock, not a primary dengue effect
 - The APTT-vascular permeability correlation raises the possibility that coagulation interference is proximal to, not merely co-incident with, plasma leakage
+
+### Cytotoxic Factor (hCF) and Anti-hCF Autoantibodies — Chaturvedi2001 (⚠ unvalidated concept)
+
+[[Chaturvedi2001 - Cytotoxic Factor Autoantibodies DHF]] proposes an additional mechanism for vascular permeability: a dengue-specific cytokine (hCF) produced by CD4+ T cells induces macrophage free-radical and pro-inflammatory cytokine production, and shifts the immune response from Th1 to Th2 (see [[Cytotoxic Factor in Dengue]]). hCF levels were highest in DHF grade IV patients and lowest in mild DF patients in the 1996 North India epidemic cohort (n=136). The reverse pattern was observed for host-produced anti-hCF autoantibodies, which were present in 96% of DF patients and only 8% of DHF grade IV patients — a finding the authors interpret as evidence that anti-hCF autoantibodies protect against severe disease by neutralising hCF before it can drive the full pathogenic cascade.
+
+**Caveat:** hCF is the Chaturvedi group's own concept with no independent replication. The relationship of this mechanism to the established NS1-TLR4, ADE, and OAS pathways is unclear — it may represent an upstream driver, a parallel pathway, or a recharacterisation of known mechanisms.
 
 ### Cryoglobulinemia and Serositis in DHF
 
@@ -116,3 +123,5 @@ A protein microarray screen in Cambodian pediatric dengue patients revealed that
 - [[Pang2017 - DHF Pathogenesis Review]] (NS1 → fluid-phase complement activation → C5b-C9 complex → NLRP3 inflammasome → DHF-associated cytokines; ADE risk quantification: secondary infection DHF 118–208/1000 vs. 11–12/1000 primary; review, China)
 - [[Rajadhyaksha2012 - Dengue Evolving into SLE and Lupus Nephritis]] (immune complex-mediated renal pathology: primary DENV-1 → severe hypocomplementemia [C3 22 mg/dL, C4 5 mg/dL] + Class IV GN 4 weeks post-dengue; mechanism: dengue viral IC deposition proposed; Mumbai India; n=1 case report — not generalizable)
 - [[Jardim2012 - Autoimmune Features DHF Case Report]] (secondary DENV-3 DHF; cryoglobulinemia [first in wiki]; triple serositis; selective C3 depression with C4-normal; LE cells in pleural fluid; DIC with fibrinogen 85.5 mg%; all resolved at follow-up; Campinas Brazil; n=1 case report — not generalizable)
+- [[Chaturvedi2001 - Cytotoxic Factor Autoantibodies DHF]] (hCF → macrophage free radicals + IL-1α/TNF-α/IL-8/peroxynitrite cascade → vascular permeability; anti-hCF autoantibodies inversely correlated with DHF severity [96% DF → 8% DHF-IV]; reverse correlation with hCF titres; 1997 WHO DHF grades I–IV; n=136, 1996 North India epidemic; ⚠ group-specific concept)
+- [[Cheng2015 - NS1 P311-330 Anti-PDI Autoantibodies in DHF]] (anti-PDI/HSP60/vimentin IgM/IgG elevated in DHF vs. controls; anti-PDI IgM correlated with anti-EC IgM [r = 0.649, P < 0.0001]; P311–330 as PDI-specific NS1 epitope; anti-PDI may disrupt PDI-mediated integrin activation → endothelial barrier dysfunction; primary/secondary infection independence of anti-endothelial autoantibodies; NCKU Tainan; n=15 DHF + 2 DF, Vietnamese paediatric cohort)

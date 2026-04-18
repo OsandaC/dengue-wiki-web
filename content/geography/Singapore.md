@@ -23,7 +23,7 @@ Singapore is a city-state in Southeast Asia with year-round dengue transmission 
 ### Post-Dengue Outcomes
 - 24.4% of hospitalized patients had significant post-infectious fatigue at 2 months after discharge, measured by validated Fatigue Questionnaire (see [[Post-Dengue Syndrome]]).
 - Predictors of post-infectious fatigue: older age, female sex, presence of chills, absence of rashes — not dengue severity.
-- This is the first prospective systematic study of post-dengue sequelae outside Cuba (cf. [[Cuba]] DENV-4 2006 epidemic data from Garcia2009/Garcia2010).
+- This is the first prospective systematic study of post-dengue sequelae outside Cuba (cf. [[Latin America]] § Cuba — DENV-4 2006 epidemic data from Garcia2009/Garcia2010).
 
 ### Epidemic History and Vector Control
 - Major outbreak years: 1992, 1998, 2004. The 2004 outbreak was the largest on record: 9,459 cases in a population of ~4 million.

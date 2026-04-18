@@ -62,7 +62,7 @@ The FCGR2A H131 allele (HH genotype) is listed under susceptibility DF/DHF; the 
 - [[Asymptomatic Dengue Infection]]
 - [[FcγRIIa Genotyping]]
 - [[Surface Plasmon Resonance]]
-- [[Cuba]]
+- [[Latin America]]
 
 ## Sources
 - [[Garcia2009 - Long-term Clinical Symptoms Post-Dengue]]

@@ -1,9 +1,9 @@
 ---
 type: concept
-tags: [cytokines, immunopathogenesis, IL-10, TNF-alpha, IFN-alpha, vascular-permeability, plasma-leakage, DHF, DSS, TLR4, NS1, bystander-activation, MAS, macrophage-activation-syndrome, HLH, hyperferritinemia, MIF, autophagy, Th2-skewing, Treg]
+tags: [cytokines, immunopathogenesis, IL-10, TNF-alpha, IFN-alpha, vascular-permeability, plasma-leakage, DHF, DSS, TLR4, NS1, bystander-activation, MAS, macrophage-activation-syndrome, HLH, hyperferritinemia, MIF, autophagy, Th2-skewing, Treg, cytotoxic-factor, hCF]
 created: 2026-04-13
-updated: 2026-04-17
-sources: 10
+updated: 2026-04-18
+sources: 11
 ---
 
 # Cytokine Storm
@@ -76,6 +76,20 @@ The cytokine cascade follows a characteristic time course:
 - Vascular permeability peaks at **defervescence**, not during peak viraemia — suggesting threshold-dependent cytokine-mediated effects rather than direct viral cytopathology (see [[Dengue Pathophysiology]])
 - Resolution is typically rapid (24-36 hours in non-fatal cases), consistent with a reversible soluble-mediator mechanism rather than structural endothelial damage
 
+### Cytotoxic Factor (hCF) — a dengue-specific CD4-T-cell cytokine (Chaturvedi2001)
+
+> **⚠ Caveat:** hCF is characterised exclusively by the Chaturvedi group; no independent replication exists. The following should be treated as hypothesis-generating.
+
+[[Chaturvedi2001 - Cytotoxic Factor Autoantibodies DHF]] describes a dengue-specific cytokine produced by CD4+ T cells during DENV infection (see also [[Cytotoxic Factor in Dengue]]):
+
+- hCF is produced rapidly by CD4+ T cells once DENV replicates in macrophages; its amino-terminal sequence has no homology with any known protein or cytokine
+- **hCF cascade:** hCF → macrophages produce free radicals, nitrite, reactive oxygen species, peroxynitrite → (a) target cell apoptosis; (b) upregulation of IL-1α, TNF-α, IL-8, H₂O₂ in macrophages
+- Change in IL-12/TGF-β balance shifts Th1 → Th2-biased response → disease exacerbation; vascular permeability increased via combined histamine, free radicals, pro-inflammatory cytokines, and complement products
+- hCF levels are **highest in DHF grade IV** (companion paper, ref [9] of Chaturvedi2001), the mirror image of the anti-hCF autoantibody pattern
+- **Anti-hCF autoantibodies** are present in 96% of DF patients but only 8% of DHF grade IV patients (P ≤ 0.001) — suggesting that patients who mount this anti-cytokine response are protected from severe disease (see [[Autoimmunity in Dengue]])
+
+If confirmed, this represents an additional upstream driver of the cytokine cascade that is distinct from NS1-TLR4, ADE-mediated entry, and OAS T cell overactivation — all operating earlier in the infection before the known cytokine storm triggers become dominant.
+
 ### Macrophage Activation Syndrome — Extreme End of the Cytokine Spectrum
 
 [[Morel2014 - Autoimmune Response in Children With Dengue]] documents dengue-triggered Macrophage Activation Syndrome (MAS/secondary HLH) in two Paraguayan paediatric patients. MAS represents the most extreme form of dengue-associated cytokine dysregulation and is characterised by macrophage/CD8+ T cell hyperactivation rather than by autoantibody production. Key cytokine correlates in MAS include IL-18, IFN-gamma, and IL-6 (not directly measured in Morel2014, but established in HLH pathophysiology literature).
@@ -105,6 +119,7 @@ Critically, these MAS cases were **ANA and anti-dsDNA negative** — confirming 
 - [[Secondary Dengue Infection]]
 
 ## Sources
+- [[Chaturvedi2001 - Cytotoxic Factor Autoantibodies DHF]] (hCF — dengue-specific CD4 T cell cytokine; macrophage free radical + IL-1α/TNF-α/IL-8 cascade; Th1→Th2 shift; anti-hCF autoantibody inverse correlation with DHF severity 96% DF → 8% DHF-IV; n=136, 1996 North India epidemic; ⚠ group-specific concept)
 - [[Sungnak2025 - Distinct Immune Responses Asymptomatic Symptomatic Dengue]] (IL-10/plasmablast axis; IFN-alpha2 elevation; CD4 T cell IL10 expression; anti-IFN autoantibody negative finding)
 - [[Wan2012 - Autoimmunity in Dengue Pathogenesis]] (intrinsic ADE cytokine amplification; IL-10/platelet correlation; TNF-alpha endothelial activation; MIF/MMP-9/MCP-1; OAS cytokine production)
 - [[Guzman2016 - Dengue Infection]] (NS1-TLR4 cytokine trigger; IFN-beta bone marrow suppression; IL-10/TNF haplotype genetics; vascular permeability onset at defervescence)

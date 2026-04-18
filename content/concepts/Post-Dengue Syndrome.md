@@ -101,7 +101,7 @@ Persistence at 2 years is independently confirmed across studies.
 - [[Antibody-Dependent Enhancement]]
 - [[DENV-1]]
 - [[DENV-4]]
-- [[Cuba]]
+- [[Latin America]]
 - [[Singapore]]
 - [[Taiwan]]
 - [[Dengue Pathophysiology]]

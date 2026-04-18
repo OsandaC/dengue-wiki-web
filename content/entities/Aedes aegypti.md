@@ -37,7 +37,7 @@ None yet recorded.
 
 ## Related Pages
 - [[DENV-4]]
-- [[Cuba]]
+- [[Latin America]]
 - [[Wolbachia]]
 - [[Aedes albopictus]]
 - [[Viraemia]]

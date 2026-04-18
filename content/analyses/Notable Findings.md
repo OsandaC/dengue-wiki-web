@@ -2,13 +2,50 @@
 type: analysis
 tags: [notable-findings, flags, cross-cutting, observations]
 created: 2026-04-12
-updated: 2026-04-18 (Jardim2012 ingest)
+updated: 2026-04-18 (Chaturvedi2001 ingest; Cheng2015 ingest)
 sources: 20
 ---
 
 # Notable Findings
 
 A running log of observations that are striking, unexpected, or carry implications beyond the paper they came from. Each entry is a flag — something worth returning to, following up on, or building an analysis around. Entries are added during ingest whenever something catches the eye.
+
+---
+
+## [2026-04-18] NS1 mimicry anti-endothelial autoantibodies are infection-order independent — convergent across three independent study designs
+
+**Sources:** [[Cheng2015 - NS1 P311-330 Anti-PDI Autoantibodies in DHF]], [[Lin2001 - IgM Anti-Platelet Autoantibody in Dengue Patients]], [[Saito2004 - PAIgG and PAIgM in Secondary Dengue]]
+
+**Finding:** Anti-endothelial autoantibodies generated via NS1 molecular mimicry (anti-PDI, anti-HSP60, anti-vimentin, anti-P311–330 IgM and IgG) do not differ significantly between primary and secondary DHF in Cheng2015 (n=2 primary vs. 13 secondary DHF; all P = NS). This converges with: (1) Lin2001 demonstrating that anti-platelet IgM autoantibody is generated in primary DENV-3 infection without prior sensitisation; and (2) Saito2004 showing that the secondary-infection platelet pathology is anti-dengue immune complex (PAIgG/PAIgM), not autoantibody — i.e. the Lin2001 autoantibody mechanism is primary-infection specific.
+
+**Why notable:** The autoimmune component of dengue is now fully dissociated from infection order. ADE — the founding premise of severe secondary dengue — is secondary-infection dependent. NS1 molecular mimicry autoantibodies are not. Both primary and secondary DHF generate comparable levels of anti-PDI, anti-HSP60, and anti-vimentin — the NS1-mimicry-derived endothelial autoantibody panel. The secondary-infection escalation in DHF severity is driven by ADE and immune complex deposition (PAIgG/PAIgM; Oishi2003/Saito2004), not by a quantitative increase in NS1-mimicry autoantibodies. These two pathways — NS1 mimicry (infection-order independent) and immune complex deposition (secondary-dependent) — operate in parallel, not in series. Any intervention targeting NS1 mimicry autoantibodies would need to work in both primary and secondary infection to be clinically meaningful.
+
+**Caveats:** Cheng2015 primary DHF group is only n=2 — far too small to confirm equivalence definitively. Lin2001 compared DF vs. DHF/DSS severity, not primary vs. secondary directly. Cross-study convergence is directionally consistent but requires a prospective study with ≥20 primary DHF patients to confirm formally.
+
+**Follow-up questions:**
+- Does anti-P311–330 IgM (the most DHF-discriminating autoantibody in Cheng2015) remain equivalent between primary and secondary DHF in a larger cohort?
+- Is the NS1-mimicry autoantibody response intensity MHC-II-restricted — do certain HLA-DQ/DR alleles generate stronger or weaker anti-PDI/HSP60 responses independently of prior dengue exposure?
+
+**Related pages:** [[NS1 Molecular Mimicry in Dengue]], [[Autoimmunity in Dengue]], [[Secondary Dengue Infection]], [[Dengue Pathophysiology]]
+
+---
+
+## [2026-04-18] Anti-hCF autoantibodies are the first protective autoantibody described in dengue — inversely correlated with DHF severity (96% DF → 8% DHF grade IV)
+
+**Source:** [[Chaturvedi2001 - Cytotoxic Factor Autoantibodies DHF]]
+
+**Finding:** Autoantibodies against a dengue-specific CD4-T-cell cytokine (hCF) are present in 96% of mild dengue fever patients but only 8% of DHF grade IV patients (P ≤ 0.001). The mirror-image pattern — low hCF in mild disease, high hCF in severe disease — supports a model in which anti-hCF autoantibodies neutralise the pathogenic cytokine and protect against DHF progression.
+
+**Why notable:** Every other autoantibody tracked in this wiki is either pathogenic (anti-platelet IgM causing complement-mediated lysis; PAIgG/PAIgM immune complexes clearning platelets; anti-endothelial/nuclear autoantibodies from Vo2020) or of uncertain significance (most non-specific IIFA-positive dengue ANAs). Anti-hCF autoantibodies are categorically different: they appear to be *host-protective*, suppressing a dengue-specific pathogenic cytokine. If confirmed, this would represent a regulatory autoimmune response that the wiki has no precedent for in dengue. The analogy drawn by the authors — anti-IL-1α autoantibodies correlating with better outcomes in chronic polyarthritis — is a known phenomenon in rheumatology, making the mechanism plausible if not yet proven for dengue.
+
+**Critical caveat:** hCF is a concept exclusive to the Chaturvedi group (Kuwait University/Lucknow). No other group has isolated, sequenced, or measured it. The entire finding rests on in-house reagents and assays. This must be treated as hypothesis-generating until independently replicated.
+
+**Follow-up questions:**
+- Has hCF been sequenced or deposited? Modern mass spectrometry applied to the in-house HPLC-purified protein could identify it definitively.
+- Do patients with high anti-hCF responses also differ in their anti-platelet autoantibody (Lin2001) or PAIgM (Saito2004) levels? If anti-hCF is independent of these, it could be additive as a prognostic tool.
+- Could a "cytokine vaccination" strategy (immunisation with hCF to pre-induce protective anti-hCF autoantibodies) be developed for high-risk populations in endemic settings?
+
+**Related pages:** [[Cytotoxic Factor in Dengue]], [[Autoimmunity in Dengue]], [[Cytokine Storm]], [[Dengue Pathophysiology]]
 
 ---
 

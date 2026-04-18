@@ -1,9 +1,9 @@
 ---
 type: concept
-tags: [autoimmunity, immune-complex, ANA, CRP, cytokines, molecular-mimicry, NS1, post-dengue, infection-triggered-autoimmunity, thrombocytopenia, endothelial-cells, ADEM, encephalomyelitis, epidemiology, MCTD, myositis, LIA, India, sex-bias, host-factors, adrenocortical-insufficiency, TLR, Taiwan, NHIRD, MAS, macrophage-activation-syndrome, HLH, Paraguay, SLE, lupus-nephritis, ANA-negative, PAIgG, secondary-infection, Philippines, polyreactive-antibodies, 6-month-follow-up]
+tags: [autoimmunity, immune-complex, ANA, CRP, cytokines, molecular-mimicry, NS1, post-dengue, infection-triggered-autoimmunity, thrombocytopenia, endothelial-cells, ADEM, encephalomyelitis, epidemiology, MCTD, myositis, LIA, India, sex-bias, host-factors, adrenocortical-insufficiency, TLR, Taiwan, NHIRD, MAS, macrophage-activation-syndrome, HLH, Paraguay, SLE, lupus-nephritis, ANA-negative, PAIgG, secondary-infection, Philippines, polyreactive-antibodies, 6-month-follow-up, PDI, HSP60, P311-330, Vietnam]
 created: 2026-04-11
 updated: 2026-04-18
-sources: 28
+sources: 31
 
 ---
 
@@ -29,7 +29,7 @@ Dengue virus infection can trigger transient or prolonged autoimmune responses. 
 ### ANA Positivity in the Context of Viral Infections
 [[Berlin2007 - Autoantibodies in Nonautoimmune Individuals during Infections]] provides a direct comparator: ANA positivity was 21.7% during acute viral infections (HAV, HBV, HCV; ELISA ANA 8 Pro at 1:100; P<0.013 vs. controls) vs. 3.8% in healthy blood donor controls. This is strikingly similar to Garcia2009's 23.1% post-dengue finding. Key interpretive distinction: Berlin2007 measured ANA during the acute infection phase, whereas Garcia2009 measured 2 years post-infection — persistence at 2 years is more clinically significant than transient acute-phase elevations.
 
-Evidence from the same literature suggests infection-triggered ANA can be transient: a cited study found ANA in 20.5% of acute viral hepatitis patients, falling to 6.4% in convalescence. Whether dengue-associated ANA similarly resolves post-infection, or persists due to mechanisms such as ongoing immune complex formation (elevated IC in Garcia2009 correlating with anti-dengue IgG titers), is a key open question.
+Evidence from the same literature suggests infection-triggered ANA can be transient: [[Codes2002 - Autoantibodies in Acute Viral Hepatitis]] found ANA in 20.5% of acute viral hepatitis patients (IIF ≥1:40, n=156 prospective, Salvador Brazil), falling to 6.4% in convalescence. Whether dengue-associated ANA similarly resolves post-infection, or persists due to mechanisms such as ongoing immune complex formation (elevated IC in Garcia2009 correlating with anti-dengue IgG titers), is a key open question.
 
 The three mechanisms by which infections trigger autoimmunity — molecular mimicry, bystander activation, and epitope spreading — are reviewed in [[Johnson2022 - Infectious Diseases Autoantibodies and Autoimmunity]]. For dengue specifically, molecular mimicry (dengue NS1 cross-reactivity with endothelial and platelet proteins) and FcγRIIa-mediated IC clearance failure (see [[FcγRIIa Receptor]]) are the most directly evidenced mechanisms.
 
@@ -38,7 +38,7 @@ The three mechanisms by which infections trigger autoimmunity — molecular mimi
 The NCKU group (Lin, Lei et al.) has provided the most detailed experimental evidence for dengue-specific molecular mimicry. Anti-NS1 antibodies cross-react with platelet and endothelial cell surface proteins, causing immune-mediated platelet destruction (thrombocytopenia) and vascular leakage (haemorrhagic syndrome). Key established points:
 
 - Anti-platelet and anti-endothelial autoantibody levels are higher in DHF/DSS than DF; absorption with NS1 antigen confirms anti-NS1 accounts for cross-reactivity (see [[Lin2006 - Autoimmune Pathogenesis in Dengue Virus Infection]])
-- Specific host proteins cross-targeted: PDI (protein disulfide isomerase), vimentin, ATP synthase β-chain, and HSP60; the responsible NS1 domain is the **C-terminal region (aa 311–352)** — deletion abolishes cross-reactivity (see [[Lin2011 - Molecular Mimicry Virus Host Dengue Pathogenesis]])
+- Specific host proteins cross-targeted: PDI (protein disulfide isomerase), vimentin, ATP synthase β-chain, and HSP60; the responsible NS1 domain is the **C-terminal region (aa 311–352)** — deletion abolishes cross-reactivity (see [[Lin2011 - Molecular Mimicry Virus Host Dengue Pathogenesis]]); the **PDI-specific epitope** is further refined to **P311–330 (aa 311–330)**: anti-PDI correlates with anti-P311–330 (r = 0.732 IgG P < 0.0001), and anti-P311–330 is higher in DHF than in DF; HSP60 uses a distinct, unidentified NS1 epitope (see [[Cheng2015 - NS1 P311-330 Anti-PDI Autoantibodies in DHF]], n=43 DHF sera, Vietnam/Taiwan)
 - Anti-NS1 causes endothelial apoptosis (via NO/p53/Bax/caspase-3 pathway) and inflammatory activation (NF-κB → IL-6, IL-8, MCP-1; ICAM-1↑) — two distinct endothelial pathology mechanisms (see [[Lin2006 - Autoimmune Pathogenesis in Dengue Virus Infection]])
 - The dengue E protein contains a WGNGCG motif (aa 101–106) homologous to coagulation factors XI, X, IX, VII, thrombin, plasminogen, and tPA; anti-E Abs inhibit plasmin activity; this motif is conserved in haemorrhagic flaviviruses (JEV, WNV, YFV) but absent in HCV — consistent with flavivirus haemorrhagic phenotype (see [[Lin2011 - Molecular Mimicry Virus Host Dengue Pathogenesis]])
 - Dengue autoimmunity is distinctive in occurring during the **acute phase** of infection (unlike EBV/SLE, *C. jejuni*/GBS, which manifest post-infectious) — see [[NS1 Molecular Mimicry in Dengue]] for full synthesis
@@ -205,6 +205,7 @@ The nuclear antigen correlation finding is particularly notable given the existi
 - [[Autoantigen Microarray]]
 - [[Cambodia]]
 - [[Polyreactive Antibodies]]
+- [[Cytotoxic Factor in Dengue]]
 
 ## Sources
 - [[Garcia2009 - Long-term Clinical Symptoms Post-Dengue]]
@@ -214,6 +215,7 @@ The nuclear antigen correlation finding is particularly notable given the existi
 - [[Aringer2019 - 2019 EULAR ACR SLE Classification Criteria]] (clinical threshold context)
 - [[Dinse2022 - Increasing ANA Prevalence in United States]] (temporal trend context)
 - [[Berlin2007 - Autoantibodies in Nonautoimmune Individuals during Infections]] (viral-infection ANA comparator)
+- [[Codes2002 - Autoantibodies in Acute Viral Hepatitis]] (primary source for 20.5% acute / 6.4% convalescent ANA in viral hepatitis; IIF ≥1:40; n=156 prospective; not a dengue paper — infection-triggered transience comparator)
 - [[Johnson2022 - Infectious Diseases Autoantibodies and Autoimmunity]] (mechanistic framework)
 - [[Lin2006 - Autoimmune Pathogenesis in Dengue Virus Infection]] (NS1 molecular mimicry mechanism; platelet and endothelial cross-reactivity)
 - [[Lin2011 - Molecular Mimicry Virus Host Dengue Pathogenesis]] (NS1 molecular targets; C-terminal domain; flavivirus coagulation homology)
@@ -235,3 +237,5 @@ The nuclear antigen correlation finding is particularly notable given the existi
 - [[Velazqueza2017 - SLE vs Dengue Case Series]] (n=2 pediatric SLE + dengue cases; Guadalajara Mexico; ANA 1:1280 + anti-dsDNA + antinucleosome in both; Case 2 SLE diagnosed 2 months after dengue; FcR polymorphism and NS1 molecular mimicry cited as mechanisms; n=2 case series — not generalizable)
 - [[Rajadhyaksha2012 - Dengue Evolving into SLE and Lupus Nephritis]] (n=1 adult female; primary DENV-1 [IgM+/IgG-]; ANA 1:320 + anti-dsDNA 1:80 + hypocomplementemia + anti-cardiolipin IgM+IgG+ at 4 weeks post-dengue; biopsy-confirmed Class IV diffuse proliferative GN; first reported dengue→lupus nephritis case; Mumbai India; causal direction ambiguous — no pre-dengue autoantibody baseline)
 - [[Jardim2012 - Autoimmune Features DHF Case Report]] (n=1 adult female; secondary DENV-3 [IgM+/IgG+]; ANA 1/320 mitotic spindle pattern + cryoglobulins + selective C3 depression + LE cells in pleural fluid — all resolved at follow-up; anti-dsDNA negative; clearest transient multi-autoantibody dengue case in wiki; Campinas Brazil; n=1 case report — not generalizable)
+- [[Chaturvedi2001 - Cytotoxic Factor Autoantibodies DHF]] (anti-hCF autoantibodies — a *protective* anti-cytokine autoantibody; inversely correlated with DHF severity [96% DF → 8% DHF grade IV positive]; reverse correlation with pathogenic hCF titres; mechanistically distinct from anti-self autoantibodies tracked elsewhere in this wiki; ⚠ hCF concept unvalidated outside Chaturvedi group; n=136, 1996 North India epidemic)
+- [[Cheng2015 - NS1 P311-330 Anti-PDI Autoantibodies in DHF]] (clinical correlates of anti-endothelial autoantibodies in DHF; anti-PDI and anti-HSP60 IgM correlate with anti-EC IgM; P311–330 confirmed as PDI-specific NS1 epitope; anti-P311–330 higher in DHF than DF; autoantibodies infection-order independent except anti-NS1 IgG; Ho Chi Minh City Vietnam/NCKU Taiwan; n=15 DHF)

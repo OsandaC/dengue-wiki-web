@@ -3,7 +3,7 @@ type: concept
 tags: [autoimmunity, molecular-mimicry, bystander-activation, epitope-spreading, viral-infection, ANA, autoantibodies, post-infectious, NS1, dengue-specific, ADEM, epidemiology, polyreactive-antibodies, 6-month-follow-up]
 created: 2026-04-12
 updated: 2026-04-18
-sources: 11
+sources: 12
 ---
 
 # Infection-Triggered Autoimmunity
@@ -64,7 +64,7 @@ Method: ELISA (ANA 8 Pro, Euroimmun; 8 nuclear antigens; 1:100 dilution). The 3.
 
 ### Transience vs. Persistence
 A central question is whether infection-triggered autoantibodies are transient or persistent:
-- **Evidence for transience**: One study (cited in Berlin2007) found ANA in 20.5% during acute viral hepatitis, dropping to 6.4% in convalescence — a rapid resolution with pathogen clearance
+- **Evidence for transience**: [[Codes2002 - Autoantibodies in Acute Viral Hepatitis]] found ANA in 20.5% during acute viral hepatitis (IIF ≥1:40, n=156 prospective, Salvador Brazil), dropping to 6.4% at 90-day convalescence — a rapid resolution with pathogen clearance; also 14.8% → 3.9% ASMA; no severity or chronification association in any hepatitis type
 - **Intermediate time point (6 months)**: [[Gawali2021 - ANA Prevalence in Seroconverted Dengue Patients]] reports 18.33% ANA positivity at 6 months post-dengue in IgG+ patients (HEp-2 IIFA, 1:100; Gwalior, India; n=120). No control group limits interpretation, but the figure is consistent with a partial decline from the acute peak (54.8%, Chatterjee2024) toward the 2-year level (23.1%, Garcia2009 — on less sensitive rat liver substrate). If the trajectory is real, dengue-associated ANA persists well into the sub-acute period rather than resolving within weeks.
 - **Evidence for persistence**: [[Garcia2009 - Long-term Clinical Symptoms Post-Dengue]] found 23.1% ANA positivity at 2 years post-dengue — if genuine, this is not transient; it may reflect a different mechanism (epitope spreading, or genetically mediated impaired clearance)
 - **Dengue-triggered SLE case reports (multiple):** Two case sources document dengue-associated SLE diagnosis with the ANA-positive autoantibody signature:
@@ -109,7 +109,7 @@ Dengue provides one of the best-characterised examples of acute-phase molecular 
 - **Biomarker elevation vs. clinical disease**: Garcia2009 found elevated ANA, IC, and CRP at 2 years post-dengue in symptomatic patients. Yet Shih2023 found no elevated incidence of clinical autoimmune diseases over 4.57 years in 63,814 dengue patients. These are not necessarily contradictory — ANA positivity and clinical autoimmune disease are distinct endpoints, and most ANA-positive individuals do not develop clinical disease — but the discrepancy highlights that biological autoimmune activation does not reliably translate into clinical outcome.
 - **Bystander activation vs. ANA**: The COVID-19 data (Johnson2022) suggests bystander activation alone does not explain ANA elevation, yet severe dengue involves a similar cytokine storm. This leaves the mechanism of dengue-associated ANA (Garcia2009) unclear — molecular mimicry or epitope spreading may be more relevant than bystander activation.
 - **ELISA vs. IIF**: Berlin2007's 3.8% control rate (ELISA, 8 antigens) vs. 13.8–16.1% (IIF, all antigens; Satoh2012/Dinse2022) highlights that infection-triggered ANA detected by ELISA may represent a narrow, disease-associated subset, while IIF captures a broader range including non-pathogenic nuclear reactivities.
-- **Transience timeline**: The evidence for transience (Berlin2007, acute hepatitis) and persistence (Garcia2009, 2 years post-dengue) may reflect genuinely different mechanisms or simply different time points; longitudinal data specifically for dengue ANA is absent.
+- **Transience timeline**: The evidence for transience (Codes2002 prospective hepatitis cohort, 90-day follow-up; also cited in Berlin2007) and persistence (Garcia2009, 2 years post-dengue) may reflect genuinely different mechanisms or simply different time points; longitudinal data specifically for dengue ANA is absent.
 
 ## Related Pages
 - [[Autoimmunity in Dengue]]
@@ -134,3 +134,4 @@ Dengue provides one of the best-characterised examples of acute-phase molecular 
 - [[Velazqueza2017 - SLE vs Dengue Case Series]] (n=2 pediatric SLE cases in dengue context; Case 2 SLE diagnosed 2 months after dengue — suggestive de novo triggering timeline; ANA 1:1280 + antinucleosome + anti-dsDNA; FC receptor polymorphism proposed as autoimmunity mechanism; Guadalajara Mexico)
 - [[Rajadhyaksha2012 - Dengue Evolving into SLE and Lupus Nephritis]] (n=1 adult; primary DENV-1; ANA 1:320 + anti-dsDNA + anti-cardiolipin + Class IV LN; 4-week post-dengue interval; Mumbai India; proposed mechanism: viral IC deposition in kidney; causal direction ambiguous without pre-dengue baseline)
 - [[Jardim2012 - Autoimmune Features DHF Case Report]] (n=1 adult; secondary DENV-3; ANA 1/320 mitotic spindle + cryoglobulins + selective C3 depression + LE cells — all fully resolved at follow-up; anti-dsDNA negative; exemplifies transient dengue-triggered autoimmunity model; Campinas Brazil)
+- [[Codes2002 - Autoantibodies in Acute Viral Hepatitis]] (primary source for 20.5% acute / 6.4% convalescent ANA in viral hepatitis; IIF ≥1:40; n=156 prospective; Salvador Brazil; also 14.8% → 3.9% ASMA; no severity/chronification association; not a dengue paper — cited as infection-triggered transience baseline)

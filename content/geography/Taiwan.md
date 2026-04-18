@@ -1,9 +1,9 @@
 ---
 type: geography
-tags: [Taiwan, dengue-epidemiology, NHIRD, southern-Taiwan, outbreak-2015, laboratory-confirmation, population-cohort, autoimmunity, adrenocortical-insufficiency, ADEM, ICD-coded, DENV-3, anti-platelet, IgM, primary-infection]
+tags: [Taiwan, dengue-epidemiology, NHIRD, southern-Taiwan, outbreak-2015, laboratory-confirmation, population-cohort, autoimmunity, adrenocortical-insufficiency, ADEM, ICD-coded, DENV-3, anti-platelet, IgM, primary-infection, NS1-mimicry, PDI, endothelial-autoantibody]
 created: 2026-04-12
-updated: 2026-04-15
-sources: 4
+updated: 2026-04-18
+sources: 5
 ---
 
 # Taiwan
@@ -46,6 +46,9 @@ Key results:
 
 The Li2018 and Shih2023 studies together demonstrate that Taiwan's NHIRD, combined with the NDDCC (Notifiable Disease Dataset of Confirmed Cases), is a uniquely powerful research resource — but that the quality of the dengue case definition (ICD-coded vs. lab-confirmed) decisively determines the validity of the resulting risk estimates.
 
+### Cheng2015 — NCKU Lab / Vietnamese Patient Cohort
+[[Cheng2015 - NS1 P311-330 Anti-PDI Autoantibodies in DHF]] is a laboratory study by the NCKU Tainan group (Yee-Shin Lin lab), which used patient sera from Ho Chi Minh City, Vietnam (Children's Hospital No. 1, Dr. Nguyen Thanh Hung) alongside normal controls from Tainan (a dengue-endemic area). While the patient material is Vietnamese, the assay work and controls are Taiwanese. The study confirms anti-PDI, anti-HSP60, and anti-vimentin autoantibodies are elevated in DHF, and maps the PDI cross-reactive NS1 epitope to P311–330. Notable: normal controls from Tainan showed no significant anti-target-protein antibody levels despite living in a dengue-endemic area, suggesting these anti-endothelial autoantibodies are acutely disease-driven rather than a seroprevalence artefact of endemic exposure.
+
 ## Contradictions & Debates
 - The Li2018 vs. Shih2023 methodological contrast illustrates a core tension in NHIRD-based dengue research: ICD-coded dengue over-diagnoses (51.4% confirmation rate pre-2015) inflates apparent autoimmune risk, while lab-confirmed dengue provides much narrower but more reliable estimates. Any NHIRD study using dengue diagnoses from before 2015 should be evaluated with this misclassification rate in mind.
 - Taiwan's non-endemic status means dengue patterns here (epidemic, concentrated in urban south, predominantly introduced) may differ from hyperendemic countries in Southeast Asia and Latin America. Findings on autoimmune sequelae from Taiwan may not generalise to settings where dengue is endemic and most adults have prior exposure.
@@ -64,3 +67,4 @@ The Li2018 and Shih2023 studies together demonstrate that Taiwan's NHIRD, combin
 - [[Li2018 - Increased Risk of Autoimmune Diseases in Dengue]] (ICD-coded NHIRD cohort 2000–2010; aHR 1.88 overall; adrenocortical insufficiency most frequent outcome; ADEM aHR 3.80; GBS non-significant; subsequently critiqued by Shih2023)
 - [[Shih2023 - Autoimmune Disease Risk After Dengue]] (lab-confirmed NHIRD cohort; only ADEM elevated after Bonferroni correction; 51.4% pre-2015 ICD misclassification identified; most rigorous Taiwan dengue-autoimmunity study)
 - [[Wan2012 - Autoimmunity in Dengue Pathogenesis]] (epidemic history; age distribution; seasonal pattern)
+- [[Cheng2015 - NS1 P311-330 Anti-PDI Autoantibodies in DHF]] (NCKU Tainan laboratory; Tainan normal controls; anti-PDI/HSP60/vimentin autoantibodies in DHF; P311–330 PDI epitope mapping; patient sera from Ho Chi Minh City Vietnam)

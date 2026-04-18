@@ -55,7 +55,7 @@ The implication for seroprevalence studies: measured dengue seroprevalence subst
 - [[Post-Dengue Syndrome]]
 - [[Antibody-Dependent Enhancement]]
 - [[DENV-4]]
-- [[Cuba]]
+- [[Latin America]]
 - [[Thailand]]
 - [[T Cell Responses in Dengue]]
 - [[NK Cell Responses in Dengue]]

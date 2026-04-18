@@ -3,7 +3,7 @@ type: entity
 tags: [serotype, DENV-4, Cuba, epidemic, autoantibody-cross-serotype, anti-prM, cross-reactivity]
 created: 2026-04-11
 updated: 2026-04-17
-sources: 8
+sources: 9
 ---
 
 # DENV-4
@@ -26,7 +26,7 @@ None yet recorded.
 - [[Post-Dengue Syndrome]]
 - [[Autoimmunity in Dengue]]
 - [[Asymptomatic Dengue Infection]]
-- [[Cuba]]
+- [[Latin America]]
 - [[FcγRIIa Receptor]]
 - [[PRNT]]
 - [[ELISA Inhibition Method]]
@@ -41,3 +41,4 @@ None yet recorded.
 - [[Vo2020 - Autoantibody Profiling in Dengue]] (Cambodia 2012–2013; DENV-4 present in 9.09% ASD and 15.4% DF; minor serotype in this cohort)
 - [[Dejnirattisai2010 - Anti-prM Antibodies Enhance Dengue ADE]] (anti-prM hmAbs from DENV-infected donors fully cross-reactive against DENV-4 antigen; complete serotype cross-reactivity of anti-prM response)
 - [[Pang2017 - DHF Pathogenesis Review]] (all four DENV serotypes in ADE and T cell pathogenesis context; review, China)
+- [[Cheng2015 - NS1 P311-330 Anti-PDI Autoantibodies in DHF]] (DENV-4 in 3/15 DHF patients in Vietnamese paediatric cohort; anti-endothelial autoantibody study)

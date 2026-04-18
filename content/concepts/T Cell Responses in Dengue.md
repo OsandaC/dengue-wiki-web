@@ -1,9 +1,9 @@
 ---
 type: concept
-tags: [CD8-T-cells, CD4-T-cells, MAIT, iNKT, exhaustion, effector, TCR, immunopathogenesis, low-avidity, OAS, cytolytic-loss, TNF-alpha, IL-6]
+tags: [CD8-T-cells, CD4-T-cells, MAIT, iNKT, exhaustion, effector, TCR, immunopathogenesis, low-avidity, OAS, cytolytic-loss, TNF-alpha, IL-6, cytotoxic-factor, hCF]
 created: 2026-04-12
-updated: 2026-04-17
-sources: 4
+updated: 2026-04-18
+sources: 5
 ---
 
 # T Cell Responses in Dengue
@@ -58,6 +58,15 @@ Note: the IL-10 → T cell apoptosis connection is reviewed here from secondary 
 
 The Bhatt2020 OAS mechanism and the Sungnak2025 single-cell exhaustion data are complementary: Sungnak2025 identifies the end-state (exhaustion markers, PRF1/GZMB bias, PD-1↑/LAG3↑/TIGIT↑); Bhatt2020 provides the upstream cause (avidity mismatch from preferential cross-reactive memory expansion).
 
+### CD4+ T cells as hCF producers — Chaturvedi2001 (⚠ unvalidated concept)
+
+[[Chaturvedi2001 - Cytotoxic Factor Autoantibodies DHF]] adds a specific CD4+ T cell effector mechanism absent from other wiki sources: CD4+ T cells rapidly produce a dengue-specific cytokine called "cytotoxic factor" (hCF) in response to DENV replication in macrophages (see [[Cytotoxic Factor in Dengue]]).
+
+- Production was confirmed by ex vivo PBMC culture from 1996 North India epidemic patients
+- hCF induction is rapid — preceding clinical illness in both mice and humans in the Chaturvedi group's model
+- The hCF-producing CD4+ T cell role is mechanistically distinct from CD4+ T cell help for antibody responses and from CD4 CTL function described in Guzman2016 and Sungnak2025 — it represents a CD4-specific effector cytokine arm that feeds into the macrophage cascade (see [[Cytokine Storm]])
+- **Caveat:** hCF is the Chaturvedi group's own concept; no sequence or gene data are publicly deposited; no independent group has measured it. Whether this CD4+ effector function is genuinely hCF-specific or an unnamed arm of the established CD4 cytokine response (IL-2, IFN-γ, TNF-α) is unresolved.
+
 ## T cell biology from Guzman2016
 
 Guzman2016 provides a review-level summary of T cell knowledge as of 2016 (see [[Guzman2016 - Dengue Infection]]):
@@ -92,3 +101,4 @@ The relative importance of antibody-mediated (ADE) versus T cell–mediated immu
 - [[Guzman2016 - Dengue Infection]] (NS protein epitope CD8 immunity; CD4 T cell multifunctionality; cross-reactive T cells and OAS; vaccine implications)
 - [[Bhatt2020 - Dengue Pathogenesis Review]] (OAS mechanism: low-avidity CD8+ preferentially expanded; cytolytic loss + TNF-α/IL-6 excess; delayed clearance; positive feedback to DHF/DSS; review article, India)
 - [[Pang2017 - DHF Pathogenesis Review]] (IL-10-driven T cell apoptosis: IL-10 blockade reduces T cell apoptosis; reduced T cell numbers in DHF vs DF; impaired clearance from apoptotic T cell loss; cross-reactive T cell OAS mechanism confirmed; Tsinghua University China; review)
+- [[Chaturvedi2001 - Cytotoxic Factor Autoantibodies DHF]] (CD4+ T cells produce hCF in response to DENV in macrophages; hCF production precedes clinical illness; ex vivo PBMC confirmation; ⚠ group-specific concept — no independent replication; n=136, 1996 North India epidemic)

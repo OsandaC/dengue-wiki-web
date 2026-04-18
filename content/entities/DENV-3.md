@@ -3,7 +3,7 @@ type: entity
 tags: [serotype, DENV-3, Cuba, displacement, epidemic-dynamics, CNS-invasion, neuropathogenesis, Singapore, Taiwan, Nicaragua, anti-platelet, IgM, primary-infection, antibody-kinetics, autoantibody-cross-serotype, anti-prM, cross-reactivity]
 created: 2026-04-12
 updated: 2026-04-18
-sources: 10
+sources: 11
 ---
 
 # DENV-3
@@ -40,9 +40,8 @@ None yet recorded.
 - [[DENV-2]]
 - [[DENV-4]]
 - [[NS1 Protein]]
-- [[Cuba]]
+- [[Latin America]]
 - [[Singapore]]
-- [[Nicaragua]]
 - [[Antibody-Dependent Enhancement]]
 - [[Dengue Neurological Complications]]
 
@@ -57,3 +56,4 @@ None yet recorded.
 - [[Dejnirattisai2010 - Anti-prM Antibodies Enhance Dengue ADE]] (anti-prM hmAbs from DENV-infected donors fully cross-reactive against DENV-3 antigen; consistent with complete serotype cross-reactivity of the anti-prM response)
 - [[Pang2017 - DHF Pathogenesis Review]] (all four DENV serotypes in ADE and T cell pathogenesis context; review, China)
 - [[Jardim2012 - Autoimmune Features DHF Case Report]] (DENV-3 outbreak São Paulo Brazil May 2007; secondary infection DHF with broad autoimmune features; n=1 case report)
+- [[Cheng2015 - NS1 P311-330 Anti-PDI Autoantibodies in DHF]] (DENV-3 dominant serotype in Vietnamese paediatric DHF cohort [7/15 DHF]; anti-PDI IgM correlated with anti-EC IgM and anti-NS1 IgM; P311–330 PDI epitope mapping)

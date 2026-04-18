@@ -1,9 +1,9 @@
 ---
 type: entity
-tags: [NS1, non-structural-protein, molecular-mimicry, autoimmunity, platelet, endothelial-cell, coagulation, vaccine, DHF, flavivirus, antibody-kinetics, waning, type-specific, IgM, primary-infection, platelet-lysis, complement, PAIgG, secondary-infection, immune-complex, replication-complex, MIF, autophagy, cathepsin-L, heparanase]
+tags: [NS1, non-structural-protein, molecular-mimicry, autoimmunity, platelet, endothelial-cell, coagulation, vaccine, DHF, flavivirus, antibody-kinetics, waning, type-specific, IgM, primary-infection, platelet-lysis, complement, PAIgG, secondary-infection, immune-complex, replication-complex, MIF, autophagy, cathepsin-L, heparanase, P311-330, PDI, epitope-mapping]
 created: 2026-04-12
 updated: 2026-04-18
-sources: 14
+sources: 15
 ---
 
 # NS1 Protein
@@ -43,9 +43,12 @@ The host proteins on platelet and endothelial cell surfaces identified as target
 - **LYRIC protein (lysine-rich CEACAM1 co-isolated)**: NS1 aa 116–119 shares sequence similarity with human LYRIC aa 334–337; a cross-reactive epitope outside the C-terminal domain (see [[Wan2012 - Autoimmunity in Dengue Pathogenesis]])
 - **RGD structural mimicry**: Despite the absence of an RGD sequence motif in NS1, RGD *structural* mimicry exists within the protein; anti-NS1 Abs can block RGD/integrin-mediated cell adhesion, relevant to vascular integrity (see [[Wan2012 - Autoimmunity in Dengue Pathogenesis]])
 
-### NS1 domain responsible for cross-reactivity
+### NS1 domain responsible for cross-reactivity — and PDI-specific epitope resolution
 - The **C-terminal region of NS1 (amino acids 311–352)** is responsible for cross-reactivity with platelets and endothelial cells
 - Deletion of the broader C-terminal region (aa 277–352) abolishes anti-NS1-mediated platelet aggregation and bleeding tendency (see [[Lin2011 - Molecular Mimicry Virus Host Dengue Pathogenesis]], [[Wan2012 - Autoimmunity in Dengue Pathogenesis]])
+- Within the C-terminal region, **P311–330 (aa 311–330) is the major cross-reactive epitope for PDI specifically**: anti-PDI IgM and IgG both correlate with anti-P311–330 (r = 0.377 IgM; r = 0.732 IgG, P < 0.0001); anti-P311–330 antibodies are higher in DHF than DF and than normal controls (see [[Cheng2015 - NS1 P311-330 Anti-PDI Autoantibodies in DHF]], n=43 DHF sera)
+- **HSP60 cross-reactivity uses a distinct epitope**: anti-HSP60 does not correlate with anti-P311–330, despite correlating with anti-endothelial cell IgM (r = 0.610, P < 0.0001) — the HSP60-specific NS1 epitope remains unidentified (see [[Cheng2015 - NS1 P311-330 Anti-PDI Autoantibodies in DHF]])
+- Anti-vimentin IgM is elevated in DHF vs. controls but does NOT correlate with anti-EC or anti-NS1 IgM — mechanism driving vimentin cross-reactivity is unresolved (see [[Cheng2015 - NS1 P311-330 Anti-PDI Autoantibodies in DHF]])
 
 ### Endothelial pathology mechanisms
 Anti-NS1 causes two distinct endothelial cell effects (see [[Lin2006 - Autoimmune Pathogenesis in Dengue Virus Infection]]):
@@ -118,3 +121,4 @@ These are distinct from the anti-NS1 autoantibody mechanisms above; both operate
 - [[Velazqueza2017 - SLE vs Dengue Case Series]] (NS1 endothelial cross-reactivity and plasminogen inhibition cited as dengue autoimmunity mechanism in pediatric SLE context; Guadalajara Mexico; n=2 case series)
 - [[Pang2017 - DHF Pathogenesis Review]] (GPI-anchored NS1 → tyrosine phosphorylation → enhanced DENV replication via anti-NS1 signal transduction; NS1-complement-C5b-C9 pathway; NS1-MIF-autophagy; confirms TLR4 and autoimmune mimicry mechanisms; Tsinghua University, China; review)
 - [[Jardim2012 - Autoimmune Features DHF Case Report]] (NS1 cross-reactivity with host proteins cited as mechanism for dengue-induced autoimmune features including ANA 1/320, cryoglobulinemia, selective C3 depression; Lin2003 and Lin2006 cited; Campinas Brazil; n=1 case report)
+- [[Cheng2015 - NS1 P311-330 Anti-PDI Autoantibodies in DHF]] (P311–330 as PDI-specific cross-reactive epitope; PDI + HSP60 IgM correlate with anti-EC and anti-NS1 IgM; HSP60 uses different epitope; anti-P311–330 higher in DHF vs. DF; autoantibodies infection-order independent; Ho Chi Minh City Vietnam/NCKU Taiwan; n=15 DHF)

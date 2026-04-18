@@ -20,6 +20,7 @@ These are spoken commands that trigger defined workflows in CLAUDE.md.
 | `add a notable finding` | Appends a flagged finding directly to `Notable Findings.md` |
 | `retract [AuthorYear]` | Marks a source as retracted: adds warning banner to source page, flags all linked concept/entity/method pages with inline warnings, adds Watch Item to state.md, logs the retraction |
 | `correct [AuthorYear] — [note]` | Same as `retract` but for corrections rather than full retractions — preserves the source page with a correction note |
+| `update highlights` | Scans all wiki pages for `==highlights==` and `%%comments%%`, then overwrites `Curator Highlights.md` with the current snapshot grouped by page |
 
 ---
 

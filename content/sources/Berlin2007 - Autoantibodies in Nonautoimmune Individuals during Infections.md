@@ -69,7 +69,7 @@ The study draws on a clinically diverse cohort spanning HAV, HBV, HCV, multiple 
   - 1 patient: exactly 6 autoantibodies
 
 ### Transience of Infection-Triggered Autoantibodies
-- Authors cite a prior study (not fully detailed) showing ANA positivity of 20.5% during acute viral hepatitis, dropping to 6.4% in convalescence — consistent with transient, infection-triggered autoantibody production rather than persistent autoimmunity
+- Authors cite [[Codes2002 - Autoantibodies in Acute Viral Hepatitis]] showing ANA positivity of 20.5% during acute viral hepatitis (IIF homogeneous ≥1:40, n=156 prospective cohort, Salvador Brazil), dropping to 6.4% in convalescence; also 14.8% ASMA → 3.9%; no association with ALT/bilirubin severity or chronification in any hepatitis type — consistent with transient, infection-triggered autoantibody production rather than persistent autoimmunity
 - This temporal pattern is central to the interpretation: infection-triggered autoantibodies may resolve with clearance of infection
 
 ## Methods Used

@@ -3,7 +3,7 @@ type: method
 tags: [IIF, indirect-immunofluorescence, ANA, HEp-2, autoantibody-testing, diagnostic-method, dengue, acute-infection, post-dengue, 6-month-follow-up, India]
 created: 2026-04-12
 updated: 2026-04-18
-sources: 10
+sources: 11
 ---
 
 # Indirect Immunofluorescence ANA Test
@@ -68,3 +68,4 @@ The high rate (54.8%) is consistent with the expected sensitivity advantage of H
 - [[Velazqueza2017 - SLE vs Dengue Case Series]] (IIFA ANA 1:1280 in both pediatric dengue cases; homogeneous+cytoplasmic [Case 1] and fine speckled [Case 2] patterns; SLE criteria met; Guadalajara Mexico; n=2)
 - [[Rajadhyaksha2012 - Dengue Evolving into SLE and Lupus Nephritis]] (ANA 1:320 homogeneous 4+ by immunofluorescence; arising 4 weeks after primary DENV-1; with anti-dsDNA 1:80 4+, hypocomplementemia, and biopsy-confirmed Class IV lupus nephritis; Mumbai India; n=1 case report)
 - [[Jardim2012 - Autoimmune Features DHF Case Report]] (ANA 1/320 mitotic spindle pattern in acute secondary DENV-3 DHF; negative at follow-up — complete resolution; substrate not specified [HEp-2 vs. rat liver unclear]; novel dengue ANA pattern class distinct from homogeneous/speckled patterns in other wiki sources; Campinas Brazil; n=1 case report)
+- [[Codes2002 - Autoantibodies in Acute Viral Hepatitis]] (IIF for ANA [homogeneous ≥1:40, 20.5% acute → 6.4% convalescent] and ASMA [≥1:40, 14.8% → 3.9%] in acute viral hepatitis; substrate not specified in paper — standard for Salvador Brazil 1992–2000; n=156 prospective; not a dengue paper — viral-infection IIF comparator)

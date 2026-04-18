@@ -3,18 +3,20 @@ type: analysis
 tags: [ANA, antinuclear-antibody, dengue, autoimmunity, molecular-mimicry, bystander-activation, epitope-spreading, post-dengue, IIF, HEp-2, LIA, prevalence, healthy-population, acute-phase, IIFA, FcγRIIa, NS1, MAS, HLH, macrophage-activation, NS1-IgG-kinetics, primary-infection, PAIgG, PAIgM, ANA-negative, Talib2013, literature-review, autoantigen-microarray, nuclear-antigen-consumption, thrombocytopenia-bifurcation, immune-complex]
 created: 2026-04-13
 updated: 2026-04-18
-sources: 29
+sources: 31
 ---
 
 # ANA and Dengue — A Literature Review
 
-*Synthesised from 29 source papers and 9 concept/method pages. Last updated 2026-04-18.*
+*Synthesised from 31 source papers and 9 concept/method pages. Last updated 2026-04-18.*
 
 > **Revision note (2026-04-17, first pass):** Added five sources ingested 2026-04-14 through 2026-04-15 — Bos2025 (longitudinal antibody kinetics), Lin2001 (foundational IgM anti-platelet autoantibody with attribution correction), Oishi2003 (PAIgG/immune-complex thrombocytopenia in secondary infection), Morel2014 (ANA-negative MAS case series), and Palacios2016 (letter adding the Talib 2013 ANA-positive SLE case and Lai 2012 MAS+nephrotic case). New §5.5 on macrophage-driven autoimmunity without ANA; new §6.3 on NS1-IgG waning kinetics; updated §8 on progression with the Morel/Talib case contrast; additional open questions in §10 and hypothesis-generating claims in §11.
 
 > **Revision note (2026-04-17, second pass):** Added Vo2020 (Cambodian pediatric autoantigen microarray, n=40) and Saito2004 (PAIgM in secondary dengue, n=78). Key additions: §4.4 on the nuclear antigen IgG consumption model — 19 DHF-correlated IgGs including canonical ANA targets positively correlate with platelet count, suggesting ANA levels may be paradoxically *lower* in severe dengue due to immune complex sequestration; §5.4 extended with Saito2004 PAIgM characterisation (anti-viral, not autoimmune; completely FcγR-independent; 92.1% DHF specificity); §7 paragraph on the primary>secondary IgG autoantibody inversion (Vo2020, counterintuitive); §9 infection-order host factor; two new open questions (Q12–Q13); §11 established-claim update (three-pathway thrombocytopenia) and new hypothesis-generating entries.
 
 > **Revision note (2026-04-17, third pass):** Added four sources — Zhou2007 (polyreactive IgM), Gawali2021 (6-month ANA), Velazqueza2017 (pediatric SLE+dengue case series, Mexico), and Rajadhyaksha2012 (biopsy-confirmed lupus nephritis, Mumbai). Key additions: new §4.5 on polyreactive IgM as the mechanism for the non-specific IIFA fraction (resolves the Watch Item from state.md); §6.2 trajectory table now includes the Gawali2021 6-month data point; §8 case contrast expanded with Velazqueza2017 (n=2 pediatric SLE+dengue) and Rajadhyaksha2012 (Class IV LN, anti-cardiolipin, primary DENV-1); new open question Q14 on anti-cardiolipin persistence; §11 updated with polyreactive IgM as an established framework for the non-specific fraction.
+
+> **Revision note (2026-04-18, fifth pass):** Added [[Cheng2015 - NS1 P311-330 Anti-PDI Autoantibodies in DHF]] and [[Chaturvedi2001 - Cytotoxic Factor Autoantibodies DHF]]. Key additions: §5.1 updated with P311-330 as the precisely mapped PDI cross-reactive epitope and primary/secondary independence of anti-endothelial autoantibodies confirmed across three independent studies (Lin2001, Saito2004, Cheng2015); anti-vimentin anomaly flagged (no NS1 correlation); new §5.6 on anti-hCF as a tentative third ANA-invisible protective autoimmune axis (⚠ heavily caveated — unvalidated group-specific concept); §11 updated with P311-330 and infection-order independence under Established, and anti-hCF protective axis under Hypothesis-generating.
 
 > **Revision note (2026-04-18, fourth pass):** Added [[Jardim2012 - Autoimmune Features DHF Case Report]] (secondary DENV-3 DHF; n=1; Campinas Brazil) — missed from the ingest propagation to this analysis page. Key additions: Jardim2012 row added to §8 case table ("transient multi-autoantibody" pole: ANA 1/320 mitotic spindle pattern, full resolution at follow-up, anti-dsDNA negative, cryoglobulinemia, selective C3 depression); new discussion point 5 on Jardim2012's unique contribution; sources list updated (28→29).
 
@@ -24,7 +26,7 @@ sources: 29
 
 Antinuclear antibodies ([[Antinuclear Antibodies]]) — immunoglobulins directed against nuclear and cytoplasmic components of eukaryotic cells — are the canonical biomarker of systemic autoimmune rheumatic disease (SARD). Yet they are not specific to autoimmune disease: they appear transiently in healthy individuals, rise with age, and are elevated during acute infections. The question this literature review addresses is: **does dengue virus infection produce ANA in a pattern that is clinically meaningful, mechanistically distinct, or prognostically significant — and if so, for whom, through what mechanism, and for how long?**
 
-Dengue is an unusual candidate for this question because it is the most prevalent mosquito-borne viral disease globally (~390 million infections per year; see [[Guzman2016 - Dengue Infection]]) and because its immunopathogenesis — dominated by the NS1 protein's cross-reactivity with host proteins — involves molecular mimicry operating during the *acute phase* of infection rather than post-infectious. This creates a tight, observable window for studying the initiation of autoimmunity in a real-world setting.
+Dengue is an unusual candidate for this question because it is the most prevalent mosquito-borne viral disease globally (<mark style="background: #BBFABBA6;">~390 million infections per year</mark>; see [[Guzman2016 - Dengue Infection]]) and because its immunopathogenesis — dominated by the <mark style="background: #BBFABBA6;">NS1 protein's cross-reactivity with host proteins</mark> — involves <mark style="background: #BBFABBA6;">molecular mimicry</mark> operating during the *acute phase* of infection rather than post-infectious. This creates a tight, observable window for studying the initiation of autoimmunity in a real-world setting.
 
 ---
 
@@ -32,20 +34,20 @@ Dengue is an unusual candidate for this question because it is the most prevalen
 
 Before interpreting ANA rates in dengue patients, a robust baseline is essential. Four studies in this wiki characterise healthy-population ANA prevalence:
 
-| Study | Population | Dilution/Method | ANA Prevalence |
-|---|---|---|---|
-| [[Tan1997 - ANA Range in Healthy Individuals]] | Multicentre international; adults 21–60 | 1:40, IIF | 31.7% |
-| [[Tan1997 - ANA Range in Healthy Individuals]] | As above | 1:80, IIF | 13.3% |
-| [[Tan1997 - ANA Range in Healthy Individuals]] | As above | 1:160, IIF | 5.0% |
-| [[Satoh2012 - ANA Prevalence in United States]] | US NHANES 1999–2004; ≥12 yrs | 1:80, IIF | 13.8% |
-| [[Li2019 - ANA Epidemiology in Chinese Healthy Population]] | Chinese health-checkup; all ages | >1:100, IIF | 14.01% |
-| [[Dinse2022 - Increasing ANA Prevalence in United States]] | US NHANES 2011–2012; ≥12 yrs | 1:80, IIF | 16.1% |
+| Study                                                       | Population                              | Dilution/Method | ANA Prevalence |
+| ----------------------------------------------------------- | --------------------------------------- | --------------- | -------------- |
+| [[Tan1997 - ANA Range in Healthy Individuals]]              | Multicentre international; adults 21–60 | 1:40, IIF       | 31.7%          |
+| [[Tan1997 - ANA Range in Healthy Individuals]]              | As above                                | 1:80, IIF       | 13.3%          |
+| [[Tan1997 - ANA Range in Healthy Individuals]]              | As above                                | 1:160, IIF      | 5.0%           |
+| [[Satoh2012 - ANA Prevalence in United States]]             | US NHANES 1999–2004; ≥12 yrs            | 1:80, IIF       | 13.8%          |
+| [[Li2019 - ANA Epidemiology in Chinese Healthy Population]] | Chinese health-checkup; all ages        | >1:100, IIF     | 14.01%         |
+| [[Dinse2022 - Increasing ANA Prevalence in United States]]  | US NHANES 2011–2012; ≥12 yrs            | 1:80, IIF       | 16.1%          |
 
 Several features of this baseline are directly relevant to interpreting dengue data:
 
-**Dilution dependence.** Prevalence drops sharply with increasing dilution — from ~32% at 1:40 to ~5% at 1:160 in Tan1997. The clinical standard established by [[Aringer2019 - 2019 EULAR ACR SLE Classification Criteria]] is ≥1:80 on HEp-2 cells as the mandatory entry criterion for SLE classification (sensitivity 96.1%, meta-regression of 13,080 patients across 64 studies). Studies not specifying their dilution threshold cannot be meaningfully interpreted against this baseline.
+**Dilution dependence.** Prevalence drops sharply with increasing dilution — from ~32% at 1:40 to ~5% at 1:160 in Tan1997. The clinical standard established by [[Aringer2019 - 2019 EULAR ACR SLE Classification Criteria]] is ≥1:80 on HEp-2 cells as the mandatory entry criterion for SLE classification (<mark style="background: #BBFABBA6;">sensitivity 96.1%</mark>, <mark style="background: #BBFABBA6;">meta-regression of 13,080 patients across 64 studies</mark>). Studies not specifying their dilution threshold cannot be meaningfully interpreted against this baseline.
 
-**Rising temporal trend.** US ANA prevalence increased from 11.0% (1988–91) to 16.1% (2011–12) by NHANES, with the most dramatic rise in adolescents 12–19 (OR 2.77 for 2011–12 vs. 1988–91) and in men (see [[Dinse2022 - Increasing ANA Prevalence in United States]]). This trend is not explained by BMI, smoking, or alcohol changes, and was documented using identical methodology in a single laboratory — making methodological drift an unlikely explanation. **The implication for dengue research:** a study reporting 23.1% ANA positivity in 2009 Cuban adults must be evaluated against contemporary baselines (likely ~11–14%), not against 2022 figures.
+**Rising temporal trend.** <mark style="background: #BBFABBA6;">US ANA prevalence increased from 11.0% (1988–91) to 16.1% (2011–12) by NHANES</mark>, with the most dramatic <mark style="background: #ADCCFFA6;">rise in adolescents 12–19 (OR 2.77 for 2011–12 vs. 1988–91)</mark> and in men (see [[Dinse2022 - Increasing ANA Prevalence in United States]]). This trend is not explained by BMI, smoking, or alcohol changes, and was documented using identical methodology in a single laboratory — making methodological drift an unlikely explanation. **The implication for dengue research:** a study reporting 23.1% ANA positivity in 2009 Cuban adults must be evaluated against contemporary baselines (likely ~11–14%), not against 2022 figures.
 
 **Consistent floor at high dilutions.** The ~5–6% rate at ≥1:160–1:320 is strikingly consistent across populations and decades (Tan1997, Li2019). This floor likely represents a genuine background rate of autoimmune activation in the general population, independent of dengue.
 
@@ -70,7 +72,7 @@ Method: ELISA (ANA 8 Pro; 8 nuclear antigens; 1:100). The control rate of 3.8% i
 Two additional findings from Berlin2007 are noteworthy for mechanistic context:
 
 - **Anti-annexin V** and **anti-prothrombin** are the most commonly elevated autoantibodies during acute infections — both coagulation-pathway targets. Anti-prothrombin was detected in 69.6% of viral infections, which converges strikingly with Lin2011's finding that the dengue E protein WGNGCG motif shares homology with prothrombin (see [[NS1 Molecular Mimicry in Dengue]] and [[Notable Findings]]).
-- ANA detected during acute viral hepatitis fell from 20.5% in the acute phase to 6.4% in convalescence in a cited study — establishing that *transience* is a genuine feature of infection-triggered ANA. This is important context for interpreting both dengue-specific acute ANA measurements and claims about post-dengue persistence.
+- ANA detected during acute viral hepatitis fell from 20.5% in the acute phase to 6.4% in convalescence (see [[Codes2002 - Autoantibodies in Acute Viral Hepatitis]], n=156 prospective cohort, IIF homogeneous ≥1:40, Salvador Brazil; also 14.8% ASMA → 3.9%; no severity or chronification association) — establishing that *transience* is a genuine feature of infection-triggered ANA. This is important context for interpreting both dengue-specific acute ANA measurements and claims about post-dengue persistence.
 
 The ~21.7% ANA rate in acute viral infections (Berlin2007) sets the baseline expectation: *any viral infection appears to produce ANA in roughly one-fifth of patients by a narrow ELISA panel*. Dengue must be evaluated against this generic benchmark, not just against the healthy-population baseline.
 
@@ -140,13 +142,17 @@ The NCKU group (Lin, Lei et al.) has provided the most experimentally detailed e
 
 | Host Protein | Location | Functional Consequence |
 |---|---|---|
-| PDI (protein disulfide isomerase) | Platelet surface | Anti-NS1 inhibits PDI → platelet aggregation inhibition |
+| PDI (protein disulfide isomerase) | Platelet surface | Anti-NS1 inhibits PDI → platelet aggregation inhibition; cross-reactive epitope mapped to **P311–330** (see [[Cheng2015 - NS1 P311-330 Anti-PDI Autoantibodies in DHF]]) |
 | Vimentin | Platelet + endothelial | Surface binding; consequences under investigation |
 | ATP synthase β-chain | Platelet + endothelial | Surface binding; consequences under investigation |
 | HSP60 | Platelet + endothelial | Cross-targeted also by anti-prM Abs |
 | LYRIC protein | Endothelial | NS1 aa 116–119 shares sequence similarity with human LYRIC aa 334–337 |
 
-The responsible NS1 domain is the **C-terminal region (amino acids 311–352)**: deletion of aa 277–352 abolishes anti-NS1-mediated platelet aggregation and bleeding tendency. This is the same domain relevant to the autoimmune risk of NS1-based vaccines — retaining the C-terminal domain carries autoimmune risk.
+The responsible NS1 domain is the **C-terminal region (amino acids 311–352)**. Within this region, [[Cheng2015 - NS1 P311-330 Anti-PDI Autoantibodies in DHF]] has narrowed the **PDI-cross-reactive epitope to P311–330** using a synthetic 20-mer blocking assay: anti-P311–330 serum suppresses anti-PDI IgM binding by ~80%. HSP60 cross-reactivity uses a distinct, as-yet-unidentified NS1 epitope — not P311–330 — confirmed by the same assay. Deletion of aa 277–352 abolishes anti-NS1-mediated platelet aggregation and bleeding tendency. The vaccine design implication is direct: NS1-based constructs retaining P311–330 will generate anti-PDI cross-reactive antibodies; constructs with this peptide deleted or mutated may avoid the platelet-aggregation arm of NS1 mimicry.
+
+**Infection-order independence** of anti-endothelial autoantibodies was confirmed by Cheng2015 in a Vietnamese/Taiwanese DHF cohort: anti-PDI IgM, anti-HSP60 IgM, and anti-endothelial cell IgM were comparably elevated in primary DHF (n=2) and secondary DHF (n=15), with no significant difference by infection order. This is convergent with Lin2001's primary-infection IgM anti-platelet autoantibody (primary DENV-3) and with the Saito2004 dataset. Together, three independent studies establish that **NS1 molecular mimicry anti-endothelial autoantibodies are constitutive to NS1 immunity and are not ADE-escalated secondary-infection phenomena**. The implication for the ANA thread: the 54.8% IIFA rate in Chatterjee2024's predominantly secondary-infection fever-clinic cohort likely *underestimates* the contribution from first-time DENV-exposed individuals, not overestimates it.
+
+**An anomaly:** Anti-vimentin IgM is elevated in DHF vs. controls in Cheng2015 but does **not** correlate with anti-NS1 IgM or anti-EC IgM — inconsistent with a simple NS1-mimicry origin. Whether a different dengue protein (capsid, prM, E protein) drives anti-vimentin elevation, or whether vimentin cross-reactivity operates through bystander activation or direct viral binding to surface vimentin, is unknown. This is a mechanistic gap not addressed by any other source in this wiki.
 
 **Two endothelial pathology pathways** are mediated by anti-NS1:
 1. **Apoptosis**: anti-NS1 → NO production → p53/Bax/caspase-3 pathway → endothelial cell death
@@ -187,6 +193,19 @@ The decisive finding is that **ANA and anti-dsDNA were negative in all three cas
 The mechanistic implication for the dengue-ANA literature is significant. The dominant frame of the wiki — built from Lin2006, Lin2011, Wan2012, Chatterjee2024, Garcia2009 — places dengue autoimmunity along a B-cell axis (NS1 mimicry → autoreactive antibodies → ANA-detectable phenomena). Morel2014 adds a parallel **macrophage hyperactivation axis**: cytokine-driven (likely IFN-γ, IL-18, IL-6), CD163-marked, with end-organ damage from histiocyte/macrophage infiltration rather than autoantibody-mediated targeting. ANA and anti-dsDNA are insensitive to this axis by design — they probe nuclear-antigen B-cell reactivity, not innate-cell hyperactivation.
 
 This does not reverse the Wan2012 autoantibody-severity correlation in the strict sense, because Wan2012 measured anti-endothelial and anti-platelet antibodies by flow cytometry, not standard ANA/anti-dsDNA. But it does establish that *severity-by-autoimmune-complication* is not adequately captured by ANA testing alone — the most severe complications in Morel2014 are entirely ANA-negative. The implication for any future ANA-prevalence study in dengue is that ANA-positive patients and ANA-negative-MAS patients may both be mislabelled when only one screen is applied: the former as "subclinical autoimmune", the latter as "non-autoimmune severe dengue" when in fact they sit on a parallel autoimmune axis.
+
+### 5.6 Anti-Cytokine Autoantibody — A Tentative Third Axis Invisible to ANA Testing
+
+[[Chaturvedi2001 - Cytotoxic Factor Autoantibodies DHF]] introduces a conceptually distinct autoimmune axis: autoantibodies directed *against* a dengue-produced cytokine (hCF, "human cytotoxic factor"), proposed to be **protective** rather than pathogenic. In a 1996 Lucknow epidemic cohort, anti-hCF IgG was detected in 96% of DF patients vs. 8% of grade IV DHF patients (P ≤ 0.001) — an inverse association with severity that no other dengue autoantibody in this wiki shares. The proposed mechanism: hCF is a dengue-specific CD4+ T cell cytotoxin produced by monocytes; anti-hCF autoantibodies neutralise hCF activity, reducing cytotoxic damage and correlating with milder disease.
+
+**⚠ Critical epistemic caveat:** hCF is the Chaturvedi group's proprietary, uncharacterised construct — partially purified by HPLC from dengue-infected monocyte supernatants but never sequenced, deposited, or independently replicated. No external group has published on hCF; CrossRef citation count is 1. It may map to a known cytokine or dengue structural protein fragment, or may be an artefact of the purification protocol. All claims about hCF must be treated as hypothesis-generating pending independent validation; none should be cited as established dengue immunobiology.
+
+The conceptual contribution to the ANA framework is indirect but structurally important. If anti-hCF exists and is protective, dengue's autoimmune response is at minimum three-branched:
+1. **ANA-positive B-cell axis** — NS1 molecular mimicry → anti-PDI/HSP60/endothelial autoantibodies → platelet lysis, vascular leakage (pathogenic; ANA detectable via IIF)
+2. **ANA-negative macrophage axis** — cytokine-driven MAS/HLH → histiocyte hyperactivation → ANA-negative, ferritin-elevated severe complication (Morel2014)
+3. **ANA-negative anti-cytokine axis** — anti-hCF protective autoantibody → severity-inverse, cytotoxin-neutralising (Chaturvedi2001 — ⚠ unvalidated)
+
+Standard ANA testing is blind to both ANA-negative axes. Whether axes 2 and 3 co-occur or dissociate in individual patients has not been tested.
 
 ---
 
@@ -360,6 +379,7 @@ A coherent picture emerges from this wiki's 28 sources on ANA and dengue, best c
 - At the population level, dengue does not broadly elevate clinical autoimmune disease incidence; only ADEM is robustly elevated, and only in the first month (Shih2023).
 - Dengue can produce a clinically severe autoimmune complication (MAS / secondary HLH) that is **ANA- and anti-dsDNA-negative** (Morel2014, with supporting MAS+nephrotic case in Lai 2012 cited by Palacios2016) — establishing a parallel macrophage-driven autoimmune axis distinct from the NS1-mimicry → autoantibody pathway.
 - Dengue thrombocytopenia involves at least three immunologically distinct platelet-bound immunoglobulin populations: (1) a true autoreactive IgM anti-platelet antibody in primary infection (Lin2001, Lin2006); (2) an NS1-specific anti-dengue IgG immune complex in secondary infection (Oishi2003) without FcγRII binding; and (3) an anti-dengue IgM immune complex in secondary infection (Saito2004) that is completely FcγR-independent and independently predicts DHF with 92.1% specificity. The secondary-infection IgM immune complex is mechanistically opposite to the primary-infection IgM autoantibody despite being the same isotype.
+- **NS1 molecular mimicry anti-endothelial autoantibodies are infection-order independent.** Anti-PDI IgM, anti-HSP60 IgM, and anti-EC IgM are comparably elevated in primary and secondary DHF (Cheng2015, n=17 DHF), convergent with Lin2001 (primary DENV-3) and Saito2004. The PDI-cross-reactive epitope has been narrowed to **P311–330** within the NS1 C-terminal region (Cheng2015). These are constitutive NS1 immunity features, not ADE-escalated secondary-infection phenomena.
 
 **Probable (supported by ≥2 sources with methodological limitations):**
 - ANA positivity remains elevated at 2 years post-dengue in symptomatic patients (Garcia2009), consistent with the molecular mimicry + FcγRIIa IC-persistence model, but constrained by rat-liver substrate and lack of a contemporaneous control group.
@@ -375,6 +395,7 @@ A coherent picture emerges from this wiki's 28 sources on ANA and dengue, best c
 - Cross-reactive E protein IgG actively *rises* between 6 and 18 months post-primary infection (Bos2025, t½ = −2.13 y); given the E-protein WGNGCG motif's homology with coagulation factors (Lin2011), the anti-coagulation-factor component of dengue autoreactivity may follow an opposite (rising) temporal vector to the anti-NS1 component within the same patient.
 - Nuclear antigen IgGs (KU, Smith, histone, Sm/RNP, nucleosome) are positively correlated with platelet counts in DHF (Vo2020, n=8 DHF; no multiple comparison correction) — interpreted as immune complex consumption, implying that ANA testing at peak disease severity may underestimate the autoimmune burden in the most severe patients and that some "ANA-negative severe dengue" cases may reflect antibody consumption rather than absence of nuclear antigen reactivity.
 - Primary DENV infection generates broader IgG autoantibody repertoires than secondary infection on microarray profiling (Vo2020, n=6 primary — heavily confounded by sex and serotype), implying that first-exposure dengue may represent the window of maximal polyclonal IgG autoantibody activation — a reversal of severity-centric expectations.
+- **Anti-hCF as a protective anti-cytokine autoantibody axis (Chaturvedi2001 — ⚠ unvalidated):** Anti-hCF IgG was present in 96% of DF vs. 8% of grade IV DHF patients in a 1996 Lucknow cohort — an inverse severity association unique among dengue autoantibodies in this wiki. If real, this represents a third ANA-invisible autoimmune axis (anti-cytokine, protective) alongside the established pathogenic B-cell axis and the ANA-negative MAS macrophage axis. However, hCF itself has never been sequenced or independently replicated — all downstream claims are contingent on that validation.
 
 ---
 
@@ -425,3 +446,6 @@ A coherent picture emerges from this wiki's 28 sources on ANA and dengue, best c
 - [[Velazqueza2017 - SLE vs Dengue Case Series]] (n=2 pediatric SLE+dengue; ANA 1:1280 + antinucleosome + anti-dsDNA in both; Case 2 SLE diagnosed 2 months post-dengue; Guadalajara Mexico; extends ANA-positive dengue-SLE cluster to a second geographic setting)
 - [[Rajadhyaksha2012 - Dengue Evolving into SLE and Lupus Nephritis]] (n=1 adult, primary DENV-1; ANA 1:320 + anti-dsDNA 1:80 + anti-cardiolipin IgM+IgG+ + biopsy-confirmed Class IV LN; 4-week post-dengue interval; Mumbai India; first primary-source documentation of dengue→lupus nephritis with renal biopsy; anti-cardiolipin IgM+IgG persistent at 4 months)
 - [[Jardim2012 - Autoimmune Features DHF Case Report]] (n=1, secondary DENV-3 DHF; ANA 1/320 mitotic spindle pattern; cryoglobulinemia; selective C3 depression C4-normal; LE cells in pleural fluid; triple serositis; DIC; full ANA resolution at follow-up; anti-dsDNA negative throughout; Campinas Brazil; clearest example of transient multi-autoantibody syndrome in the wiki)
+- [[Codes2002 - Autoantibodies in Acute Viral Hepatitis]] (primary source for 20.5% acute / 6.4% convalescent ANA in viral hepatitis; IIF homogeneous ≥1:40; n=156 prospective; Salvador Brazil; also 14.8% → 3.9% ASMA; not a dengue paper — viral-infection transience comparator baseline cited via Berlin2007)
+- [[Cheng2015 - NS1 P311-330 Anti-PDI Autoantibodies in DHF]] (PDI cross-reactive epitope narrowed to P311–330 by synthetic peptide blocking assay; HSP60 uses distinct unidentified NS1 epitope; anti-vimentin anomalous — no NS1 correlation; primary/secondary DHF equivalence for anti-endothelial autoantibodies confirmed; n=17 DHF (2 primary + 15 secondary) + 2 DF; Ho Chi Minh City/NCKU Taiwan)
+- [[Chaturvedi2001 - Cytotoxic Factor Autoantibodies DHF]] (⚠ unvalidated group-specific concept; anti-hCF IgG 96% DF → 8% DHF-IV, P ≤ 0.001; hCF = dengue-specific CD4+ T cell cytotoxin unsequenced and unreplicated; if real, represents a third ANA-invisible protective autoimmune axis; Lucknow AIIMS 1996 epidemic, n=74)

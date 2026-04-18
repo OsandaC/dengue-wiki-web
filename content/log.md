@@ -2,6 +2,104 @@
 
 ---
 
+## [2026-04-18] ingest | Cheng2015 - NS1 P311-330 Anti-PDI Autoantibodies in DHF
+
+**Source:** Cheng HJ et al. *Am J Trop Med Hyg*. 2015. doi:10.4269/ajtmh.14-0162
+**Citations:** SS 22 / CR 19
+
+**Created:**
+- `wiki/sources/Cheng2015 - NS1 P311-330 Anti-PDI Autoantibodies in DHF.md`
+- `wiki/methods/ELISA.md` (new method page — no prior standalone ELISA page existed; Cheng2015 is first source)
+
+**Updated (content + frontmatter):**
+- `wiki/concepts/NS1 Molecular Mimicry in Dengue.md` (11→12 sources; P311–330 PDI epitope section + primary/secondary independence section added)
+- `wiki/entities/NS1 Protein.md` (14→15 sources; P311–330 PDI-specific epitope bullet + HSP60 distinct epitope note added)
+- `wiki/geography/Taiwan.md` (4→5 sources; Cheng2015 NCKU/Vietnamese cohort subsection added)
+- `wiki/concepts/Autoimmunity in Dengue.md` (30→31 sources; NS1 mimicry P311–330 note added to Sources)
+- `wiki/concepts/Cross-Reactive Antibodies.md` (11→12 sources; anti-NS1 section updated with P311–330 PDI epitope specificity)
+- `wiki/concepts/Dengue Pathophysiology.md` (12→13 sources; anti-PDI integrin activation disruption bullet added to Vascular Permeability)
+- `wiki/entities/DENV-1.md` (9→10 sources)
+- `wiki/entities/DENV-2.md` (9→10 sources)
+- `wiki/entities/DENV-3.md` (10→11 sources)
+- `wiki/entities/DENV-4.md` (8→9 sources)
+- `wiki/methods/RT-PCR.md` (6→7 sources)
+- `wiki/analyses/Notable Findings.md` (NS1 mimicry infection-order independence notable finding added)
+- `wiki/index.md` (Sources 36→37, pages 102→104; all tables updated; Vietnam note added)
+
+**Notable finding flagged:** NS1 mimicry anti-endothelial autoantibodies are infection-order independent — convergent across Cheng2015 + Lin2001 + Saito2004
+**Geography note:** Vietnam first appearance (patient sera from Ho Chi Minh City); no standalone Vietnam page per <2 source rule.
+
+---
+
+## [2026-04-18] ingest | Chaturvedi2001 - Cytotoxic Factor Autoantibodies DHF
+
+**Source:** Chaturvedi UC et al. FEMS Immunol Med Microbiol 30 (2001) 181–186. DOI: 10.1016/S0928-8244(00)00251-0
+**Citations:** SS null / CR 1
+
+**Created:**
+- `wiki/sources/Chaturvedi2001 - Cytotoxic Factor Autoantibodies DHF.md`
+- `wiki/concepts/Cytotoxic Factor in Dengue.md` (new concept page — group-specific concept, ⚠ unvalidated)
+
+**Updated (content + frontmatter):**
+- `wiki/concepts/Cytokine Storm.md` (10→11 sources; hCF cascade section added)
+- `wiki/concepts/T Cell Responses in Dengue.md` (4→5 sources; hCF CD4 producer section added)
+- `wiki/concepts/Dengue Pathophysiology.md` (11→12 sources; hCF/anti-hCF section added)
+- `wiki/concepts/Dengue Clinical Classification.md` (6→7 sources; Chaturvedi2001 1997 WHO DHF application added)
+- `wiki/concepts/Autoimmunity in Dengue.md` (29→30 sources; anti-hCF as protective autoantibody added to Related Pages + Sources)
+- `wiki/geography/India.md` (4→5 sources; Lucknow/AIIMS 1996 epidemic section added)
+- `wiki/analyses/Notable Findings.md` (anti-hCF protective autoantibody notable finding added)
+- `wiki/index.md` (Sources 35→36, pages 100→102; Concepts table updated; India 4→5; Cytotoxic Factor concept added)
+
+**Notable finding flagged:** Anti-hCF autoantibodies — first protective autoantibody in dengue; 96% DF → 8% DHF-IV (⚠ external validation lacking)
+
+---
+
+## [2026-04-18] restructure | Americas regional page created
+
+**Change:** Created `wiki/geography/Latin America.md` consolidating Cuba, Nicaragua, and Brazil country pages. Trigger condition met: 3 standalone Americas country pages (Cuba 3 sources, Nicaragua 1, Brazil 2).
+**Scope:** Latin America.md created (6 sources); Cuba.md, Nicaragua.md, Brazil.md deleted; 10 pages updated (DENV-1, DENV-2, DENV-3, DENV-4, Aedes aegypti, FcγRIIa Receptor, Asymptomatic Dengue Infection, Post-Dengue Syndrome, Cross-Reactive Antibodies, Singapore); index.md Geography table revised (10→8 rows, Latin America replaces Cuba/Nicaragua/Brazil); page count 102→100.
+**Reason:** CLAUDE.md geography hierarchy rule — next ingest after ≥3 Americas country pages triggers regional page and folds thin country pages in.
+
+---
+
+## [2026-04-18] schema-update | Curator Highlights workflow added
+
+**Change:** Added `Curator Highlights` as a new light-maintenance workflow — scans wiki pages for `==highlights==` and `%%comments%%` and aggregates them into `wiki/analyses/Curator Highlights.md`. Refreshed during lint and on "update highlights" command.
+**Scope:** CLAUDE.md §Architecture, §Workflows/Lint (new step 5), §Workflows/Curator Highlights (new section)
+**Pages affected:** 3 (CLAUDE.md, wiki/index.md, wiki/analyses/Curator Highlights.md created)
+**Reason:** Curator wanted to use Obsidian's native ==highlight== and %%comment%% features for manual annotation during reading, with a single aggregated page to review all annotations across the wiki.
+
+---
+
+## [2026-04-18] ingest | Codes2002 - Autoantibodies in Acute Viral Hepatitis
+
+**Source:** Codes L, Santos de Jesus R, Cunha S, Cruz M, Paraná R. *Rev Soc Bras Med Trop* 35(5): 465–469, 2002.
+
+**Context:** Non-dengue paper — viral hepatitis (HAV/HBV/HCV/HEV/non A-E); included as the primary sourced data for the 20.5% acute / 6.4% convalescent ANA figures previously cited across multiple wiki pages as "a study cited by Berlin2007" without full attribution.
+
+**Created:**
+- `sources/Codes2002 - Autoantibodies in Acute Viral Hepatitis.md`
+- `geography/Brazil.md` (now 2 sources: Jardim2012 + Codes2002; Americas regional page trigger met — Cuba + Nicaragua + Brazil = 3 pages)
+
+**Updated (citation fix — 4 pages):**
+- `sources/Berlin2007`: "prior study (not fully detailed)" → direct [[Codes2002]] link + ASMA detail
+- `analyses/ANA and Dengue - A Literature Review`: anonymous citation → [[Codes2002]] with full study descriptor
+- `concepts/Infection-Triggered Autoimmunity`: "One study (cited in Berlin2007)" → [[Codes2002]] in two locations
+- `concepts/Autoimmunity in Dengue`: anonymous "cited study" → [[Codes2002]]
+
+**Updated (propagation):**
+- `concepts/Antinuclear Antibodies`: anonymous citation → [[Codes2002]]; sources 12→13
+- `concepts/Infection-Triggered Autoimmunity`: sources 11→12; Codes2002 added to Sources list
+- `concepts/Autoimmunity in Dengue`: sources 28→29; Codes2002 added to Sources list
+- `methods/Indirect Immunofluorescence ANA Test`: sources 10→11; Codes2002 added to Sources list
+- `wiki/index.md`: Sources 34→35, Pages 100→102, Geography 9→10; Brazil entry updated
+
+**Citations:** null / null (2002 regional Brazilian journal paper; not indexed in Semantic Scholar or CrossRef)
+
+**Notable Findings:** None — this ingest resolves an attribution gap, not a new finding.
+
+---
+
 ## [2026-04-18] lint | Deep batched health check (post-Jardim2012)
 
 **Method:** Batched by folder (sources → entities/concepts → methods/geography → analyses). Forward propagation check for all 8 ingests since 2026-04-17 lint (Pang2017, Velazqueza2017, Gawali2021, Zhou2007, Bhatt2020, Dejnirattisai2010, Rajadhyaksha2012, Jardim2012). Orphan check, stale link scan, thin-page audit.

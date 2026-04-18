@@ -3,7 +3,7 @@ type: concept
 tags: [cross-reactivity, ADE, neutralisation, IgG, IgA, IgM, IgG3, IgG4, serotype, E-protein, NS1, EDI-II, EDIII, flavivirus, diagnostics, vaccine, longitudinal, antibody-kinetics, anti-prM, prM, structural-antibody]
 created: 2026-04-13
 updated: 2026-04-18
-sources: 11
+sources: 12
 ---
 
 # Cross-Reactive Antibodies
@@ -49,7 +49,7 @@ Not all cross-reactive antibodies are harmful. Some antibodies that bind the DI-
 The Dengvaxia (CYD-TDV) experience in seronegative children provides the clearest human evidence that vaccine-induced cross-reactive antibodies can replicate ADE: seronegative children aged <=5 years had 5x the hospitalisation rate of controls upon subsequent natural infection — the vaccine created an ADE-like state analogous to a first natural infection in a sensitised host (see [[Guzman2016 - Dengue Infection]], [[CYD-TDV]]).
 
 ### Anti-NS1 cross-reactivity with host proteins
-Anti-NS1 antibodies represent a special case of cross-reactivity — not between serotypes, but between viral and host antigens. Anti-NS1 Abs cross-react with PDI, vimentin, ATP synthase beta-chain, and HSP60 on platelets and endothelial cells, causing complement-mediated platelet lysis and endothelial damage. The responsible domain maps to C-terminal NS1 aa 311-352 (see [[Lin2006 - Autoimmune Pathogenesis in Dengue Virus Infection]], [[Lin2011 - Molecular Mimicry Virus Host Dengue Pathogenesis]], [[NS1 Molecular Mimicry in Dengue]]).
+Anti-NS1 antibodies represent a special case of cross-reactivity — not between serotypes, but between viral and host antigens. Anti-NS1 Abs cross-react with PDI, vimentin, ATP synthase beta-chain, and HSP60 on platelets and endothelial cells, causing complement-mediated platelet lysis and endothelial damage. The responsible domain maps to C-terminal NS1 aa 311-352; within this region, aa 311–330 (P311–330) is the PDI-specific cross-reactive epitope — confirmed by correlation of anti-P311–330 IgG with anti-PDI IgG (r = 0.732, P < 0.0001). HSP60 cross-reactivity maps to a distinct, unidentified NS1 epitope (see [[Lin2006 - Autoimmune Pathogenesis in Dengue Virus Infection]], [[Lin2011 - Molecular Mimicry Virus Host Dengue Pathogenesis]], [[Cheng2015 - NS1 P311-330 Anti-PDI Autoantibodies in DHF]], [[NS1 Molecular Mimicry in Dengue]]).
 
 ### Longitudinal kinetics — cross-reactive E-IgG rises, NS1-IgG wanes (Bos2025)
 
@@ -88,7 +88,7 @@ Flavivirus cross-reactive antibodies create significant diagnostic challenges:
 - [[PRNT]]
 - [[IgM-IgG Serology ELISA]]
 - [[Dengue Vaccine Candidates]]
-- [[Nicaragua]]
+- [[Latin America]]
 - [[Thailand]]
 
 ## Sources
@@ -103,3 +103,4 @@ Flavivirus cross-reactive antibodies create significant diagnostic challenges:
 - [[Dejnirattisai2010 - Anti-prM Antibodies Enhance Dengue ADE]] (anti-prM ~60% of structural antibodies; full cross-reactivity DENV-1–4; poor neutralisation ceiling from incomplete prM cleavage; 10^5-fold monocyte/DC ADE; anti-JEV cross-reactivity minimal — dengue-specific; Thailand n=7 donors)
 - [[Pang2017 - DHF Pathogenesis Review]] (anti-E and anti-prM antibodies as ADE mediators reviewed; anti-prM highlighted since Dejnirattisai2010; FcγR-mediated mechanism overview; review, China)
 - [[Bhatt2020 - Dengue Pathogenesis Review]] (Katzelnick 2017 quantitative ADE window 1:21–1:80 quantifies the cross-reactive antibody enhancement danger zone; OAS cross-reactive low-avidity CD8+ expansion + cytolytic loss; anti-prM and anti-E ADE reviewed; review, India)
+- [[Cheng2015 - NS1 P311-330 Anti-PDI Autoantibodies in DHF]] (anti-PDI, anti-HSP60, anti-vimentin IgM/IgG elevated in DHF; PDI-specific epitope mapped to P311–330 [anti-PDI IgG vs. anti-P311–330 IgG r = 0.732, P < 0.0001]; HSP60 cross-reactivity uses distinct NS1 epitope; NCKU Tainan lab; Vietnamese DHF/DF paediatric cohort)

@@ -1,9 +1,9 @@
 ---
 type: geography
-tags: [India, Kolkata, Manipal, Karnataka, Gwalior, Madhya-Pradesh, dengue-epidemiology, endemic, Southeast-Asia, Indian-subcontinent, ANA, pathogenesis-review, seroconversion]
+tags: [India, Kolkata, Manipal, Karnataka, Gwalior, Madhya-Pradesh, Lucknow, Uttar-Pradesh, New-Delhi, dengue-epidemiology, endemic, Southeast-Asia, Indian-subcontinent, ANA, pathogenesis-review, seroconversion, 1996-epidemic]
 created: 2026-04-12
-updated: 2026-04-17 (Rajadhyaksha2012 ingest)
-sources: 4
+updated: 2026-04-18
+sources: 5
 ---
 
 # India
@@ -44,6 +44,17 @@ India and the broader Indian subcontinent are among the highest-burden regions f
 ### Manipal, Karnataka — Pathogenesis Research Setting (Bhatt2020)
 [[Bhatt2020 - Dengue Pathogenesis Review]] originates from **Kasturba Medical College, Manipal Academy of Higher Education, Manipal, Karnataka** — a different Indian research centre from Kolkata's NICED. This is a narrative review article drawing on international literature; it does not report an original Indian patient cohort, but its authorship from a major Indian medical institution reflects the depth of dengue research infrastructure in Karnataka, a dengue-endemic state in southern India. The Southeast Asian epidemiological context — including the dominance of the virulent Asian genotype of DENV-2 in this region — shapes the paper's framing of dengue pathogenesis. Karnataka is relevant to dengue epidemiology as part of India's tropical dengue-endemic belt.
 
+### Lucknow, Uttar Pradesh + AIIMS New Delhi — 1996 DHF Epidemic (Chaturvedi2001)
+
+[[Chaturvedi2001 - Cytotoxic Factor Autoantibodies DHF]] draws on serum samples collected from two sites during an **extensive DHF epidemic in Northern India, August–November 1996**:
+
+- Gandhi Memorial and Associated Hospitals, Lucknow, Uttar Pradesh
+- Pediatrics Department, All India Institute of Medical Sciences (AIIMS), New Delhi
+
+This is the fifth Indian research setting in this wiki and the only one from Uttar Pradesh/Delhi. The 1996 epidemic was large: a companion paper (ref [9] of Chaturvedi2001) tested 333 patients and found hCF in 90% of them. Serum samples were transported to Kuwait University for analysis, reflecting the collaborative structure of the Chaturvedi group. The epidemic provides the backdrop for several related publications by the same group on hCF biology and CD4+ T cell responses.
+
+The 1996 Northern India epidemic is the earliest dengue epidemic represented in this wiki's primary sources (the next earliest is the 2001 Havana DENV-3 outbreak documented in Guzman2016). No serotype data are reported in Chaturvedi2001 for this epidemic.
+
 ### Endemic vs. Non-Endemic Context
 Findings from endemic India may not directly generalise to epidemic settings in non-endemic countries (Taiwan, Cuba). In endemic areas: (a) a higher proportion of dengue patients will be secondary infections (prior immunity); (b) dengue-like febrile illnesses from other pathogens are more frequent, complicating clinical diagnosis; (c) healthcare-seeking behaviour and illness severity threshold differ. The Kolkata study's predominantly IgM-based confirmation (94%) may include patients at varying phases of infection including convalescence.
 
@@ -63,3 +74,4 @@ Findings from endemic India may not directly generalise to epidemic settings in 
 - [[Bhatt2020 - Dengue Pathogenesis Review]] (Kasturba Medical College, Manipal, Karnataka; pathogenesis review; no original patient cohort reported; Southeast Asian epidemiological framing including Asian genotype DENV-2)
 - [[Gawali2021 - ANA Prevalence in Seroconverted Dengue Patients]] (Gajra Raja Medical College, Gwalior, Madhya Pradesh; prospective ANA follow-up at 6 months in dengue IgG+ patients; n=120; 18.33% ANA-positive; AC-1 dominant; no control group)
 - [[Rajadhyaksha2012 - Dengue Evolving into SLE and Lupus Nephritis]] (KEM Hospital and Seth GS Medical College, Mumbai, Maharashtra; single case report; primary DENV-1 → Class IV lupus nephritis; ANA 1:320 + anti-dsDNA + anti-cardiolipin; n=1)
+- [[Chaturvedi2001 - Cytotoxic Factor Autoantibodies DHF]] (Gandhi Memorial Hospital Lucknow + AIIMS New Delhi; 1996 Northern India DHF epidemic; anti-hCF autoantibody inverse correlation with DHF severity; n=136 patients; ⚠ group-specific cytokine concept)
