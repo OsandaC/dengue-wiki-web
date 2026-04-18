@@ -1,6 +1,6 @@
 ---
 type: meta
-updated: 2026-04-18 (Chaturvedi2001 ingest + Latin America page + Cheng2015 ingest)
+updated: 2026-04-18 (Chaturvedi2001 ingest + Latin America page + Cheng2015 ingest + ANA Review V2.0 created)
 ---
 
 
@@ -13,7 +13,7 @@ Persistent operational context for the dengue literature review. Read this at th
 
 ## Current Focus
 
-- Primary research thread: **autoimmunity in dengue / ANA dynamics** — [[ANA and Dengue - A Literature Review]] now updated with Vo2020 and Saito2004 (24 sources as of 2026-04-17). The review is current. Key additions in this revision: (1) nuclear antigen IgG consumption model in DHF (Vo2020) — ANA testing at peak disease may underestimate autoimmune burden; (2) three-pathway thrombocytopenia bifurcation now fully specified (primary IgM autoAb / secondary PAIgG IC / secondary PAIgM IC); (3) Vo2020 primary>secondary IgG inversion complicating ADE-drives-autoantibody model. Remaining open ANA gaps: (1) acute-to-chronic HEp-2 IIFA trajectory, (2) NS1 homology with nuclear antigens, (3) FcγRIIa-ANA correlation, (4) longitudinal anti-platelet/anti-endothelial autoantibody titres. The macrophage-driven autoimmunity sub-thread (MAS, ANA-negative) is mechanistically distinguished from the B-cell autoantibody axis.
+- Primary research thread: **autoimmunity in dengue / ANA dynamics** — [[ANA and Dengue - Review V2.0]] now supersedes V1.x; all 37 wiki sources incorporated; new anti-prM section, vaccine design section, thrombocytopenia bifurcation section, and corrected Q numbering (16 questions). The review is current. Key additions in this revision: (1) nuclear antigen IgG consumption model in DHF (Vo2020) — ANA testing at peak disease may underestimate autoimmune burden; (2) three-pathway thrombocytopenia bifurcation now fully specified (primary IgM autoAb / secondary PAIgG IC / secondary PAIgM IC); (3) Vo2020 primary>secondary IgG inversion complicating ADE-drives-autoantibody model. Remaining open ANA gaps: (1) acute-to-chronic HEp-2 IIFA trajectory, (2) NS1 homology with nuclear antigens, (3) FcγRIIa-ANA correlation, (4) longitudinal anti-platelet/anti-endothelial autoantibody titres. The macrophage-driven autoimmunity sub-thread (MAS, ANA-negative) is mechanistically distinguished from the B-cell autoantibody axis.
 - **Thrombocytopenia mechanism sub-thread (updated 2026-04-17, Saito2004 ingest):** Saito2004 extends the bifurcation model: secondary infection has BOTH PAIgG (anti-dengue IgG IC; Oishi2003) and PAIgM (anti-dengue IgM IC; Saito2004) — neither is anti-self. Primary infection has IgM anti-platelet autoantibody (NS1 mimicry; Lin2001). The IgM species are mechanistically opposite: Lin2001's primary-infection IgM is anti-self; Saito2004's secondary-infection PAIgM is anti-viral. PAIgM is completely FcγR-independent (IgM pentamer) and predicts DHF with 92.1% specificity. The FcγRIIa paradox is now even sharper: both secondary-infection pathways bypass FcγR at platelet docking; PAIgM bypasses it entirely. Garcia2010's OR 10.56 must operate through a completely non-platelet pathway.
 - Secondary thread: **asymptomatic vs. symptomatic dengue** — host genetics (FcγRIIa), immune signatures, and what distinguishes silent from clinical infection. Only 2 sources (Garcia2010, Sungnak2025); under-developed relative to the autoimmunity thread.
 

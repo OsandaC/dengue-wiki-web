@@ -2,6 +2,27 @@
 
 ---
 
+## [2026-04-18] analysis | ANA and Dengue - Review V2.0
+
+**Operation:** New analysis page created from ground up. Supersedes the incrementally revised V1.x series.
+
+**Created:**
+- `wiki/analyses/ANA and Dengue - Review V2.0.md`
+
+**Scope vs. V1.x:**
+- All 37 wiki sources incorporated (up from 32 in V1.x; Li2018, Dejnirattisai2010, Bhatt2020, Pang2017, Sungnak2025 added/better integrated)
+- New §IV.2 on anti-prM as a second molecular mimicry arm (Dejnirattisai2010) — absent from V1.x
+- New §V (standalone thrombocytopenia bifurcation model) with FcγRIIa paradox clearly articulated
+- New §X (vaccine design implications) — entirely new section
+- New §XI (acute-phase timing) — consolidated from V1.x scattered notes
+- Li2018 added to sources (was referenced in V1.x text but absent from sources list)
+- Open questions renumbered 1–16 (V1.x had Q14 before Q13 and was missing Q13)
+- Revision notes removed; clean document
+
+**Index update:** Analyses table updated (5→6 pages).
+
+---
+
 ## [2026-04-18] ingest | Cheng2015 - NS1 P311-330 Anti-PDI Autoantibodies in DHF
 
 **Source:** Cheng HJ et al. *Am J Trop Med Hyg*. 2015. doi:10.4269/ajtmh.14-0162
