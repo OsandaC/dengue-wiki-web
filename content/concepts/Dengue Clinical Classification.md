@@ -3,7 +3,7 @@ type: concept
 tags: [clinical-classification, WHO-2009, warning-signs, DHF, DSS, dengue-fever, severity, diagnosis, triage]
 created: 2026-04-12
 updated: 2026-04-18
-sources: 7
+sources: 8
 ---
 
 # Dengue Clinical Classification
@@ -63,3 +63,4 @@ Three categories:
 - [[Rajadhyaksha2012 - Dengue Evolving into SLE and Lupus Nephritis]] (1997 WHO DHF cardinal features cited in background discussion: increased vascular permeability, marked thrombocytopenia <100,000/mm³, fever 2–7 days, haemorrhagic tendency; Mumbai India; n=1 case report)
 - [[Jardim2012 - Autoimmune Features DHF Case Report]] (1997 WHO DHF criteria met: thrombocytopenia 95,000/mm³, plasma leakage evidence [triple serositis], altered haemostasis [DIC, fibrinogen 85.5 mg%], hepatic involvement [ALT 353/AST 370]; secondary DENV-3; Campinas Brazil; n=1 case report)
 - [[Chaturvedi2001 - Cytotoxic Factor Autoantibodies DHF]] (1997 WHO DHF grades I–IV applied to severity stratification of 136 patients from the 1996 North India epidemic; grades I–II [mild-moderate haemorrhage] vs III–IV [profound shock] used as the primary severity gradient against which anti-hCF autoantibody levels were compared; Lucknow + AIIMS New Delhi)
+- [[Farias2024 - Dengue Mimickers]] (clinical differential diagnosis review across all dengue severity levels; warning signs discussed in context of distinguishing dengue from mimickers including Still's disease, SLE, ITP, acute abdomen; syndromic approach advocated for resource-limited settings; Brazil narrative review — secondary source)

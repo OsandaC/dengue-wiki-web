@@ -2,8 +2,8 @@
 type: concept
 tags: [ANA, antinuclear-antibody, autoimmunity, IIF, HEp-2, prevalence, SLE, healthy-population, viral-infection, acute-dengue, LIA, India, polyreactive-antibodies, post-dengue, 6-month-follow-up]
 created: 2026-04-12
-updated: 2026-04-18
-sources: 13
+updated: 2026-04-18 (Santosa2012 added)
+sources: 14
 ---
 
 # Antinuclear Antibodies
@@ -148,3 +148,4 @@ The 54.8% acute dengue IIFA rate (Chatterjee2024) is not directly comparable to 
 - [[Velazqueza2017 - SLE vs Dengue Case Series]] (ANA 1:1280 in both pediatric dengue cases; homogeneous+cytoplasmic and fine-speckled patterns; antinucleosome 52 and 258 IU/ml; anti-dsDNA co-positive; SLE criteria met; Guadalajara Mexico; n=2 case series)
 - [[Jardim2012 - Autoimmune Features DHF Case Report]] (ANA 1/320 mitotic spindle pattern during secondary DENV-3 DHF; negative at follow-up; anti-dsDNA negative; cryoglobulins co-positive; selective C3 depression; first documented mitotic spindle ANA pattern in dengue; Campinas Brazil; n=1 case report)
 - [[Codes2002 - Autoantibodies in Acute Viral Hepatitis]] (primary source for 20.5% acute / 6.4% convalescent ANA in viral hepatitis; IIF homogeneous ≥1:40; n=156 prospective; Salvador Brazil; not a dengue paper — viral-infection transience comparator baseline)
+- [[Santosa2012 - Delayed SLE Diagnosis Dengue Serology]] (reverse direction: SLE-associated low-affinity IgM autoantibodies [polyclonal B-cell activation] cause false-positive dengue IgM serology [15% with Panbio kit in RF-positive patients; 0% in ANA-positive patients]; patient case: ANA 1:320 + anti-dsDNA 54 IU at SLE diagnosis; mechanistically links the low-affinity IgM pool driving non-specific dengue ANA to the SLE context where it is large enough to cross-react with dengue test antigens; Singapore NUHS; n=1 case report)

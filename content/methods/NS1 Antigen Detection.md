@@ -2,8 +2,8 @@
 type: method
 tags: [NS1, antigen-detection, ELISA, rapid-test, acute-phase, diagnostics, sNS1, early-diagnosis, Taiwan, laboratory-confirmation, pediatric-MAS, reinfection, India]
 created: 2026-04-12
-updated: 2026-04-17
-sources: 9
+updated: 2026-04-18
+sources: 11
 ---
 
 # NS1 Antigen Detection
@@ -67,3 +67,5 @@ This finding has methodological implications beyond Taiwan: it suggests that any
 - [[Vo2020 - Autoantibody Profiling in Dengue]] (SD Bioline Dengue Duo rapid NS1 antigen test used as one of three criteria for acute dengue diagnosis in hospitalised patients; Cambodia 2012–2013 cohort)
 - [[Gawali2021 - ANA Prevalence in Seroconverted Dengue Patients]] (J.MITRA DENGUE NS1 Ag MICROLISA used alongside IgM ELISA for acute dengue confirmation; Gwalior, India; 162/765 seropositive patients positive by NS1 alone; 126/765 positive by both IgM and NS1)
 - [[Pang2017 - DHF Pathogenesis Review]] (sNS1 present in patient sera at high levels during acute infection; correlates with disease severity; pathogenic roles of sNS1 reviewed; review, China)
+- [[Santosa2012 - Delayed SLE Diagnosis Dengue Serology]] (NS1 antigen cited as preferred confirmatory test in patients with autoantibodies: 92% sensitivity, 100% specificity within 9 days; non-immunological antigen detection is theoretically unaffected by autoantibody interference; Singapore NUHS case report and review)
+- [[Farias2024 - Dengue Mimickers]] (NS1 antigen endorsed as primary discriminator in suspected dengue-vs-SLE bidirectional confusion; cites 92% sensitivity, 100% specificity within first 5 days of illness; preference for NS1 over IgM serology when autoantibodies may cause false-positive dengue IgM; Brazil narrative review — secondary source)

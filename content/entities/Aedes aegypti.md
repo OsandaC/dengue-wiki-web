@@ -3,7 +3,7 @@ type: entity
 tags: [vector, mosquito, Aedes-aegypti, transmission, urban, salivary-gland, DENV-2, Asian-genotype]
 created: 2026-04-11
 updated: 2026-04-18
-sources: 10
+sources: 11
 ---
 
 # Aedes aegypti
@@ -32,6 +32,14 @@ The **Asian genotype of DENV-2** replicates more efficiently in *Ae. aegypti* **
 - **Wolbachia (wMel)**: endosymbiotic bacterium suppresses DENV replication in *Ae. aegypti* and shortens mosquito lifespan; cytoplasmic incompatibility spreads wMel through mosquito populations without continuous releases; sustainable biological control approach (see [[Wolbachia]])
 - **Sterile insect technique (SIT)**: releases of radiation-sterilised male *Ae. aegypti* to suppress wild female reproduction; field trials conducted in Asia and the Americas; requires sustained releases but leaves no genetic modification in the environment (see [[Guzman2016 - Dengue Infection]])
 
+### Multi-arbovirus vector role and co-transmission (Farias2024)
+[[Farias2024 - Dengue Mimickers]] (narrative review, Brazil) expands the vector context:
+- *Ae. aegypti* transmits all four DENV serotypes, YFV, CHIKV, and ZIKV
+- Both *Ae. aegypti* and *Ae. albopictus*, when co-infected with DENV and CHIKV, can replicate and disseminate both viruses independently
+- **Co-transmission in single bite documented** — a mosquito co-infected with two arboviruses can transmit both simultaneously in a single bite; this is the mechanistic basis for observed clinical coinfections
+- *Ae. aegypti* is theoretically incapable of co-infection with YFV when already carrying DENV (and vice versa), per a competition/exclusion hypothesis in some Asian countries — proposed as a mechanism limiting DEN-YFV coinfection despite geographic overlap
+- Brazil co-circulates DENV, CHIKV, ZIKV, OROV, and MAYV — all transmitted by *Ae. aegypti* or closely related species, making co-infection a realistic differential diagnosis consideration during epidemics (narrative review — secondary source)
+
 ## Contradictions & Debates
 None yet recorded.
 
@@ -53,3 +61,4 @@ None yet recorded.
 - [[Pang2017 - DHF Pathogenesis Review]] (background mention as primary dengue vector; review, China)
 - [[Rajadhyaksha2012 - Dengue Evolving into SLE and Lupus Nephritis]] (background mention as primary dengue vector; Mumbai India; n=1 case report)
 - [[Jardim2012 - Autoimmune Features DHF Case Report]] (implied primary dengue vector in Campinas São Paulo dengue-endemic area; DENV-3 outbreak May 2007 context; background mention; Brazil; n=1 case report)
+- [[Farias2024 - Dengue Mimickers]] (multi-arbovirus vector context: Ae. aegypti transmits DENV/CHIKV/ZIKV/YFV; co-infection via single bite documented; DENV-YFV competitive exclusion hypothesis; Brazil narrative review)

@@ -2,6 +2,76 @@
 
 ---
 
+## [2026-04-18] lint | Deep lint — forward-propagation focus; 6 recent sources × all linked targets
+
+**Scope:** Forward-propagation check for the 6 most recently ingested sources: Santosa2012, Farias2024, Cheng2015, Chaturvedi2001, Jardim2012, Codes2002. For each source, every page listed under "Entities Mentioned," "Concepts Addressed," "Methods Used," and geography was visited and confirmed for source inclusion.
+
+**Pages scanned:** 39 source pages (all); 12 entity pages; 21 concept pages; 15 method pages; 10 geography pages; 6 analysis pages. Total: 103 pages.
+
+**Gaps found and fixed (2):**
+
+1. `wiki/concepts/Infection-Triggered Autoimmunity.md` — **missing Santosa2012** in Sources section. Santosa2012 lists [[Infection-Triggered Autoimmunity]] under Concepts Addressed; the concept page had not been updated during ingest. Fixed: Santosa2012 added to Sources; `sources: 13 → 14`.
+
+2. `wiki/methods/IgM-IgG Serology ELISA.md` — **missing Chaturvedi2001** in Sources section. Chaturvedi2001 used IgM-capture ELISA for patient enrollment; the method page had not been updated. Fixed: Chaturvedi2001 added to Sources; `sources: 16 → 17`.
+
+**General health:** No orphan pages, no stale wikilinks, no new thin pages discovered. Curator Highlights: 0 active highlights. All analyses pages current.
+
+## [2026-04-18] ingest | Farias2024 - Dengue Mimickers
+
+**Source:** Farias LABG, Lima GCS, Velasque L, et al. *Dengue Mimickers: Which Clinical Conditions Can Resemble Dengue Fever?* Rev Soc Bras Med Trop. 2024;57:e00206-2024. doi:10.1590/0037-8682-0334-2024
+**Citations:** SS 13 / CR 11
+**Type:** Narrative review (7 Brazilian clinical experts; secondary source — no original patient data)
+
+**Created:**
+- `wiki/sources/Farias2024 - Dengue Mimickers.md`
+
+**Updated (18 pages):**
+- `wiki/concepts/Autoimmunity in Dengue.md` — sources 32→33; new §SLE-Dengue Bidirectional Clinical Confusion
+- `wiki/concepts/Dengue Pathophysiology.md` — sources 13→14; new §Acute Abdomen and GI Manifestations
+- `wiki/concepts/Dengue Neurological Complications.md` — sources 4→5; new §Prevalence and Clinical Spectrum (Farias2024)
+- `wiki/concepts/Cross-Reactive Antibodies.md` — sources 12→13; new §Arbovirus cross-reactivity in differential diagnosis
+- `wiki/concepts/Infection-Triggered Autoimmunity.md` — sources 12→13; Farias2024 added to Sources
+- `wiki/concepts/Dengue Clinical Classification.md` — sources 7→8; Farias2024 added to Sources
+- `wiki/concepts/Cytokine Storm.md` — sources 11→12; Farias2024 added to Sources
+- `wiki/entities/Aedes aegypti.md` — sources 10→11; new §Multi-arbovirus vector role and co-transmission (Farias2024)
+- `wiki/entities/Aedes albopictus.md` — sources 4→5; CHIKV super-vector bullet added
+- `wiki/entities/NS1 Protein.md` — sources 15→16; Farias2024 added to Sources
+- `wiki/entities/DENV-1.md` — sources 10→11; Farias2024 added to Sources
+- `wiki/entities/DENV-2.md` — sources 10→11; Farias2024 added to Sources
+- `wiki/entities/DENV-3.md` — sources 11→12; Farias2024 added to Sources
+- `wiki/entities/DENV-4.md` — sources 9→10; Farias2024 added to Sources
+- `wiki/methods/NS1 Antigen Detection.md` — sources 10→11; clinical SLE-dengue differential context added
+- `wiki/methods/IgM-IgG Serology ELISA.md` — sources 15→16; CHIKV/Zika/SLE/RA/malaria/leptospirosis cross-reactivity for differential diagnosis added
+- `wiki/methods/RT-PCR.md` — sources 8→9; SLE-dengue differential recommendation added
+- `wiki/geography/Latin America.md` — sources 6→7; Brazil § updated with 2024 epidemic data and Farias2024 as 3rd Brazilian source
+- `wiki/index.md` — Sources 38→39; Total pages 106→107; all entity/concept/method/geography counts updated
+
+**Notable Findings:** No entry — Farias2024 is a secondary narrative review synthesising established literature. No finding meets the bar of surprising given existing wiki content.
+
+---
+
+## [2026-04-18] ingest | Santosa2012 - Delayed SLE Diagnosis Dengue Serology
+
+**Source:** Santosa A, Poh Z, Teng GG. *Scandinavian Journal of Rheumatology*. 2012;41(1):77–79. doi:10.3109/03009742.2011.633552
+**Citations:** SS 16 / CR 11
+**Type:** Letter (case report + targeted review — secondary source)
+
+**Created:**
+- `wiki/sources/Santosa2012 - Delayed SLE Diagnosis Dengue Serology.md`
+
+**Updated (7 pages):**
+- `wiki/geography/Singapore.md` — sources 2→3; new §SLE-Dengue Diagnostic Confusion
+- `wiki/concepts/Autoimmunity in Dengue.md` — sources 31→32; new §False-Positive Dengue Serology in Pre-Existing SLE
+- `wiki/methods/IgM-IgG Serology ELISA.md` — sources 14→15; new §False-Positive Dengue IgM in Patients with Autoantibodies
+- `wiki/methods/NS1 Antigen Detection.md` — sources 9→10; Santosa2012 added to Sources
+- `wiki/methods/RT-PCR.md` — sources 7→8; Santosa2012 added to Sources
+- `wiki/concepts/Antinuclear Antibodies.md` — sources 13→14; Santosa2012 added to Sources
+- `wiki/index.md` — Sources 37→38; Singapore 2→3; method and concept counts updated
+
+**Notable Findings:** No entry — the false-positive serology finding is clinically important but does not meet the bar of surprising given wiki content (SLE-dengue overlap was already documented; mechanism is an extension of the existing low-affinity IgM / polyreactive antibody framework).
+
+---
+
 ## [2026-04-18] analysis | ANA and Dengue - Review V2.0
 
 **Operation:** New analysis page created from ground up. Supersedes the incrementally revised V1.x series.

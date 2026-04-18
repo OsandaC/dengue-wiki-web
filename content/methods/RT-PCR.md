@@ -2,8 +2,8 @@
 type: method
 tags: [RT-PCR, diagnostics, acute-phase, RNA-detection, serotyping, reference-lab, quantitative]
 created: 2026-04-12
-updated: 2026-04-17
-sources: 7
+updated: 2026-04-18
+sources: 9
 ---
 
 # RT-PCR
@@ -64,3 +64,5 @@ Reverse transcription polymerase chain reaction (RT-PCR) is the reference standa
 - [[Vo2020 - Autoantibody Profiling in Dengue]] (RT-qPCR for virological confirmation of DENV infection in all patients; serotype identification by serotype-specific RT-qPCR; DENV-1 dominant in Cambodia 2012–2013 cohort; viral load quantification in copies/mL; also used to confirm asymptomatic DENV infection in household cluster investigation)
 - [[Rajadhyaksha2012 - Dengue Evolving into SLE and Lupus Nephritis]] (DENV-1 genotype 1 confirmed by RT-PCR from acute-phase serum; Mumbai India; n=1 case report)
 - [[Cheng2015 - NS1 P311-330 Anti-PDI Autoantibodies in DHF]] (one-step SYBR Green I real-time RT-PCR [Qiagen QuantiTect kit] for DENV serotype differentiation in acute-phase samples from Vietnamese DHF/DF paediatric cohort)
+- [[Santosa2012 - Delayed SLE Diagnosis Dengue Serology]] (RT-PCR recommended as reliable confirmatory test within 5 days of fever in patients with autoantibodies — non-immunological RNA detection is unaffected by cross-reactive IgM autoantibodies that can cause false-positive dengue IgM serology; Singapore NUHS case report and algorithm)
+- [[Farias2024 - Dengue Mimickers]] (RT-PCR recommended alongside NS1 antigen as preferred confirmatory test when dengue-vs-SLE/RA bidirectional confusion suspected; unaffected by autoantibody false-positive effect on IgM serology; Brazil narrative review — secondary source)

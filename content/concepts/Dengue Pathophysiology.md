@@ -3,7 +3,7 @@ type: concept
 tags: [pathophysiology, vascular-permeability, thrombocytopenia, coagulopathy, complement, liver, NS1, TLR4, plasma-leakage, DHF, DSS, PAIgM, PAIgG, secondary-infection, immune-complex, FcR-bypass, glycocalyx, cathepsin-L, heparanase, MIF, autophagy, cytotoxic-factor, hCF]
 created: 2026-04-12
 updated: 2026-04-18
-sources: 13
+sources: 14
 ---
 
 # Dengue Pathophysiology
@@ -99,6 +99,18 @@ A protein microarray screen in Cambodian pediatric dengue patients revealed that
 - **DIC vs non-DIC**: The haemostatic profile of DHF resembles but does not fully meet diagnostic criteria for classic DIC; some researchers distinguish dengue coagulopathy as mechanistically distinct.
 - **NS1 as mediator vs. marker**: sNS1 levels correlate with severity, NS1 can cause endothelial disruption in vitro, and NS1-thrombin binding has been demonstrated in vivo — but whether NS1 is the primary driver of vascular permeability or a secondary marker of disease severity remains debated.
 
+### Acute Abdomen and Gastrointestinal Manifestations (Farias2024)
+[[Farias2024 - Dengue Mimickers]] (narrative review, Brazil) documents the gastrointestinal/abdominal presentations of dengue as a source of diagnostic confusion:
+
+- **Acute abdomen incidence:** ~12% in one Pakistan series; presentations mimic acute cholecystitis, appendicitis, pancreatitis, and splenic rupture — leading to unnecessary surgery with high haemorrhagic risk (thrombocytopenic dengue patients who undergo surgery need transfusions and have extended hospitalisations)
+- **Two hypotheses for dengue pancreatitis:** (1) autoimmune response to pancreatic islet cells; (2) direct viral invasion and destruction of pancreatic acinar cells
+- **Gallbladder wall thickening (GBWT) >3mm as DHF ultrasound marker:**
+  - Study of 21 typical DEN + 111 DHF: GBWT >3mm useful for confirming suspected DHF
+  - Study of 44 patients with severe DEN: 90.5% sensitivity / 69.6% specificity; GBWT 100% sensitivity for determining ICU vs. general ward (specificity 62.1%)
+  - Study of 160 suspected DEN: 58% sensitivity / 84% specificity — lower sensitivity cautions against using ultrasound as a screening tool
+  - Ultrasound showing GBWT + pleural effusion + ascites + hepatomegaly + splenomegaly strongly suggests DHF in clinically suspected cases; cannot rule out dengue when negative
+- **DEN warning signs before surgery:** Careful history, dengue antigen testing, and serial blood counts should be performed before surgical intervention in endemic regions — dengue presenting as acute abdomen should be managed conservatively when uncomplicated
+
 ## Related Pages
 - [[NS1 Protein]]
 - [[NS1 Molecular Mimicry in Dengue]]
@@ -125,3 +137,4 @@ A protein microarray screen in Cambodian pediatric dengue patients revealed that
 - [[Jardim2012 - Autoimmune Features DHF Case Report]] (secondary DENV-3 DHF; cryoglobulinemia [first in wiki]; triple serositis; selective C3 depression with C4-normal; LE cells in pleural fluid; DIC with fibrinogen 85.5 mg%; all resolved at follow-up; Campinas Brazil; n=1 case report — not generalizable)
 - [[Chaturvedi2001 - Cytotoxic Factor Autoantibodies DHF]] (hCF → macrophage free radicals + IL-1α/TNF-α/IL-8/peroxynitrite cascade → vascular permeability; anti-hCF autoantibodies inversely correlated with DHF severity [96% DF → 8% DHF-IV]; reverse correlation with hCF titres; 1997 WHO DHF grades I–IV; n=136, 1996 North India epidemic; ⚠ group-specific concept)
 - [[Cheng2015 - NS1 P311-330 Anti-PDI Autoantibodies in DHF]] (anti-PDI/HSP60/vimentin IgM/IgG elevated in DHF vs. controls; anti-PDI IgM correlated with anti-EC IgM [r = 0.649, P < 0.0001]; P311–330 as PDI-specific NS1 epitope; anti-PDI may disrupt PDI-mediated integrin activation → endothelial barrier dysfunction; primary/secondary infection independence of anti-endothelial autoantibodies; NCKU Tainan; n=15 DHF + 2 DF, Vietnamese paediatric cohort)
+- [[Farias2024 - Dengue Mimickers]] (acute abdomen ~12% of DEN cases; GBWT >3mm as DHF ultrasound marker [sensitivity 58–90.5% across studies]; dengue pancreatitis mechanisms; surgery risks in thrombocytopenic dengue; Brazil narrative review — secondary source)

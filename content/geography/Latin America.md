@@ -3,7 +3,7 @@ type: geography
 tags: [Latin-America, Americas, Caribbean, Cuba, Nicaragua, Brazil, DENV-2, DENV-3, DENV-4, epidemic, endemic, autoimmunity]
 created: 2026-04-18
 updated: 2026-04-18
-sources: 6
+sources: 7
 ---
 
 # Latin America
@@ -76,7 +76,7 @@ Key findings from this cohort:
 
 ## Brazil
 
-Brazil is the largest country in South America and one of the highest-burden dengue countries globally. The wiki currently has two sources from Brazil: one dengue case report (Jardim2012, Campinas/São Paulo state) and one viral hepatitis comparator study (Codes2002, Salvador/Bahia). The dengue source documents a rare autoimmune presentation of secondary DHF; the hepatitis source provides baseline ANA rates in acute viral infection relevant to interpreting dengue ANA data.
+Brazil is the largest country in South America and one of the highest-burden dengue countries globally. The wiki has three sources from Brazil: one dengue case report (Jardim2012, Campinas/São Paulo state), one viral hepatitis comparator study (Codes2002, Salvador/Bahia), and one clinical differential diagnosis narrative review (Farias2024). Brazil recorded over 6 million dengue cases in 2024 alone — among the highest annual burdens ever documented.
 
 ### Key Points from Literature
 
@@ -98,9 +98,18 @@ Brazil is the largest country in South America and one of the highest-burden den
 - **ASMA:** 14.8% → 3.9%
 - No prognostic consequence; autoantibodies are transient epiphenomena (see [[Codes2002 - Autoantibodies in Acute Viral Hepatitis]], n=156 prospective cohort)
 
+#### 2024 Brazil Epidemic (Farias2024)
+[[Farias2024 - Dengue Mimickers]] (narrative review, Brazil) documents the scale of Brazil's ongoing dengue burden:
+- Over **6 million cases** in 2024 — one of the highest annual case counts ever recorded in a single country
+- All four DENV serotypes are co-circulating
+- Brazil also co-circulates CHIKV, ZIKV, OROV (Oropouche virus), and MAYV (Mayaro virus) — all transmitted by *Ae. aegypti* or closely related species, making co-infection a realistic differential in any febrile presentation
+- The Brazilian review explicitly addresses the clinical challenge of distinguishing dengue from autoimmune conditions (SLE, ITP, Still's disease) in a high-transmission setting where any febrile illness may be misattributed to dengue
+- The 2024 Brazil epidemic included epidemic-level transmission with significant mortality; Farias2024 does not provide death counts (narrative review — secondary source)
+
 ### Sources (Brazil)
 - [[Jardim2012 - Autoimmune Features DHF Case Report]] (secondary DENV-3 DHF; mitotic spindle ANA; cryoglobulinemia; selective C3 depression; Campinas São Paulo; n=1 case report)
 - [[Codes2002 - Autoantibodies in Acute Viral Hepatitis]] (viral hepatitis comparator; ANA 20.5% acute → 6.4% convalescent; ASMA 14.8% → 3.9%; Salvador Bahia; n=156 prospective cohort — not a dengue study)
+- [[Farias2024 - Dengue Mimickers]] (2024 epidemic context >6M cases; all 4 serotypes + CHIKV/ZIKV/OROV/MAYV co-circulation; dengue-vs-autoimmune differential diagnosis review; Brazil narrative review — secondary source)
 
 ---
 
@@ -136,3 +145,4 @@ Brazil is the largest country in South America and one of the highest-burden den
 - [[Bos2025 - Longitudinal Antibody Dynamics After Dengue]]
 - [[Jardim2012 - Autoimmune Features DHF Case Report]]
 - [[Codes2002 - Autoantibodies in Acute Viral Hepatitis]]
+- [[Farias2024 - Dengue Mimickers]]

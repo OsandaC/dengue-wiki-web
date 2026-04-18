@@ -2,8 +2,8 @@
 type: geography
 tags: [Singapore, Southeast-Asia, epidemiology, DEN-1, outbreak, vector-control, post-dengue-syndrome, retinal-vasculitis, autoimmunity]
 created: 2026-04-13
-updated: 2026-04-16
-sources: 2
+updated: 2026-04-18
+sources: 3
 ---
 
 # Singapore
@@ -37,6 +37,12 @@ Singapore is a city-state in Southeast Asia with year-round dengue transmission 
 - [[Aedes aegypti]]
 - [[Wolbachia]]
 
+### SLE-Dengue Diagnostic Confusion
+- [[Santosa2012 - Delayed SLE Diagnosis Dengue Serology]] (NUHS + Singapore General Hospital) documents delayed SLE diagnosis in a 20-year-old Malay male caused by **false-positive dengue IgM**: polyclonal B-cell activation in SLE generates ~120 autoantibodies including low-affinity IgM species that cross-bind dengue IgM test kit antigens. The patient was initially treated for probable dengue fever; 3 weeks later, re-presentation with seizures, ANA 1:320, anti-dsDNA, and hypocomplementemia led to the correct SLE diagnosis. False-positivity was confirmed by absence of IgM seroconversion — true dengue IgM persists 8–12 weeks.
+- Kit-specific false-positive rate (Panbio Dengue IgM/IgG immunochromatography, unpublished local data): RF-positive patients 3/20 (15%) for dengue IgM, 0/20 for dengue IgG; ANA-positive patients 0/10 for either — no cross-reactivity detected.
+- **Practical implication:** In endemic Singapore, the high pre-test probability of dengue means false-positive serology can delay or preempt a rheumatological workup. For patients with known or suspected autoantibodies, **NS1 antigen** (92% sensitivity, 100% specificity within 9 days) or **RT-PCR** (within 5 days) are recommended as primary confirmatory tests; dengue IgM alone is unreliable.
+- The hazard is bidirectional: immunosuppressive therapy can also cause false-negative dengue serology in patients with established SLE who develop true dengue, complicating the lupus-flare vs. infection distinction.
+
 ### Dengue-Associated Retinal Vasculitis
 - [[Palacios2016 - Autoimmunity in Dengue Literature Review]] cites Chang et al. (2007) reporting **retinal vasculitis** in young women in Singapore following dengue virus infection. The proposed mechanism is immune-complex deposition consequent to antibody production triggered by dengue infection — adding an ophthalmological dimension to the dengue-autoimmunity spectrum (see [[Autoimmunity in Dengue]]).
 
@@ -44,3 +50,4 @@ Singapore is a city-state in Southeast Asia with year-round dengue transmission 
 
 - [[Seet2007 - Post-Infectious Fatigue Syndrome in Dengue]]
 - [[Palacios2016 - Autoimmunity in Dengue Literature Review]] (cites Chang et al. 2007 Singapore retinal vasculitis case — immune-complex-mediated ophthalmological complication of dengue)
+- [[Santosa2012 - Delayed SLE Diagnosis Dengue Serology]] (NUHS + SGH; false-positive dengue IgM in SLE due to polyclonal low-affinity IgM; 15% false-positive rate in RF-positive patients with Panbio kit; diagnostic algorithm for autoantibody-positive patients)

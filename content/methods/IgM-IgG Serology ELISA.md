@@ -3,7 +3,7 @@ type: method
 tags: [serology, IgM, IgG, ELISA, diagnostics, convalescent-phase, secondary-infection, Zika, cross-reactivity, MAC-ELISA, anti-dengue-IgG, anticardiolipin, anti-prM, research-ELISA, India]
 created: 2026-04-12
 updated: 2026-04-18
-sources: 14
+sources: 17
 ---
 
 # IgM-IgG Serology ELISA
@@ -45,6 +45,19 @@ Enzyme-linked immunosorbent assay (ELISA) detection of dengue-specific IgM and I
 - **Field level**: combined RDTs (IgM/IgG ± NS1)
 - **Reference level**: PRNT for definitive serotype-specific confirmation; paired IgG titration
 
+### False-Positive Dengue IgM in Patients with Autoantibodies
+[[Santosa2012 - Delayed SLE Diagnosis Dengue Serology]] (Singapore, case report) identifies a clinically important diagnostic trap in endemic settings: pre-existing SLE generates ~120 autoantibodies via polyclonal B-cell activation, including **low-affinity IgM species** that can non-specifically cross-bind dengue IgM test kit antigens. This produces false-positive dengue IgM results that can delay the correct rheumatological diagnosis.
+
+Key data points from the authors' institution using the Panbio Dengue IgM/IgG immunochromatography kit (unpublished local validation, small samples):
+- **RF-positive patients (n=20): 3/20 (15%) false-positive dengue IgM; 0/20 false-positive dengue IgG**
+- **ANA-positive patients (n=10): 0/10 false-positive** for either IgM or IgG
+
+The IgG-sparing pattern is mechanistically interpretable: dengue IgG false positives appear far rarer because the cross-reactive species responsible are low-affinity IgM (exemplified by RF itself — an IgM against IgG Fc — producing 15% false-positive rate). The published commercial kit benchmark for IgM cross-reactivity is even wider: flaviviruses, malaria, leptospirosis, and RF can produce false-positive rates up to 70% across kit types (Hunsperger et al. 2009 multi-kit evaluation, n=10 kits).
+
+**Confirmatory signal to use instead:** True dengue IgM should persist **8–12 weeks** after infection onset. Lack of seroconversion in paired sera (or IgM negativity at 3 weeks) strongly supports false positivity. In patients with known autoantibodies, [[NS1 Antigen Detection]] (non-immunological detection; 92% sensitivity, 100% specificity within 9 days) or [[RT-PCR]] (within 5 days of fever) are preferred as primary confirmatory tests.
+
+**Bidirectional hazard:** The reverse is also documented — immunosuppressive therapy and adaptive immunity defects in established rheumatic disease can cause **false-negative** dengue serology when true dengue occurs in an SLE patient, complicating the lupus-flare vs. infection distinction.
+
 ## Contradictions & Debates
 - Single IgM positivity has lower predictive value in very low-prevalence settings (more false positives) and in areas of Zika co-circulation; clinical judgement and paired testing recommended
 - IgG titer thresholds for secondary infection classification vary by assay and region; no single internationally validated cut-off for routine diagnostics
@@ -73,3 +86,6 @@ Enzyme-linked immunosorbent assay (ELISA) detection of dengue-specific IgM and I
 - [[Velazqueza2017 - SLE vs Dengue Case Series]] (dengue serology test positive in both pediatric SLE cases; Guadalajara Mexico; n=2)
 - [[Rajadhyaksha2012 - Dengue Evolving into SLE and Lupus Nephritis]] (IgM ELISA positive 16.27 [threshold >11]; IgG negative — primary infection classification; Mumbai India; n=1 case report)
 - [[Jardim2012 - Autoimmune Features DHF Case Report]] (PanBio dengue IgM MAC-ELISA positive; Dengue DuoCassette [PanBio] with both IgM and IgG positive — consistent with secondary infection; Campinas Brazil; n=1 case report)
+- [[Santosa2012 - Delayed SLE Diagnosis Dengue Serology]] (false-positive dengue IgM in SLE: polyclonal low-affinity IgM autoantibodies cross-bind test kit antigens; RF-positive 3/20 [15%] false-positive with Panbio kit; ANA-positive 0/10; recommended pairing with NS1 antigen or RT-PCR in autoantibody-positive patients; Singapore NUHS)
+- [[Farias2024 - Dengue Mimickers]] (serology cross-reactivity in differential diagnosis: CHIKV ~6% cross-reactivity with dengue IgM; Zika/YFV cross-reactivity high due to shared flavivirus epitopes; SLE/RA patients produce false-positive dengue IgM via polyclonal IgM autoantibodies [~15% RF-positive]; malaria and leptospirosis also documented as dengue IgM false-positive causes; recommends NS1 antigen or RT-PCR as preferred confirmatory tests when autoantibodies suspected; Brazil narrative review — secondary source)
+- [[Chaturvedi2001 - Cytotoxic Factor Autoantibodies DHF]] (IgM-capture ELISA used for acute dengue diagnosis at patient enrollment; 1996 Northern India DHF epidemic; n=136 patients; ⚠ group-specific concept paper)

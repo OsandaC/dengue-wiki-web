@@ -2,8 +2,8 @@
 type: concept
 tags: [neurological, ADEM, encephalomyelitis, encephalitis, Guillain-Barre, GBS, CNS, neuropathogenesis, DENV-2, DENV-3, post-infectious, molecular-mimicry, retinal-vasculitis, immune-complex, ophthalmological]
 created: 2026-04-12
-updated: 2026-04-17
-sources: 4
+updated: 2026-04-18
+sources: 5
 ---
 
 # Dengue Neurological Complications
@@ -36,6 +36,16 @@ The most epidemiologically confirmed neurological complication of dengue. From [
 
 ### Dengue-Associated Seizures
 [[Velazqueza2017 - SLE vs Dengue Case Series]] documents a 3-year-old female patient who presented with fever and convulsive crisis as the initial manifestation of confirmed dengue infection, alongside thrombocytopenia, facial oedema, and proteinuria (nephrotic syndrome). She deteriorated and required ICU admission. The case is complicated by a subsequent SLE diagnosis 2 months later — the acute-phase seizures could represent dengue encephalopathy (metabolic/systemic pathway from thrombocytopenia, hypoalbuminaemia, and plasma leakage), direct CNS dengue involvement, or early CNS lupus. The temporal association with confirmed acute dengue at presentation places this case in the dengue neurological spectrum, though definitive mechanism attribution is not possible. This case illustrates the diagnostic challenge in dengue-endemic settings when SLE and dengue co-occur.
+
+### Prevalence and Clinical Spectrum (Farias2024)
+[[Farias2024 - Dengue Mimickers]] synthesises prevalence data from clinical dengue literature (narrative review, Brazil):
+- Encephalopathy/encephalitis: **0.5–6.2%** of dengue patients (wide range reflects case ascertainment differences — hospital-based studies capture higher rates)
+- Haemorrhagic stroke: **0.06–0.26%** of hospitalised dengue patients; typically presents ~1 week after fever; symptom cluster: moderate-to-severe headache, vomiting, abrupt hemiparesis, unconsciousness
+- Headache present in >**97%** of all dengue patients — primary headache disorders (migraine, tension-type) can therefore be mistaken for dengue in endemic settings
+- EEG findings in encephalitis: burst suppression, electrographic seizures, focal patterns, epilepsy partialis continua
+- MRI: diffuse cerebral oedema or normal — no specific MRI signature for dengue encephalitis; ADEM, Japanese B encephalitis, Chikungunya are MRI-based differential diagnoses
+- Post-infectious immune-mediated syndromes listed: mononeuropathies, GBS, brachial neuritis, transverse myelitis, ADEM, acute cerebellitis, opsoclonus-myoclonus syndrome, optic neuritis, parkinsonism
+- Dengue myositis: cytokine-mediated muscle cell injury → rhabdomyolysis → AKI; hypokalemia can cause acute flaccid quadriplegia without cranial nerve palsy or sphincteric impairment
 
 ### Other Neurological Manifestations
 From [[Guzman2016 - Dengue Infection]]:
@@ -71,3 +81,4 @@ From [[Guzman2016 - Dengue Infection]]:
 - [[Guzman2016 - Dengue Infection]]
 - [[Palacios2016 - Autoimmunity in Dengue Literature Review]] (retinal vasculitis via immune complex deposition; Chang et al. 2007, Singapore)
 - [[Velazqueza2017 - SLE vs Dengue Case Series]] (Case 2: convulsive crisis at initial dengue presentation in a 3-year-old; subsequently diagnosed SLE 2 months later; Guadalajara Mexico; n=2 case series)
+- [[Farias2024 - Dengue Mimickers]] (neurological differential diagnosis review; encephalopathy/encephalitis 0.5–6.2%; haemorrhagic stroke 0.06–0.26%; comprehensive post-infectious syndrome list; Brazil narrative review)

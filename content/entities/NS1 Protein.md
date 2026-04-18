@@ -3,7 +3,7 @@ type: entity
 tags: [NS1, non-structural-protein, molecular-mimicry, autoimmunity, platelet, endothelial-cell, coagulation, vaccine, DHF, flavivirus, antibody-kinetics, waning, type-specific, IgM, primary-infection, platelet-lysis, complement, PAIgG, secondary-infection, immune-complex, replication-complex, MIF, autophagy, cathepsin-L, heparanase, P311-330, PDI, epitope-mapping]
 created: 2026-04-12
 updated: 2026-04-18
-sources: 15
+sources: 16
 ---
 
 # NS1 Protein
@@ -122,3 +122,4 @@ These are distinct from the anti-NS1 autoantibody mechanisms above; both operate
 - [[Pang2017 - DHF Pathogenesis Review]] (GPI-anchored NS1 → tyrosine phosphorylation → enhanced DENV replication via anti-NS1 signal transduction; NS1-complement-C5b-C9 pathway; NS1-MIF-autophagy; confirms TLR4 and autoimmune mimicry mechanisms; Tsinghua University, China; review)
 - [[Jardim2012 - Autoimmune Features DHF Case Report]] (NS1 cross-reactivity with host proteins cited as mechanism for dengue-induced autoimmune features including ANA 1/320, cryoglobulinemia, selective C3 depression; Lin2003 and Lin2006 cited; Campinas Brazil; n=1 case report)
 - [[Cheng2015 - NS1 P311-330 Anti-PDI Autoantibodies in DHF]] (P311–330 as PDI-specific cross-reactive epitope; PDI + HSP60 IgM correlate with anti-EC and anti-NS1 IgM; HSP60 uses different epitope; anti-P311–330 higher in DHF vs. DF; autoantibodies infection-order independent; Ho Chi Minh City Vietnam/NCKU Taiwan; n=15 DHF)
+- [[Farias2024 - Dengue Mimickers]] (NS1 antigen cited as preferred diagnostic discriminator in dengue-vs-SLE differential; 92% sensitivity, 100% specificity within 5 days; NS1 antigen detection recommended over IgM serology when autoantibodies present; Brazil narrative review — secondary source)

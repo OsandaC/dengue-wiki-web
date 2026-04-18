@@ -3,7 +3,7 @@ type: concept
 tags: [cross-reactivity, ADE, neutralisation, IgG, IgA, IgM, IgG3, IgG4, serotype, E-protein, NS1, EDI-II, EDIII, flavivirus, diagnostics, vaccine, longitudinal, antibody-kinetics, anti-prM, prM, structural-antibody]
 created: 2026-04-13
 updated: 2026-04-18
-sources: 12
+sources: 13
 ---
 
 # Cross-Reactive Antibodies
@@ -70,6 +70,14 @@ Flavivirus cross-reactive antibodies create significant diagnostic challenges:
 - IgG:IgM ratio > 1.2 is used to distinguish secondary from primary infection, but cross-reactive IgG from prior flavivirus exposure can confound this classification
 - PRNT remains the gold standard for serotype-specific confirmation precisely because it measures functional neutralisation rather than binding alone (see [[PRNT]])
 
+### Arbovirus cross-reactivity in differential diagnosis (Farias2024)
+[[Farias2024 - Dengue Mimickers]] (narrative review, Brazil) documents the clinical scope of cross-reactivity in the context of arbovirus co-circulation:
+- **CHIKV**: ~6% serological cross-reactivity with dengue on commercial IgM platforms; distinguished from dengue by more intense polyarthralgia, chronic arthritis phase, and PCR/specific serology
+- **ZIKV**: High cross-reactivity with dengue (both flaviviruses sharing epitopes); serological differentiation unreliable; PCR required during acute phase
+- **YFV**: Cross-reactive with dengue on flavivirus serology; epidemiological competition with DENV hypothesised (mosquito co-infection exclusion may limit co-endemic transmission)
+- **SLE/RA autoantibodies**: Commercial dengue IgM kits generate false-positives in RF-positive patients (~15%; Santosa2012) and potentially in other autoantibody-positive patients; the cross-reactive signal is non-viral (low-affinity polyclonal IgM binding dengue antigen non-specifically)
+- Brazil has >200 described arboviruses; many flaviviruses circulating in Brazil (Bussuquara, Cacipacoré, Iguape, Ilhéus, Rocio, Saint Louis encephalitis) can produce serological cross-reactions with dengue, requiring RT-PCR for definitive differential (narrative review — secondary source, citing primary literature)
+
 ## Contradictions & Debates
 - **Anti-prM neutralisation ceiling vs. anti-E below-threshold model:** The classical cross-reactive ADE model (Guzman2016) holds that cross-reactive anti-E antibodies below the neutralisation threshold cause ADE — implying that high anti-E titres are protective while low titres are enhancing. Dejnirattisai2010 introduces a distinct mechanism: anti-prM antibodies cannot neutralise above a 60% ceiling *regardless of titre* — the ceiling is structural, not a function of concentration. These are parallel ADE pathways, not competing explanations. Whether anti-prM or sub-threshold anti-E dominates in natural secondary infection is unresolved.
 - **Rising XR E-IgG vs. classical waning ADE model:** The standard model holds that ADE risk arises because cross-reactive antibodies wane below the neutralisation threshold in the inter-infection period (Guzman2016). Bos2025 shows XR E-IgG actually *rises* 6–18M post-primary infection — which either (a) means the rising antibodies are non-neutralising regardless of concentration (ADE is driven by the binding/non-neutralising antibody pool, not the waning neutralising pool), or (b) the classical model requires revision. The two interpretations are not mutually exclusive and have not been resolved (Bos2025 is a preprint).
@@ -104,3 +112,4 @@ Flavivirus cross-reactive antibodies create significant diagnostic challenges:
 - [[Pang2017 - DHF Pathogenesis Review]] (anti-E and anti-prM antibodies as ADE mediators reviewed; anti-prM highlighted since Dejnirattisai2010; FcγR-mediated mechanism overview; review, China)
 - [[Bhatt2020 - Dengue Pathogenesis Review]] (Katzelnick 2017 quantitative ADE window 1:21–1:80 quantifies the cross-reactive antibody enhancement danger zone; OAS cross-reactive low-avidity CD8+ expansion + cytolytic loss; anti-prM and anti-E ADE reviewed; review, India)
 - [[Cheng2015 - NS1 P311-330 Anti-PDI Autoantibodies in DHF]] (anti-PDI, anti-HSP60, anti-vimentin IgM/IgG elevated in DHF; PDI-specific epitope mapped to P311–330 [anti-PDI IgG vs. anti-P311–330 IgG r = 0.732, P < 0.0001]; HSP60 cross-reactivity uses distinct NS1 epitope; NCKU Tainan lab; Vietnamese DHF/DF paediatric cohort)
+- [[Farias2024 - Dengue Mimickers]] (arbovirus serological cross-reactivity in clinical differential diagnosis: CHIKV ~6%, ZIKV/YFV high flavivirus cross-reactivity; false-positive dengue IgM in SLE/RA/malaria/leptospirosis; Brazil narrative review — secondary source)

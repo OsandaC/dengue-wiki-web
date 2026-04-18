@@ -3,7 +3,7 @@ type: concept
 tags: [autoimmunity, molecular-mimicry, bystander-activation, epitope-spreading, viral-infection, ANA, autoantibodies, post-infectious, NS1, dengue-specific, ADEM, epidemiology, polyreactive-antibodies, 6-month-follow-up]
 created: 2026-04-12
 updated: 2026-04-18
-sources: 12
+sources: 14
 ---
 
 # Infection-Triggered Autoimmunity
@@ -135,3 +135,5 @@ Dengue provides one of the best-characterised examples of acute-phase molecular 
 - [[Rajadhyaksha2012 - Dengue Evolving into SLE and Lupus Nephritis]] (n=1 adult; primary DENV-1; ANA 1:320 + anti-dsDNA + anti-cardiolipin + Class IV LN; 4-week post-dengue interval; Mumbai India; proposed mechanism: viral IC deposition in kidney; causal direction ambiguous without pre-dengue baseline)
 - [[Jardim2012 - Autoimmune Features DHF Case Report]] (n=1 adult; secondary DENV-3; ANA 1/320 mitotic spindle + cryoglobulins + selective C3 depression + LE cells — all fully resolved at follow-up; anti-dsDNA negative; exemplifies transient dengue-triggered autoimmunity model; Campinas Brazil)
 - [[Codes2002 - Autoantibodies in Acute Viral Hepatitis]] (primary source for 20.5% acute / 6.4% convalescent ANA in viral hepatitis; IIF ≥1:40; n=156 prospective; Salvador Brazil; also 14.8% → 3.9% ASMA; no severity/chronification association; not a dengue paper — cited as infection-triggered transience baseline)
+- [[Farias2024 - Dengue Mimickers]] (clinical review confirming dengue-triggered autoimmune conditions: ITP, Kawasaki disease, necrotizing myopathy, sacroiliitis; cites Li2018 Taiwan cohort (n=12,506) risk data; SLE-dengue bidirectional clinical confusion described; Brazil narrative review — secondary source)
+- [[Santosa2012 - Delayed SLE Diagnosis Dengue Serology]] (SLE-false-positive dengue IgM as an infection-triggered autoimmunity diagnostic trap; polyclonal B-cell activation in SLE producing low-affinity IgM species; Singapore NUHS + SGH; n=1 case report — illustrates bidirectional diagnostic confusion in autoimmune vs. infectious disease)
