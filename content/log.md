@@ -2,6 +2,69 @@
 
 ---
 
+## [2026-04-19] update | ANA and Dengue - Review V2.0 — Hung2008 + Santosa2012 + Farias2024 integration
+
+**Sources added (3):** Hung2008, Santosa2012, Farias2024; sources count 37→40.
+
+**Content added:**
+- §4.1 infection-order independence: extended to four independent sources (Lin2001, Cheng2015, Saito2004, Hung2008); new paragraphs on anti-EC isotype shift (IgM→IgM+IgG in secondary infection, Hung2008) and TM elevation as constitutive endothelial damage marker; Wan2012–Hung2008 anti-EC severity discrepancy flagged with methodological explanation
+- §5.1 (Primary Infection thrombocytopenia): Vietnamese endemic-setting replication paragraph (Hung2008 infants + children; anti-platelet IgM level vs. complement-mediated lysis distinction)
+- New §7.4 (Bidirectional Diagnostic Confusion): SLE→dengue false-positive serology (Santosa2012: RF-positive SLE; ANA-positive SLE patients at no increased false-positive risk); dengue→autoimmune misclassification (Farias2024: 2024 Brazil epidemic; dengue satisfying ≥4 SLE criteria); practical NS1 antigen anchor for resolution
+- Epistemic Framework established claim: "Three independent sources" → "Four independent sources" with Hung2008 added
+
+---
+
+## [2026-04-19] verify | Antinuclear Antibodies — 2 red highlights resolved; Curator Highlights populated
+
+**Highlights investigated against raw PDFs:**
+
+1. **Red → resolved:** `~86% of individuals who test ANA-positive at 1:80 in the general population do not have SLE` — Not found in Aringer2019; the paper reports ANA sensitivity (97.8%) but not this derived population-level specificity figure. Replaced with an accurate population-prevalence-grounded statement citing Satoh2012/Dinse2022 (~14% population ANA positive at 1:80 vs. ~0.1% SLE prevalence). Now green.
+
+2. **Red → resolved:** `HAV patients were positive for all 8 tested ANA specificities` — Berlin2007 **Results** section states "Three patients with HAV and one with HBV were positive for all eight antigens" (not all 10 HAV patients). Berlin2007's own Discussion section overstates this as "all patients with HAV." The wiki had followed the erroneous Discussion language. Corrected to "three of ten HAV patients." Now green. Internal paper discrepancy documented.
+
+**Pages updated (3):**
+- `wiki/concepts/Antinuclear Antibodies.md` — both red highlights corrected to green
+- `wiki/sources/Berlin2007 - Autoantibodies in Nonautoimmune Individuals during Infections.md` — HAV claim corrected (3/10, not all 10); ⚠ internal discrepancy note added
+- `wiki/analyses/Curator Highlights.md` — full overwrite: colour code legend added; all 13 current highlights listed with verification status and source confirmations; resolved red highlights documented with findings and resolutions
+
+---
+
+## [2026-04-19] ingest | Hung2008 - Anti-Platelet Anti-Endothelial Autoantibodies Vietnam
+
+**New pages created (4):**
+- `wiki/sources/Hung2008 - Anti-Platelet Anti-Endothelial Autoantibodies Vietnam.md`
+- `wiki/geography/Vietnam.md` (2 sources: Hung2008 + Cheng2015)
+- `wiki/geography/Southeast Asia.md` (regional page; Cambodia § folded in)
+- `wiki/methods/Flow Cytometry.md` (3 sources: Lin2001, Hung2008, Sungnak2025)
+
+**Pages deleted (1):**
+- `wiki/geography/Cambodia.md` — folded into Southeast Asia.md
+
+**Pages updated (19):**
+- `wiki/concepts/Autoimmunity in Dengue.md` (sources 33→34)
+- `wiki/concepts/NS1 Molecular Mimicry in Dengue.md` (sources 12→13; new anti-EC isotype shift subsection)
+- `wiki/concepts/Dengue Pathophysiology.md` (sources 14→15; new thrombomodulin biomarker section)
+- `wiki/concepts/Secondary Dengue Infection.md` (sources 14→15)
+- `wiki/concepts/Cross-Reactive Antibodies.md` (sources 13→14)
+- `wiki/concepts/Infection-Triggered Autoimmunity.md` (sources 14→15)
+- `wiki/entities/NS1 Protein.md` (sources 16→17)
+- `wiki/entities/DENV-2.md` (sources 11→12)
+- `wiki/entities/DENV-3.md` (sources 12→13)
+- `wiki/entities/DENV-4.md` (sources 10→11)
+- `wiki/methods/IgM-IgG Serology ELISA.md` (sources 17→18)
+- `wiki/methods/NS1 Antigen Detection.md` (sources 11→12)
+- `wiki/methods/ELISA.md` (sources 1→2)
+- `wiki/methods/RT-PCR.md` (sources 9→10)
+- `wiki/geography/Thailand.md` ([[Southeast Asia]] added to Related Pages)
+- `wiki/geography/Singapore.md` ([[Southeast Asia]] added to Related Pages)
+- `wiki/geography/Philippines.md` ([[Southeast Asia]] added to Related Pages)
+- `wiki/analyses/Notable Findings.md` (anti-EC isotype shift notable finding added; Cambodia→Southeast Asia wikilink fixed; sources 20→21)
+- `wiki/index.md` (sources 39→40; pages 107→109; new/updated page entries)
+
+**Geography cascade triggered:** Vietnam reached 2 sources → Vietnam.md created. Vietnam + Singapore + Philippines = 3 SEA country pages → Southeast Asia.md created. Cambodia (1 source, thin) folded into Southeast Asia.md §Cambodia; Cambodia.md deleted; all [[Cambodia]] wikilinks updated.
+
+**Key findings:** Anti-EC autoantibody isotype shifts from IgM-only (infants, primary infection) to IgM+IgG (children, predominantly secondary infection), but levels do not correlate with severity in either group. Thrombomodulin elevated in both groups as in vivo endothelial structural damage marker, independent of autoantibody levels. Citations: SS=3, CR=1.
+
 ## [2026-04-18] lint | Deep lint — forward-propagation focus; 6 recent sources × all linked targets
 
 **Scope:** Forward-propagation check for the 6 most recently ingested sources: Santosa2012, Farias2024, Cheng2015, Chaturvedi2001, Jardim2012, Codes2002. For each source, every page listed under "Entities Mentioned," "Concepts Addressed," "Methods Used," and geography was visited and confirmed for source inclusion.

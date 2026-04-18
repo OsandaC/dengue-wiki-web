@@ -46,9 +46,10 @@ The study draws on a clinically diverse cohort spanning HAV, HBV, HCV, multiple 
 - Method: ELISA (ANA 8 Pro panel, Euroimmun) at 1:100 dilution; panel covers anti-SSA, anti-SSB, anti-Sm, anti-U1RNP, anti-Sm/RNP, anti-centromere, anti-Jo-1, anti-Scl-70
 
 ### ANA Specificity Details
-- HAV patients (n=10): positive for all 8 antigens tested in ANA 8 Pro panel
-- One HBV patient: positive for anti-Sm, anti-U1RNP, anti-Sm/RNP, and anti-centromere
+- **Three HAV patients (3/10)** and one HBV patient: positive for all 8 antigens tested in ANA 8 Pro panel
+- A second HBV patient: positive for anti-Sm, anti-U1RNP, anti-Sm/RNP, and anti-centromere
 - These specific nuclear antigens (Sm, U1RNP, centromere) are typically considered disease-associated autoantibodies — their transient detection during acute viral infection is notable
+- ⚠ **Internal paper discrepancy:** Results section states "Three patients with HAV and one with HBV were positive for all eight antigens"; the Discussion section overstates this as "all patients with HAV." Results data are authoritative.
 
 ### Anti-Annexin-V and Anti-Prothrombin (Most Prevalent Autoantibodies)
 - **Anti-annexin-V:** viral 60.9%, parasitic 47.1%, rickettsial 57.1%, bacterial 39% — substantially elevated across all infection types

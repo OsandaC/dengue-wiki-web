@@ -1,9 +1,9 @@
 ---
 type: concept
-tags: [secondary-infection, ADE, DHF, DSS, heterotypic, cross-reactive-antibodies, disease-severity, thrombocytopenia, PAIgG, PAIgM, immune-complex, DHF-predictor, anti-prM]
+tags: [secondary-infection, ADE, DHF, DSS, heterotypic, cross-reactive-antibodies, disease-severity, thrombocytopenia, PAIgG, PAIgM, immune-complex, DHF-predictor, anti-prM, anti-endothelial, IgG, isotype-switch, Vietnam]
 created: 2026-04-12
-updated: 2026-04-18
-sources: 14
+updated: 2026-04-19
+sources: 15
 ---
 
 # Secondary Dengue Infection
@@ -122,3 +122,4 @@ This finding sits in tension with the severity-autoantibody correlation document
 - [[Dejnirattisai2010 - Anti-prM Antibodies Enhance Dengue ADE]] (anti-prM dominant structural antibody ~60%; full cross-reactivity across serotypes — the dominant non-neutralising pool available for ADE upon secondary challenge; 10^5-fold monocyte/DC enhancement; Thailand n=7 donors; secondary infection donors included)
 - [[Pang2017 - DHF Pathogenesis Review]] (DHF risk quantified: secondary infection 118–208/1000 vs. 11–12/1000 primary — ≥10-fold; ADE mechanism overview; FcγR-mediated IFN suppression + IL-10 enhancement in secondary infection; review, China)
 - [[Jardim2012 - Autoimmune Features DHF Case Report]] (secondary DENV-3 infection [IgM+/IgG+ dual positivity]; DHF with triple serositis, DIC, cryoglobulinemia, ANA 1/320 mitotic spindle — all resolved at follow-up; exemplifies broad autoimmune mimicry in secondary infection; Campinas Brazil; n=1 case report)
+- [[Hung2008 - Anti-Platelet Anti-Endothelial Autoantibodies Vietnam]] (children [predominantly secondary]: anti-EC IgG elevated 25.1% vs 2.6% controls [p<0.001] alongside anti-EC IgM 46.0% vs 4.7% — isotype addition of IgG in secondary infection context; infection-order independence of anti-EC levels confirmed in children p=1.0/0.5; HCMC Vietnam; n=37 children)

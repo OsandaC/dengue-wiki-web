@@ -33,6 +33,7 @@ Together, the two studies establish the Philippines as the primary site for the 
 - The Saito2004 cohort included only DHF grades I–II (no shock); generalisability to DSS is uncertain.
 
 ## Related Pages
+- [[Southeast Asia]]
 - [[Secondary Dengue Infection]]
 - [[Dengue Pathophysiology]]
 - [[Platelet-Associated Immunoglobulin ELISA]]

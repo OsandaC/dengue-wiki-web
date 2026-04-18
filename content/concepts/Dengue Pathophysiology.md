@@ -1,9 +1,9 @@
 ---
 type: concept
-tags: [pathophysiology, vascular-permeability, thrombocytopenia, coagulopathy, complement, liver, NS1, TLR4, plasma-leakage, DHF, DSS, PAIgM, PAIgG, secondary-infection, immune-complex, FcR-bypass, glycocalyx, cathepsin-L, heparanase, MIF, autophagy, cytotoxic-factor, hCF]
+tags: [pathophysiology, vascular-permeability, thrombocytopenia, coagulopathy, complement, liver, NS1, TLR4, plasma-leakage, DHF, DSS, PAIgM, PAIgG, secondary-infection, immune-complex, FcR-bypass, glycocalyx, cathepsin-L, heparanase, MIF, autophagy, cytotoxic-factor, hCF, thrombomodulin, endothelial-damage, anti-endothelial, primary-infection, infants, Vietnam]
 created: 2026-04-12
-updated: 2026-04-18
-sources: 14
+updated: 2026-04-19
+sources: 15
 ---
 
 # Dengue Pathophysiology
@@ -58,6 +58,17 @@ This fills a mechanistic gap in the existing glycocalyx-shedding model: Guzman20
 [[Chaturvedi2001 - Cytotoxic Factor Autoantibodies DHF]] proposes an additional mechanism for vascular permeability: a dengue-specific cytokine (hCF) produced by CD4+ T cells induces macrophage free-radical and pro-inflammatory cytokine production, and shifts the immune response from Th1 to Th2 (see [[Cytotoxic Factor in Dengue]]). hCF levels were highest in DHF grade IV patients and lowest in mild DF patients in the 1996 North India epidemic cohort (n=136). The reverse pattern was observed for host-produced anti-hCF autoantibodies, which were present in 96% of DF patients and only 8% of DHF grade IV patients — a finding the authors interpret as evidence that anti-hCF autoantibodies protect against severe disease by neutralising hCF before it can drive the full pathogenic cascade.
 
 **Caveat:** hCF is the Chaturvedi group's own concept with no independent replication. The relationship of this mechanism to the established NS1-TLR4, ADE, and OAS pathways is unclear — it may represent an upstream driver, a parallel pathway, or a recharacterisation of known mechanisms.
+
+### In Vivo Endothelial Structural Damage — Thrombomodulin as Biomarker
+
+[[Hung2008 - Anti-Platelet Anti-Endothelial Autoantibodies Vietnam]] provides direct in vivo evidence that **endothelial structural damage** — not merely functional permeability change — occurs in DHF/DSS. Serum thrombomodulin (TM), an integral membrane glycoprotein released from damaged endothelial cells, was measured in Vietnamese paediatric DHF/DSS patients:
+
+- Infants: TM 6.1 ± 1.7 pg/mL vs controls 2.7 ± 0.4 pg/mL (p<0.001)
+- Children: TM 8.8 ± 2.1 pg/mL vs controls 2.4 ± 0.06 pg/mL (p=0.01)
+- TM was **not** significantly different between non-shock DHF and DSS in either group (p=0.2 and p=0.4), indicating endothelial damage is present across the DHF severity spectrum
+- TM was **not** correlated with anti-EC autoantibody levels or with haematocrit increase (plasma leakage), suggesting that autoantibody-mediated endothelial damage and functional plasma leakage are partially dissociated mechanisms
+
+This is an important mechanistic distinction: the standard dengue vascular leakage model proposed that plasma leakage was due to *functional* (transient, cytokine-mediated) rather than *structural* (cell death-driven) endothelial barrier disruption, based on the rapid reversibility of plasma leakage after fluid resuscitation. The TM elevation suggests that actual endothelial structural injury does occur in DHF/DSS — both models may apply in parallel. The lack of TM-severity correlation suggests the injury threshold is crossed even in non-shock DHF, and additional factors (volume of leakage, rapidity, fluid management) determine whether shock supervenes.
 
 ### Cryoglobulinemia and Serositis in DHF
 
@@ -138,3 +149,4 @@ A protein microarray screen in Cambodian pediatric dengue patients revealed that
 - [[Chaturvedi2001 - Cytotoxic Factor Autoantibodies DHF]] (hCF → macrophage free radicals + IL-1α/TNF-α/IL-8/peroxynitrite cascade → vascular permeability; anti-hCF autoantibodies inversely correlated with DHF severity [96% DF → 8% DHF-IV]; reverse correlation with hCF titres; 1997 WHO DHF grades I–IV; n=136, 1996 North India epidemic; ⚠ group-specific concept)
 - [[Cheng2015 - NS1 P311-330 Anti-PDI Autoantibodies in DHF]] (anti-PDI/HSP60/vimentin IgM/IgG elevated in DHF vs. controls; anti-PDI IgM correlated with anti-EC IgM [r = 0.649, P < 0.0001]; P311–330 as PDI-specific NS1 epitope; anti-PDI may disrupt PDI-mediated integrin activation → endothelial barrier dysfunction; primary/secondary infection independence of anti-endothelial autoantibodies; NCKU Tainan; n=15 DHF + 2 DF, Vietnamese paediatric cohort)
 - [[Farias2024 - Dengue Mimickers]] (acute abdomen ~12% of DEN cases; GBWT >3mm as DHF ultrasound marker [sensitivity 58–90.5% across studies]; dengue pancreatitis mechanisms; surgery risks in thrombocytopenic dengue; Brazil narrative review — secondary source)
+- [[Hung2008 - Anti-Platelet Anti-Endothelial Autoantibodies Vietnam]] (thrombomodulin elevated in infants [6.1 vs 2.7 pg/mL, p<0.001] and children [8.8 vs 2.4 pg/mL, p=0.01] — in vivo endothelial structural damage confirmed; anti-EC autoantibodies not correlated with haematocrit increase; anti-platelet IgM in infants with primary dengue; HCMC Vietnam paediatric cohort)

@@ -2,8 +2,8 @@
 type: analysis
 tags: [notable-findings, flags, cross-cutting, observations]
 created: 2026-04-12
-updated: 2026-04-18 (Chaturvedi2001 ingest; Cheng2015 ingest)
-sources: 20
+updated: 2026-04-19
+sources: 21
 ---
 
 # Notable Findings
@@ -434,6 +434,23 @@ A running log of observations that are striking, unexpected, or carry implicatio
 - Is the inversion (primary > secondary for IgG autoantibodies) serotype-specific (all 6 primary patients were DENV-1), or a general feature of first DENV exposure?
 - Do the specific pathogenic anti-platelet/anti-endothelial autoantibodies (Lin2001/Lin2006 targets) also show this inversion, or is the breadth signal driven by non-pathogenic bystander-activated clones?
 
-**Related pages:** [[Autoimmunity in Dengue]], [[Secondary Dengue Infection]], [[Antibody-Dependent Enhancement]], [[Cambodia]]
+**Related pages:** [[Autoimmunity in Dengue]], [[Secondary Dengue Infection]], [[Antibody-Dependent Enhancement]], [[Southeast Asia]]
+
+---
+
+## [2026-04-19] Anti-EC autoantibody isotype is infection-order-dependent but severity is not
+
+**Source:** [[Hung2008 - Anti-Platelet Anti-Endothelial Autoantibodies Vietnam]]
+
+**Finding:** In Vietnamese dengue patients, the isotype of anti-endothelial cell (anti-EC) autoantibodies switches from IgM-only (in infants, predominantly primary infection) to IgM+IgG (in children, predominantly secondary infection). However, anti-EC autoantibody levels — regardless of isotype — do not correlate with disease severity, platelet count, or hematocrit in either group.
+
+**Why notable:** This creates a clean dissociation between two phenomena that are often conflated: (1) the isotype composition of autoantibodies, which follows infection-order logic and reflects immunological memory; and (2) pathological effect on disease severity/platelet destruction, which does not. The absence of a severity correlation for anti-EC autoantibodies stands in apparent tension with Wan2012's finding that anti-endothelial cell antibody levels are higher in DHF/DSS than DF — but Hung2008 uses flow cytometry (% reactive cells) while Wan2012 uses a different assay on an older population. These may be measuring quantitatively different antibody pools. Additionally, the isotype shift is precisely what the ADE literature predicts (IgG rises after secondary infection), but the anti-EC IgG generated here appears non-pathogenic in terms of immediate clinical endpoints. This invites the question: is anti-EC IgG in secondary dengue a bystander product of B-cell activation, or does its pathogenic effect operate on longer timescales (as suggested by the elevated autoimmune disease risk at 1–2 years post-dengue in Shih2023)?
+
+**Follow-up questions:**
+- Do the anti-EC IgG generated in secondary dengue children bind the same endothelial antigens as the anti-EC IgG elevated in DHF/DSS (Wan2012), or are they a different specificity pool?
+- What is the relationship between anti-EC IgG generated in secondary dengue and the elevated autoimmune disease risk documented at 1–2 years post-dengue (Shih2023)?
+- Would a larger cohort with more DHF patients reveal a severity correlation that the n=37 children sample was underpowered to detect?
+
+**Related pages:** [[Infection-Triggered Autoimmunity]], [[Secondary Dengue Infection]], [[NS1 Molecular Mimicry in Dengue]], [[Vietnam]], [[Dengue Pathophysiology]]
 
 ---

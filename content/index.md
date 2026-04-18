@@ -1,10 +1,10 @@
 # Dengue Wiki — Master Index
 
-*Last updated: 2026-04-18 | Sources: 39 | Total pages: 107*
+*Last updated: 2026-04-19 | Sources: 40 | Total pages: 109*
 
 ---
 
-## Sources (39)
+## Sources (40)
 
 | Page                                                                           | Year | Journal                  | Citations (SS / CR) | Key Topics                                                                                                                                                                                                                                                                                                                                                                                                       |
 | ------------------------------------------------------------------------------ | ---- | ------------------------ | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -47,8 +47,9 @@
 | [[Cheng2015 - NS1 P311-330 Anti-PDI Autoantibodies in DHF]]                   | 2015 | Am J Trop Med Hyg          | 22 / 19           | NS1 P311–330 PDI-specific cross-reactive epitope; anti-PDI/HSP60/vimentin elevated in DHF; anti-PDI IgG vs. anti-P311–330 IgG r=0.732; HSP60 uses distinct NS1 epitope; infection-order independence; NCKU Tainan lab; Vietnamese DHF/DF paediatric cohort; n=15 DHF + 2 DF                                                                                                                                            |
 | [[Santosa2012 - Delayed SLE Diagnosis Dengue Serology]]                        | 2012 | Scand J Rheumatol          | 16 / 11           | False-positive dengue IgM in SLE (polyclonal low-affinity IgM); RF-positive 15% false-positive with Panbio kit; ANA-positive 0/10; delayed SLE diagnosis case report; NS1 antigen and RT-PCR preferred in autoantibody-positive patients; diagnostic algorithm; Singapore NUHS/SGH                                                                                                                                       |
 | [[Farias2024 - Dengue Mimickers]]                                              | 2024 | Rev Soc Bras Med Trop      | 13 / 11           | Clinical differential diagnosis of dengue across infectious/rheumatological/haematological/neurological categories; SLE-dengue bidirectional confusion; CHIKV ~6% serology cross-reactivity; GBWT >3mm as DHF marker; dengue-triggered KD/ITP/necrotizing myopathy/sacroiliitis; DENV-YFV co-infection exclusion; Brazil 2024 epidemic >6M cases; narrative review — secondary source                                         |
+| [[Hung2008 - Anti-Platelet Anti-Endothelial Autoantibodies Vietnam]]           | 2008 | Am J Infect Dis            | 3 / 1             | Anti-platelet IgM elevated in infants (primary) and children (secondary); anti-EC isotype shift: IgM-only in infants vs. IgM+IgG in children; thrombomodulin elevated in both groups (in vivo endothelial damage marker); no autoantibody-severity correlation; HCMC Vietnam 1998–2002; n=50 infants + 37 children                                                                                                              |
 
-*Citations: SS = Semantic Scholar, CR = CrossRef. Retrieved 2026-04-12 (existing) / 2026-04-13 (Seet2007, Li2018, Bruhns2009) / 2026-04-14 (Bos2025) / 2026-04-15 (Morel2014, Palacios2016, Lin2001, Oishi2003) / 2026-04-17 (Dejnirattisai2010, Bhatt2020, Velazqueza2017) / 2026-04-18 (Cheng2015 SS=22, CR=19; Santosa2012 SS=16, CR=11; Farias2024 SS=13, CR=11). Morel2014 SS not indexed at English-edition DOI (null). Recent papers and preprints will have low counts regardless of quality.*
+*Citations: SS = Semantic Scholar, CR = CrossRef. Retrieved 2026-04-12 (existing) / 2026-04-13 (Seet2007, Li2018, Bruhns2009) / 2026-04-14 (Bos2025) / 2026-04-15 (Morel2014, Palacios2016, Lin2001, Oishi2003) / 2026-04-17 (Dejnirattisai2010, Bhatt2020, Velazqueza2017) / 2026-04-18 (Cheng2015 SS=22, CR=19; Santosa2012 SS=16, CR=11; Farias2024 SS=13, CR=11) / 2026-04-19 (Hung2008 SS=3, CR=1). Morel2014 SS not indexed at English-edition DOI (null). Recent papers and preprints will have low counts regardless of quality.*
 
 ### By citation count (SS)
 
@@ -101,13 +102,13 @@
 | Page | Type | Sources |
 |------|------|---------|
 | [[DENV-1]] | Serotype | 11 |
-| [[DENV-2]] | Serotype | 11 |
-| [[DENV-3]] | Serotype | 12 |
-| [[DENV-4]] | Serotype | 10 |
+| [[DENV-2]] | Serotype | 12 |
+| [[DENV-3]] | Serotype | 13 |
+| [[DENV-4]] | Serotype | 11 |
 | [[FcγRIIa Receptor]] | Receptor / genetic locus | 7 |
 | [[Aedes aegypti]] | Vector | 11 |
 | [[Aedes albopictus]] | Vector | 5 |
-| [[NS1 Protein]] | Viral protein | 16 |
+| [[NS1 Protein]] | Viral protein | 17 |
 | [[E Protein]] | Viral protein | 5 |
 | [[prM Protein]] | Viral protein | 3 |
 | [[CYD-TDV]] | Vaccine | 2 |
@@ -120,31 +121,31 @@
 | Page | Sources |
 |------|---------|
 | [[Post-Dengue Syndrome]] | 4 |
-| [[Autoimmunity in Dengue]] | 33 |
+| [[Autoimmunity in Dengue]] | 34 |
 | [[Antibody-Dependent Enhancement]] | 12 |
 | [[Asymptomatic Dengue Infection]] | 5 |
 | [[Antinuclear Antibodies]] | 14 |
-| [[Infection-Triggered Autoimmunity]] | 13 |
+| [[Infection-Triggered Autoimmunity]] | 14 |
 | [[Polyreactive Antibodies]] | 1 |
 | [[NS1 Molecular Mimicry in Dengue]] | 12 |
 | [[T Cell Responses in Dengue]] | 4 |
 | [[NK Cell Responses in Dengue]] | 1 |
 | [[Type I Interferon Response in Dengue]] | 4 |
 | [[Viraemia]] | 2 |
-| [[Dengue Pathophysiology]] | 14 |
+| [[Dengue Pathophysiology]] | 15 |
 | [[Dengue Clinical Classification]] | 8 |
 | [[Dengue Vaccine Candidates]] | 6 |
 | [[Original Antigenic Sin]] | 3 |
 | [[Dengue Neurological Complications]] | 5 |
-| [[Secondary Dengue Infection]] | 14 |
-| [[Cross-Reactive Antibodies]] | 13 |
+| [[Secondary Dengue Infection]] | 15 |
+| [[Cross-Reactive Antibodies]] | 14 |
 | [[Cytokine Storm]] | 12 |
 | [[Macrophage Activation Syndrome in Dengue]] | 3 |
 | [[Cytotoxic Factor in Dengue]] | 1 |
 
 ---
 
-## Methods (15)
+## Methods (16)
 
 | Page | Sources |
 |------|---------|
@@ -156,18 +157,19 @@
 | [[V(D)J Sequencing]] | 1 |
 | [[qRT-PCR]] | 1 |
 | [[Autoantigen Microarray]] | 1 |
-| [[RT-PCR]] | 9 |
-| [[NS1 Antigen Detection]] | 11 |
-| [[IgM-IgG Serology ELISA]] | 16 |
+| [[RT-PCR]] | 10 |
+| [[NS1 Antigen Detection]] | 12 |
+| [[IgM-IgG Serology ELISA]] | 18 |
 | [[Line Immunoassay ANA]] | 1 |
 | [[Surface Plasmon Resonance]] | 1 |
 | [[Hemagglutination Inhibition Test]] | 2 |
-| [[ELISA]] | 1 |
+| [[ELISA]] | 2 |
+| [[Flow Cytometry]] | 3 |
 | [[Platelet-Associated Immunoglobulin ELISA]] | 2 |
 
 ---
 
-## Geography (10)
+## Geography (11)
 
 | Page | Sources |
 |------|---------|
@@ -177,10 +179,10 @@
 | [[India]] | 5 |
 | [[Singapore]] | 3 |
 | [[Paraguay]] | 1 | *(no standalone page — 1 source; see [[Morel2014 - Autoimmune Response in Children With Dengue]])* |
-| [[Cambodia]] | 1 | *(thin — will fold into Southeast Asia regional page when created)* |
+| [[Southeast Asia]] | 2 | *(regional page; Cambodia § [Vo2020] folded in; Hung2008 adds second SEA source; links to [[Thailand]], [[Singapore]], [[Philippines]], [[Vietnam]])* |
 | [[Philippines]] | 2 |
 | Mexico | 1 | *(no page — 1 source; see [[Velazqueza2017 - SLE vs Dengue Case Series]])*
-| Vietnam | 1 | *(no standalone page — 1 source; patient sera from Ho Chi Minh City; see [[Cheng2015 - NS1 P311-330 Anti-PDI Autoantibodies in DHF]])* |
+| [[Vietnam]] | 2 | *(standalone page since 2026-04-19; Hung2008 + Cheng2015; HCMC cohorts)* |
 
 ---
 

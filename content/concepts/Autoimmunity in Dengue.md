@@ -1,9 +1,9 @@
 ---
 type: concept
-tags: [autoimmunity, immune-complex, ANA, CRP, cytokines, molecular-mimicry, NS1, post-dengue, infection-triggered-autoimmunity, thrombocytopenia, endothelial-cells, ADEM, encephalomyelitis, epidemiology, MCTD, myositis, LIA, India, sex-bias, host-factors, adrenocortical-insufficiency, TLR, Taiwan, NHIRD, MAS, macrophage-activation-syndrome, HLH, Paraguay, SLE, lupus-nephritis, ANA-negative, PAIgG, secondary-infection, Philippines, polyreactive-antibodies, 6-month-follow-up, PDI, HSP60, P311-330, Vietnam]
+tags: [autoimmunity, immune-complex, ANA, CRP, cytokines, molecular-mimicry, NS1, post-dengue, infection-triggered-autoimmunity, thrombocytopenia, endothelial-cells, ADEM, encephalomyelitis, epidemiology, MCTD, myositis, LIA, India, sex-bias, host-factors, adrenocortical-insufficiency, TLR, Taiwan, NHIRD, MAS, macrophage-activation-syndrome, HLH, Paraguay, SLE, lupus-nephritis, ANA-negative, PAIgG, secondary-infection, Philippines, polyreactive-antibodies, 6-month-follow-up, PDI, HSP60, P311-330, Vietnam, infants, primary-infection, thrombomodulin, anti-platelet, anti-endothelial, infection-order]
 created: 2026-04-11
-updated: 2026-04-18
-sources: 33
+updated: 2026-04-19
+sources: 34
 
 ---
 
@@ -225,7 +225,8 @@ The nuclear antigen correlation finding is particularly notable given the existi
 - [[Paraguay]]
 - [[Line Immunoassay ANA]]
 - [[Autoantigen Microarray]]
-- [[Cambodia]]
+- [[Southeast Asia]]
+- [[Vietnam]]
 - [[Polyreactive Antibodies]]
 - [[Cytotoxic Factor in Dengue]]
 
@@ -263,3 +264,4 @@ The nuclear antigen correlation finding is particularly notable given the existi
 - [[Cheng2015 - NS1 P311-330 Anti-PDI Autoantibodies in DHF]] (clinical correlates of anti-endothelial autoantibodies in DHF; anti-PDI and anti-HSP60 IgM correlate with anti-EC IgM; P311–330 confirmed as PDI-specific NS1 epitope; anti-P311–330 higher in DHF than DF; autoantibodies infection-order independent except anti-NS1 IgG; Ho Chi Minh City Vietnam/NCKU Taiwan; n=15 DHF)
 - [[Santosa2012 - Delayed SLE Diagnosis Dengue Serology]] (reverse diagnostic hazard: pre-existing SLE low-affinity IgM autoantibodies cause false-positive dengue IgM [15% in RF-positive patients with Panbio kit]; bidirectional hazard — immunosuppression also causes false-negative dengue serology; NS1 antigen and RT-PCR recommended for autoantibody-positive patients; Singapore NUHS/SGH; n=1 case report)
 - [[Farias2024 - Dengue Mimickers]] (clinical differential diagnosis review; SLE-dengue bidirectional confusion; false-positive dengue serology in SLE/RA; dengue triggering KD, ITP, necrotizing myopathy, sacroiliitis; NS1 92%/100% sensitivity/specificity within 5 days; Brazil narrative review — secondary source)
+- [[Hung2008 - Anti-Platelet Anti-Endothelial Autoantibodies Vietnam]] (anti-platelet IgM autoantibodies in infants with primary dengue [first endemic-setting confirmation]; anti-EC isotype shift — IgM-only in infants/primary, IgM+IgG in children/predominantly secondary; infection-order independence for anti-platelet and anti-EC levels in children; no severity/platelet/hematocrit correlation; thrombomodulin elevated in vivo — endothelial structural damage confirmed; HCMC Vietnam paediatric DHF/DSS; n=50 infants + 37 children)

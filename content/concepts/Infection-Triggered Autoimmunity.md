@@ -1,9 +1,9 @@
 ---
 type: concept
-tags: [autoimmunity, molecular-mimicry, bystander-activation, epitope-spreading, viral-infection, ANA, autoantibodies, post-infectious, NS1, dengue-specific, ADEM, epidemiology, polyreactive-antibodies, 6-month-follow-up]
+tags: [autoimmunity, molecular-mimicry, bystander-activation, epitope-spreading, viral-infection, ANA, autoantibodies, post-infectious, NS1, dengue-specific, ADEM, epidemiology, polyreactive-antibodies, 6-month-follow-up, primary-infection, infants, anti-platelet, anti-endothelial, Vietnam]
 created: 2026-04-12
-updated: 2026-04-18
-sources: 14
+updated: 2026-04-19
+sources: 15
 ---
 
 # Infection-Triggered Autoimmunity
@@ -137,3 +137,4 @@ Dengue provides one of the best-characterised examples of acute-phase molecular 
 - [[Codes2002 - Autoantibodies in Acute Viral Hepatitis]] (primary source for 20.5% acute / 6.4% convalescent ANA in viral hepatitis; IIF ≥1:40; n=156 prospective; Salvador Brazil; also 14.8% → 3.9% ASMA; no severity/chronification association; not a dengue paper — cited as infection-triggered transience baseline)
 - [[Farias2024 - Dengue Mimickers]] (clinical review confirming dengue-triggered autoimmune conditions: ITP, Kawasaki disease, necrotizing myopathy, sacroiliitis; cites Li2018 Taiwan cohort (n=12,506) risk data; SLE-dengue bidirectional clinical confusion described; Brazil narrative review — secondary source)
 - [[Santosa2012 - Delayed SLE Diagnosis Dengue Serology]] (SLE-false-positive dengue IgM as an infection-triggered autoimmunity diagnostic trap; polyclonal B-cell activation in SLE producing low-affinity IgM species; Singapore NUHS + SGH; n=1 case report — illustrates bidirectional diagnostic confusion in autoimmune vs. infectious disease)
+- [[Hung2008 - Anti-Platelet Anti-Endothelial Autoantibodies Vietnam]] (anti-platelet IgM autoantibody production in infants with primary dengue — infection-triggered autoimmunity arising in first-ever DENV exposure; anti-EC IgG addition in predominantly secondary children — isotype class switching as signature of infection-triggered memory amplification; HCMC Vietnam paediatric cohort; n=50 infants + 37 children)

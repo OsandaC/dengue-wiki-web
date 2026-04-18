@@ -3,7 +3,7 @@ type: entity
 tags: [serotype, DENV-4, Cuba, epidemic, autoantibody-cross-serotype, anti-prM, cross-reactivity]
 created: 2026-04-11
 updated: 2026-04-17
-sources: 10
+sources: 11
 ---
 
 # DENV-4
@@ -43,3 +43,4 @@ None yet recorded.
 - [[Pang2017 - DHF Pathogenesis Review]] (all four DENV serotypes in ADE and T cell pathogenesis context; review, China)
 - [[Cheng2015 - NS1 P311-330 Anti-PDI Autoantibodies in DHF]] (DENV-4 in 3/15 DHF patients in Vietnamese paediatric cohort; anti-endothelial autoantibody study)
 - [[Farias2024 - Dengue Mimickers]] (all four serotypes noted as co-circulating in Brazil 2024 epidemic with >6M cases; background epidemiology; Brazil narrative review — secondary source)
+- [[Hung2008 - Anti-Platelet Anti-Endothelial Autoantibodies Vietnam]] (DENV-4 co-circulating with DENV-2/3 in HCMC Vietnam 1998–2002; serotype-confirmed by virus isolation/RT-PCR)

@@ -3,7 +3,7 @@ type: method
 tags: [serology, IgM, IgG, ELISA, diagnostics, convalescent-phase, secondary-infection, Zika, cross-reactivity, MAC-ELISA, anti-dengue-IgG, anticardiolipin, anti-prM, research-ELISA, India]
 created: 2026-04-12
 updated: 2026-04-18
-sources: 17
+sources: 18
 ---
 
 # IgM-IgG Serology ELISA
@@ -89,3 +89,4 @@ The IgG-sparing pattern is mechanistically interpretable: dengue IgG false posit
 - [[Santosa2012 - Delayed SLE Diagnosis Dengue Serology]] (false-positive dengue IgM in SLE: polyclonal low-affinity IgM autoantibodies cross-bind test kit antigens; RF-positive 3/20 [15%] false-positive with Panbio kit; ANA-positive 0/10; recommended pairing with NS1 antigen or RT-PCR in autoantibody-positive patients; Singapore NUHS)
 - [[Farias2024 - Dengue Mimickers]] (serology cross-reactivity in differential diagnosis: CHIKV ~6% cross-reactivity with dengue IgM; Zika/YFV cross-reactivity high due to shared flavivirus epitopes; SLE/RA patients produce false-positive dengue IgM via polyclonal IgM autoantibodies [~15% RF-positive]; malaria and leptospirosis also documented as dengue IgM false-positive causes; recommends NS1 antigen or RT-PCR as preferred confirmatory tests when autoantibodies suspected; Brazil narrative review — secondary source)
 - [[Chaturvedi2001 - Cytotoxic Factor Autoantibodies DHF]] (IgM-capture ELISA used for acute dengue diagnosis at patient enrollment; 1996 Northern India DHF epidemic; n=136 patients; ⚠ group-specific concept paper)
+- [[Hung2008 - Anti-Platelet Anti-Endothelial Autoantibodies Vietnam]] (IgM seroconversion used for dengue diagnosis in infants without virological confirmation; Panbio dengue IgG and HI serology used to confirm primary vs secondary classification in children; HCMC Vietnam 1998–2002)

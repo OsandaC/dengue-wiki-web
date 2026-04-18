@@ -1,9 +1,9 @@
 ---
 type: entity
-tags: [NS1, non-structural-protein, molecular-mimicry, autoimmunity, platelet, endothelial-cell, coagulation, vaccine, DHF, flavivirus, antibody-kinetics, waning, type-specific, IgM, primary-infection, platelet-lysis, complement, PAIgG, secondary-infection, immune-complex, replication-complex, MIF, autophagy, cathepsin-L, heparanase, P311-330, PDI, epitope-mapping]
+tags: [NS1, non-structural-protein, molecular-mimicry, autoimmunity, platelet, endothelial-cell, coagulation, vaccine, DHF, flavivirus, antibody-kinetics, waning, type-specific, IgM, IgG, primary-infection, secondary-infection, platelet-lysis, complement, PAIgG, immune-complex, replication-complex, MIF, autophagy, cathepsin-L, heparanase, P311-330, PDI, epitope-mapping, thrombomodulin, Vietnam, infants, isotype-shift]
 created: 2026-04-12
-updated: 2026-04-18
-sources: 16
+updated: 2026-04-19
+sources: 17
 ---
 
 # NS1 Protein
@@ -123,3 +123,4 @@ These are distinct from the anti-NS1 autoantibody mechanisms above; both operate
 - [[Jardim2012 - Autoimmune Features DHF Case Report]] (NS1 cross-reactivity with host proteins cited as mechanism for dengue-induced autoimmune features including ANA 1/320, cryoglobulinemia, selective C3 depression; Lin2003 and Lin2006 cited; Campinas Brazil; n=1 case report)
 - [[Cheng2015 - NS1 P311-330 Anti-PDI Autoantibodies in DHF]] (P311–330 as PDI-specific cross-reactive epitope; PDI + HSP60 IgM correlate with anti-EC and anti-NS1 IgM; HSP60 uses different epitope; anti-P311–330 higher in DHF vs. DF; autoantibodies infection-order independent; Ho Chi Minh City Vietnam/NCKU Taiwan; n=15 DHF)
 - [[Farias2024 - Dengue Mimickers]] (NS1 antigen cited as preferred diagnostic discriminator in dengue-vs-SLE differential; 92% sensitivity, 100% specificity within 5 days; NS1 antigen detection recommended over IgM serology when autoantibodies present; Brazil narrative review — secondary source)
+- [[Hung2008 - Anti-Platelet Anti-Endothelial Autoantibodies Vietnam]] (NS1 aa 1–15 peptide cited as candidate B-cell epitope driving anti-platelet IgM [speculative, from Huang 1999 — not tested in paper]; anti-platelet IgM in infants with primary dengue in endemic Vietnam; anti-EC isotype shift in secondary context; NS1 serotype-specific IgG ELISA used for serotyping; thrombomodulin elevation; HCMC Vietnam/NCKU Taiwan)

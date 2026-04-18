@@ -3,7 +3,7 @@ type: method
 tags: [ELISA, diagnostics, antibody-quantification, IgM, IgG, autoantibody, HRP, colorimetric]
 created: 2026-04-18
 updated: 2026-04-18
-sources: 1
+sources: 2
 ---
 
 # ELISA
@@ -28,3 +28,4 @@ None yet recorded.
 
 ## Sources
 - [[Cheng2015 - NS1 P311-330 Anti-PDI Autoantibodies in DHF]] (anti-PDI, anti-HSP60, anti-vimentin, anti-NS1, anti-P311–330 IgM/IgG by ELISA; 1:25 dilution; HRP-conjugated; TMB/ABTS substrate; linear mixed model analysis; Vietnamese paediatric DHF/DF cohort)
+- [[Hung2008 - Anti-Platelet Anti-Endothelial Autoantibodies Vietnam]] (thrombomodulin [TM] sandwich ELISA for plasma TM quantification; HCMC Vietnam 1998–2002; confirms elevated TM in infants [6.1 vs 2.7 ng/mL] and children [8.8 vs 2.4 ng/mL] vs healthy controls)

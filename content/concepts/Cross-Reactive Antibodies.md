@@ -1,9 +1,9 @@
 ---
 type: concept
-tags: [cross-reactivity, ADE, neutralisation, IgG, IgA, IgM, IgG3, IgG4, serotype, E-protein, NS1, EDI-II, EDIII, flavivirus, diagnostics, vaccine, longitudinal, antibody-kinetics, anti-prM, prM, structural-antibody]
+tags: [cross-reactivity, ADE, neutralisation, IgG, IgA, IgM, IgG3, IgG4, serotype, E-protein, NS1, EDI-II, EDIII, flavivirus, diagnostics, vaccine, longitudinal, antibody-kinetics, anti-prM, prM, structural-antibody, anti-endothelial, anti-platelet, Vietnam, infection-order]
 created: 2026-04-13
-updated: 2026-04-18
-sources: 13
+updated: 2026-04-19
+sources: 14
 ---
 
 # Cross-Reactive Antibodies
@@ -113,3 +113,4 @@ Flavivirus cross-reactive antibodies create significant diagnostic challenges:
 - [[Bhatt2020 - Dengue Pathogenesis Review]] (Katzelnick 2017 quantitative ADE window 1:21–1:80 quantifies the cross-reactive antibody enhancement danger zone; OAS cross-reactive low-avidity CD8+ expansion + cytolytic loss; anti-prM and anti-E ADE reviewed; review, India)
 - [[Cheng2015 - NS1 P311-330 Anti-PDI Autoantibodies in DHF]] (anti-PDI, anti-HSP60, anti-vimentin IgM/IgG elevated in DHF; PDI-specific epitope mapped to P311–330 [anti-PDI IgG vs. anti-P311–330 IgG r = 0.732, P < 0.0001]; HSP60 cross-reactivity uses distinct NS1 epitope; NCKU Tainan lab; Vietnamese DHF/DF paediatric cohort)
 - [[Farias2024 - Dengue Mimickers]] (arbovirus serological cross-reactivity in clinical differential diagnosis: CHIKV ~6%, ZIKV/YFV high flavivirus cross-reactivity; false-positive dengue IgM in SLE/RA/malaria/leptospirosis; Brazil narrative review — secondary source)
+- [[Hung2008 - Anti-Platelet Anti-Endothelial Autoantibodies Vietnam]] (anti-platelet and anti-EC autoantibodies — NS1 mimicry cross-reactivity between DENV surface antigens and host cell surface proteins; infection-order-dependent isotype shift for anti-EC [IgM→IgM+IgG in secondary context]; serotype independence across DENV-2/3/4; HCMC Vietnam paediatric DHF/DSS)
