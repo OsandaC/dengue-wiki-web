@@ -2,8 +2,8 @@
 type: concept
 tags: [NS1, molecular-mimicry, autoimmunity, platelets, endothelial-cells, PDI, vimentin, HSP60, thrombocytopenia, coagulation, DHF, flavivirus, WGNGCG, MAS, ANA-negative, IgM, primary-infection, complement, platelet-lysis, cathepsin-L, heparanase, glycocalyx]
 created: 2026-04-12
-updated: 2026-04-17
-sources: 10
+updated: 2026-04-18
+sources: 11
 ---
 
 # NS1 Molecular Mimicry in Dengue
@@ -129,3 +129,4 @@ These direct sNS1 effects are not mutually exclusive with the anti-NS1 autoantib
 - [[Bhatt2020 - Dengue Pathogenesis Review]] (NF-κB → MCP-1/IL-6/IL-8/ICAM-1 endothelial activation pathway reviewed and confirmed; glycocalyx disruption via cathepsin L and heparanase as additional NS1-driven endothelial mechanisms; India review)
 - [[Velazqueza2017 - SLE vs Dengue Case Series]] (cites NS1 cross-reactivity with endothelial cells and plasminogen inhibition via molecular mimicry as a proposed mechanism for dengue-triggered autoimmunity; 2 pediatric SLE cases; Guadalajara Mexico; n=2 case series)
 - [[Pang2017 - DHF Pathogenesis Review]] (NS1 sequence homology with plasminogen and integrin cited; anti-NS1 → NO production/apoptosis in endothelial cells and platelet lysis/aggregation inhibition confirmed; anti-NS1 NF-κB → IL-6/IL-8/MCP-1 pathway reviewed; review, China)
+- [[Jardim2012 - Autoimmune Features DHF Case Report]] (cites Lin CF 2003 and Lin2006 as mechanistic basis for NS1 cross-reactivity with endothelial cells and platelets; case report of secondary DENV-3 DHF with ANA 1/320 [mitotic spindle], cryoglobulinemia, C3 depression — all resolved at follow-up; Campinas Brazil; n=1 case report)

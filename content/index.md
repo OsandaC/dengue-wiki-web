@@ -1,10 +1,10 @@
 # Dengue Wiki — Master Index
 
-*Last updated: 2026-04-17 | Sources: 33 | Total pages: 99*
+*Last updated: 2026-04-18 | Sources: 34 | Total pages: 100*
 
 ---
 
-## Sources (32)
+## Sources (34)
 
 | Page | Year | Journal | Citations (SS / CR) | Key Topics |
 |------|------|---------|---------------------|------------|
@@ -41,6 +41,7 @@
 | [[Velazqueza2017 - SLE vs Dengue Case Series]] | 2017 | Rev Colomb Reumatol | 1 / 1 | SLE + dengue in 2 pediatric patients; ANA 1:1280 + antinucleosome + anti-dsDNA in both; Case 2 SLE diagnosed 2 months post-dengue; Guadalajara Jalisco Mexico; molecular mimicry, FcR polymorphism; n=2 case series |
 | [[Pang2017 - DHF Pathogenesis Review]] | 2017 | Virologica Sinica | 74 / 67 | Narrative review; DHF pathogenesis: NS1-complement-C5b-C9-NLRP3; anti-NS1 GPI-signalling→viral replication; IL-10→T cell apoptosis→impaired clearance; sfRNA IFN suppression; ADE anti-E/prM; OAS T cells; Tsinghua University China |
 | [[Rajadhyaksha2012 - Dengue Evolving into SLE and Lupus Nephritis]] | 2012 | Lupus | 54 / 35 | Primary DENV-1 → SLE + Class IV lupus nephritis in 4 weeks; ANA 1:320 + anti-dsDNA + anti-cardiolipin IgM+IgG+; biopsy-confirmed; Mumbai India; n=1 case report |
+| [[Jardim2012 - Autoimmune Features DHF Case Report]] | 2012 | Braz J Infect Dis | 6 / 12 | Secondary DENV-3 DHF; ANA 1/320 mitotic spindle pattern; cryoglobulinemia; selective C3 depression (C4 normal); LE cells in pleural fluid; DIC; all resolved at follow-up; anti-dsDNA negative; Campinas Brazil; n=1 case report |
 
 *Citations: SS = Semantic Scholar, CR = CrossRef. Retrieved 2026-04-12 (existing) / 2026-04-13 (Seet2007, Li2018, Bruhns2009) / 2026-04-14 (Bos2025) / 2026-04-15 (Morel2014, Palacios2016, Lin2001, Oishi2003) / 2026-04-17 (Dejnirattisai2010, Bhatt2020, Velazqueza2017). Morel2014 SS not indexed at English-edition DOI (null). Recent papers and preprints will have low counts regardless of quality.*
 
@@ -81,6 +82,7 @@
 | 1 | [[Velazqueza2017 - SLE vs Dengue Case Series]] | 2017 |
 | 74 | [[Pang2017 - DHF Pathogenesis Review]] | 2017 |
 | 54 | [[Rajadhyaksha2012 - Dengue Evolving into SLE and Lupus Nephritis]] | 2012 |
+| 6 | [[Jardim2012 - Autoimmune Features DHF Case Report]] | 2012 |
 
 ---
 
@@ -90,13 +92,13 @@
 |------|------|---------|
 | [[DENV-1]] | Serotype | 9 |
 | [[DENV-2]] | Serotype | 9 |
-| [[DENV-3]] | Serotype | 9 |
+| [[DENV-3]] | Serotype | 10 |
 | [[DENV-4]] | Serotype | 8 |
 | [[FcγRIIa Receptor]] | Receptor / genetic locus | 7 |
-| [[Aedes aegypti]] | Vector | 9 |
+| [[Aedes aegypti]] | Vector | 10 |
 | [[Aedes albopictus]] | Vector | 4 |
-| [[NS1 Protein]] | Viral protein | 13 |
-| [[E Protein]] | Viral protein | 4 |
+| [[NS1 Protein]] | Viral protein | 14 |
+| [[E Protein]] | Viral protein | 5 |
 | [[prM Protein]] | Viral protein | 3 |
 | [[CYD-TDV]] | Vaccine | 2 |
 | [[Wolbachia]] | Endosymbiont / vector control | 1 |
@@ -108,44 +110,44 @@
 | Page | Sources |
 |------|---------|
 | [[Post-Dengue Syndrome]] | 4 |
-| [[Autoimmunity in Dengue]] | 27 |
+| [[Autoimmunity in Dengue]] | 28 |
 | [[Antibody-Dependent Enhancement]] | 12 |
 | [[Asymptomatic Dengue Infection]] | 5 |
-| [[Antinuclear Antibodies]] | 11 |
-| [[Infection-Triggered Autoimmunity]] | 10 |
+| [[Antinuclear Antibodies]] | 12 |
+| [[Infection-Triggered Autoimmunity]] | 11 |
 | [[Polyreactive Antibodies]] | 1 |
-| [[NS1 Molecular Mimicry in Dengue]] | 8 |
+| [[NS1 Molecular Mimicry in Dengue]] | 11 |
 | [[T Cell Responses in Dengue]] | 4 |
 | [[NK Cell Responses in Dengue]] | 1 |
 | [[Type I Interferon Response in Dengue]] | 4 |
 | [[Viraemia]] | 2 |
-| [[Dengue Pathophysiology]] | 10 |
-| [[Dengue Clinical Classification]] | 5 |
+| [[Dengue Pathophysiology]] | 11 |
+| [[Dengue Clinical Classification]] | 6 |
 | [[Dengue Vaccine Candidates]] | 6 |
 | [[Original Antigenic Sin]] | 3 |
 | [[Dengue Neurological Complications]] | 4 |
-| [[Secondary Dengue Infection]] | 13 |
-| [[Cross-Reactive Antibodies]] | 10 |
+| [[Secondary Dengue Infection]] | 14 |
+| [[Cross-Reactive Antibodies]] | 11 |
 | [[Cytokine Storm]] | 10 |
 | [[Macrophage Activation Syndrome in Dengue]] | 3 |
 
 ---
 
-## Methods (14)
+## Methods (15)
 
 | Page | Sources |
 |------|---------|
 | [[PRNT]] | 3 |
 | [[ELISA Inhibition Method]] | 1 |
 | [[FcγRIIa Genotyping]] | 2 |
-| [[Indirect Immunofluorescence ANA Test]] | 9 |
+| [[Indirect Immunofluorescence ANA Test]] | 10 |
 | [[Single-Cell RNA Sequencing]] | 1 |
 | [[V(D)J Sequencing]] | 1 |
 | [[qRT-PCR]] | 1 |
 | [[Autoantigen Microarray]] | 1 |
 | [[RT-PCR]] | 6 |
 | [[NS1 Antigen Detection]] | 9 |
-| [[IgM-IgG Serology ELISA]] | 13 |
+| [[IgM-IgG Serology ELISA]] | 14 |
 | [[Line Immunoassay ANA]] | 1 |
 | [[Surface Plasmon Resonance]] | 1 |
 | [[Hemagglutination Inhibition Test]] | 2 |
@@ -166,7 +168,8 @@
 | [[Paraguay]] | 1 |
 | [[Cambodia]] | 1 |
 | [[Philippines]] | 2 |
-| Mexico | 1 | *(no page — 1 source; see [[Velazqueza2017 - SLE vs Dengue Case Series]])* |
+| Mexico | 1 | *(no page — 1 source; see [[Velazqueza2017 - SLE vs Dengue Case Series]])*
+| Brazil | 1 | *(no page — 1 source; see [[Jardim2012 - Autoimmune Features DHF Case Report]])* |
 
 ---
 
@@ -183,7 +186,7 @@
 
 | Page | Topics |
 |------|--------|
-| [[ANA and Dengue - A Literature Review]] | Comprehensive synthesis: healthy-population baselines, acute ANA (54.8% IIFA), polyreactive IgM as mechanism for non-specific fraction (§4.5), Gawali2021 6-month trajectory point (§6.2), mechanisms, post-dengue persistence, clinical outcome constraints (Rajadhyaksha2012 Class IV LN + Velazqueza2017 SLE case series in §8), host modifiers, 14 open questions |
+| [[ANA and Dengue - A Literature Review]] | Comprehensive synthesis: healthy-population baselines, acute ANA (54.8% IIFA), polyreactive IgM as mechanism for non-specific fraction (§4.5), Gawali2021 6-month trajectory point (§6.2), mechanisms, post-dengue persistence, clinical outcome constraints (Rajadhyaksha2012 Class IV LN + Velazqueza2017 SLE case series + Jardim2012 transient-resolution case in §8), host modifiers, 14 open questions |
 | [[Wiki State and Gap Analysis 2026-04-13]] | Current wiki state (16 sources, 64 pages); gap map vs. 2026-04-12; ANA thread status; ingest priorities |
 | [[Wiki State and Gap Analysis 2026-04-12]] | Earlier gap analysis (9 sources, 27 pages); superseded |
 | [[Reading Plan - ANA and Dengue Dynamics]] | Sequential reading order for all 15 papers, layered to build toward ANA-dengue discussion |

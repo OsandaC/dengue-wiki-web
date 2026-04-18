@@ -2,8 +2,8 @@
 type: concept
 tags: [cross-reactivity, ADE, neutralisation, IgG, IgA, IgM, IgG3, IgG4, serotype, E-protein, NS1, EDI-II, EDIII, flavivirus, diagnostics, vaccine, longitudinal, antibody-kinetics, anti-prM, prM, structural-antibody]
 created: 2026-04-13
-updated: 2026-04-17
-sources: 10
+updated: 2026-04-18
+sources: 11
 ---
 
 # Cross-Reactive Antibodies
@@ -102,3 +102,4 @@ Flavivirus cross-reactive antibodies create significant diagnostic challenges:
 - [[Vo2020 - Autoantibody Profiling in Dengue]] (high-throughput autoantigen array: anti-dengue antibodies cross-reactive with complement components, coagulation factors, and nuclear antigens identified; anti-NS1 cross-reactivity with platelet antigens cited as established context; Cambodia pediatric cohort)
 - [[Dejnirattisai2010 - Anti-prM Antibodies Enhance Dengue ADE]] (anti-prM ~60% of structural antibodies; full cross-reactivity DENV-1–4; poor neutralisation ceiling from incomplete prM cleavage; 10^5-fold monocyte/DC ADE; anti-JEV cross-reactivity minimal — dengue-specific; Thailand n=7 donors)
 - [[Pang2017 - DHF Pathogenesis Review]] (anti-E and anti-prM antibodies as ADE mediators reviewed; anti-prM highlighted since Dejnirattisai2010; FcγR-mediated mechanism overview; review, China)
+- [[Bhatt2020 - Dengue Pathogenesis Review]] (Katzelnick 2017 quantitative ADE window 1:21–1:80 quantifies the cross-reactive antibody enhancement danger zone; OAS cross-reactive low-avidity CD8+ expansion + cytolytic loss; anti-prM and anti-E ADE reviewed; review, India)

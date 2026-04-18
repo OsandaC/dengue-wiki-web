@@ -1,6 +1,6 @@
 ---
 type: meta
-updated: 2026-04-17 (Rajadhyaksha2012 ingest)
+updated: 2026-04-18 (deep lint)
 ---
 
 
@@ -29,6 +29,7 @@ Papers waiting to be ingested (add new entries at the top):
 - ~~`raw/Velazqueza2017.pdf`~~ **ingested 2026-04-17**
 - `raw/cheng2015.pdf`
 - ~~`raw/rajadhyaksha2012.pdf`~~ **ingested 2026-04-17**
+- ~~`raw/jardim2012.pdf`~~ **ingested 2026-04-18**
 
 **Gawali2021 ingested 2026-04-17** — removed from queue.
 
@@ -176,6 +177,14 @@ Issues, thin areas, or things to revisit. Remove items as they're resolved.
 - **NS1-IgG waning → autoantibody decline (new):** If NS1-IgG wanes with t½≈2.1 years (Bos2025), the NS1-mimicry component of dengue ANA should decline on a similar curve. No study in this wiki has measured anti-platelet / anti-endothelial autoantibody titres longitudinally (acute to 18M+) to test this prediction.
 - **Nicaragua geography thin — pending fold (retroactive rule):** Only 1 source (Bos2025 preprint). **⚠ Thin country page:** Nicaragua.md has <2 sources and will be folded into a Latin America / Americas regional page when that page is created. Until then remains as a thin Watch Item. Would benefit from a peer-reviewed Nicaraguan cohort study to reach the ≥2 threshold independently.
 - **Geography and non-ANA content remain thin:** Now 8 countries (Cuba, Thailand, Taiwan, India, Singapore, Nicaragua, Paraguay, Philippines); no Southeast Asia or Americas regional pages; vaccine and vector biology still largely derived from Guzman2016. Singapore now 2 sources (Seet2007 + Palacios2016/Chang 2007 retinal vasculitis). Broadening into these areas would balance the wiki's coverage.
+
+- **Mitotic spindle ANA pattern in dengue — literature search warranted (Jardim2012 Q):** The mitotic spindle ANA pattern in Jardim2012 is the first documentation of this pattern class in dengue in this wiki. It targets centromere/spindle apparatus proteins rather than nuclear DNA/histones — a different autoantigen class from NS1 mimicry targets. Whether other dengue papers document this pattern specifically is unknown. A targeted PubMed search for "dengue AND antinuclear antibody AND mitotic spindle" or "dengue AND centromere antibody" would determine whether this is an isolated observation or a recurring feature.
+
+- **C3-selective depression vs. classical pathway in dengue — differential value (Jardim2012 Q):** Jardim2012 shows selective C3 depression (0.39 g/L) with C4 normal — contrasting with Rajadhyaksha2012 (both C3 22 mg/dL, C4 5 mg/dL severely depressed). If this C4-sparing pattern is consistent across dengue complement consumption (vs. SLE-type classical pathway depletion of both), it could serve as a rapid differential distinguishing point in endemic settings. No systematic study of complement pathway involvement patterns in dengue serositis exists in this wiki.
+
+- **Cryoglobulin type in dengue — single source gap (Jardim2012 Q):** Jardim2012 is the only cryoglobulinemia case in this wiki. Whether dengue-associated cryoglobulins are type I (monoclonal IgM), type II (mixed IgM monoclonal + IgG polyclonal), or type III (polyclonal both) affects the mechanistic interpretation. A literature search for dengue + cryoglobulinemia would clarify whether this is a rare individual case or an under-documented dengue complication.
+
+- **Brazil geography thin (1 source, no page):** Jardim2012 is the first Brazil source. No standalone page per ≥2-source rule. Will fold into a Latin America/Americas regional page when that page is created (triggered when ≥3 Americas country pages exist). Currently: Cuba + Nicaragua standalone = 2 Americas pages; Brazil = 1 source without page. Americas regional page triggers when a third Americas country page is created.
 
 - **Propagation discipline (new, post-2026-04-16 deep lint):** The recurring miss of forward propagation from source → linked target pages has been documented in feedback memory and a fix workflow added to state.md decisions. Future ingests should be checked with a forward-propagation script before completion. Until automated, every ingest should be followed by a manual audit of every wikilink in the source page's Entities/Concepts/Methods sections — particularly for secondary sources (letters, reviews) where the propagation overhead is least proportional to the source's perceived weight.
 

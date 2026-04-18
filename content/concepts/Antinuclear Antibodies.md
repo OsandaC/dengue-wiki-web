@@ -2,8 +2,8 @@
 type: concept
 tags: [ANA, antinuclear-antibody, autoimmunity, IIF, HEp-2, prevalence, SLE, healthy-population, viral-infection, acute-dengue, LIA, India, polyreactive-antibodies, post-dengue, 6-month-follow-up]
 created: 2026-04-12
-updated: 2026-04-17
-sources: 11
+updated: 2026-04-18
+sources: 12
 ---
 
 # Antinuclear Antibodies
@@ -100,6 +100,12 @@ This polyreactive interpretation applies to the *non-specific* fraction only. Th
 
 The comparison is imperfect: Garcia2009 used **rat liver tissue** as the IIF substrate (older, less sensitive than HEp-2; see [[Indirect Immunofluorescence ANA Test]]), the testing dilution is not stated, the population is Cuban (not US), and no contemporaneous control group was tested. Because rat liver tissue underestimates ANA relative to HEp-2, the 23.1% figure is a conservative lower bound — HEp-2 testing would likely yield a higher rate, making the elevation above healthy-population baselines even larger than the figures above suggest. Nevertheless, the consistent elevation above all reference values supports that ANA positivity is genuinely increased in post-dengue symptomatic patients.
 
+### Mitotic Spindle ANA Pattern in DHF — A Distinct Autoantigen Class
+
+[[Jardim2012 - Autoimmune Features DHF Case Report]] (n=1 case report, Brazil — not generalizable) documents a **mitotic spindle ANA pattern at 1/320** during acute secondary DENV-3 DHF, resolving to negative at follow-up. This pattern is mechanistically distinct from the homogeneous (AC-1/AC-2) nuclear patterns in all other dengue ANA cases in this wiki — AC-1/homogeneous in Gawali2021, homogeneous 4+ in Rajadhyaksha2012, homogeneous+cytoplasmic+fine speckled in Velazqueza2017. The mitotic spindle pattern targets centromere-associated and spindle apparatus proteins (pericentrin, NuMA, tubulin-associated antigens) rather than nuclear DNA or histones, extending the range of dengue-associated autoantigens beyond the NS1 mimicry targets (PDI, vimentin, HSP60, ATP synthase β; see [[NS1 Molecular Mimicry in Dengue]]).
+
+The substrate used for this ANA detection is not specified — if non-HEp-2 (e.g., rat liver), the pattern assignation may be less reliable than in HEp-2 platforms. LIA confirmatory testing is not reported; IIFA-only positivity is consistent with the polyreactive IgM hypothesis. The complete resolution at follow-up is consistent with a transient, infection-triggered autoantibody response rather than SLE-driven autoimmunity (anti-dsDNA was negative throughout).
+
 ### Comparing ANA Rates Across Dengue Contexts
 A coherent timeline of ANA measurement in dengue now exists in this wiki:
 
@@ -140,3 +146,4 @@ The 54.8% acute dengue IIFA rate (Chatterjee2024) is not directly comparable to 
 - [[Zhou2007 - Polyreactive Antibodies Natural Antibody Function]] (polyreactive IgM as interpretive framework for non-specific IIFA fraction; properties of polyreactive antibodies distinguishing them from pathogenic autoantibodies)
 - [[Gawali2021 - ANA Prevalence in Seroconverted Dengue Patients]] (ANA at 6-month follow-up in dengue IgG+ patients; 18.33% IIFA-positive on HEp-2; AC-1 dominant; no control group; Gwalior, India; n=120)
 - [[Velazqueza2017 - SLE vs Dengue Case Series]] (ANA 1:1280 in both pediatric dengue cases; homogeneous+cytoplasmic and fine-speckled patterns; antinucleosome 52 and 258 IU/ml; anti-dsDNA co-positive; SLE criteria met; Guadalajara Mexico; n=2 case series)
+- [[Jardim2012 - Autoimmune Features DHF Case Report]] (ANA 1/320 mitotic spindle pattern during secondary DENV-3 DHF; negative at follow-up; anti-dsDNA negative; cryoglobulins co-positive; selective C3 depression; first documented mitotic spindle ANA pattern in dengue; Campinas Brazil; n=1 case report)

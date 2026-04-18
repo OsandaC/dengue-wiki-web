@@ -2,8 +2,8 @@
 type: concept
 tags: [autoimmunity, molecular-mimicry, bystander-activation, epitope-spreading, viral-infection, ANA, autoantibodies, post-infectious, NS1, dengue-specific, ADEM, epidemiology, polyreactive-antibodies, 6-month-follow-up]
 created: 2026-04-12
-updated: 2026-04-17
-sources: 10
+updated: 2026-04-18
+sources: 11
 ---
 
 # Infection-Triggered Autoimmunity
@@ -133,3 +133,4 @@ Dengue provides one of the best-characterised examples of acute-phase molecular 
 - [[Gawali2021 - ANA Prevalence in Seroconverted Dengue Patients]] (6-month ANA in dengue IgG+ patients; 18.33% HEp-2 IIFA-positive; no control group; intermediate time point between acute peak and 2-year persistence)
 - [[Velazqueza2017 - SLE vs Dengue Case Series]] (n=2 pediatric SLE cases in dengue context; Case 2 SLE diagnosed 2 months after dengue — suggestive de novo triggering timeline; ANA 1:1280 + antinucleosome + anti-dsDNA; FC receptor polymorphism proposed as autoimmunity mechanism; Guadalajara Mexico)
 - [[Rajadhyaksha2012 - Dengue Evolving into SLE and Lupus Nephritis]] (n=1 adult; primary DENV-1; ANA 1:320 + anti-dsDNA + anti-cardiolipin + Class IV LN; 4-week post-dengue interval; Mumbai India; proposed mechanism: viral IC deposition in kidney; causal direction ambiguous without pre-dengue baseline)
+- [[Jardim2012 - Autoimmune Features DHF Case Report]] (n=1 adult; secondary DENV-3; ANA 1/320 mitotic spindle + cryoglobulins + selective C3 depression + LE cells — all fully resolved at follow-up; anti-dsDNA negative; exemplifies transient dengue-triggered autoimmunity model; Campinas Brazil)

@@ -2,8 +2,8 @@
 type: entity
 tags: [E-protein, envelope-protein, structural-protein, receptor-binding, vaccine-target, fusion, neutralising-antibody, WGNGCG, coagulation, EDI-II, EDIII, cross-reactive, longitudinal, IgG-kinetics, anti-prM, structural-antibody-proportion]
 created: 2026-04-12
-updated: 2026-04-17
-sources: 4
+updated: 2026-04-18
+sources: 5
 ---
 
 # E Protein
@@ -75,3 +75,4 @@ The WGNGCG coagulation factor homology motif resides in domain II of E protein (
 - [[Lin2011 - Molecular Mimicry Virus Host Dengue Pathogenesis]] (WGNGCG coagulation factor homology)
 - [[Bos2025 - Longitudinal Antibody Dynamics After Dengue]] (XR E-IgG rising 6–18M post-primary; EDI/II drives cross-reactive rise; EDIII flat; domain-resolved longitudinal kinetics; PREPRINT)
 - [[Dejnirattisai2010 - Anti-prM Antibodies Enhance Dengue ADE]] (anti-E ~35% of structural antibodies vs. anti-prM ~60%; anti-E more serotype-restricted and better-neutralising than anti-prM; E vs. prM ADE magnitude comparison; Thailand n=7 donors)
+- [[Pang2017 - DHF Pathogenesis Review]] (E protein cited alongside prM as ADE target; anti-E and anti-prM cross-reactive antibodies in secondary infection reviewed; ADE mechanism overview; review, Tsinghua University China)

@@ -2,8 +2,8 @@
 type: concept
 tags: [pathophysiology, vascular-permeability, thrombocytopenia, coagulopathy, complement, liver, NS1, TLR4, plasma-leakage, DHF, DSS, PAIgM, PAIgG, secondary-infection, immune-complex, FcR-bypass, glycocalyx, cathepsin-L, heparanase, MIF, autophagy]
 created: 2026-04-12
-updated: 2026-04-17
-sources: 10
+updated: 2026-04-18
+sources: 11
 ---
 
 # Dengue Pathophysiology
@@ -51,6 +51,12 @@ This fills a mechanistic gap in the existing glycocalyx-shedding model: Guzman20
 - **Glycocalyx shedding**: NS1 may shed heparan sulfate/chondroitin sulfate from the endothelial glycocalyx → anticoagulant molecules enter circulation → contributes to coagulopathy (see [[Guzman2016 - Dengue Infection]])
 - Most coagulopathy is minor and self-limiting; major haemorrhage is usually a complication of prolonged shock, not a primary dengue effect
 - The APTT-vascular permeability correlation raises the possibility that coagulation interference is proximal to, not merely co-incident with, plasma leakage
+
+### Cryoglobulinemia and Serositis in DHF
+
+[[Jardim2012 - Autoimmune Features DHF Case Report]] (n=1 case report, Brazil — not generalizable) documents **cryoglobulinemia** (cold-precipitating immunoglobulins, likely mixed type II/III immune complexes) alongside triple serositis (pleural, pericardial, ascitic) in secondary DENV-3 DHF. This is the only cryoglobulinemia case in this wiki associated with dengue. The cryoglobulinemia is mechanistically coherent with dengue's known circulating immune complex (IC) generation in secondary infection: the same IC pool driving PAIgG/PAIgM platelet loading (see [[Saito2004 - PAIgG and PAIgM in Secondary Dengue]], [[Oishi2003 - PAIgG and Thrombocytopenia in Secondary Dengue]]) may precipitate as cryoglobulins in susceptible individuals. The patient also showed **selective C3 depression** (0.39 g/L) with C4 within normal range — contrasting with the classical pathway complement pattern (both C3 and C4 depleted) seen in [[Rajadhyaksha2012 - Dengue Evolving into SLE and Lupus Nephritis]], suggesting alternative or MBL pathway complement activation, or early-phase disease before C4 consumption.
+
+LE cells were documented in pleural fluid cytology — requiring anti-nuclear IgG, complement activation, and nuclear material release, consistent with the complement and immune complex features of this case.
 
 ### Immune Complex-Mediated Renal Pathology
 
@@ -109,3 +115,4 @@ A protein microarray screen in Cambodian pediatric dengue patients revealed that
 - [[Bhatt2020 - Dengue Pathogenesis Review]] (glycocalyx degradation: NS1 activates heparanase → heparan sulfate chain cleavage; NS1 activates cathepsin L → proteoglycan core cleavage; dual enzymatic glycocalyx loss mechanism; MIF-autophagy viral amplification; review, India)
 - [[Pang2017 - DHF Pathogenesis Review]] (NS1 → fluid-phase complement activation → C5b-C9 complex → NLRP3 inflammasome → DHF-associated cytokines; ADE risk quantification: secondary infection DHF 118–208/1000 vs. 11–12/1000 primary; review, China)
 - [[Rajadhyaksha2012 - Dengue Evolving into SLE and Lupus Nephritis]] (immune complex-mediated renal pathology: primary DENV-1 → severe hypocomplementemia [C3 22 mg/dL, C4 5 mg/dL] + Class IV GN 4 weeks post-dengue; mechanism: dengue viral IC deposition proposed; Mumbai India; n=1 case report — not generalizable)
+- [[Jardim2012 - Autoimmune Features DHF Case Report]] (secondary DENV-3 DHF; cryoglobulinemia [first in wiki]; triple serositis; selective C3 depression with C4-normal; LE cells in pleural fluid; DIC with fibrinogen 85.5 mg%; all resolved at follow-up; Campinas Brazil; n=1 case report — not generalizable)

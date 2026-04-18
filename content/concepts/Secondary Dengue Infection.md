@@ -2,8 +2,8 @@
 type: concept
 tags: [secondary-infection, ADE, DHF, DSS, heterotypic, cross-reactive-antibodies, disease-severity, thrombocytopenia, PAIgG, PAIgM, immune-complex, DHF-predictor, anti-prM]
 created: 2026-04-12
-updated: 2026-04-17
-sources: 13
+updated: 2026-04-18
+sources: 14
 ---
 
 # Secondary Dengue Infection
@@ -121,3 +121,4 @@ This finding sits in tension with the severity-autoantibody correlation document
 - [[Vo2020 - Autoantibody Profiling in Dengue]] (primary > secondary IgG autoantibody inversion: 70 IgG autoantibodies higher in primary infection; all 8 DHF patients were secondary infection; Cambodia cohort; IgG tolerance-escape model for primary-infection autoantibody excess)
 - [[Dejnirattisai2010 - Anti-prM Antibodies Enhance Dengue ADE]] (anti-prM dominant structural antibody ~60%; full cross-reactivity across serotypes — the dominant non-neutralising pool available for ADE upon secondary challenge; 10^5-fold monocyte/DC enhancement; Thailand n=7 donors; secondary infection donors included)
 - [[Pang2017 - DHF Pathogenesis Review]] (DHF risk quantified: secondary infection 118–208/1000 vs. 11–12/1000 primary — ≥10-fold; ADE mechanism overview; FcγR-mediated IFN suppression + IL-10 enhancement in secondary infection; review, China)
+- [[Jardim2012 - Autoimmune Features DHF Case Report]] (secondary DENV-3 infection [IgM+/IgG+ dual positivity]; DHF with triple serositis, DIC, cryoglobulinemia, ANA 1/320 mitotic spindle — all resolved at follow-up; exemplifies broad autoimmune mimicry in secondary infection; Campinas Brazil; n=1 case report)

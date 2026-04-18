@@ -2,6 +2,60 @@
 
 ---
 
+## [2026-04-18] lint | Deep batched health check (post-Jardim2012)
+
+**Method:** Batched by folder (sources → entities/concepts → methods/geography → analyses). Forward propagation check for all 8 ingests since 2026-04-17 lint (Pang2017, Velazqueza2017, Gawali2021, Zhou2007, Bhatt2020, Dejnirattisai2010, Rajadhyaksha2012, Jardim2012). Orphan check, stale link scan, thin-page audit.
+
+**Stale cross-references:** 0. Checked Brazil, Mexico, Herd Immunity — no live wikilinks to non-existent pages.
+
+**Orphans:** Reading Plan - ANA and Dengue Dynamics (only linked from index.md) — unchanged, acceptable meta document.
+
+**Forward propagation gaps found and fixed (6 pages):**
+1. `entities/NS1 Protein.md` — Jardim2012 missing; sources 13→14
+2. `entities/Aedes aegypti.md` — Jardim2012 missing; sources 9→10
+3. `concepts/Dengue Clinical Classification.md` — Jardim2012 missing; sources 5→6
+4. `methods/Indirect Immunofluorescence ANA Test.md` — Jardim2012 missing; sources 9→10
+5. `entities/E Protein.md` — Pang2017 missing; sources 4→5
+6. `concepts/Cross-Reactive Antibodies.md` — Bhatt2020 missing; sources 10→11
+
+**Analysis page gap fixed:**
+- `analyses/ANA and Dengue - A Literature Review.md` — Jardim2012 not integrated (missed during ingest); fourth-pass revision added: case table row (mitotic spindle ANA, full resolution, anti-dsDNA negative), discussion point 5 (transient multi-autoantibody pole, selective C3/C4-normal differential); sources 28→29
+
+**Index fixes:**
+- Methods section header: `(14)` → `(15)` (actual count was 15, header was wrong)
+- NS1 Protein: 13→14; Aedes aegypti: 9→10; E Protein: 4→5
+- Dengue Clinical Classification: 5→6; Cross-Reactive Antibodies: 10→11; Indirect Immunofluorescence ANA Test: 9→10
+
+**Minor inconsistency noted (not fixed):** Pang2017 appears in NS1 Antigen Detection Sources as background citation, but Pang2017 source page lists "Methods Used: N/A". Extra connection (benign direction) — not a propagation gap from the source's perspective.
+
+**Thin pages confirmed (all already in Watch Items):** Wolbachia (1), CYD-TDV (2), Polyreactive Antibodies (1), NK Cell Responses in Dengue (1), Viraemia (2); thin methods: ELISA Inhibition Method, Single-Cell RNA Sequencing, V(D)J Sequencing, qRT-PCR, Autoantigen Microarray, Line Immunoassay ANA, Surface Plasmon Resonance; thin geography: Nicaragua (1), Paraguay (1), Cambodia (1).
+
+---
+
+## [2026-04-18] ingest | Jardim2012 - Autoimmune Features DHF Case Report
+
+**Citation:** Jardim DLF, Tsukumo DML, Angerami RN, de Carvalho Filho MA, Saad MJA. "Autoimmune features caused by dengue fever: a case report." *Braz J Infect Dis*. 2012;16(1):92–95. DOI: 10.1590/s1413-86702012000100018. Citations: 6 (SS) / 12 (CR).
+
+**Type:** Case report (n=1). Universidade Estadual de Campinas (UNICAMP), Campinas, São Paulo, Brazil. DENV-3 outbreak May 2007; secondary infection.
+
+**Created:** `wiki/sources/Jardim2012 - Autoimmune Features DHF Case Report.md`
+
+**Updated:**
+- `wiki/entities/DENV-3.md` — Brazil 2007 São Paulo DENV-3 outbreak; sources 9→10
+- `wiki/concepts/Autoimmunity in Dengue.md` — new subsection on Jardim2012: mitotic spindle ANA, cryoglobulinemia, selective C3 depression, LE cells, full resolution; sources 27→28
+- `wiki/concepts/Dengue Pathophysiology.md` — new section on cryoglobulinemia and serositis in DHF; selective C3-normal C4 complement pattern; sources 10→11
+- `wiki/concepts/NS1 Molecular Mimicry in Dengue.md` — citation added; sources 10→11
+- `wiki/concepts/Infection-Triggered Autoimmunity.md` — Jardim2012 as transient dengue autoimmunity example; sources 10→11
+- `wiki/concepts/Antinuclear Antibodies.md` — new subsection on mitotic spindle ANA pattern; sources 11→12
+- `wiki/concepts/Secondary Dengue Infection.md` — citation added; sources 13→14
+- `wiki/methods/IgM-IgG Serology ELISA.md` — PanBio MAC-ELISA + DuoCassette; sources 13→14
+- `wiki/analyses/Notable Findings.md` — new entry: mitotic spindle ANA pattern + cryoglobulinemia
+- `wiki/index.md` — sources 33→34, pages 99→100; Brazil geography noted (1 source, no page)
+
+**Geography:** Brazil (Campinas, São Paulo) — first source; no standalone page per ≥2-source rule.
+
+---
+
 ## [2026-04-17] ingest | Rajadhyaksha2012 - Dengue Evolving into SLE and Lupus Nephritis
 
 **Citation:** Rajadhyaksha A, Mehra S. "Dengue fever evolving into systemic lupus erythematosus and lupus nephritis: a case report." *Lupus*. 2012;21(9):999–1002. DOI: 10.1177/0961203312437807. Citations: 54 (SS) / 35 (CR).

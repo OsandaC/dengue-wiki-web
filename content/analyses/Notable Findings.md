@@ -2,13 +2,30 @@
 type: analysis
 tags: [notable-findings, flags, cross-cutting, observations]
 created: 2026-04-12
-updated: 2026-04-17 (Rajadhyaksha2012 ingest)
+updated: 2026-04-18 (Jardim2012 ingest)
 sources: 20
 ---
 
 # Notable Findings
 
 A running log of observations that are striking, unexpected, or carry implications beyond the paper they came from. Each entry is a flag — something worth returning to, following up on, or building an analysis around. Entries are added during ingest whenever something catches the eye.
+
+---
+
+## [2026-04-18] Dengue can produce a mitotic spindle ANA pattern — spindle apparatus antigens join the dengue autoantibody target repertoire
+
+**Source:** [[Jardim2012 - Autoimmune Features DHF Case Report]]
+
+**Finding:** A 25-year-old woman with secondary DENV-3 DHF developed ANA 1/320 with a **mitotic spindle fluorescent pattern** — targeting centromere/spindle apparatus proteins rather than nuclear DNA or histones. Co-occurring autoimmune features included cryoglobulinemia (mixed immune complexes), selective C3 depression (C4 normal), and LE cells in pleural fluid. All markers — including ANA — resolved completely at follow-up. Anti-dsDNA was negative throughout.
+
+**Why notable:** Every other dengue ANA case with a reported pattern in this wiki shows a **homogeneous nuclear** signal (AC-1 type in Gawali2021; homogeneous 4+ in Rajadhyaksha2012; homogeneous+cytoplasmic or fine speckled in Velazqueza2017) — consistent with anti-dsDNA/histone/nucleosome targets. The mitotic spindle pattern is a different autoantigen class: proteins of the spindle apparatus and centromere (pericentrin, NuMA, tubulin-associated antigens) that are extranuclear in interphase cells and exposed during mitosis on HEp-2 cells. These are not NS1 mimicry targets (PDI, vimentin, HSP60, ATP synthase β — see [[NS1 Molecular Mimicry in Dengue]]). Their appearance suggests dengue can trigger autoantibody formation against a broader range of cellular proteins than NS1 molecular mimicry alone can explain. Whether this reflects epitope spreading from dengue-induced apoptosis releasing spindle apparatus antigens, polyreactive IgM binding, or a different mimicry target is unknown — the substrate and LIA confirmatory status are not reported. The full ANA resolution at follow-up is consistent with any of these mechanisms. The cryoglobulinemia finding is also the first documentation of dengue-associated mixed immune complex cryoprecipitation in this wiki — mechanistically expected given dengue's IC-generating pathophysiology but not previously a primary-source observation.
+
+**Follow-up questions:**
+- Has the mitotic spindle ANA pattern been documented in any other dengue case in the literature? If so, it would establish a specific dengue → spindle apparatus autoantigen axis analogous to the NS1 → PDI/vimentin platelet/endothelial axis.
+- Does the mitotic spindle pattern on HEp-2 represent anti-centromere antibodies (associated with limited systemic sclerosis in autoimmune disease settings) or anti-spindle antibodies (MSA-36, anti-pericentrin, anti-NuMA) — specific antigens would substantially narrow the mechanistic interpretation.
+- Does selective C3 depression with normal C4 distinguish dengue complement activation pattern from SLE-type classical pathway complement consumption — could this be used clinically to differentiate dengue serositis from SLE serositis in endemic settings?
+
+**Related pages:** [[Antinuclear Antibodies]], [[Autoimmunity in Dengue]], [[NS1 Molecular Mimicry in Dengue]], [[Dengue Pathophysiology]]
 
 ---
 

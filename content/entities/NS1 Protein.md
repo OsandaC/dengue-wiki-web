@@ -2,8 +2,8 @@
 type: entity
 tags: [NS1, non-structural-protein, molecular-mimicry, autoimmunity, platelet, endothelial-cell, coagulation, vaccine, DHF, flavivirus, antibody-kinetics, waning, type-specific, IgM, primary-infection, platelet-lysis, complement, PAIgG, secondary-infection, immune-complex, replication-complex, MIF, autophagy, cathepsin-L, heparanase]
 created: 2026-04-12
-updated: 2026-04-17
-sources: 13
+updated: 2026-04-18
+sources: 14
 ---
 
 # NS1 Protein
@@ -117,3 +117,4 @@ These are distinct from the anti-NS1 autoantibody mechanisms above; both operate
 - [[Bhatt2020 - Dengue Pathogenesis Review]] (NS1 ER-membrane replication complex cofactor with NS2A/B, NS3, NS4A/B; heparanase + cathepsin L activation → dual glycocalyx degradation routes; MIF-autophagy loop linking NS1-TLR4 → MIF → viral replication amplification; DENV-1 primary infection higher sNS1 than DENV-2 primary; review, India)
 - [[Velazqueza2017 - SLE vs Dengue Case Series]] (NS1 endothelial cross-reactivity and plasminogen inhibition cited as dengue autoimmunity mechanism in pediatric SLE context; Guadalajara Mexico; n=2 case series)
 - [[Pang2017 - DHF Pathogenesis Review]] (GPI-anchored NS1 → tyrosine phosphorylation → enhanced DENV replication via anti-NS1 signal transduction; NS1-complement-C5b-C9 pathway; NS1-MIF-autophagy; confirms TLR4 and autoimmune mimicry mechanisms; Tsinghua University, China; review)
+- [[Jardim2012 - Autoimmune Features DHF Case Report]] (NS1 cross-reactivity with host proteins cited as mechanism for dengue-induced autoimmune features including ANA 1/320, cryoglobulinemia, selective C3 depression; Lin2003 and Lin2006 cited; Campinas Brazil; n=1 case report)

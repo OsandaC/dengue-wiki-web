@@ -2,8 +2,8 @@
 type: concept
 tags: [autoimmunity, immune-complex, ANA, CRP, cytokines, molecular-mimicry, NS1, post-dengue, infection-triggered-autoimmunity, thrombocytopenia, endothelial-cells, ADEM, encephalomyelitis, epidemiology, MCTD, myositis, LIA, India, sex-bias, host-factors, adrenocortical-insufficiency, TLR, Taiwan, NHIRD, MAS, macrophage-activation-syndrome, HLH, Paraguay, SLE, lupus-nephritis, ANA-negative, PAIgG, secondary-infection, Philippines, polyreactive-antibodies, 6-month-follow-up]
 created: 2026-04-11
-updated: 2026-04-17
-sources: 27
+updated: 2026-04-18
+sources: 28
 
 ---
 
@@ -105,6 +105,20 @@ This is the only wiki source with direct ANA measurement in dengue-associated MA
 The within-series comparison in Morel2014 is also notable: Case 1 (the mildest, self-limiting case) showed the most conventional autoimmune markers (IgM anticardiolipin positive, hypocomplementemia, proteinuria) while being the least severe clinically. Cases 2 and 3 (the most severe, requiring corticosteroids) had no conventional autoantibodies. This inversion does not necessarily contradict the Wan2012 autoantibody-severity correlation (which measured flow cytometric anti-endothelial antibodies, a different assay), but it highlights that **the autoimmune marker panel routinely tested (ANA, anti-dsDNA, lupus anticoagulant) cannot distinguish dengue-MAS from other causes of MAS**.
 
 [[Palacios2016 - Autoimmunity in Dengue Literature Review]] (a letter to the editor responding to Morel2014) adds another MAS case — an adult woman with concurrent nephrotic syndrome (Lai et al. 2012, France), confirming that dengue-MAS is not solely paediatric. Palacios2016 also documents additional dengue-autoimmune clinical forms: SLE+lupus nephritis (Talib 2013, ANA homogeneous + anti-dsDNA positive — the one case with positive ANA in contrast to Morel2014) and retinal vasculitis (Chang 2007, Singapore, via immune complex deposition).
+
+### Transient Multi-Autoantibody Syndrome — Case Report With Full Resolution
+
+[[Jardim2012 - Autoimmune Features DHF Case Report]] (n=1 case report, Campinas Brazil — not generalizable) provides the clearest single-case illustration in this wiki of dengue producing a broad multi-autoantibody picture that completely resolves, with key features:
+
+- **ANA 1/320, mitotic spindle fluorescent pattern** — distinct from the homogeneous/AC-1 nuclear pattern seen in Gawali2021 and the homogeneous 4+ pattern in Rajadhyaksha2012. The mitotic spindle pattern targets centromere/spindle apparatus proteins rather than nuclear DNA/histones, adding a new autoantigen class to the dengue ANA spectrum.
+- **ANA negative at follow-up** — full resolution, consistent with the transient dengue ANA model. The mitotic spindle pattern may reflect either epitope spreading (dengue-induced apoptosis releasing spindle apparatus antigens) or polyreactive IgM binding (see [[Zhou2007 - Polyreactive Antibodies Natural Antibody Function]]).
+- **Cryoglobulins positive → negative at follow-up** — first documented cryoglobulinemia case in this wiki. Mechanistically consistent with dengue-driven circulating IC formation in secondary infection.
+- **Selective C3 depression** (0.39 g/L) with **C4 normal** (0.33 g/L) — unlike Rajadhyaksha2012 (both C3 22 mg/dL and C4 5 mg/dL depleted). The C4-sparing pattern is atypical for classical pathway complement consumption and may indicate alternative or MBL pathway activation.
+- **LE cells in pleural fluid** — requiring nuclear material, anti-nuclear IgG, complement, and phagocytic function to co-occur.
+- **Anti-dsDNA negative** throughout — critical distinguishing feature from SLE; no specific nuclear antigen autoantibody confirmed.
+- **Secondary infection** (both IgM and IgG positive by DuoCassette).
+
+This case contrasts with the SLE cluster cases ([[Rajadhyaksha2012 - Dengue Evolving into SLE and Lupus Nephritis]], [[Velazqueza2017 - SLE vs Dengue Case Series]]) precisely because of full resolution: the same ANA-positive, hypocomplementaemic, lupus-like presentation resolved without any persistent autoimmune diagnosis. Within the dengue-autoimmunity spectrum, Jardim2012 represents the "transient trigger" end, Velazqueza2017/Rajadhyaksha2012 the "sustained/unmasking" end. The case cannot determine which mechanism produced the mitotic spindle ANA — substrate type was not specified, and LIA confirmatory testing is not reported.
 
 ### Pediatric SLE-Dengue Co-presentation — ANA-Positive Cases
 
@@ -220,3 +234,4 @@ The nuclear antigen correlation finding is particularly notable given the existi
 - [[Gawali2021 - ANA Prevalence in Seroconverted Dengue Patients]] (ANA in IgG-seroconverted dengue patients at 6 months; 18.33% IIFA HEp-2-positive; AC-1 dominant; no control group; Gwalior Central India; n=120 IgG+)
 - [[Velazqueza2017 - SLE vs Dengue Case Series]] (n=2 pediatric SLE + dengue cases; Guadalajara Mexico; ANA 1:1280 + anti-dsDNA + antinucleosome in both; Case 2 SLE diagnosed 2 months after dengue; FcR polymorphism and NS1 molecular mimicry cited as mechanisms; n=2 case series — not generalizable)
 - [[Rajadhyaksha2012 - Dengue Evolving into SLE and Lupus Nephritis]] (n=1 adult female; primary DENV-1 [IgM+/IgG-]; ANA 1:320 + anti-dsDNA 1:80 + hypocomplementemia + anti-cardiolipin IgM+IgG+ at 4 weeks post-dengue; biopsy-confirmed Class IV diffuse proliferative GN; first reported dengue→lupus nephritis case; Mumbai India; causal direction ambiguous — no pre-dengue autoantibody baseline)
+- [[Jardim2012 - Autoimmune Features DHF Case Report]] (n=1 adult female; secondary DENV-3 [IgM+/IgG+]; ANA 1/320 mitotic spindle pattern + cryoglobulins + selective C3 depression + LE cells in pleural fluid — all resolved at follow-up; anti-dsDNA negative; clearest transient multi-autoantibody dengue case in wiki; Campinas Brazil; n=1 case report — not generalizable)
