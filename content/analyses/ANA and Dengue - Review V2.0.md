@@ -3,12 +3,12 @@ type: analysis
 tags: [ANA, antinuclear-antibody, dengue, autoimmunity, molecular-mimicry, bystander-activation, epitope-spreading, post-dengue, IIF, HEp-2, LIA, prevalence, healthy-population, acute-phase, IIFA, FcγRIIa, NS1, MAS, HLH, macrophage-activation, NS1-IgG-kinetics, primary-infection, PAIgG, PAIgM, ANA-negative, polyreactive-IgM, nuclear-antigen-consumption, thrombocytopenia-bifurcation, immune-complex, anti-prM, vaccine-design, P311-330, PDI, epitope-mapping, FcγRIIa-paradox, anti-EC-isotype-shift, dengue-mimickers, false-positive-serology, SLE-dengue-differential, literature-review, synthesis]
 created: 2026-04-18
 updated: 2026-04-19
-sources: 40
+sources: 41
 ---
 
 # ANA and Dengue — A Synthesis Review (V2.0)
 
-*Synthesised from all 40 source papers in the wiki. Ground-up rewrite; supersedes the incrementally revised V1.x series (2026-04-13 through 2026-04-18). Version 1.x is preserved at [[ANA and Dengue - A Literature Review]].*
+*Synthesised from all 41 source papers in the wiki. Ground-up rewrite; supersedes the incrementally revised V1.x series (2026-04-13 through 2026-04-18). Version 1.x is preserved at [[ANA and Dengue - A Literature Review]].*
 
 ---
 
@@ -59,6 +59,7 @@ What does dengue virus infection do to the antinuclear antibody (ANA) profile �
 - [[Hung2008 - Anti-Platelet Anti-Endothelial Autoantibodies Vietnam]]
 - [[Santosa2012 - Delayed SLE Diagnosis Dengue Serology]]
 - [[Farias2024 - Dengue Mimickers]]
+- [[Ghorai2024 - Autoantibodies in Dengue Pathogenesis Review]] *(secondary review; contributes anti-plasminogen profibrinolysis/hyperfibrinolysis bifurcation mechanism, anti-DSG pemphigus angle, and Lin2008 hepatic NS1-AECA murine model detail — tangential to ANA thread)*
 - [[Morel2014 - Autoimmune Response in Children With Dengue]] *(counted once)*
 
 ---

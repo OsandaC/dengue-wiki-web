@@ -3,7 +3,7 @@ type: entity
 tags: [serotype, DENV-2, Asian-genotype, virulence, ADE, secondary-infection, Cuba, CNS-invasion, neuropathogenesis, anti-platelet, IgM, autoantibody-cross-serotype, anti-prM, cross-reactivity, NS3, salivary-gland-replication]
 created: 2026-04-12
 updated: 2026-04-17
-sources: 12
+sources: 13
 ---
 
 # DENV-2
@@ -52,3 +52,4 @@ DENV-2, along with DENV-3, is specifically implicated in **direct CNS invasion**
 - [[Cheng2015 - NS1 P311-330 Anti-PDI Autoantibodies in DHF]] (DENV-2 in 1/15 DHF patients in Vietnamese paediatric cohort; anti-endothelial autoantibody study)
 - [[Farias2024 - Dengue Mimickers]] (all four serotypes noted as co-circulating in Brazil 2024 epidemic with >6M cases; background epidemiology; Brazil narrative review — secondary source)
 - [[Hung2008 - Anti-Platelet Anti-Endothelial Autoantibodies Vietnam]] (DENV-2 co-circulating with DENV-3/4 in HCMC Vietnam 1998–2002 cohort; serotype-confirmed by virus isolation/RT-PCR)
+- [[Ghorai2024 - Autoantibodies in Dengue Pathogenesis Review]] (DENV-2 and DENV-4 cited as higher-virulence serotypes citing Martina 2009; all four serotypes referenced in coagulation factor mimicry and autoantibody context; Kolkata India review — secondary source)

@@ -454,3 +454,20 @@ A running log of observations that are striking, unexpected, or carry implicatio
 **Related pages:** [[Infection-Triggered Autoimmunity]], [[Secondary Dengue Infection]], [[NS1 Molecular Mimicry in Dengue]], [[Vietnam]], [[Dengue Pathophysiology]]
 
 ---
+
+## [2026-04-19] Dengue-triggered anti-desmoglein autoantibodies — a completely new auto-antibody target class in this wiki
+
+**Source:** [[Ghorai2024 - Autoantibodies in Dengue Pathogenesis Review]]
+
+**Finding:** Dengue infection can trigger production of anti-desmoglein (anti-DSG-1, anti-DSG-3) autoantibodies, causing pemphigus vulgaris (mucous membranes + skin blisters) and pemphigus foliaceus (superficial skin blisters) via acantholysis — desmosomal junction dissolution leading to keratinocyte separation. Mechanisms include both a signalling-dependent pathway (anti-DSG-3 → P38 MAPK → DSG clustering/endocytosis → keratin collapse) and a signalling-independent pathway (steric hindrance of EC1 trans-adhesion domain).
+
+**Why notable:** This introduces an entirely new class of auto-antibody target into the dengue pathogenesis picture. All auto-antibodies previously documented in this wiki target intracellular or circulating proteins (platelets, endothelial cell surface antigens, coagulation factors, nuclear antigens, HSP60, PDI, vimentin). Anti-desmosomal auto-antibodies targeting structural junction proteins of the skin and mucous membranes represent a different tissue compartment and a distinct effector mechanism (acantholysis rather than cytotoxicity, thrombocytopenia, or endothelial leak). The evidence base, however, is thin: Ghorai2024 is a secondary review, and the underlying evidence appears to be case reports. The finding is plausible mechanistically but requires direct cohort validation (anti-DSG serology in dengue patients; pemphigus incidence data post-dengue).
+
+**Follow-up questions:**
+- Is anti-DSG seroconversion measurable in a dengue cohort using standard pemphigus diagnostic antibody assays (DSG-ELISA)?
+- What is the incidence of clinically recognised pemphigus or pemphigoid features in dengue patients in endemic settings?
+- Does the anti-DSG response correlate with other auto-antibody responses (anti-nuclear, anti-platelet) or represent an independent bystander activation event?
+
+**Related pages:** [[Pemphigus and Acantholysis in Dengue]], [[Autoimmunity in Dengue]], [[Infection-Triggered Autoimmunity]]
+
+---

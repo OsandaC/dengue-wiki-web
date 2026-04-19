@@ -3,7 +3,7 @@ type: concept
 tags: [autoimmunity, immune-complex, ANA, CRP, cytokines, molecular-mimicry, NS1, post-dengue, infection-triggered-autoimmunity, thrombocytopenia, endothelial-cells, ADEM, encephalomyelitis, epidemiology, MCTD, myositis, LIA, India, sex-bias, host-factors, adrenocortical-insufficiency, TLR, Taiwan, NHIRD, MAS, macrophage-activation-syndrome, HLH, Paraguay, SLE, lupus-nephritis, ANA-negative, PAIgG, secondary-infection, Philippines, polyreactive-antibodies, 6-month-follow-up, PDI, HSP60, P311-330, Vietnam, infants, primary-infection, thrombomodulin, anti-platelet, anti-endothelial, infection-order]
 created: 2026-04-11
 updated: 2026-04-19
-sources: 34
+sources: 35
 
 ---
 
@@ -209,6 +209,21 @@ The nuclear antigen correlation finding is particularly notable given the existi
 - **Kawasaki disease (KD) and MIS-C as dengue mimickers:** KD in children <5 years is a recognised dengue differential, especially with prolonged fever; oral changes ("strawberry tongue"), finger desquamation, conjunctival injection, and thrombocytosis (vs. thrombocytopenia in dengue) are key differentiators. MIS-C (post-SARS-CoV-2) distinguished from severe dengue by higher CRP, conjunctival injection, and oral mucosal changes; dengue shows higher Hb/Hct, lower platelets, greater aminotransferase elevation.
 - **ITP as dengue comorbidity and trigger:** Dengue may co-occur with ITP or trigger ITP; isolated thrombocytopenia without lymphopenia/viral syndrome/fever argues for ITP; dengue-ITP fatal case in Brazil (DENV-4) documented
 
+### Pemphigus and Acantholysis — Anti-Desmoglein Autoantibodies in Dengue
+
+[[Ghorai2024 - Autoantibodies in Dengue Pathogenesis Review]] (narrative review, Kolkata India — secondary source) introduces a dermatological axis of dengue autoimmunity not previously covered in this wiki: **anti-desmoglein (DSG) autoantibodies causing pemphigus-like acantholysis and intra-epidermal blister formation**.
+
+- **Pemphigus vulgaris (PV):** anti-DSG-1 + anti-DSG-3 → mucous membranes + skin involvement
+- **Pemphigus foliaceus (PF):** anti-DSG-1 only → superficial skin blistering
+- Both have been associated with DHF and DF patients; DENV-infected patients developed epidermal blisters following passive transfer of anti-DSG antibodies to neonatal mice
+- **Mechanism:** anti-DSG-3 antibodies target the N-terminal extracellular domain 1 (EC1) of DSG-3 → either (1) steric hindrance preventing trans-adhesive DSG-DSG interaction (signalling-independent) or (2) P38 MAPK-dependent DSG-3 clustering and endocytosis → keratin filament collapse → desmosome internalisation → acantholysis
+- The pathogenic mechanism generalises across PV autoantibodies: IgG fractions from PV sera cause blistering; immune adsorption of anti-DSG1/3 eliminates blister-inducing capacity
+- Other viruses (EBV, CMV, HSV-1/2) are also associated with pemphigus; DENV is the latest addition to this list
+
+**Epistemic status:** Evidence for dengue-pemphigus rests on case reports and passive transfer animal models — not prospective cohort data. Whether dengue generates anti-DSG antibodies through molecular mimicry, bystander activation, or unmasks pre-existing pemphigus susceptibility is not established. Anti-DSG antibodies have not been systematically measured in dengue patient cohorts.
+
+See [[Pemphigus and Acantholysis in Dengue]] for full mechanistic detail.
+
 ## Related Pages
 - [[Post-Dengue Syndrome]]
 - [[Dengue Neurological Complications]]
@@ -222,7 +237,7 @@ The nuclear antigen correlation finding is particularly notable given the existi
 - [[Taiwan]]
 - [[India]]
 - [[Singapore]]
-- [[Paraguay]]
+- [[Latin America]]
 - [[Line Immunoassay ANA]]
 - [[Autoantigen Microarray]]
 - [[Southeast Asia]]
@@ -265,3 +280,4 @@ The nuclear antigen correlation finding is particularly notable given the existi
 - [[Santosa2012 - Delayed SLE Diagnosis Dengue Serology]] (reverse diagnostic hazard: pre-existing SLE low-affinity IgM autoantibodies cause false-positive dengue IgM [15% in RF-positive patients with Panbio kit]; bidirectional hazard — immunosuppression also causes false-negative dengue serology; NS1 antigen and RT-PCR recommended for autoantibody-positive patients; Singapore NUHS/SGH; n=1 case report)
 - [[Farias2024 - Dengue Mimickers]] (clinical differential diagnosis review; SLE-dengue bidirectional confusion; false-positive dengue serology in SLE/RA; dengue triggering KD, ITP, necrotizing myopathy, sacroiliitis; NS1 92%/100% sensitivity/specificity within 5 days; Brazil narrative review — secondary source)
 - [[Hung2008 - Anti-Platelet Anti-Endothelial Autoantibodies Vietnam]] (anti-platelet IgM autoantibodies in infants with primary dengue [first endemic-setting confirmation]; anti-EC isotype shift — IgM-only in infants/primary, IgM+IgG in children/predominantly secondary; infection-order independence for anti-platelet and anti-EC levels in children; no severity/platelet/hematocrit correlation; thrombomodulin elevated in vivo — endothelial structural damage confirmed; HCMC Vietnam paediatric DHF/DSS; n=50 infants + 37 children)
+- [[Ghorai2024 - Autoantibodies in Dengue Pathogenesis Review]] (comprehensive review of autoantibody-mediated dengue pathogenesis; profibrinolysis/hyperfibrinolysis dual mechanism via anti-plasminogen auto-antibodies; anti-DSG pemphigus autoantibody mechanism and acantholysis; anti-NS1 AECA hepatic inflammation [Lin 2008 murine model]; complement pathways in DHF vs. DF; Kolkata India review — secondary source synthesising primary literature)

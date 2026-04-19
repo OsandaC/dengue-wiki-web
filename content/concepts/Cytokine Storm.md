@@ -3,7 +3,7 @@ type: concept
 tags: [cytokines, immunopathogenesis, IL-10, TNF-alpha, IFN-alpha, vascular-permeability, plasma-leakage, DHF, DSS, TLR4, NS1, bystander-activation, MAS, macrophage-activation-syndrome, HLH, hyperferritinemia, MIF, autophagy, Th2-skewing, Treg, cytotoxic-factor, hCF]
 created: 2026-04-13
 updated: 2026-04-18
-sources: 12
+sources: 13
 ---
 
 # Cytokine Storm
@@ -131,3 +131,4 @@ Critically, these MAS cases were **ANA and anti-dsDNA negative** — confirming 
 - [[Bhatt2020 - Dengue Pathogenesis Review]] (MIF-autophagy viral amplification loop; OAS CD8+ T cell TNF-α/IL-6 excess without cytolytic clearance; Th1→Th2 shift mechanism; IL-10 from Tregs + CD4 T cells; review, India)
 - [[Pang2017 - DHF Pathogenesis Review]] (IL-10 → T cell apoptosis mechanism reviewed; reduced T cell numbers in DHF vs DF; IL-10 blockade reduces apoptosis; anti-NS1 NF-κB → IL-6/IL-8/MCP-1 pathway confirmed; review, China)
 - [[Farias2024 - Dengue Mimickers]] (cytokine storm cited as background mechanism driving dengue severity; COVID-19 parallel noted — both SARS-CoV-2 and DENV trigger cytokine storm with shared clinical features; Brazil narrative review — secondary source)
+- [[Ghorai2024 - Autoantibodies in Dengue Pathogenesis Review]] (AECA-induced pro-inflammatory cytokine production: IL-1, IL-6, IL-8, MCP-1, TNF-α via NF-κB activation; anti-NS1 AECA as a driver of endothelial cytokine release distinct from direct viral TLR4 activation; Kolkata India review — secondary source)

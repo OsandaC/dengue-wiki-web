@@ -115,7 +115,7 @@ The key practical implication: dengue-triggered MAS may be clinically confused w
 - [[NS1 Protein]]
 - [[Dengue Pathophysiology]]
 - [[Antibody-Dependent Enhancement]]
-- [[Paraguay]]
+- [[Latin America]]
 
 ## Sources
 

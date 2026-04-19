@@ -1,16 +1,16 @@
 ---
 type: geography
-tags: [Latin-America, Americas, Caribbean, Cuba, Nicaragua, Brazil, DENV-2, DENV-3, DENV-4, epidemic, endemic, autoimmunity]
+tags: [Latin-America, Americas, Caribbean, Cuba, Nicaragua, Brazil, Paraguay, DENV-2, DENV-3, DENV-4, epidemic, endemic, autoimmunity, MAS]
 created: 2026-04-18
-updated: 2026-04-18
-sources: 7
+updated: 2026-04-19
+sources: 8
 ---
 
 # Latin America
 
 ## Overview
 
-Latin America encompasses the Caribbean (Cuba), Central America (Nicaragua), and South America (Brazil), representing dengue settings ranging from Cuba's epidemic-by-importation pattern to Nicaragua's endemic pediatric transmission and Brazil's high-burden endemic circulation. The region contributes six sources to this wiki spanning epidemiology, immunology, autoimmune case reports, and a viral infection ANA comparator.
+Latin America encompasses the Caribbean (Cuba), Central America (Nicaragua), and South America (Brazil), representing dengue settings ranging from Cuba's epidemic-by-importation pattern to Nicaragua's endemic pediatric transmission and Brazil's high-burden endemic circulation. The region contributes eight sources to this wiki spanning epidemiology, immunology, autoimmune case reports, dengue-associated macrophage activation syndrome, and a viral infection ANA comparator.
 
 ---
 
@@ -113,9 +113,32 @@ Brazil is the largest country in South America and one of the highest-burden den
 
 ---
 
+## Paraguay
+
+Paraguay is a landlocked country in South America with endemic dengue transmission. The country appears in this wiki via a single source reporting dengue-associated macrophage activation syndrome (MAS) in paediatric patients — an atypical, severe immune-mediated presentation. The Hospital Central del Instituto de Previsión Social in Asunción is the national social security referral hospital and the reporting institution.
+
+### Key Points from Literature
+
+#### Dengue-Associated MAS — Paediatric Cases
+
+[[Morel2014 - Autoimmune Response in Children With Dengue]] presents three paediatric patients (3 months – 8 years; all male) with dengue-triggered autoimmune complications in an endemic setting the authors describe as characterised by "hyperimmune responses" — a term used clinically for particularly pronounced immunopathological outcomes.
+
+Key features documented in Paraguayan patients:
+- **MAS/secondary HLH** as a dengue complication: Cases 2 and 3 fulfilled 5 of 8 HLH-2004 criteria (fever, hepatosplenomegaly, cytopenias, hypertriglyceridaemia, hyperferritinaemia) without bone marrow haemophagocytosis; responded to methylprednisolone
+- **ANA and anti-dsDNA negative in all cases** — including the most severe MAS presentations; a key observation that MAS can arise without conventional autoantibody markers
+- NS1 antigen positivity confirmed dengue in Cases 2 and 3; IgG+IgM serology in Case 1
+- IgM anticardiolipin was positive and hypocomplementaemia and proteinuria present in Case 1 (mild); more severe cases had no conventional autoantibodies
+
+The Paraguayan cases support the generalisation that dengue in Latin American endemic settings can trigger atypical, immune-mediated presentations that may be mistaken for primary autoimmune disease.
+
+### Sources (Paraguay)
+- [[Morel2014 - Autoimmune Response in Children With Dengue]] (3 paediatric dengue-MAS cases; ANA-negative MAS; methylprednisolone response; Asunción; n=3 case series)
+
+---
+
 ## Contradictions & Debates
 
-- No within-country or cross-country contradictions in this region yet. The Cuban, Nicaraguan, and Brazilian sources address largely distinct topics (epidemiology/genetics, antibody kinetics, autoimmune complications/comparators) and do not conflict.
+- No within-country or cross-country contradictions in this region yet. The Cuban, Nicaraguan, Brazilian, and Paraguayan sources address largely distinct topics (epidemiology/genetics, antibody kinetics, autoimmune complications/comparators, paediatric MAS) and do not conflict.
 
 ## Related Pages
 
@@ -136,6 +159,7 @@ Brazil is the largest country in South America and one of the highest-burden den
 - [[Secondary Dengue Infection]]
 - [[Infection-Triggered Autoimmunity]]
 - [[Antinuclear Antibodies]]
+- [[Macrophage Activation Syndrome in Dengue]]
 
 ## Sources
 
@@ -146,3 +170,4 @@ Brazil is the largest country in South America and one of the highest-burden den
 - [[Jardim2012 - Autoimmune Features DHF Case Report]]
 - [[Codes2002 - Autoantibodies in Acute Viral Hepatitis]]
 - [[Farias2024 - Dengue Mimickers]]
+- [[Morel2014 - Autoimmune Response in Children With Dengue]]

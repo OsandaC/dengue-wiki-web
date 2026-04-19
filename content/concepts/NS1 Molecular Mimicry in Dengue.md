@@ -3,7 +3,7 @@ type: concept
 tags: [NS1, molecular-mimicry, autoimmunity, platelets, endothelial-cells, PDI, vimentin, HSP60, thrombocytopenia, coagulation, DHF, flavivirus, WGNGCG, MAS, ANA-negative, IgM, IgG, primary-infection, secondary-infection, complement, platelet-lysis, cathepsin-L, heparanase, glycocalyx, P311-330, epitope-mapping, Vietnam, infection-order, thrombomodulin]
 created: 2026-04-12
 updated: 2026-04-19
-sources: 13
+sources: 14
 ---
 
 # NS1 Molecular Mimicry in Dengue
@@ -160,3 +160,4 @@ These direct sNS1 effects are not mutually exclusive with the anti-NS1 autoantib
 - [[Jardim2012 - Autoimmune Features DHF Case Report]] (cites Lin CF 2003 and Lin2006 as mechanistic basis for NS1 cross-reactivity with endothelial cells and platelets; case report of secondary DENV-3 DHF with ANA 1/320 [mitotic spindle], cryoglobulinemia, C3 depression — all resolved at follow-up; Campinas Brazil; n=1 case report)
 - [[Cheng2015 - NS1 P311-330 Anti-PDI Autoantibodies in DHF]] (P311–330 identified as major PDI-specific NS1 epitope; anti-PDI/HSP60 IgM correlate with anti-EC and anti-NS1 IgM; anti-vimentin IgM does not; anti-P311–330 DHF > DF; autoantibodies infection-order independent except anti-NS1 IgG; Ho Chi Minh City Vietnam/NCKU Taiwan; n=15 DHF patients)
 - [[Hung2008 - Anti-Platelet Anti-Endothelial Autoantibodies Vietnam]] (endemic-setting replication in Vietnamese paediatric DHF/DSS; anti-platelet IgM in infants with primary dengue; anti-EC isotype shift — IgM only in infants/primary, IgM+IgG in children/secondary; infection-order independence for anti-EC and anti-platelet levels in children; no severity/platelet/hematocrit correlation; thrombomodulin elevated in vivo; HCMC Vietnam/NCKU Taiwan; n=50 infants + 37 children)
+- [[Ghorai2024 - Autoantibodies in Dengue Pathogenesis Review]] (confirms anti-NS1 AECA endothelial apoptosis via NO pathway [NO → p53/Bax/caspase-3] and NF-κB inflammatory activation; adds hepatic detail from Lin 2008 murine model: anti-NS1 Abs target central and portal hepatic vein endothelium → fatty liver, necrotic body, liver fibrosis, mononuclear infiltration; coagulation factor mimicry via ≥12 DENV protein sequence regions; profibrinolysis/hyperfibrinolysis dual mechanism; Kolkata India review — secondary source)

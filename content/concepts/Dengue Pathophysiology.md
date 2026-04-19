@@ -3,7 +3,7 @@ type: concept
 tags: [pathophysiology, vascular-permeability, thrombocytopenia, coagulopathy, complement, liver, NS1, TLR4, plasma-leakage, DHF, DSS, PAIgM, PAIgG, secondary-infection, immune-complex, FcR-bypass, glycocalyx, cathepsin-L, heparanase, MIF, autophagy, cytotoxic-factor, hCF, thrombomodulin, endothelial-damage, anti-endothelial, primary-infection, infants, Vietnam]
 created: 2026-04-12
 updated: 2026-04-19
-sources: 15
+sources: 16
 ---
 
 # Dengue Pathophysiology
@@ -52,6 +52,17 @@ This fills a mechanistic gap in the existing glycocalyx-shedding model: Guzman20
 - **Glycocalyx shedding**: NS1 may shed heparan sulfate/chondroitin sulfate from the endothelial glycocalyx → anticoagulant molecules enter circulation → contributes to coagulopathy (see [[Guzman2016 - Dengue Infection]])
 - Most coagulopathy is minor and self-limiting; major haemorrhage is usually a complication of prolonged shock, not a primary dengue effect
 - The APTT-vascular permeability correlation raises the possibility that coagulation interference is proximal to, not merely co-incident with, plasma leakage
+
+### Auto-Antibody-Mediated Profibrinolysis and Hyperfibrinolysis
+
+Beyond direct NS1 coagulation effects, cross-reactive auto-antibodies generated via molecular mimicry between DENV proteins and fibrinolytic factors produce a distinct dual fibrinolysis mechanism (see [[Coagulation and Fibrinolysis in Dengue]], [[Ghorai2024 - Autoantibodies in Dengue Pathogenesis Review]] — secondary review citing Chuang 2013/2014):
+
+- **Profibrinolysis:** auto-antibodies bind plasminogen → act on fibrinogen → regulated breakdown of fibrinogen; contributes to hypocoagulability
+- **Hyperfibrinolysis:** auto-antibodies bind the plasminogen complex → excessive production of fibrin degradation products (FDP) → increased bleeding risk; the clinical laboratory signature is decreased fibrinogen AND elevated FDP/D-dimer in DHF/DSS
+- scFv from NS1-immunised mice cross-react with fibrinogen and prolong thrombin time in vitro — confirming NS1 can generate auto-antibodies capable of coagulation interference at the fibrin formation step (Chuang 2014, cited in Ghorai2024)
+- Multiple studies have documented correlation between anti-plasminogen antibodies and haemorrhage in DENV patients (Markoff 1991 — first report; Warter 2012)
+
+**Caveat:** The scFv experiments used engineered monoclonal fragments. Whether natural polyclonal anti-plasminogen/anti-fibrinogen auto-antibodies in dengue patient sera achieve sufficient concentration for these effects is not established from cohort data. The relative contribution of this mechanism vs. direct NS1-thrombin binding remains unquantified.
 
 ### Cytotoxic Factor (hCF) and Anti-hCF Autoantibodies — Chaturvedi2001 (⚠ unvalidated concept)
 
@@ -150,3 +161,4 @@ A protein microarray screen in Cambodian pediatric dengue patients revealed that
 - [[Cheng2015 - NS1 P311-330 Anti-PDI Autoantibodies in DHF]] (anti-PDI/HSP60/vimentin IgM/IgG elevated in DHF vs. controls; anti-PDI IgM correlated with anti-EC IgM [r = 0.649, P < 0.0001]; P311–330 as PDI-specific NS1 epitope; anti-PDI may disrupt PDI-mediated integrin activation → endothelial barrier dysfunction; primary/secondary infection independence of anti-endothelial autoantibodies; NCKU Tainan; n=15 DHF + 2 DF, Vietnamese paediatric cohort)
 - [[Farias2024 - Dengue Mimickers]] (acute abdomen ~12% of DEN cases; GBWT >3mm as DHF ultrasound marker [sensitivity 58–90.5% across studies]; dengue pancreatitis mechanisms; surgery risks in thrombocytopenic dengue; Brazil narrative review — secondary source)
 - [[Hung2008 - Anti-Platelet Anti-Endothelial Autoantibodies Vietnam]] (thrombomodulin elevated in infants [6.1 vs 2.7 pg/mL, p<0.001] and children [8.8 vs 2.4 pg/mL, p=0.01] — in vivo endothelial structural damage confirmed; anti-EC autoantibodies not correlated with haematocrit increase; anti-platelet IgM in infants with primary dengue; HCMC Vietnam paediatric cohort)
+- [[Ghorai2024 - Autoantibodies in Dengue Pathogenesis Review]] (profibrinolysis and hyperfibrinolysis dual mechanism via anti-plasminogen auto-antibodies; anti-NS1 AECA hepatic inflammation: Lin 2008 murine model with fatty liver, necrotic body, liver fibrosis, mononuclear phagocytic cell infiltration; DHF coagulopathy markers; complement alternative pathway C3bBb formation in DHF; Kolkata India review — secondary source)

@@ -3,7 +3,7 @@ type: concept
 tags: [cross-reactivity, ADE, neutralisation, IgG, IgA, IgM, IgG3, IgG4, serotype, E-protein, NS1, EDI-II, EDIII, flavivirus, diagnostics, vaccine, longitudinal, antibody-kinetics, anti-prM, prM, structural-antibody, anti-endothelial, anti-platelet, Vietnam, infection-order]
 created: 2026-04-13
 updated: 2026-04-19
-sources: 14
+sources: 15
 ---
 
 # Cross-Reactive Antibodies
@@ -114,3 +114,4 @@ Flavivirus cross-reactive antibodies create significant diagnostic challenges:
 - [[Cheng2015 - NS1 P311-330 Anti-PDI Autoantibodies in DHF]] (anti-PDI, anti-HSP60, anti-vimentin IgM/IgG elevated in DHF; PDI-specific epitope mapped to P311–330 [anti-PDI IgG vs. anti-P311–330 IgG r = 0.732, P < 0.0001]; HSP60 cross-reactivity uses distinct NS1 epitope; NCKU Tainan lab; Vietnamese DHF/DF paediatric cohort)
 - [[Farias2024 - Dengue Mimickers]] (arbovirus serological cross-reactivity in clinical differential diagnosis: CHIKV ~6%, ZIKV/YFV high flavivirus cross-reactivity; false-positive dengue IgM in SLE/RA/malaria/leptospirosis; Brazil narrative review — secondary source)
 - [[Hung2008 - Anti-Platelet Anti-Endothelial Autoantibodies Vietnam]] (anti-platelet and anti-EC autoantibodies — NS1 mimicry cross-reactivity between DENV surface antigens and host cell surface proteins; infection-order-dependent isotype shift for anti-EC [IgM→IgM+IgG in secondary context]; serotype independence across DENV-2/3/4; HCMC Vietnam paediatric DHF/DSS)
+- [[Ghorai2024 - Autoantibodies in Dengue Pathogenesis Review]] (≥12 DENV protein regions [NS1, core, prM, E] share homology with coagulation factors X, XI, VII, thrombin, plasminogen, tPA; anti-plasminogen cross-reactivity → profibrinolysis/hyperfibrinolysis; anti-NS1 AECA cross-reactivity confirmed; anti-prM HSP60 cross-reactivity noted; Kolkata India review — secondary source)

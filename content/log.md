@@ -2,6 +2,38 @@
 
 ---
 
+## [2026-04-19] lint | Deep lint — forward propagation focus; 2 recent ingests (Hung2008, Ghorai2024)
+
+**Scope:** Full wiki scan (111 pages). Batched: sources/ → entities+concepts → methods+geography → analyses. Forward-propagation check for the 2 most recently ingested sources (Hung2008 2026-04-19, Ghorai2024 2026-04-19). All entity/concept/method/geography pages listed in their Entities Mentioned / Concepts Addressed / Methods Used sections verified.
+
+**Issues found and fixed (11):**
+
+1. **DENV-1.md** — missing Ghorai2024 (all 4 serotypes listed as Ghorai2024 entities; DENV-1 had not been updated). Fixed: Ghorai2024 added to Sources; `sources: 11 → 12`.
+
+2. **DENV-3.md** — missing Ghorai2024. Fixed: Ghorai2024 added to Sources; `sources: 13 → 14`.
+
+3. **Aedes aegypti.md** — missing Hung2008 (Hung2008 lists [[Aedes aegypti]] as an entity; page not updated during ingest). Fixed: Hung2008 added to Sources; `sources: 11 → 12`.
+
+4. **RT-PCR.md** — missing Ghorai2024 (Ghorai2024 Methods Used section links [[RT-PCR]]). Fixed: Ghorai2024 added; `sources: 10 → 11`.
+
+5. **ELISA.md** — missing Ghorai2024 (Ghorai2024 Methods Used links [[ELISA]]). Fixed: Ghorai2024 added; `sources: 2 → 3`.
+
+6. **NS1 Antigen Detection.md** — missing Ghorai2024 (Ghorai2024 Methods Used had stale link `[[NS1 Antigen ELISA]]` rather than `[[NS1 Antigen Detection]]`; page also not in Sources). Fixed: stale link corrected in Ghorai2024 source page; Ghorai2024 added to NS1 Antigen Detection; `sources: 12 → 13`.
+
+7. **Ghorai2024 source page** — stale wikilink: `[[NS1 Antigen ELISA]]` → `[[NS1 Antigen Detection]]`.
+
+8. **index.md** — `Concepts (23)` → `Concepts (24)` (24 concept pages exist; header was off-by-one). `Methods (16)` → `Methods (17)` (17 method pages exist; header was off-by-one). Entity/method source counts updated: DENV-1 11→12, DENV-3 13→14, Aedes aegypti 11→12, RT-PCR 10→11, NS1 Antigen Detection 12→13, ELISA 2→3.
+
+9. **Paraguay.md** — standalone file existed despite ≥2-source rule (only 1 source: Morel2014) and index saying "no standalone page". Folded into Latin America.md §Paraguay. Paraguay.md deleted. All `[[Paraguay]]` wikilinks updated to `[[Latin America]]` in Autoimmunity in Dengue.md and Macrophage Activation Syndrome in Dengue.md. Latin America.md: §Paraguay section added; sources 7→8; tags updated; Related Pages: `[[Macrophage Activation Syndrome in Dengue]]` added. index.md: Latin America sources 7→8, Paraguay entry updated, Geography (11)→(10), total pages 112→111.
+
+10. **ANA and Dengue - Review V2.0** — missing Ghorai2024 (sources 40, should be 41). Fixed: Ghorai2024 added to Sources Used with tangential-contribution note; `sources: 40 → 41`; intro text updated to "all 41 source papers"; index entry updated to "All 41 wiki sources".
+
+11. **Curator Highlights** — 0 active highlights in wiki content pages (confirmed by grep). No refresh needed.
+
+**General health:** No orphan pages beyond the known Reading Plan (index-only link, acceptable meta document). No other stale wikilinks detected. No missing concept/entity pages surfaced.
+
+---
+
 ## [2026-04-19] update | ANA and Dengue - Review V2.0 — Hung2008 + Santosa2012 + Farias2024 integration
 
 **Sources added (3):** Hung2008, Santosa2012, Farias2024; sources count 37→40.
@@ -64,6 +96,33 @@
 **Geography cascade triggered:** Vietnam reached 2 sources → Vietnam.md created. Vietnam + Singapore + Philippines = 3 SEA country pages → Southeast Asia.md created. Cambodia (1 source, thin) folded into Southeast Asia.md §Cambodia; Cambodia.md deleted; all [[Cambodia]] wikilinks updated.
 
 **Key findings:** Anti-EC autoantibody isotype shifts from IgM-only (infants, primary infection) to IgM+IgG (children, predominantly secondary infection), but levels do not correlate with severity in either group. Thrombomodulin elevated in both groups as in vivo endothelial structural damage marker, independent of autoantibody levels. Citations: SS=3, CR=1.
+
+## [2026-04-19] ingest | Ghorai2024 - Autoantibodies in Dengue Pathogenesis Review
+
+**New pages created (3):**
+- `wiki/sources/Ghorai2024 - Autoantibodies in Dengue Pathogenesis Review.md`
+- `wiki/concepts/Coagulation and Fibrinolysis in Dengue.md` (4 sources: Lin2011, Guzman2016, Wan2012, Ghorai2024)
+- `wiki/concepts/Pemphigus and Acantholysis in Dengue.md` (1 source: Ghorai2024)
+
+**Pages updated (13):**
+- `wiki/concepts/Autoimmunity in Dengue.md` (sources 34→35; anti-DSG/pemphigus section added)
+- `wiki/concepts/NS1 Molecular Mimicry in Dengue.md` (sources 13→14; hepatic murine model Lin2008 detail added)
+- `wiki/concepts/Dengue Pathophysiology.md` (sources 15→16; profibrinolysis/hyperfibrinolysis section added)
+- `wiki/concepts/Infection-Triggered Autoimmunity.md` (sources 15→16)
+- `wiki/concepts/Cross-Reactive Antibodies.md` (sources 14→15)
+- `wiki/concepts/Cytokine Storm.md` (sources 12→13)
+- `wiki/entities/NS1 Protein.md` (sources 17→18)
+- `wiki/entities/E Protein.md` (sources 5→6)
+- `wiki/entities/prM Protein.md` (sources 3→4)
+- `wiki/entities/DENV-2.md` (sources 12→13)
+- `wiki/entities/DENV-4.md` (sources 11→12)
+- `wiki/geography/India.md` (sources 5→6; 6th Indian research setting: DAC Regional Research Institute + Peerless Hospital + CCRH New Delhi, Kolkata)
+- `wiki/analyses/Notable Findings.md` (anti-DSG/pemphigus notable finding added)
+- `wiki/index.md` (sources 40→41; pages 109→112)
+
+**Key findings:** Three genuinely new contributions from a secondary review: (1) profibrinolysis/hyperfibrinolysis dual mechanism — anti-plasminogen auto-Abs acting on fibrinogen and fibrinogen complexes respectively (Chuang 2013/2014, via Ghorai2024); (2) anti-DSG pemphigus vulgaris/foliaceus — a completely new auto-antibody target class (desmosomal proteins) not previously in this wiki; (3) hepatic inflammation murine model detail from Lin 2008 — anti-NS1 targeting central and portal hepatic vein endothelium → fatty liver + fibrosis + mononuclear infiltration. Citations: SS=7, CR=8.
+
+---
 
 ## [2026-04-18] lint | Deep lint — forward-propagation focus; 6 recent sources × all linked targets
 

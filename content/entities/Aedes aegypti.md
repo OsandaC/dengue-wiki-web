@@ -2,8 +2,8 @@
 type: entity
 tags: [vector, mosquito, Aedes-aegypti, transmission, urban, salivary-gland, DENV-2, Asian-genotype]
 created: 2026-04-11
-updated: 2026-04-18
-sources: 11
+updated: 2026-04-19
+sources: 12
 ---
 
 # Aedes aegypti
@@ -62,3 +62,4 @@ None yet recorded.
 - [[Rajadhyaksha2012 - Dengue Evolving into SLE and Lupus Nephritis]] (background mention as primary dengue vector; Mumbai India; n=1 case report)
 - [[Jardim2012 - Autoimmune Features DHF Case Report]] (implied primary dengue vector in Campinas São Paulo dengue-endemic area; DENV-3 outbreak May 2007 context; background mention; Brazil; n=1 case report)
 - [[Farias2024 - Dengue Mimickers]] (multi-arbovirus vector context: Ae. aegypti transmits DENV/CHIKV/ZIKV/YFV; co-infection via single bite documented; DENV-YFV competitive exclusion hypothesis; Brazil narrative review)
+- [[Hung2008 - Anti-Platelet Anti-Endothelial Autoantibodies Vietnam]] (background mention as primary dengue vector in hyperendemic Vietnam; HCMC 1998–2002; paediatric DHF/DSS cohort)

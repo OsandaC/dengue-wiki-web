@@ -3,7 +3,7 @@ type: geography
 tags: [India, Kolkata, Manipal, Karnataka, Gwalior, Madhya-Pradesh, Lucknow, Uttar-Pradesh, New-Delhi, dengue-epidemiology, endemic, Southeast-Asia, Indian-subcontinent, ANA, pathogenesis-review, seroconversion, 1996-epidemic]
 created: 2026-04-12
 updated: 2026-04-18
-sources: 5
+sources: 6
 ---
 
 # India
@@ -75,3 +75,4 @@ Findings from endemic India may not directly generalise to epidemic settings in 
 - [[Gawali2021 - ANA Prevalence in Seroconverted Dengue Patients]] (Gajra Raja Medical College, Gwalior, Madhya Pradesh; prospective ANA follow-up at 6 months in dengue IgG+ patients; n=120; 18.33% ANA-positive; AC-1 dominant; no control group)
 - [[Rajadhyaksha2012 - Dengue Evolving into SLE and Lupus Nephritis]] (KEM Hospital and Seth GS Medical College, Mumbai, Maharashtra; single case report; primary DENV-1 → Class IV lupus nephritis; ANA 1:320 + anti-dsDNA + anti-cardiolipin; n=1)
 - [[Chaturvedi2001 - Cytotoxic Factor Autoantibodies DHF]] (Gandhi Memorial Hospital Lucknow + AIIMS New Delhi; 1996 Northern India DHF epidemic; anti-hCF autoantibody inverse correlation with DHF severity; n=136 patients; ⚠ group-specific cytokine concept)
+- [[Ghorai2024 - Autoantibodies in Dengue Pathogenesis Review]] (Virology Laboratory, DAC Regional Research Institute, Kolkata + Peerless Hospital and B.K. Roy Research Centre, Kolkata + CCRH New Delhi; narrative review of autoantibody-mediated dengue pathogenesis — no original patient data; sixth distinct Indian research setting in this wiki)

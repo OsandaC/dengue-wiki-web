@@ -2,8 +2,8 @@
 type: entity
 tags: [serotype, DENV-3, Cuba, displacement, epidemic-dynamics, CNS-invasion, neuropathogenesis, Singapore, Taiwan, Nicaragua, anti-platelet, IgM, primary-infection, antibody-kinetics, autoantibody-cross-serotype, anti-prM, cross-reactivity]
 created: 2026-04-12
-updated: 2026-04-18
-sources: 13
+updated: 2026-04-19
+sources: 14
 ---
 
 # DENV-3
@@ -59,3 +59,4 @@ None yet recorded.
 - [[Cheng2015 - NS1 P311-330 Anti-PDI Autoantibodies in DHF]] (DENV-3 dominant serotype in Vietnamese paediatric DHF cohort [7/15 DHF]; anti-PDI IgM correlated with anti-EC IgM and anti-NS1 IgM; P311–330 PDI epitope mapping)
 - [[Hung2008 - Anti-Platelet Anti-Endothelial Autoantibodies Vietnam]] (DENV-3 co-circulating with DENV-2/4 in HCMC Vietnam 1998–2002; serotype-confirmed by virus isolation/RT-PCR)
 - [[Farias2024 - Dengue Mimickers]] (all four serotypes noted as co-circulating in Brazil 2024 epidemic with >6M cases; background epidemiology; Brazil narrative review — secondary source)
+- [[Ghorai2024 - Autoantibodies in Dengue Pathogenesis Review]] (all four DENV serotypes listed as entities in review of autoantibody mechanisms; Kolkata India; narrative review — secondary source)
