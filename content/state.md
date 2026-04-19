@@ -1,6 +1,6 @@
 ---
 type: meta
-updated: 2026-04-19 (deep lint: 11 issues fixed — 6 propagation gaps, 1 stale wikilink, 2 index header errors, Paraguay folded into Latin America, ANA V2.0 updated to 41 sources)
+updated: 2026-04-19
 ---
 
 
