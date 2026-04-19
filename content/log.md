@@ -2,6 +2,45 @@
 
 ---
 
+## [2026-04-19] maintenance | Resolve all curator highlights — ANA V2.0 + Antinuclear Antibodies
+
+**Scope:** All `<mark>` annotations in both marked pages resolved and stripped.
+
+**[[ANA and Dengue - Review V2.0]]** (29 marks removed):
+- 🟢 Green (20): verified claims, marks stripped, text unchanged
+- 🟠 Orange (6): three required text changes — (1) Chatterjee2024 dilution limitation rewritten as formal analytical prose; (2) IgM half-life bullet expanded with IgG contrast (~8 hr vs ~21 days); (3) four already-addressed caveats had marks stripped without text change
+- 🔵 Blue (1): wikilink added → `[[Polyreactive Antibodies|germline-encoded polyreactive IgM]]`
+- 🩷 Pink (4): important ideas confirmed well-stated in text; marks stripped
+
+**[[Antinuclear Antibodies]]** (15 marks removed): all green marks stripped; text unchanged.
+
+**Curator Highlights** regenerated as a resolution log documenting all actions taken.
+
+---
+
+## [2026-04-19] correction | ANA and Dengue V2.0 — §3.2 Vo2020 cohort + PABs + Curator Highlights reformat
+
+**Issues corrected in `wiki/analyses/ANA and Dengue - Review V2.0.md`:**
+
+1. **Vo2020 cohort size** — corrected from `n=40 dengue` to `n=32 DENV-infected` (21 hospitalized: 13 DF, 8 DHF; 11 asymptomatic); 8 HD; total enrolled = 40. Confirmed from raw PDF §2.1.
+2. **Array size discrepancy** — resolved: 128 = total antigens on physical array (Abstract/Discussion); 123 = antigens analysed after quality filtering (Results/Figure 4). Both figures confirmed in source. Red mark and comment removed.
+3. **PABs terminological framing** — red marks removed from PAB characteristic bullets; bullets re-sourced with explicit Zhou2007 citation. Added terminological note quoting Zhou2007 directly: PABs are a "normal self-reactive component of the immune system," not pathological autoantibodies. Non-specific IIFA fraction reframed as "amplified natural polyreactive IgM."
+4. **Vo2020 hospitalized IgG statement integrated into §3.4** — Vo2020's conclusion ("presence of a subset of IgG autoantibodies in individuals infected with DENV that required hospitalization") now explicitly cited in the Nuclear Antigen Consumption section, with clarification that IgG autoantibodies being *present* in hospitalized patients vs. *consumed* in DHF are complementary, not contradictory, findings.
+
+**Curator Highlights regenerated** — full rewrite with:
+- Hex codes added for all five colour categories (Orange `#FFB86CA6`, Blue `#ADCCFFA6`, Pink `#FFB8EBA6`)
+- New section added for [[ANA and Dengue - Review V2.0]] (23 new highlights across Green/Orange/Blue/Pink)
+- Resolved red items documented under Antinuclear Antibodies
+- Total active highlights: 46 across 2 pages
+
+---
+
+## [2026-04-19] maintenance | Fix state.md YAML frontmatter; web redeployed
+
+**Fix:** `state.md` `updated:` field had a parenthetical comment breaking Quartz YAML parsing. Trimmed to plain date `2026-04-19`. Web rebuilt and pushed clean (113 files, 0 errors).
+
+---
+
 ## [2026-04-19] lint | Deep lint — forward propagation focus; 2 recent ingests (Hung2008, Ghorai2024)
 
 **Scope:** Full wiki scan (111 pages). Batched: sources/ → entities+concepts → methods+geography → analyses. Forward-propagation check for the 2 most recently ingested sources (Hung2008 2026-04-19, Ghorai2024 2026-04-19). All entity/concept/method/geography pages listed in their Entities Mentioned / Concepts Addressed / Methods Used sections verified.

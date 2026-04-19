@@ -40,33 +40,33 @@ Consistent findings across studies (see [[Satoh2012 - ANA Prevalence in United S
 - No consistent associations with education, income, smoking, or C-reactive protein
 
 ### Temporal Trends
-ANA prevalence in the US has risen significantly over 25 years (see [[Dinse2022 - Increasing ANA Prevalence in United States]]): <mark style="background: #BBFABBA6;">11.0% (1988–91) → 11.4% (1999–2004) → 16.1% (2011–12; P<0.0001)</mark>. The increase is most striking in:
-- <mark style="background: #BBFABBA6;">Adolescents 12–19 years: 5.0% → 9.7% → 12.4% (OR 2.77 by 2011–12 vs. 1988–91)</mark>
+ANA prevalence in the US has risen significantly over 25 years (see [[Dinse2022 - Increasing ANA Prevalence in United States]]): 11.0% (1988–91) → 11.4% (1999–2004) → 16.1% (2011–12; P<0.0001). The increase is most striking in:
+- Adolescents 12–19 years: 5.0% → 9.7% → 12.4% (OR 2.77 by 2011–12 vs. 1988–91)
 - Men: proportionally larger relative increase than women
 - Non-Hispanic White individuals; stable in Black and Mexican American individuals
 
 The trend is not explained by concurrent changes in BMI, smoking, or alcohol consumption.
 
 ### Clinical Threshold and SLE Classification
-The 2019 EULAR/ACR criteria (see [[Aringer2019 - 2019 EULAR ACR SLE Classification Criteria]]) define <mark style="background: #BBFABBA6;">ANA ≥1:80 on HEp-2 cells as the mandatory entry criterion for SLE </mark>classification. <mark style="background: #BBFABBA6;">Meta-regression of 13,080 patients across 64 studies</mark> found <mark style="background: #BBFABBA6;">sensitivity 97.8% (95% CI 96.8–98.5%) for SLE </mark>at this threshold. Despite this high sensitivity, specificity is limited — <mark style="background: #BBFABBA6;">the vast majority of ANA-positive individuals at 1:80 in the general population do not have SLE — given a ~14% population ANA prevalence (Satoh2012; Dinse2022) but only ~0.1% SLE prevalence, ANA positivity alone carries very limited positive predictive value for SLE.</mark>
+The 2019 EULAR/ACR criteria (see [[Aringer2019 - 2019 EULAR ACR SLE Classification Criteria]]) define ANA ≥1:80 on HEp-2 cells as the mandatory entry criterion for SLE classification. Meta-regression of 13,080 patients across 64 studies found sensitivity 97.8% (95% CI 96.8–98.5%) for SLE at this threshold. Despite this high sensitivity, specificity is limited — the vast majority of ANA-positive individuals at 1:80 in the general population do not have SLE — given a ~14% population ANA prevalence (Satoh2012; Dinse2022) but only ~0.1% SLE prevalence, ANA positivity alone carries very limited positive predictive value for SLE.
 
 At 1:160, the optimal cutoff for discriminating SLE, SSc, and Sjögren's syndrome from healthy individuals is 95% specificity (see [[Tan1997 - ANA Range in Healthy Individuals]]).
 
 ### Specific Autoantibodies
 Among ANA-positive individuals in the general US population (see [[Satoh2012 - ANA Prevalence in United States]]):
-- <mark style="background: #BBFABBA6;">Most common specific autoantibodies: anti-Ro (3.9% of ANA+ subjects)</mark>, <mark style="background: #BBFABBA6;">anti-Su (2.4%)</mark>
-- <mark style="background: #BBFABBA6;">Disease-specific autoantibodies (anti-Sm, anti-topoisomerase I, anti-RNA pol I/III, anti-Jo-1) are extremely rare in healthy populations, confirming their disease specificity</mark>
-- In Chinese health-checkup population (see [[Li2019 - ANA Epidemiology in Chinese Healthy Population]]): <mark style="background: #BBFABBA6;">top 3 in high-titer (>1:320) ANA+ individuals were anti-Ro-52, AMA-M2, and anti-SSA</mark>
+- Most common specific autoantibodies: anti-Ro (3.9% of ANA+ subjects), anti-Su (2.4%)
+- Disease-specific autoantibodies (anti-Sm, anti-topoisomerase I, anti-RNA pol I/III, anti-Jo-1) are extremely rare in healthy populations, confirming their disease specificity
+- In Chinese health-checkup population (see [[Li2019 - ANA Epidemiology in Chinese Healthy Population]]): top 3 in high-titer (>1:320) ANA+ individuals were anti-Ro-52, AMA-M2, and anti-SSA
 
 ### ANA During Acute Infections
 [[Berlin2007 - Autoantibodies in Nonautoimmune Individuals during Infections]] provides the only multi-infection-type cross-sectional ANA comparison in this wiki:
-- <mark style="background: #BBFABBA6;">Viral infections (HAV, HBV, HCV): **21.7%** ANA positive (ELISA, ANA 8 Pro 8-antigen panel, 1:100; P<0.013 vs. controls)</mark>
-- <mark style="background: #BBFABBA6;">Bacterial infections: **20.0%** ANA positive (P<0.006 vs. controls)</mark>
-- <mark style="background: #BBFABBA6;">Healthy blood donor controls: **3.8%** ANA positive</mark>
+- Viral infections (HAV, HBV, HCV): **21.7%** ANA positive (ELISA, ANA 8 Pro 8-antigen panel, 1:100; P<0.013 vs. controls)
+- Bacterial infections: **20.0%** ANA positive (P<0.006 vs. controls)
+- Healthy blood donor controls: **3.8%** ANA positive
 
-The 3.8% control rate is lower than IIF-based population estimates (13.8–16.1%), because ELISA covers only 8 specific nuclear antigens while IIF detects all antinuclear reactivities. The fold-change (~5.7×) is more informative than the absolute infection-group rate. Notably, <mark style="background: #BBFABBA6;">three of ten HAV patients (and one HBV patient) were positive for all 8 tested ANA specificities</mark>, including disease-associated antigens such as anti-Sm, anti-U1RNP, and anti-centromere. *(Note: Berlin2007's Discussion section overstates this as "all patients with HAV" — the Results section data are authoritative: n=3 HAV, not all 10.)*
+The 3.8% control rate is lower than IIF-based population estimates (13.8–16.1%), because ELISA covers only 8 specific nuclear antigens while IIF detects all antinuclear reactivities. The fold-change (~5.7×) is more informative than the absolute infection-group rate. Notably, three of ten HAV patients (and one HBV patient) were positive for all 8 tested ANA specificities, including disease-associated antigens such as anti-Sm, anti-U1RNP, and anti-centromere. *(Note: Berlin2007's Discussion section overstates this as "all patients with HAV" — the Results section data are authoritative: n=3 HAV, not all 10.)*
 
-These infection-triggered ANA may be transient: [[Codes2002 - Autoantibodies in Acute Viral Hepatitis]] found <mark style="background: #BBFABBA6;">ANA in 20.5% of acute viral hepatitis patients (IIF homogeneous ≥1:40, n=156 prospective, Salvador Brazil) dropping to 6.4% in convalescence</mark>. See [[Infection-Triggered Autoimmunity]] for mechanistic context.
+These infection-triggered ANA may be transient: [[Codes2002 - Autoantibodies in Acute Viral Hepatitis]] found ANA in 20.5% of acute viral hepatitis patients (IIF homogeneous ≥1:40, n=156 prospective, Salvador Brazil) dropping to 6.4% in convalescence. See [[Infection-Triggered Autoimmunity]] for mechanistic context.
 
 ### ANA in Acute Dengue — HEp-2 Gold Standard Data
 [[Chatterjee2024 - ANA Detection in Dengue Kolkata]] provides the first ANA measurements from *acute* dengue using the HEp-2 gold standard IIFA platform:

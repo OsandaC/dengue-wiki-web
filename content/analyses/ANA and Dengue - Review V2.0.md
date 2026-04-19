@@ -74,9 +74,9 @@ Before any dengue data can be interpreted, the assay framework must be explicit,
 
 **Dilution dependence.** ANA prevalence falls sharply with increasing dilution: 31.7% at 1:40 → 13.3% at 1:80 → 5.0% at 1:160 → 3.3% at 1:320 in the Tan1997 multicentre study (see [[Tan1997 - ANA Range in Healthy Individuals]]). The 2019 EULAR/ACR SLE classification criteria (see [[Aringer2019 - 2019 EULAR ACR SLE Classification Criteria]]) codify **≥1:80 on HEp-2** as the mandatory entry criterion for SLE classification (sensitivity 97.8%, meta-regression 13,080 patients, 64 studies). Studies not specifying dilution thresholds cannot be meaningfully benchmarked.
 
-**IIF vs. LIA.** IIF detects all antinuclear reactivities including low-affinity, germline-encoded polyreactive IgM. Line immunoassay (LIA) tests a defined panel of disease-associated autoantibodies (Sm, dsDNA, Ro/La, Scl-70, U1-RNP, Jo-1, CENP-B, PM-Scl, etc.). The gap between IIF and LIA rates is mechanistically informative in dengue: a high IIF rate alongside a much lower LIA rate identifies a large non-specific fraction (see §3.2 below). See [[Line Immunoassay ANA]].
+**IIF vs. LIA.** IIF detects all antinuclear reactivities including low-affinity, [[Polyreactive Antibodies|germline-encoded polyreactive IgM]]. Line immunoassay (LIA) tests a defined panel of disease-associated autoantibodies (Sm, dsDNA, Ro/La, Scl-70, U1-RNP, Jo-1, CENP-B, PM-Scl, etc.). The gap between IIF and LIA rates is mechanistically informative in dengue: a high IIF rate alongside a much lower LIA rate identifies a large non-specific fraction (see §3.2 below). See [[Line Immunoassay ANA]].
 
-**ELISA panels.** [[Berlin2007 - Autoantibodies in Nonautoimmune Individuals during Infections]] measured ANA by an 8-antigen ELISA (ANA 8 Pro), yielding a control rate of 3.8% — lower than any IIF-based estimate. The fold-change relative to controls (~5.7×) is the interpretable quantity from Berlin2007, not the absolute rate.
+**ELISA panels.** [[Berlin2007 - Autoantibodies in Nonautoimmune Individuals during Infections]] measured ANA by an 8-antigen ELISA (ANA 8 Pro) serum dilution of 1:100, yielding a control rate of 3.8% — lower than any IIF-based estimate. The fold-change (Viral n=23, 21.7% ANA positivity) relative to controls (~5.7×) is the interpretable quantity from Berlin2007, not the absolute rate.
 
 ---
 
@@ -84,14 +84,14 @@ Before any dengue data can be interpreted, the assay framework must be explicit,
 
 #### 2.1 Healthy-Population ANA Prevalence
 
-| Study | Population | Dilution / Method | Prevalence |
-|---|---|---|---|
-| [[Tan1997 - ANA Range in Healthy Individuals]] | International multicentre; adults 21–60 yrs (n=125) | 1:40, IIF | 31.7% |
-| [[Tan1997 - ANA Range in Healthy Individuals]] | As above | 1:80, IIF | 13.3% |
-| [[Tan1997 - ANA Range in Healthy Individuals]] | As above | 1:160, IIF | 5.0% |
-| [[Satoh2012 - ANA Prevalence in United States]] | US NHANES 1999–2004; ≥12 yrs (n=4,754) | 1:80, IIF | 13.8% |
-| [[Li2019 - ANA Epidemiology in Chinese Healthy Population]] | Chinese health-checkup; all ages (n=25,110) | >1:100, IIF | 14.01% |
-| [[Dinse2022 - Increasing ANA Prevalence in United States]] | US NHANES 2011–12; ≥12 yrs | 1:80, IIF | 16.1% |
+| Study                                                       | Population                                          | Dilution / Method | Prevalence |
+| ----------------------------------------------------------- | --------------------------------------------------- | ----------------- | ---------- |
+| [[Tan1997 - ANA Range in Healthy Individuals]]              | International multicentre; adults 21–60 yrs (n=125) | 1:40, IIF         | 31.7%      |
+| [[Tan1997 - ANA Range in Healthy Individuals]]              | As above                                            | 1:80, IIF         | 13.3%      |
+| [[Tan1997 - ANA Range in Healthy Individuals]]              | As above                                            | 1:160, IIF        | 5.0%       |
+| [[Satoh2012 - ANA Prevalence in United States]]             | US NHANES 1999–2004; ≥12 yrs (n=4,754)              | 1:80, IIF         | 13.8%      |
+| [[Li2019 - ANA Epidemiology in Chinese Healthy Population]] | Chinese health-checkup; all ages (n=25,110)         | >1:100, IIF       | 14.01%     |
+| [[Dinse2022 - Increasing ANA Prevalence in United States]]  | US NHANES 2011–12; ≥12 yrs                          | 1:80, IIF         | 16.1%      |
 
 Three features of this baseline directly constrain dengue ANA interpretation:
 
@@ -128,21 +128,24 @@ The ~21.7% rate during acute viral infection (~5.7× fold over controls) sets th
 
 The 54.8% IIFA rate exceeds both the healthy-population baseline (13–16% at 1:80) and the generic viral-infection benchmark (~22% by narrower ELISA). The LIA-confirmed 18.5% — while still elevated above the 7.1% control rate — represents a much smaller fraction. The critical relationship is the gap between them.
 
+**Key limitation for cross-study comparison.** Chatterjee2024 does not report the IIFA serum dilution. Without a specified dilution threshold, the 54.8% figure cannot be directly benchmarked against dilution-specific population baselines (Tan1997: 31.7% at 1:40, 13.3% at 1:80; Satoh2012: 13.8% at 1:80; Gawali2021: 18.33% at 1:100). The direction of the dengue elevation above febrile controls (54.8% vs. 10.3%) remains valid regardless of dilution, because the same protocol applies to both arms. Comparison with non-dengue references is directional but not quantitatively precise.
+
 #### 3.2 The IIFA:LIA Gap — Dissecting the Non-Specific Fraction
 
-The 54.8% IIFA vs. 18.5% LIA rate creates a ~3:1 ratio: approximately two-thirds of IIFA-positive dengue patients had no confirmed disease-specific autoantibody. Among dengue-negative febrile controls, the IIFA:LIA ratio is much tighter (10.3% vs. 7.1%), confirming the non-specific IIFA excess is dengue-specific, not a feature of febrile illness generally.
+The 54.8% IIFA vs. 18.5% LIA rate creates a ~3:1 ratio: approximately two-thirds of IIFA-positive dengue patients had no confirmed disease-specific autoantibody. Among dengue-negative febrile controls, the IIFA:LIA ratio is much tighter (10.3% vs. 7.1%), suggesting the non-specific IIFA excess is dengue-specific, not a feature of febrile illness generally.
 
 This non-specific fraction is now mechanistically named. [[Zhou2007 - Polyreactive Antibodies Natural Antibody Function]] characterises **germline-encoded polyreactive IgM** (PAB) — antibodies constitutively present in all healthy individuals from birth that bind structurally unrelated self and non-self antigens, including nuclear components, with low affinity and without antigen-driven selection. Key properties:
 
 - Present at 15–20% of adult peripheral blood B cells at rest
-- Serum half-life ~8 hours
-- Bind dsDNA, histones, nucleosomal antigens, and other nuclear components as a constitutive feature of germline V-gene encoding — not through antigen exposure
-- Distinguishable from pathological autoantibodies by: absence of somatic hypermutation, low affinity, multi-specificity, IgM isotype, and failure to confirm on antigen-specific LIA
+- Serum half-life ~8 hours for IgM (contrast: IgG half-life ~21 days — an IgM-dominant polyreactive response is therefore kinetically self-limiting once the inflammatory stimulus subsides, while any IgG-class autoantibodies that emerge will persist orders of magnitude longer in serum)
+- Bind dsDNA, histones, nucleosomal antigens, and other nuclear components as a constitutive feature of germline V-gene encoding — not through antigen exposure (see [[Zhou2007 - Polyreactive Antibodies Natural Antibody Function]])
+- Distinguishable from disease-induced autoantibodies by: absence of somatic hypermutation, low affinity, multi-specificity, IgM isotype, and expected non-reactivity on antigen-specific LIA (which tests for high-affinity, disease-specific targets that PABs do not reach)
+
+**Terminological precision (Zhou2007).** PABs are not autoantibodies in the pathological sense. Zhou2007 explicitly states: *"a distinction should be made between these naturally occurring low affinity polyreactive antibodies and true disease-induced high affinity autoantibodies… polyreactive antibodies should be considered a normal self-reactive component of the immune system."* The non-specific IIFA fraction in dengue is therefore best described as *amplified natural polyreactive IgM* — a constitutive immune component unmasked by inflammatory amplification — not as dengue-induced autoantibodies. The latter term should be reserved for the LIA-confirmed, antigen-driven, disease-relevant population (§3.1).
 
 In the context of acute dengue, the inflammatory milieu — polyclonal B cell stimulation by DENV structural proteins and NS1, cytokine amplification (IFN-α, IL-6, TNF), and antigen release from damaged tissue — is expected to amplify or unmask the polyreactive IgM pool above its resting baseline. This generates a transient, IgM-dominated, broad antinuclear reactivity with exactly the characteristics of the Chatterjee2024 non-specific fraction: IIFA-positive (polyreactive IgM binds nuclear antigens non-specifically in IIF), LIA-negative (LIA tests for high-affinity disease-specific targets), IgM-class dominant, and predicted to resolve rapidly given the ~8-hour half-life once the inflammatory stimulus subsides.
 
-Converging evidence from [[Vo2020 - Autoantibody Profiling in Dengue]] — a 123-antigen protein microarray in Cambodian children (n=40 dengue; n=8 HD) — is fully consistent: **80 IgM vs. only 6 IgG autoantibodies** were elevated in DENV-infected patients vs. healthy donors, with IgM breadth significantly exceeding IgG. The IgM dominance and breadth are signatures of polyreactive IgM amplification, not affinity-matured antigen-driven autoimmunity.
-
+Converging evidence from [[Vo2020 - Autoantibody Profiling in Dengue]] — a 128-antigen protein microarray (123 antigens analysed after quality filtering; the discrepancy between abstract/discussion and results section is within-paper, both figures confirmed in source) in Cambodian children (n=32 DENV-infected [21 hospitalized: 13 DF, 8 DHF; 11 asymptomatic]; n=8 HD; 40 total children enrolled, of whom 8 are HD) — is fully consistent: **80 IgM vs. only 6 IgG autoantibodies** were elevated in DENV-infected patients vs. healthy donors, with IgM breadth significantly exceeding IgG. The IgM dominance and breadth are signatures of amplified natural polyreactive IgM (see §3.2 above), not affinity-matured antigen-driven autoimmunity.
 **Practical clinical implication.** In acute dengue, a positive HEp-2 IIFA alone is not evidence of pathological autoimmune induction. The operationally meaningful measure is LIA positivity (~18.5%), which captures antigen-driven, disease-relevant autoantibodies. The polyreactive IgM signal is self-limiting; the LIA-positive signal may not be. See [[Polyreactive Antibodies]].
 
 #### 3.3 Disease-Category Signals in the LIA-Confirmed Fraction
@@ -153,7 +156,7 @@ Of 7 autoimmune disease categories tested by Chatterjee2024's LIA panel, only **
 
 #### 3.4 The Nuclear Antigen IgG Consumption Model — Why ANA May Be *Lower* in Severe Dengue
 
-[[Vo2020 - Autoantibody Profiling in Dengue]] contributes a mechanistically important finding that inverts the naive severity-centric expectation. In the DHF subgroup (n=8), **19 IgG autoantibodies — including canonical nuclear antigen targets (KU P70/P80, SmD, SmD1, Sm/RNP, histone H3, histone H4, nucleosome antigen, U1-snRNP-C) — were positively correlated with platelet count** (Spearman r = 0.74–0.83; all p < 0.05). More severe disease (lower platelet count) corresponds to *lower* free-serum nuclear antigen IgG, not higher.
+[[Vo2020 - Autoantibody Profiling in Dengue]] contributes a mechanistically important finding that inverts the naive severity-centric expectation. Vo2020 confirm that a subset of IgG autoantibodies is detectable in hospitalized dengue patients — their own summary states: *"these data suggest the presence of a subset of IgG autoantibodies in individuals infected with DENV that required hospitalization."* The critical additional finding, however, is the within-DHF pattern: in the DHF subgroup (n=8), **19 IgG autoantibodies — including canonical nuclear antigen targets (KU P70/P80, SmD, SmD1, Sm/RNP, histone H3, histone H4, nucleosome antigen, U1-snRNP-C) — were positively correlated with platelet count** (Spearman r = 0.74–0.83; all p < 0.05). More severe disease (lower platelet count) corresponds to *lower* free-serum nuclear antigen IgG, not higher. IgG autoantibodies are therefore *present* in hospitalized dengue but *consumed* as severity escalates within DHF — these two statements are complementary, not contradictory.
 
 The proposed mechanism is **consumption**: as DHF progresses, nuclear antigen IgGs are sequestered into circulating immune complexes (ICs) and deposited in tissues, reducing detectable free-serum levels. Both the autoantibodies and the platelets are simultaneously consumed as severity escalates. Low anti-Factor P IgG and anti-complement C4 IgG alongside the low anti-nuclear IgGs may simultaneously remove complement regulatory brakes, amplifying cascade activation.
 
