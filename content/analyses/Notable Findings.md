@@ -2,13 +2,30 @@
 type: analysis
 tags: [notable-findings, flags, cross-cutting, observations]
 created: 2026-04-12
-updated: 2026-04-19
-sources: 21
+updated: 2026-06-03
+sources: 22
 ---
 
 # Notable Findings
 
 A running log of observations that are striking, unexpected, or carry implications beyond the paper they came from. Each entry is a flag — something worth returning to, following up on, or building an analysis around. Entries are added during ingest whenever something catches the eye.
+
+---
+
+## [2026-06-03] The "outsized" female-sex effect on post-dengue fatigue was a single-study artifact — pooled across studies it is modest (OR 1.65), and the field's largest fatigue synthesis still measures zero ANA
+
+**Source:** [[Hertanti2024 - Fatigue and Post-Infectious Fatigue in Dengue]] (recalibrating [[Seet2007 - Post-Infectious Fatigue Syndrome in Dengue]])
+
+**Finding:** The wiki had carried Seet2007's female-sex OR of **9.687** (95% CI 1.546–60.684) as a "remarkably large / outsized" driver of post-dengue fatigue — the empirical anchor for the "shared confounder" logic bridging the fatigue and ANA clusters. Hertanti2024's meta-analysis shows this is Seet2007's own *adjusted multivariate* estimate, a sparse-data artifact (the CI spans 1.5–60.7). The trustworthy cross-study quantity is the **pooled unadjusted female→PIF OR of 1.65 (95% CI 1.27–2.14), with I²=0.00** across Seet2007 / Perera2023 / Abeysena2019 — a modest, precise, zero-heterogeneity effect. (Hertanti2024's Table 2 even mis-prints Seet's value as "9.69" against an incompatible CI of 0.78–4.01 — the pool is the reliable figure.) Separately, this largest-ever synthesis of dengue fatigue (40 studies, 38,406 patients) measures **no ANA and no autoantibodies**, listing autoimmunity as only 1 of 4 *hypothesized* PIF mechanisms.
+
+**Why notable:** A number that had propagated across the [[Autoimmunity in Dengue]], [[Post-Dengue Syndrome]], and state.md PRIMARY-thread pages — and was doing real argumentative work (sex as a *strong* shared driver of both fatigue and ANA) — turns out to be ~6× inflated relative to the pooled estimate. The "shared confounder" argument survives but weakens: female sex remains a genuine, consistent, *mandatory-to-control* risk factor for both outcomes, but a smaller lever than the wiki implied. And as the first ingest into the new ANA↔fatigue thread, this "pivotal" paper supplies no evidence *for* the link — instead it sharpens the *gap*: the definitive fatigue paper hypothesizes autoimmunity and measures none of it. A clean illustration of the epistemic-honesty trap (treating a paper as supportive because it is pivotal) that CLAUDE.md warns against.
+
+**Follow-up questions:**
+- Do the female / DHF / comorbidity PIF associations replicate outside South Asia? The risk-factor pools are dominated by Sri Lankan cohorts (Abeysena2019, Sigera2021, Perera2023, Umakanth2018).
+- Is the borderline DHF→PIF signal (OR 1.80, 2 studies, one NS) real, given that DHF→*acute* fatigue is null and internally contradictory (Ferreira 2.31 harmful vs Recker 0.75 protective)?
+- Which fatigue instrument should the wiki privilege when aligning rates across cohorts? Clinical-symptom checklists detected PIF in 12.6% vs 29.5% by validated questionnaire — the cross-study rates are not comparable without harmonising the measure.
+
+**Related pages:** [[Post-Dengue Syndrome]], [[Autoimmunity in Dengue]], [[Antinuclear Antibodies]], [[Prevalence Meta-Analysis under Heterogeneity]], [[Seet2007 - Post-Infectious Fatigue Syndrome in Dengue]]
 
 ---
 

@@ -2,6 +2,133 @@
 
 ---
 
+## [2026-06-03] ingest | Hertanti2024 - Fatigue and Post-Infectious Fatigue in Dengue
+
+**Source:** Hertanti NS, Nguyen TV, Chuang Y-H. Global prevalence and risk factors of fatigue and post-infectious fatigue among patients with dengue: a systematic review and meta-analysis. *eClinicalMedicine* 2025;80:103041 (online 31 Dec 2024). DOI: 10.1016/j.eclinm.2024.103041
+**Citations:** SS 7 / CR 9 (retrieved 2026-06-03)
+**Type:** Systematic review and meta-analysis (40 observational studies; PROSPERO CRD42024543058) — first quantification of dengue fatigue/PIF prevalence and risk factors. First ingest into the new ANA↔fatigue PRIMARY thread.
+**Note:** Ingest was interrupted mid-write by a Bun runtime crash on 2026-06-03 (the source, study-design, Autoimmunity, and Post-Dengue pages had been written; the ANA page had only its frontmatter bumped; index/log/state/Notable Findings were untouched). Completed on resume in a later session. Pre-ingest snapshot = commit `0ddde71`.
+
+**Created:**
+- `wiki/sources/Hertanti2024 - Fatigue and Post-Infectious Fatigue in Dengue.md`
+- `wiki/study-design/Prevalence Meta-Analysis under Heterogeneity.md` (new page — prediction-interval-centred reading of prevalence meta-analysis under extreme heterogeneity; Hertanti2024 as worked example)
+
+**Updated:**
+- `wiki/concepts/Post-Dengue Syndrome.md` — sources 4→5; new Hertanti2024 meta-analysis section; Overview + multivariate female-sex line corrected (9.687 reframed, pooled 1.65 added); Prevalence Meta-Analysis added to Related Pages
+- `wiki/concepts/Autoimmunity in Dengue.md` — sources 35→36; "Indirect Evidence" section reframed (severity-independence gains a third data point; female-sex recalibrated; autoimmunity named-but-untested as a fatigue mechanism)
+- `wiki/concepts/Antinuclear Antibodies.md` — sources 14→15; added as a **gap marker** (largest fatigue synthesis measures no ANA) — *body citation + Sources entry completed on resume; only the frontmatter bump had survived the crash*
+- `wiki/index.md` — Sources 43→44 (stale section header 42→44 reconciled, per pre-crash advisor note); Post-Dengue 4→5, Autoimmunity 35→36, ANA 14→15; Study Design 1→2; total pages 116→118; citation table + SS-rank table updated
+- `wiki/state.md` — "shared confounder" PRIMARY-thread bullet recalibrated (9.687→pooled 1.65); 3 Watch Items added (Sri-Lanka-cluster generalisability, fatigue-instrument harmonisation, DHF→PIF tension); Hertanti2024 marked ingested
+- `wiki/analyses/Notable Findings.md` — 1 entry (female-sex effect recalibrated 9.687→1.65; paper defines rather than fills the ANA↔fatigue gap); sources 21→22
+- `wiki/sources/Seet2007 - Post-Infectious Fatigue Syndrome in Dengue.md` — Key Findings line + Relevance prose caveated (9.687 reframed as imprecise adjusted single-study estimate; pooled 1.65 added; bidirectional link to Hertanti2024); `updated:` bumped. *Added on resume — the origin page of the 9.687 figure carried no caveat and would otherwise keep re-propagating the inflated number.*
+- `wiki/analyses/ANA and Dengue - Review V2.0.md` — §IX (Host Determinants) female-sex sentence caveated (9.687 magnitude flagged unreliable; pooled 1.65 added; link to Hertanti2024); `updated:` bumped, `sources:` left at 41 (Hertanti is a gap marker, not an ANA-substrate source). *Targeted one-line caveat only — §IX is beyond the curator-reviewed §3.2 boundary, so no restructure. Added on resume to stop the flagship synthesis page contradicting the corrected figure used everywhere else.*
+
+**Key content:** Pooled acute fatigue 59.0% (95% CI 47–70%, I²=99.9%, prediction interval [0.03;1.00]); PIF 20.0% (95% CI 10–36%, I²=98.8%, PI [0.02;0.77]) — point estimates qualitatively meaningful but not transferable rates. Significant PIF risk factors: female sex OR 1.65 (I²=0.00), DHF 1.80 (borderline, 2 studies), comorbidities 2.14. Acute-fatigue×DHF null and contradictory (Ferreira 2.31 vs Recker 0.75, I²=93.5%). Measures no ANA; autoimmunity is 1 of 4 hypothesized PIF mechanisms ("requires further confirmation").
+
+**Entities:** none (serotype-agnostic meta-analysis — no serotype-specific data).
+
+---
+
+## [2026-05-25] analysis | Dengue vs Healthy Controls - Analysis Methods Workflow
+
+**Type:** Prescriptive methodology workflow (curator-directed, derived from methodology critique)
+
+**Created:**
+- `wiki/analyses/Dengue vs Healthy Controls - Analysis Methods Workflow.md`
+
+**Updated:**
+- `wiki/index.md` — Analyses 7→8, total pages 115→116
+
+**Scope:** 4-phase operational checklist for dengue vs. healthy case-control biomarker studies. Phase 1: study design (pre-specified analysis plan, age+sex matching, 1:2+ ratio, febrile-control arm, primary/secondary stratification). Phase 2: recruitment and dropout reporting. Phase 3: conditional logistic regression as primary analysis, exploratory subgroups with FDR correction, sensitivity analyses. Phase 4: reporting requirements. ANA-specific addendum covers IIFA substrate, ICAP patterns, DFS70 interpretation, confirmatory testing, pattern-overlap statistics. Draws on Pearce2016, Iwagami2022, and 8 additional wiki sources.
+
+---
+
+## [2026-05-25] revision | Methodology Critique - ANA IIF Abstract Draft — expanded matching critique
+
+**Revision scope:** Expanded Pearce2016/Iwagami2022 matching methodology critique per curator request.
+**Changes:** Issue 2 rewritten (two-part: Fisher's invalidity + McNemar suboptimality vs. conditional logistic regression; Pearce2016 worked example applied to abstract's ORs). New Issue 3 (1:1 matching ratio discards power; Iwagami2022 1:4 standard). Issue 4 upgraded MINOR→MAJOR (39.4% dropout as design-flaw consequence, Pearce2016 matched-sample-only generalisability). Total issues 10→11 (1 fatal, 5 major, 3 moderate, 2 minor). Three new open questions added. Summary table and index updated.
+
+---
+
+## [2026-05-25] analysis | Methodology Critique - ANA IIF Abstract Draft
+
+**Source reviewed:** `raw/ANA_IIF_Abstract draft.pdf` (curator's own abstract — age-matched case-control study of ANA patterns in DF vs. DHF)
+**Type:** Methodology critique (curator-directed)
+
+**Created:**
+- `wiki/analyses/Methodology Critique - ANA IIF Abstract Draft.md`
+
+**Updated:**
+- `wiki/index.md` — Analyses 6→7, total pages 114→115
+
+**Key findings:** 10 methodology issues identified:
+1. **FATAL FLAW** — Sex confounding: no sex data for cases, controls predominantly female, ANA 2–3× higher in females
+2. **MAJOR** — Fisher's exact invalid on matched data (only McNemar valid)
+3. **MAJOR** — DF>DHF overclaim from non-significant results (p=0.055, 0.691, 0.317)
+4. **MAJOR** — No febrile-control comparator (Berlin2007/Codes2002 show ~20% ANA in acute viral infections)
+5. **MODERATE** — No primary/secondary stratification (Vo2020 confound)
+6. **MODERATE** — Multiple testing without correction
+7. **MODERATE** — DFS70 (AC-2) misinterpreted as pathological
+8–10. **MINOR** — Non-overlap statistics, HEp-20 substrate, 40% case dropout
+
+**Wiki sources drawn on:** Pearce2016, Iwagami2022, Chatterjee2024, Vo2020, Berlin2007, Codes2002, Tan1997, Satoh2012, Dinse2022, Zhou2007, Age-Matched Case-Control Analysis (study-design page)
+
+---
+
+## [2026-05-24] ingest | Iwagami2022 - Introduction to Matching in Case-Control and Cohort Studies
+
+**Source:** Iwagami M, Shinozaki T. Introduction to matching in case-control and cohort studies. *Annals of Clinical Epidemiology* 2022;4(2):33–40. DOI: 10.37737/ace.22005
+**Citations:** SS 115 / CR 122 (retrieved 2026-05-24)
+**Type:** Methodological tutorial (not a dengue paper) — Annals of Clinical Epidemiology Seminar series
+
+**Created:**
+- `wiki/sources/Iwagami2022 - Introduction to Matching in Case-Control and Cohort Studies.md`
+- `wiki/study-design/` (new axis)
+
+**Updated:**
+- `wiki/study-design/Age-Matched Case-Control Analysis.md` — moved from `methods/`, sources 1→2, type method→study-design; added Iwagami2022 content (matching ratios, over-matching, cohort vs. case-control matching, Pearce/Iwagami unconditional analysis contradiction)
+- `wiki/index.md` — Sources 42→43, Methods 18→17, new Study Design section (1 page), total pages 113→114; citation table updated
+- `CLAUDE.md` — Architecture tree, frontmatter type enum, page naming, Domain Context updated with study-design/ axis
+
+**Key content:** Case-control matching introduces selection bias (not just confounding); unconditional logistic regression "not recommended" per Greenland 1986 (contradicts Pearce2016); matching ratios beyond 1:4 give diminishing returns; over-matching reduces statistical efficiency; cohort matching differs fundamentally (no selection bias). Second methodology reference alongside Pearce2016.
+
+---
+
+## [2026-05-24] schema-update | study-design/ axis created
+
+**Change:** Added `study-design/` as a new wiki axis for epidemiological/statistical study design pages
+**Scope:** CLAUDE.md §Architecture, §Conventions (frontmatter type, page naming), §Domain Context
+**Pages affected:** 1 page moved (`Age-Matched Case-Control Analysis.md` from `methods/` to `study-design/`)
+**Reason:** Two methodology papers (Pearce2016, Iwagami2022) plus curator's active ANA IIF research methodology provide enough signal. Study-design pages are categorically different from laboratory methods.
+
+---
+
+## [2026-05-24] ingest | Pearce2016 - Analysis of Matched Case-Control Studies
+
+**Source:** Pearce N. Analysis of matched case-control studies. *BMJ* 2016;352:i969. DOI: 10.1136/bmj.i969
+**Citations:** SS 684 / CR 575 (retrieved 2026-05-24)
+**Type:** Methodological guidance paper (not a dengue paper) — BMJ Research Methods and Reporting series
+
+**Created:**
+- `wiki/sources/Pearce2016 - Analysis of Matched Case-Control Studies.md`
+- `wiki/methods/Age-Matched Case-Control Analysis.md` (new methods page)
+
+**Updated:**
+- `wiki/index.md` — Sources 41→42, Methods 17→18, total pages 111→113; citation table updated
+
+**Key content:** Matching does not eliminate confounding (can introduce it); matched design does not require matched (conditional) analysis; unconditional analysis may be more precise; conditional logistic regression required only when strata are sparse. Ingested as methodological foundation for evaluating age-matched case-control designs in dengue research.
+
+---
+
+## [2026-05-14] schema-update | Added council review workflow
+
+**Change:** Added "Summon the Council" multi-agent paper review workflow to CLAUDE.md, ported from efb-dengue-wiki with dengue-broad context adaptations.
+**Scope:** CLAUDE.md §Architecture (added `Claude-council/` folder), §Workflows (new "Summon the Council" subsection with Steps 1–7).
+**Pages affected:** 0 (council is read-only; `Claude-council/` directory created at project root)
+**Reason:** Curator requested consistent council review capability across both dengue wikis.
+
+---
+
 ## [2026-04-19] maintenance | Resolve all curator highlights — ANA V2.0 + Antinuclear Antibodies
 
 **Scope:** All `<mark>` annotations in both marked pages resolved and stripped.

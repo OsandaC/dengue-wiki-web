@@ -1,9 +1,9 @@
 ---
 type: concept
-tags: [ANA, antinuclear-antibody, autoimmunity, IIF, HEp-2, prevalence, SLE, healthy-population, viral-infection, acute-dengue, LIA, India, polyreactive-antibodies, post-dengue, 6-month-follow-up]
+tags: [ANA, antinuclear-antibody, autoimmunity, IIF, HEp-2, prevalence, SLE, healthy-population, viral-infection, acute-dengue, LIA, India, polyreactive-antibodies, post-dengue, 6-month-follow-up, fatigue, PIF, evidence-gap]
 created: 2026-04-12
-updated: 2026-04-19
-sources: 14
+updated: 2026-06-03
+sources: 15
 ---
 
 # Antinuclear Antibodies
@@ -100,6 +100,8 @@ This polyreactive interpretation applies to the *non-specific* fraction only. Th
 
 The comparison is imperfect: Garcia2009 used **rat liver tissue** as the IIF substrate (older, less sensitive than HEp-2; see [[Indirect Immunofluorescence ANA Test]]), the testing dilution is not stated, the population is Cuban (not US), and no contemporaneous control group was tested. Because rat liver tissue underestimates ANA relative to HEp-2, the 23.1% figure is a conservative lower bound — HEp-2 testing would likely yield a higher rate, making the elevation above healthy-population baselines even larger than the figures above suggest. Nevertheless, the consistent elevation above all reference values supports that ANA positivity is genuinely increased in post-dengue symptomatic patients.
 
+**The ANA↔fatigue evidence gap.** The largest synthesis of post-dengue fatigue — [[Hertanti2024 - Fatigue and Post-Infectious Fatigue in Dengue]], a meta-analysis of 40 studies (pooled acute fatigue ~59%, post-infectious fatigue ~20%) — measures **no ANA and no autoantibodies of any kind**. It lists autoimmunity as one of four *hypothesized* mechanisms for post-infectious fatigue (an estrogen→B-cell-activation→autoantibody→fatigue chain that the authors say "requires further confirmation") but tests none of them. So the field's definitive fatigue paper leaves the ANA↔fatigue correlation exactly where this wiki's primary thread finds it — biologically plausible, repeatedly invoked, and untested. Hertanti2024 enters this page as a **gap marker, not as a source of ANA measurements.** It does, however, recalibrate the female-sex effect shared by fatigue and ANA: the cross-study pooled female→PIF OR is a modest **1.65 (95% CI 1.27–2.14, I²=0.00)**, not the imprecise single-study 9.687 from Seet2007 that earlier wiki text had over-weighted (see [[Post-Dengue Syndrome]], [[Autoimmunity in Dengue]]).
+
 ### Mitotic Spindle ANA Pattern in DHF — A Distinct Autoantigen Class
 
 [[Jardim2012 - Autoimmune Features DHF Case Report]] (n=1 case report, Brazil — not generalizable) documents a **mitotic spindle ANA pattern at 1/320** during acute secondary DENV-3 DHF, resolving to negative at follow-up. This pattern is mechanistically distinct from the homogeneous (AC-1/AC-2) nuclear patterns in all other dengue ANA cases in this wiki — AC-1/homogeneous in Gawali2021, homogeneous 4+ in Rajadhyaksha2012, homogeneous+cytoplasmic+fine speckled in Velazqueza2017. The mitotic spindle pattern targets centromere-associated and spindle apparatus proteins (pericentrin, NuMA, tubulin-associated antigens) rather than nuclear DNA or histones, extending the range of dengue-associated autoantigens beyond the NS1 mimicry targets (PDI, vimentin, HSP60, ATP synthase β; see [[NS1 Molecular Mimicry in Dengue]]).
@@ -149,3 +151,4 @@ The 54.8% acute dengue IIFA rate (Chatterjee2024) is not directly comparable to 
 - [[Jardim2012 - Autoimmune Features DHF Case Report]] (ANA 1/320 mitotic spindle pattern during secondary DENV-3 DHF; negative at follow-up; anti-dsDNA negative; cryoglobulins co-positive; selective C3 depression; first documented mitotic spindle ANA pattern in dengue; Campinas Brazil; n=1 case report)
 - [[Codes2002 - Autoantibodies in Acute Viral Hepatitis]] (primary source for 20.5% acute / 6.4% convalescent ANA in viral hepatitis; IIF homogeneous ≥1:40; n=156 prospective; Salvador Brazil; not a dengue paper — viral-infection transience comparator baseline)
 - [[Santosa2012 - Delayed SLE Diagnosis Dengue Serology]] (reverse direction: SLE-associated low-affinity IgM autoantibodies [polyclonal B-cell activation] cause false-positive dengue IgM serology [15% with Panbio kit in RF-positive patients; 0% in ANA-positive patients]; patient case: ANA 1:320 + anti-dsDNA 54 IU at SLE diagnosis; mechanistically links the low-affinity IgM pool driving non-specific dengue ANA to the SLE context where it is large enough to cross-react with dengue test antigens; Singapore NUHS; n=1 case report)
+- [[Hertanti2024 - Fatigue and Post-Infectious Fatigue in Dengue]] (**gap marker — not an ANA-measuring source**; fatigue/PIF meta-analysis of 40 studies, measures no ANA or autoantibodies; names autoimmunity as 1 of 4 hypothesized PIF mechanisms but tests none; recalibrates the shared female-sex effect from Seet2007's single-study adjusted 9.687 to a pooled OR 1.65 [I²=0.00])

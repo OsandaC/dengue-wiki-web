@@ -2,7 +2,7 @@
 type: analysis
 tags: [ANA, antinuclear-antibody, dengue, autoimmunity, molecular-mimicry, bystander-activation, epitope-spreading, post-dengue, IIF, HEp-2, LIA, prevalence, healthy-population, acute-phase, IIFA, FcγRIIa, NS1, MAS, HLH, macrophage-activation, NS1-IgG-kinetics, primary-infection, PAIgG, PAIgM, ANA-negative, polyreactive-IgM, nuclear-antigen-consumption, thrombocytopenia-bifurcation, immune-complex, anti-prM, vaccine-design, P311-330, PDI, epitope-mapping, FcγRIIa-paradox, anti-EC-isotype-shift, dengue-mimickers, false-positive-serology, SLE-dengue-differential, literature-review, synthesis]
 created: 2026-04-18
-updated: 2026-04-19
+updated: 2026-06-03
 sources: 41
 ---
 
@@ -428,7 +428,7 @@ These cases do not challenge Shih2023's population-level null finding. What they
 
 **FcγRIIa genotype.** The HH genotype impairs IC clearance (via IgG2-specific 4.5× affinity difference; Bruhns2009) and is associated with post-dengue sequelae (OR 2.83; Garcia2009) and DHF (OR 10.56; Garcia2010). It likely modulates the *duration* and *magnitude* of IC-driven autoimmune stimulation rather than ANA induction itself. No study in this wiki has directly measured ANA rates stratified by FcγRIIa genotype.
 
-**Sex.** Garcia2009 found post-dengue autoimmune markers in 65.7% of women vs. 36.7% of men (p = 0.008). [[Seet2007 - Post-Infectious Fatigue Syndrome in Dengue]] found female sex as the dominant predictor of post-dengue fatigue (OR 9.687; Singapore cohort; independent of Garcia2009). Healthy-population ANA prevalence is ~2× higher in females (Satoh2012, Dinse2022). The convergence of female excess across three independent observations — healthy-population ANA, post-dengue autoimmune markers, and post-dengue fatigue — suggests sex-linked immunological mechanisms (X-linked TLR7 double dosing, estrogen-driven B cell activation, FcγR expression modulation) are major determinants of post-dengue immune dysregulation.
+**Sex.** Garcia2009 found post-dengue autoimmune markers in 65.7% of women vs. 36.7% of men (p = 0.008). [[Seet2007 - Post-Infectious Fatigue Syndrome in Dengue]] found female sex predictive of post-dengue fatigue (single-study adjusted OR 9.687, but the CI of 1.5–60.7 makes the *magnitude* unreliable; the cross-study **pooled** female→PIF effect is a modest OR 1.65, 95% CI 1.27–2.14, I²=0.00 — see the meta-analysis [[Hertanti2024 - Fatigue and Post-Infectious Fatigue in Dengue]], which is the figure to use; Singapore cohort, independent of Garcia2009). Healthy-population ANA prevalence is ~2× higher in females (Satoh2012, Dinse2022). The convergence of female excess across three independent observations — healthy-population ANA, post-dengue autoimmune markers, and post-dengue fatigue — suggests sex-linked immunological mechanisms (X-linked TLR7 double dosing, estrogen-driven B cell activation, FcγR expression modulation) are major determinants of post-dengue immune dysregulation.
 
 **Prior infection history.** 21/26 patients with autoimmune marker elevations in Garcia2009 had ≥1 prior dengue infection; 12/26 had tetravalent infection history. Multiple prior exposures may shift from IgM-dominant (primary-infection autoantibody) to IgG-dominant (secondary-infection IC) platelet mechanisms — the latter driving longer-lived plasma cell-mediated autoantibody production through the FcγRIIa pathway.
 

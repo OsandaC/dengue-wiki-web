@@ -9,7 +9,7 @@ citations_semantic_scholar: 140
 citations_crossref: 126
 citations_retrieved: 2026-04-13
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-06-03
 ---
 
 # Seet2007 - Post-Infectious Fatigue Syndrome in Dengue
@@ -40,7 +40,7 @@ The paper frames post-dengue fatigue within the broader literature on post-infec
 - **No laboratory parameter** (WBC, haemoglobin, platelet count, liver enzymes, coagulation times) was significantly associated with fatigue
 - **Multivariate predictors of fatigue:**
   - Older age (OR 1.118; 95% CI 1.033–1.209; p = 0.006)
-  - Female sex (OR 9.687; 95% CI 1.546–60.684; p = 0.015)
+  - Female sex (OR 9.687; 95% CI 1.546–60.684; p = 0.015) — ⚠ the CI spanning 1.5–60.7 flags this as an imprecise *adjusted single-study* estimate (sparse-data artifact). The cross-study **pooled** female→PIF effect is a modest OR 1.65 (95% CI 1.27–2.14, I²=0.00; see [[Hertanti2024 - Fatigue and Post-Infectious Fatigue in Dengue]]); do not carry 9.687 forward as a robust effect size.
   - Presence of chills (OR 6.904; 95% CI 1.157–41.202; p = 0.034)
   - Absence of rashes (OR 38.462; 95% CI 1.292–58.824; p = 0.026)
 - **Serotype data (subset of 27 patients with RT-PCR):** DEN-1 in 20 patients (74%), DEN-3 in 6 (22%), DEN-4 in 1 (4%) — DEN-1 was the dominant circulating serotype in Singapore during this outbreak
@@ -71,7 +71,7 @@ The paper frames post-dengue fatigue within the broader literature on post-infec
 
 This paper is the second post-dengue cohort study in the wiki (after [[Garcia2009 - Long-term Clinical Symptoms Post-Dengue]]) and provides a methodologically independent confirmation that dengue causes clinically meaningful post-acute sequelae. The two papers share one key structural finding despite differing in country (Singapore vs. Cuba), serotype (DEN-1 dominant vs. DENV-4), follow-up duration (2 months vs. 2 years), and outcome measured (fatigue vs. multi-system autoimmune markers + musculoskeletal symptoms): **acute dengue severity does not predict who will suffer post-acute consequences.** In Garcia2009, DF vs. DHF did not predict sequelae (p = 0.086); in Seet2007, DF vs. DHF did not predict fatigue (p = 0.855). This cross-cohort consistency strengthens the inference that post-dengue syndrome is host-driven, not virus-severity-driven.
 
-The female sex OR of 9.687 in Seet2007 is notably large. This parallels Garcia2009's female predominance (65.7% of women vs. 36.7% of men with sequelae at 2 years, p = 0.008), and aligns with the well-established female excess in autoimmune diseases and ANA positivity (see [[Antinuclear Antibodies]], [[Autoimmunity in Dengue]]). That the same sex disparity appears in both a fatigue outcome (2 months post-dengue, Singapore) and an autoimmune marker outcome (2 years post-dengue, Cuba) suggests sex is a general modifier of post-dengue immune sequelae — potentially reflecting shared immunological mechanisms (hormonal regulation of FcγR expression, Th1/Th2 balance, etc.).
+The female-sex association in Seet2007 is real but its single-study *magnitude* (OR 9.687) is **not reliable** — the 95% CI spans 1.5–60.7, a sparse-data artifact of the adjusted multivariate model. The meta-analysis [[Hertanti2024 - Fatigue and Post-Infectious Fatigue in Dengue]] pools the cross-study female→PIF effect at a modest **OR 1.65 (95% CI 1.27–2.14, I²=0.00)**, and that is the figure the wiki uses. The *direction* nonetheless parallels Garcia2009's female predominance (65.7% of women vs. 36.7% of men with sequelae at 2 years, p = 0.008), and aligns with the well-established female excess in autoimmune diseases and ANA positivity (see [[Antinuclear Antibodies]], [[Autoimmunity in Dengue]]). That the same sex disparity appears in both a fatigue outcome (2 months post-dengue, Singapore) and an autoimmune marker outcome (2 years post-dengue, Cuba) suggests sex is a general — if modest — modifier of post-dengue immune sequelae, potentially reflecting shared immunological mechanisms (hormonal regulation of FcγR expression, Th1/Th2 balance, etc.).
 
 **Important limitations:**
 - Only hospitalized patients recruited — excludes the majority of dengue infections (ambulatory DF, asymptomatic). Post-infectious fatigue rate in the community may differ substantially.
