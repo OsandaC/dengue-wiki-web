@@ -69,13 +69,13 @@ Funnel-plot asymmetry and Egger's test are standard, but in prevalence meta-anal
 
 ## Relationship to Other Study-Design Pages
 
-This page covers **synthesis-level** design (how to pool and read prevalence across studies); [[Age-Matched Case-Control Analysis]] covers **primary-study** design (how to match and analyse a single case-control study). They are complementary lenses on the same epistemic problem — making a number mean what it appears to mean. Both feed the curator's methodological scrutiny of the ANA IIF abstract (see [[Methodology Critique - ANA IIF Abstract Draft]], [[Dengue vs Healthy Controls - Analysis Methods Workflow]]).
+This page covers **synthesis-level** design (how to pool and read prevalence across studies); [[Age-Matched Case-Control Analysis]] covers **primary-study** design (how to match and analyse a single case-control study). They are complementary lenses on the same epistemic problem — making a number mean what it appears to mean. Both feed into [[Dengue vs Healthy Controls - Analysis Methods Workflow]] as general methodological references for any future dengue ANA case-control study.
 
 ## Related Pages
 - [[Age-Matched Case-Control Analysis]]
 - [[Hertanti2024 - Fatigue and Post-Infectious Fatigue in Dengue]]
 - [[Post-Dengue Syndrome]]
-- [[Methodology Critique - ANA IIF Abstract Draft]]
+- [[Dengue vs Healthy Controls - Analysis Methods Workflow]]
 
 ## Sources
 - [[Hertanti2024 - Fatigue and Post-Infectious Fatigue in Dengue]] (worked example: dengue fatigue 59% [PI 0.03–1.00] and PIF 20% [PI 0.02–0.77] under I²≈99%; arcsine transformation; random-effects pooling; moderator and sensitivity analyses)

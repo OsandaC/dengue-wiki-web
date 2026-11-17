@@ -2,7 +2,7 @@
 type: concept
 tags: [clinical-classification, WHO-2009, warning-signs, DHF, DSS, dengue-fever, severity, diagnosis, triage]
 created: 2026-04-12
-updated: 2026-04-18
+updated: 2026-06-13
 sources: 8
 ---
 

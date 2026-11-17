@@ -1,9 +1,9 @@
 ---
 type: method
-tags: [IIF, indirect-immunofluorescence, ANA, HEp-2, autoantibody-testing, diagnostic-method, dengue, acute-infection, post-dengue, 6-month-follow-up, India]
+tags: [IIF, indirect-immunofluorescence, ANA, HEp-2, HEp-20-10, autoantibody-testing, diagnostic-method, dengue, acute-infection, post-dengue, 6-month-follow-up, India, Lebanon, population-baseline]
 created: 2026-04-12
-updated: 2026-04-18
-sources: 11
+updated: 2026-06-13
+sources: 12
 ---
 
 # Indirect Immunofluorescence ANA Test
@@ -22,6 +22,7 @@ Different dilution cutoffs are used in different contexts, with important implic
 - **1:100** — used in [[Li2019 - ANA Epidemiology in Chinese Healthy Population]]; ~14% healthy Chinese health-checkup population positive
 - **1:160** — preferred by [[Tan1997 - ANA Range in Healthy Individuals]] as the best cutoff for separating normals from SLE/SSc/Sjögren's; 95% specificity in normals; 5.0% of healthy adults positive
 - **1:320** — used as high-titer cutoff in Li2019; 5.93% of healthy Chinese health-checkup population positive
+- **≥1:100** — used in [[Racoubian2016 - ANA Prevalence in Healthy Lebanese Subjects]] (Euroimmun AG kit); 26.4% of a healthy Lebanese population positive (n=10,814), the highest healthy-population rate at any threshold in this wiki despite being a stricter cutoff than 1:80. The Methods section states positivity as ">1:100" but the reported titre distribution (20.0% specifically *at* 1:100, summing to 26.4%) confirms 1:100 itself was counted positive — i.e. "≥1:100" is the operative threshold.
 
 ### Scoring and Positivity Criteria
 Staining intensity is typically graded on a 0–4 scale (0=negative; 1=borderline; 2=weak positive; 3=moderate positive; 4=strong positive). Studies differ in their positivity threshold:
@@ -69,3 +70,4 @@ The high rate (54.8%) is consistent with the expected sensitivity advantage of H
 - [[Rajadhyaksha2012 - Dengue Evolving into SLE and Lupus Nephritis]] (ANA 1:320 homogeneous 4+ by immunofluorescence; arising 4 weeks after primary DENV-1; with anti-dsDNA 1:80 4+, hypocomplementemia, and biopsy-confirmed Class IV lupus nephritis; Mumbai India; n=1 case report)
 - [[Jardim2012 - Autoimmune Features DHF Case Report]] (ANA 1/320 mitotic spindle pattern in acute secondary DENV-3 DHF; negative at follow-up — complete resolution; substrate not specified [HEp-2 vs. rat liver unclear]; novel dengue ANA pattern class distinct from homogeneous/speckled patterns in other wiki sources; Campinas Brazil; n=1 case report)
 - [[Codes2002 - Autoantibodies in Acute Viral Hepatitis]] (IIF for ANA [homogeneous ≥1:40, 20.5% acute → 6.4% convalescent] and ASMA [≥1:40, 14.8% → 3.9%] in acute viral hepatitis; substrate not specified in paper — standard for Salvador Brazil 1992–2000; n=156 prospective; not a dengue paper — viral-infection IIF comparator)
+- [[Racoubian2016 - ANA Prevalence in Healthy Lebanese Subjects]] (**not a dengue paper** — healthy-population reference; Euroimmun AG HEp-2 kit, ≥1:100; 26.4% positive, n=10,814, Lebanon; dual-reader blinded scoring with 97.5% inter-reader agreement; Table 1 international comparator across 11 cohorts)

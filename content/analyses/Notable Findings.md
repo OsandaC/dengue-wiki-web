@@ -2,13 +2,46 @@
 type: analysis
 tags: [notable-findings, flags, cross-cutting, observations]
 created: 2026-04-12
-updated: 2026-06-03
-sources: 22
+updated: 2026-06-13
+sources: 23
 ---
 
 # Notable Findings
 
 A running log of observations that are striking, unexpected, or carry implications beyond the paper they came from. Each entry is a flag — something worth returning to, following up on, or building an analysis around. Entries are added during ingest whenever something catches the eye.
+
+---
+
+## [2026-06-13] The "healthy baseline" for ANA varies ~5-fold across countries (5.9–30.8%) — no single reference range applies globally
+
+**Source:** [[Racoubian2016 - ANA Prevalence in Healthy Lebanese Subjects]] (n=10,814 cross-sectional, Lebanon)
+
+**Finding:** Racoubian2016's Table 1 international comparator places ANA positivity in *healthy* populations across 11 cohorts from 5.9% (China) to 30.8% (USA African-American) — including Lebanon itself at 26.4% and Australia at 28.3%. **Cutoff caveat:** Table 1 itself reports no per-cohort cutoff column. Racoubian2016's discussion text states the China figure (Wang et al.) used a *stricter* >1:160 cutoff than Lebanon's ≥1:100 — so the 5.9% floor is not cutoff-matched to the rest of the table, and if anything understates how low a 1:100-class China rate would be relative to Lebanon. This does not narrow the spread; it means the true cutoff-matched spread could be wider still.
+
+**Why notable:** [[ANA and Dengue - Review V3.0]] §Part II had previously treated the ~13–16% figures from US/China data (Satoh2012, Dinse2022, Li2019) as effectively *the* healthy-population ANA baseline against which any dengue cohort's control-arm ANA rate should be judged. Racoubian2016 shows those figures sit at the *low* end of a much wider international spread — high-20s/low-30s rates occur in healthy populations (Lebanon, Australia, USA African-American) with no dengue connection at all. **Practical consequence for this wiki:** a dengue cohort's control-arm ANA rate in the high-teens to high-twenties is within normal international variation and does not, by itself, need a dengue-specific or population-specific explanation — it could simply reflect where that population's healthy baseline happens to sit on the global 5.9–30.8% range.
+
+**Follow-up questions:**
+- What actually drives the 5-fold international spread (assay/kit differences, HEp-2 substrate lot variability, population genetics, environmental autoantigen exposure, cutoff differences)? Racoubian2016 attributes some of it to assay heterogeneity and notes the China figure used a stricter (>1:160) cutoff than its own ≥1:100 — but a single cutoff difference at one end seems insufficient to explain a 5-fold spread across the other 9 cohorts.
+- Would a dengue cohort recruited in a high-baseline country (Lebanon, Australia) show a proportionally elevated case-arm ANA rate too, or does dengue's effect size over its own febrile-control baseline (e.g., Chatterjee2024's ~5x IIFA elevation) hold regardless of where the population's healthy baseline sits?
+
+**Related pages:** [[Antinuclear Antibodies]], [[ANA and Dengue - Review V3.0]], [[Indirect Immunofluorescence ANA Test]]
+
+---
+
+## [2026-06-03] Autoreactivity does not rise with dengue severity — two independent signals converge, and the pattern parallels the severity-independence of post-dengue fatigue
+
+**Sources:** [[Chaturvedi2001 - Cytotoxic Factor Autoantibodies DHF]] and [[Vo2020 - Autoantibody Profiling in Dengue]]; severity-independence parallel from [[Seet2007 - Post-Infectious Fatigue Syndrome in Dengue]]
+
+**Finding:** Two independent dengue-autoantibody datasets converge on the same pattern: autoreactivity does not *increase* as dengue severity increases. [[Chaturvedi2001 - Cytotoxic Factor Autoantibodies DHF]] found protective anti-hCF autoantibodies in 96% of DF patients vs. only 8% of grade-IV DHF patients (P ≤ 0.001) — the steepest, statistically firmest leg, though hCF itself is a concept exclusive to this group and unvalidated elsewhere. [[Vo2020 - Autoantibody Profiling in Dengue]] independently found that *primary* infection (which more often presents as DF rather than DHF) carries a significantly broader IgG autoantibody repertoire than secondary infection (p<0.01). Neither paper measures the same autoantibody class, neither reports primary/secondary serostatus alongside the other's endpoint, and neither is independently replicated — but both point the same direction: **more (or at least not less) autoreactivity in milder/primary disease than in severe/secondary disease.**
+
+**Why notable:** It cuts against the intuitive "more severe disease = more immunopathology = more autoantibody" model that the dengue ADE/severity literature primes. **What is solid across both sources is the *absence of a severity-increase*; the stronger "milder = more" inversion rests mainly on Chaturvedi2001's steep gradient and is not independently replicated at the same statistical strength** — Vo2020's primary>secondary breadth finding is directionally consistent but measures something different (repertoire breadth, not magnitude) and is confounded by infection order (n=6 primary, all DENV-1). Two non-exclusive readings of *where the inversion is real*: a real biology (milder/primary disease licenses broad, often non-pathogenic autoreactivity, while severe DHF *consumes* nuclear-antigen IgG into immune complexes — the Vo2020 consumption model — so peak-severity autoreactivity undershoots), or infection-order confounding (untested in either source). **The cross-cutting payoff:** acute autoreactivity failing to rise with severity structurally parallels post-dengue fatigue being severity-*independent* (Seet2007, p=0.855; severity-unpredicted autoimmune markers in Garcia2009, p=0.086). Two post-dengue immune phenomena that both fail to track viral burden suggests a shared **host-intrinsic** upstream determinant rather than pathological severity — a hypothesis-strengthener for a common driver, *not* evidence that ANA marks or causes fatigue (no wiki source co-measures them). This is a **pattern to watch, not a mechanism** — see [[ANA and Dengue - Review V3.0]] §3.4 and §X.
+
+**Follow-up questions:**
+- Is the Chaturvedi2001 DF>DHF anti-hCF gradient real biology or infection-order confounding (DF skews primary)? Neither Chaturvedi2001 nor Vo2020 reports primary/secondary serostatus alongside the relevant autoantibody.
+- Does the consumption model (Vo2020) hold — is free-serum nuclear-antigen IgG lowest at peak DHF severity because it is sequestered into immune complexes? Needs serial paired ANA + C3d/sC5b-9 + platelet measurement.
+- If both ANA and fatigue are severity-independent because of a shared host factor, what is it — the female-biased, FcγRIIa-modulated, B-cell-tolerance axis? Only a longitudinal dengue cohort co-measuring ANA, FcγRIIa genotype, sex, and a fatigue endpoint can test it.
+
+**Related pages:** [[ANA and Dengue - Review V3.0]], [[Autoimmunity in Dengue]], [[Antinuclear Antibodies]], [[Dengue Clinical Classification]], [[Post-Dengue Syndrome]], [[Cytotoxic Factor in Dengue]]
 
 ---
 

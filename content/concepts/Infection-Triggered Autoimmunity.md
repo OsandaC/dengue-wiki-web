@@ -2,7 +2,7 @@
 type: concept
 tags: [autoimmunity, molecular-mimicry, bystander-activation, epitope-spreading, viral-infection, ANA, autoantibodies, post-infectious, NS1, dengue-specific, ADEM, epidemiology, polyreactive-antibodies, 6-month-follow-up, primary-infection, infants, anti-platelet, anti-endothelial, Vietnam]
 created: 2026-04-12
-updated: 2026-04-19
+updated: 2026-06-13
 sources: 16
 ---
 

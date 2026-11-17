@@ -1,10 +1,10 @@
 # Dengue Wiki — Master Index
 
-*Last updated: 2026-06-03 (Hertanti2024 ingest — resumed after mid-session Bun crash) | Sources: 44 | Total pages: 118*
+*Last updated: 2026-11-17 (system audit; total now counts pages in the seven content folders) | Sources: 45 | Total pages: 117*
 
 ---
 
-## Sources (44)
+## Sources (45)
 
 | Page                                                                           | Year | Journal                  | Citations (SS / CR) | Key Topics                                                                                                                                                                                                                                                                                                                                                                                                       |
 | ------------------------------------------------------------------------------ | ---- | ------------------------ | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -52,8 +52,9 @@
 | [[Pearce2016 - Analysis of Matched Case-Control Studies]]                      | 2016 | BMJ                        | 684 / 575         | Matched case-control study methodology; matching does not eliminate confounding; unconditional vs. conditional analysis; standard analysis may be preferable to matched analysis; sparse strata rule; **not a dengue paper** — epidemiological methods reference for age-matched case-control designs                                                                                                                           |
 | [[Iwagami2022 - Introduction to Matching in Case-Control and Cohort Studies]]  | 2022 | Ann Clin Epidemiol         | 115 / 122         | Matching tutorial: case-control vs. cohort matching; matching ratios; over-matching; propensity score matching; risk set sampling; unconditional analysis "not recommended" (contradicts Pearce2016); **not a dengue paper** — epidemiological methods reference                                                                                                                                                                 |
 | [[Hertanti2024 - Fatigue and Post-Infectious Fatigue in Dengue]] | 2024 | eClinicalMedicine | 7 / 9 | Fatigue/PIF meta-analysis (40 studies, 38,406 patients); acute fatigue 59% [PI 0.03–1.00], PIF 20% [PI 0.02–0.77] under I²≈99%; PIF risk factors female sex 1.65 / DHF 1.80 / comorbidities 2.14; measures no ANA; recalibrates Seet2007 female OR 9.687→pooled 1.65; first ingest into ANA↔fatigue thread |
+| [[Racoubian2016 - ANA Prevalence in Healthy Lebanese Subjects]] | 2016 | Rheumatology International | 23 / 15 | **Not a dengue paper** — healthy-population ANA reference. Cross-sectional n=10,814, Lebanon, ≥1:100 HEp-2/Euroimmun AG; 26.4% ANA+ (highest healthy-population rate in this wiki); female 1.5–2.5× male; age-associated from 30–40yr onward; Table 1 international comparator across 11 cohorts (5.9–30.8%) — stabilises the wiki's population-baseline reference set |
 
-*Citations: SS = Semantic Scholar, CR = CrossRef. Retrieved 2026-04-12 (existing) / 2026-04-13 (Seet2007, Li2018, Bruhns2009) / 2026-04-14 (Bos2025) / 2026-04-15 (Morel2014, Palacios2016, Lin2001, Oishi2003) / 2026-04-17 (Dejnirattisai2010, Bhatt2020, Velazqueza2017) / 2026-04-18 (Cheng2015 SS=22, CR=19; Santosa2012 SS=16, CR=11; Farias2024 SS=13, CR=11) / 2026-04-19 (Hung2008 SS=3, CR=1; Ghorai2024 SS=7, CR=8) / 2026-05-24 (Pearce2016 SS=684, CR=575; Iwagami2022 SS=115, CR=122) / 2026-06-03 (Hertanti2024 SS=7, CR=9). Morel2014 SS not indexed at English-edition DOI (null). Recent papers and preprints will have low counts regardless of quality.*
+*Citations: SS = Semantic Scholar, CR = CrossRef. Retrieved 2026-04-12 (existing) / 2026-04-13 (Seet2007, Li2018, Bruhns2009) / 2026-04-14 (Bos2025) / 2026-04-15 (Morel2014, Palacios2016, Lin2001, Oishi2003) / 2026-04-17 (Dejnirattisai2010, Bhatt2020, Velazqueza2017) / 2026-04-18 (Cheng2015 SS=22, CR=19; Santosa2012 SS=16, CR=11; Farias2024 SS=13, CR=11) / 2026-04-19 (Hung2008 SS=3, CR=1; Ghorai2024 SS=7, CR=8) / 2026-05-24 (Pearce2016 SS=684, CR=575; Iwagami2022 SS=115, CR=122) / 2026-06-03 (Hertanti2024 SS=7, CR=9) / 2026-06-13 (Racoubian2016 SS=23, CR=15). Morel2014 SS not indexed at English-edition DOI (null). Recent papers and preprints will have low counts regardless of quality.*
 
 ### By citation count (SS)
 
@@ -102,6 +103,7 @@
 | 115 | [[Iwagami2022 - Introduction to Matching in Case-Control and Cohort Studies]] | 2022 |
 | 7 | [[Ghorai2024 - Autoantibodies in Dengue Pathogenesis Review]] | 2024 |
 | 7 | [[Hertanti2024 - Fatigue and Post-Infectious Fatigue in Dengue]] | 2024 |
+| 23 | [[Racoubian2016 - ANA Prevalence in Healthy Lebanese Subjects]] | 2016 |
 
 ---
 
@@ -132,7 +134,7 @@
 | [[Autoimmunity in Dengue]] | 36 |
 | [[Antibody-Dependent Enhancement]] | 12 |
 | [[Asymptomatic Dengue Infection]] | 5 |
-| [[Antinuclear Antibodies]] | 15 |
+| [[Antinuclear Antibodies]] | 16 |
 | [[Infection-Triggered Autoimmunity]] | 16 |
 | [[Polyreactive Antibodies]] | 1 |
 | [[NS1 Molecular Mimicry in Dengue]] | 14 |
@@ -162,7 +164,7 @@
 | [[PRNT]] | 3 |
 | [[ELISA Inhibition Method]] | 1 |
 | [[FcγRIIa Genotyping]] | 2 |
-| [[Indirect Immunofluorescence ANA Test]] | 11 |
+| [[Indirect Immunofluorescence ANA Test]] | 12 |
 | [[Single-Cell RNA Sequencing]] | 1 |
 | [[V(D)J Sequencing]] | 1 |
 | [[qRT-PCR]] | 1 |
@@ -202,24 +204,24 @@
 | [[Philippines]] | 2 |
 | Mexico | 1 | *(no page — 1 source; see [[Velazqueza2017 - SLE vs Dengue Case Series]])*
 | [[Vietnam]] | 2 | *(standalone page since 2026-04-19; Hung2008 + Cheng2015; HCMC cohorts)* |
+| Lebanon | 1 | *(no page — 1 source, below the ≥2 rule; see [[Racoubian2016 - ANA Prevalence in Healthy Lebanese Subjects]]. Not a dengue-endemic country — population-baseline reference only)* |
 
 ---
 
-## Meta (2)
+## Meta (1)
 
 | Page | Purpose |
 |------|---------|
-| [[state]] | Persistent session context — current focus, queue, decisions, watch items |
 | [[commands]] | All curator and terminal commands for operating and serving the wiki |
 
 ---
 
-## Analyses (8)
+## Analyses (9)
 
 | Page | Topics |
 |------|--------|
-| [[Dengue vs Healthy Controls - Analysis Methods Workflow]] | Operational checklist for dengue vs. healthy case-control biomarker studies; 4-phase workflow (design → recruitment → analysis → reporting); conditional logistic regression as default; age+sex matching at 1:2+; febrile-control arm; ANA-specific addendum. Derived from methodology critique |
-| [[Methodology Critique - ANA IIF Abstract Draft]] | Critique of curator's ANA IIF case-control abstract; 11 issues (1 fatal, 5 major, 3 moderate, 2 minor); deep Pearce2016/Iwagami2022 matching critique: sex confounding, conditional logistic regression, 1:1 ratio power loss, 39.4% case dropout, DF>DHF overclaim, febrile-control gap |
+| [[ANA and Dengue - Review V3.0]] | **Current ANA synthesis (supersedes V2.0), 45 sources.** Adds a dedicated §X ANA↔fatigue bridge (honest: untested, severity-independence parallel from Chaturvedi2001+Vo2020 only); recalibrates the female-confounder frame on Hertanti2024's pooled OR 1.65; expands international ANA-baseline comparator (Racoubian2016, 5.9–30.8%); promotes severity-*independence* of immune sequelae to Established (the "milder = more" inversion stays hypothesis-generating — DF–DHF n.s.). 16 open questions; updated epistemic framework |
+| [[Dengue vs Healthy Controls - Analysis Methods Workflow]] | Operational checklist for dengue vs. healthy case-control biomarker studies; 4-phase workflow (design → recruitment → analysis → reporting); conditional logistic regression as default; age+sex matching at 1:2+; febrile-control arm; ANA-specific addendum. General reference for any future dengue ANA case-control study |
 | [[ANA and Dengue - Review V2.0]] | **Ground-up rewrite; supersedes V1.x.** All 41 wiki sources. New sections: anti-prM as second mimicry arm (Dejnirattisai2010), standalone thrombocytopenia bifurcation model (§V), vaccine design implications (§X), acute-phase timing (§XI). 16 open questions; corrected Q numbering; no revision notes. |
 | [[ANA and Dengue - A Literature Review]] | V1.x series (incremental revisions 2026-04-13 → 2026-04-18); 32 sources; preserved for history. Superseded by V2.0 |
 | [[Wiki State and Gap Analysis 2026-04-13]] | Current wiki state (16 sources, 64 pages); gap map vs. 2026-04-12; ANA thread status; ingest priorities |

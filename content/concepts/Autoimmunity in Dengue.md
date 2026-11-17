@@ -2,7 +2,7 @@
 type: concept
 tags: [autoimmunity, immune-complex, ANA, CRP, cytokines, molecular-mimicry, NS1, post-dengue, infection-triggered-autoimmunity, thrombocytopenia, endothelial-cells, ADEM, encephalomyelitis, epidemiology, MCTD, myositis, LIA, India, sex-bias, host-factors, adrenocortical-insufficiency, TLR, Taiwan, NHIRD, MAS, macrophage-activation-syndrome, HLH, Paraguay, SLE, lupus-nephritis, ANA-negative, PAIgG, secondary-infection, Philippines, polyreactive-antibodies, 6-month-follow-up, PDI, HSP60, P311-330, Vietnam, infants, primary-infection, thrombomodulin, anti-platelet, anti-endothelial, infection-order]
 created: 2026-04-11
-updated: 2026-06-03
+updated: 2026-06-13
 sources: 36
 
 ---
@@ -179,6 +179,8 @@ Key findings bearing directly on the autoimmunity thread:
 - **No significant difference in total autoantibody load between ASD and DF/DHF patients**, reinforcing the Sungnak2025 finding that the overall autoantibody repertoire does not discriminate severity. The pathologically relevant difference may be in specific antibody consumption patterns and immune complex formation rather than overall production.
 
 The nuclear antigen correlation finding is particularly notable given the existing ANA literature in this wiki: KU (P70/P80), SmD, Sm/RNP, histone, and nucleosome antigens are all canonical ANA targets measured by LIA (see [[Chatterjee2024 - ANA Detection in Dengue Kolkata]] and [[Line Immunoassay ANA]]). The Vo2020 data raises the possibility that dengue-associated nuclear antigen IgGs are consumed rather than amplified in severe disease — which would produce a *negative* ANA correlation with severity, the opposite of what naive pathogenic models predict.
+
+Two signals in this wiki now converge on a "fails to rise with severity" pattern for autoreactivity: [[Chaturvedi2001 - Cytotoxic Factor Autoantibodies DHF]] found anti-hCF autoantibodies higher in DF than DHF, and Vo2020 here finds IgG autoantibody breadth higher in primary than secondary infection (a proxy for milder disease). Neither shows autoreactivity *increasing* with severity — though the two findings concern different antibody classes and cannot be combined into a single unified mechanism beyond that shared qualitative direction.
 
 ### Indirect Evidence: Sex and Severity as Cross-Outcome Modifiers
 

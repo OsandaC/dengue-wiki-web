@@ -1,9 +1,9 @@
 ---
 type: concept
-tags: [ANA, antinuclear-antibody, autoimmunity, IIF, HEp-2, prevalence, SLE, healthy-population, viral-infection, acute-dengue, LIA, India, polyreactive-antibodies, post-dengue, 6-month-follow-up, fatigue, PIF, evidence-gap]
+tags: [ANA, antinuclear-antibody, autoimmunity, IIF, HEp-2, prevalence, SLE, healthy-population, viral-infection, acute-dengue, LIA, India, polyreactive-antibodies, post-dengue, 6-month-follow-up, fatigue, PIF, evidence-gap, Lebanon, international-comparison, population-baseline]
 created: 2026-04-12
-updated: 2026-06-03
-sources: 15
+updated: 2026-06-13
+sources: 16
 ---
 
 # Antinuclear Antibodies
@@ -28,8 +28,34 @@ Prevalence varies substantially by dilution threshold, study population, and tim
 | [[Li2019 - ANA Epidemiology in Chinese Healthy Population]] | Chinese health-checkup; 4 mo–93 yrs (n=25,110) | >1:100 | 14.01% |
 | [[Li2019 - ANA Epidemiology in Chinese Healthy Population]] | As above | >1:320 | 5.93% |
 | [[Dinse2022 - Increasing ANA Prevalence in United States]] | US NHANES 2011–2012; ≥12 yrs | 1:80 | 16.1% |
+| [[Racoubian2016 - ANA Prevalence in Healthy Lebanese Subjects]] | Lebanese clinic-based healthy population, 2008–2015 (n=10,814) | ≥1:100 | 26.4% |
+| [[Racoubian2016 - ANA Prevalence in Healthy Lebanese Subjects]] | As above | >1:640 | 2.8% |
 
-The convergence of ~5–6% at dilutions ≥1:160–1:320 across international populations and decades (Tan1997, Li2019) is notable. At the clinically standard 1:80 dilution, healthy-population prevalence ranges from ~11–16% in US data over 1988–2012, with a clear rising trend (see [[Dinse2022 - Increasing ANA Prevalence in United States]]).
+The convergence of ~5–6% at dilutions ≥1:160–1:320 across international populations and decades (Tan1997, Li2019) is notable. At the clinically standard 1:80 dilution, healthy-population prevalence ranges from ~11–16% in US data over 1988–2012, with a clear rising trend (see [[Dinse2022 - Increasing ANA Prevalence in United States]]). Racoubian2016 breaks this convergence at the high-titre end too: 2.8% >1:640 in Lebanon is within range of the ~5–6% Tan1997/Li2019 figures but at a *stricter* cutoff (>1:640 vs ≥1:160/1:320), suggesting the Lebanese cohort's high-titre tail is, if anything, denser than the international convergence value.
+
+### International Variability in Healthy-Population ANA Prevalence
+
+[[Racoubian2016 - ANA Prevalence in Healthy Lebanese Subjects]] is itself an outlier relative to the table above: **26.4% ANA-positive at ≥1:100** — higher than every figure listed, despite using a *stricter* cutoff (≥1:100 vs. 1:80) that should, if anything, produce a *lower* rate than the 1:80-based figures. Its Table 1 assembles 11 healthy-population cohorts (HEp-2-class IIF), substantially widening the international reference set available in this wiki — though Table 1 itself reports no per-cohort cutoff, and Racoubian2016's discussion text states the China figure (Wang et al., 5.92%) used a *stricter* >1:160 cutoff than Lebanon's own ≥1:100, so cutoffs are not uniformly matched across this set:
+
+| Population | n | % ANA+ | Source (via Racoubian2016 Table 1) |
+|---|---|---|---|
+| China | 20,970 | 5.92% | Wang et al. 2011 |
+| India (North) | 36,310 | 12.3% | Minz et al. 2012 |
+| Italy (North) | 2,690 | 18.1% | Selmi et al. 2016 |
+| USA: Caucasian non-Hispanic | 1,042 | 22.5% | Wandstrat et al. 2006 |
+| Brazil (São Paulo) | 500 | 22.6% | Fernandez et al. 2003 |
+| Belgium | 10,550 | 23.5% | Peene et al. 2001 |
+| USA (Dallas area) | 401 | 25.2% | Li et al. 2011 |
+| Japan† | 2,181 | 25.9% | Hayashi et al. 2008 |
+| **Lebanon** | 10,814* | **26.4%** | [[Racoubian2016 - ANA Prevalence in Healthy Lebanese Subjects]] |
+| Australia | 20,205 | 28.3% | Roberts-Thomson et al. 2003 |
+| USA: African-American | 1,827 | 30.8% | Wandstrat et al. 2006 |
+
+*Table 1 of Racoubian2016 lists 10,851 for Lebanon, while the paper's title/Results state 10,814 — an internal ~0.3% discrepancy in the source paper, immaterial to the rate. The other 10 rows are cited at one remove (Racoubian2016's own Table 1) and have not been independently verified against their primary sources in this wiki — treat as approximate.
+
+†Racoubian2016's own Discussion text cites the same reference (Hayashi et al. [17]) for a *Japanese* rate of **9.5%**, grouping Japan with the "very low" cluster (China 5.92%, India 12.3%) rather than the "high" cluster where Table 1's 25.9% sits. The paper does not reconcile these two figures for the same citation — see [[Racoubian2016 - ANA Prevalence in Healthy Lebanese Subjects]] Key Findings for detail. Does not affect the high-end cluster (Lebanon, Australia, USA Dallas, USA African-American), which is independent of Japan's value either way.
+
+**Healthy-population ANA prevalence varies roughly 5-fold (5.9–30.8%)** across these cohorts, all using HEp-2-class IIF (cutoffs not uniformly reported — see the China caveat above).
 
 ### Sociodemographic Correlates
 Consistent findings across studies (see [[Satoh2012 - ANA Prevalence in United States]], [[Dinse2022 - Increasing ANA Prevalence in United States]], [[Li2019 - ANA Epidemiology in Chinese Healthy Population]]):
@@ -152,3 +178,4 @@ The 54.8% acute dengue IIFA rate (Chatterjee2024) is not directly comparable to 
 - [[Codes2002 - Autoantibodies in Acute Viral Hepatitis]] (primary source for 20.5% acute / 6.4% convalescent ANA in viral hepatitis; IIF homogeneous ≥1:40; n=156 prospective; Salvador Brazil; not a dengue paper — viral-infection transience comparator baseline)
 - [[Santosa2012 - Delayed SLE Diagnosis Dengue Serology]] (reverse direction: SLE-associated low-affinity IgM autoantibodies [polyclonal B-cell activation] cause false-positive dengue IgM serology [15% with Panbio kit in RF-positive patients; 0% in ANA-positive patients]; patient case: ANA 1:320 + anti-dsDNA 54 IU at SLE diagnosis; mechanistically links the low-affinity IgM pool driving non-specific dengue ANA to the SLE context where it is large enough to cross-react with dengue test antigens; Singapore NUHS; n=1 case report)
 - [[Hertanti2024 - Fatigue and Post-Infectious Fatigue in Dengue]] (**gap marker — not an ANA-measuring source**; fatigue/PIF meta-analysis of 40 studies, measures no ANA or autoantibodies; names autoimmunity as 1 of 4 hypothesized PIF mechanisms but tests none; recalibrates the shared female-sex effect from Seet2007's single-study adjusted 9.687 to a pooled OR 1.65 [I²=0.00])
+- [[Racoubian2016 - ANA Prevalence in Healthy Lebanese Subjects]] (**not a dengue paper** — healthy-population ANA reference; n=10,814 cross-sectional, Lebanon, ≥1:100 HEp-2/Euroimmun AG; 26.4% ANA+, female 1.5–2.5× male, age-associated 30–40yr onward; Table 1 international comparator spanning 11 cohorts, 5.9–30.8%; stabilises the international population-baseline reference set)

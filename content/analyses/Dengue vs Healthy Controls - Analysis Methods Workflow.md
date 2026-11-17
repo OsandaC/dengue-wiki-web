@@ -2,7 +2,7 @@
 type: analysis
 tags: [methodology, study-design, case-control, matching, biomarker, workflow, conditional-logistic-regression, confounding]
 created: 2026-05-25
-updated: 2026-05-25
+updated: 2026-06-13
 ---
 
 # Dengue vs. Healthy Controls — Analysis Methods Workflow
@@ -11,13 +11,12 @@ updated: 2026-05-25
 
 What is a defensible, step-by-step workflow for designing, matching, analysing, and reporting a case-control study comparing biomarker prevalence (e.g., ANA, autoantibodies, cytokines) between dengue patients and healthy controls?
 
-This workflow synthesises the methodological prescriptions from [[Methodology Critique - ANA IIF Abstract Draft]] and the epidemiological frameworks of [[Pearce2016 - Analysis of Matched Case-Control Studies]] and [[Iwagami2022 - Introduction to Matching in Case-Control and Cohort Studies]], structured as an operational checklist. It is not a theory page — for the underlying rationale, see [[Age-Matched Case-Control Analysis]].
+This workflow synthesises the epidemiological frameworks of [[Pearce2016 - Analysis of Matched Case-Control Studies]] and [[Iwagami2022 - Introduction to Matching in Case-Control and Cohort Studies]], structured as an operational checklist. It is not a theory page — for the underlying rationale, see [[Age-Matched Case-Control Analysis]].
 
 ## Sources Used
 
 - [[Pearce2016 - Analysis of Matched Case-Control Studies]]
 - [[Iwagami2022 - Introduction to Matching in Case-Control and Cohort Studies]]
-- [[Methodology Critique - ANA IIF Abstract Draft]]
 - [[Tan1997 - ANA Range in Healthy Individuals]], [[Satoh2012 - ANA Prevalence in United States]], [[Dinse2022 - Increasing ANA Prevalence in United States]] — sex as confounder for ANA
 - [[Berlin2007 - Autoantibodies in Nonautoimmune Individuals during Infections]], [[Codes2002 - Autoantibodies in Acute Viral Hepatitis]] — febrile-control baselines
 - [[Vo2020 - Autoantibody Profiling in Dengue]] — primary/secondary infection stratification
@@ -185,7 +184,6 @@ For studies using ANA by indirect immunofluorescence (IIFA) as the biomarker:
 ## Related Pages
 
 - [[Age-Matched Case-Control Analysis]] — theory of matching and the Pearce/Iwagami debate
-- [[Methodology Critique - ANA IIF Abstract Draft]] — the case study that generated this workflow
 - [[ANA and Dengue - Review V2.0]] — the broader ANA-in-dengue synthesis
 - [[Indirect Immunofluorescence ANA Test]] — ANA-specific methodology
 - [[Polyreactive Antibodies]] — mechanistic basis for non-specific IIFA fraction

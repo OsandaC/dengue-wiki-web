@@ -2,7 +2,7 @@
 type: method
 tags: [serology, IgM, IgG, ELISA, diagnostics, convalescent-phase, secondary-infection, Zika, cross-reactivity, MAC-ELISA, anti-dengue-IgG, anticardiolipin, anti-prM, research-ELISA, India]
 created: 2026-04-12
-updated: 2026-04-18
+updated: 2026-06-13
 sources: 18
 ---
 

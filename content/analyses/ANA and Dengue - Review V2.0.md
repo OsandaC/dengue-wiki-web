@@ -8,6 +8,8 @@ sources: 41
 
 # ANA and Dengue — A Synthesis Review (V2.0)
 
+> **⤴ SUPERSEDED (2026-06-03) by [[ANA and Dengue - Review V3.0]].** V3.0 is a ground-up refresh adding a dedicated ANA↔fatigue section (Hertanti2024, Seet2007) and an expanded international ANA-baseline comparator (Racoubian2016). V2.0 is retained as a historical document and still holds the **fullest mechanistic prose** (Parts IV–V, VIII) — V3.0 condenses those and delegates detail here and to the concept pages. For the current synthesis, read V3.0.
+
 *Synthesised from all 41 source papers in the wiki. Ground-up rewrite; supersedes the incrementally revised V1.x series (2026-04-13 through 2026-04-18). Version 1.x is preserved at [[ANA and Dengue - A Literature Review]].*
 
 ---
@@ -566,4 +568,5 @@ This acute-phase timing means that dengue-triggered autoimmune platelet and endo
 - [[Polyreactive Antibodies]]
 - [[Cytotoxic Factor in Dengue]]
 - [[Notable Findings]]
+- [[ANA and Dengue - Review V3.0]] — current synthesis (supersedes this page)
 - [[ANA and Dengue - A Literature Review]]
